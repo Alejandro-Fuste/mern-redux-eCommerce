@@ -1,7 +1,7 @@
 {
   "name": "mern-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Package.json file for server folder",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
