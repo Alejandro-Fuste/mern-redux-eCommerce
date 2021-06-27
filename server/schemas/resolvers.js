@@ -102,6 +102,10 @@ const resolvers = {
     addUser: async () => {},
 
     addOrder: async () => {},
+
+    updateUser: async () => {},
+
+    updateProduct: async () => {},
   },
 };
 
