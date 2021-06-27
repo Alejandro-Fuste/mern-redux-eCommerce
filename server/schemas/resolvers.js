@@ -4,7 +4,7 @@ const { signToken } = require("../utils/auth");
 const stripe = require("stripe")("sk_test_4eC39HqLyjWDarjtT1zdp7dc");
 
 const resolvers = {
-  // Resolvers for any Queries
+  // Resolvers for any queries
 
   Query: {
     categories: async () => {
@@ -95,6 +95,10 @@ const resolvers = {
       return { session: session.id };
     },
   },
+
+  // Resolvers for any mutations
+
+  Mutation: {},
 };
 
 module.exports = resolvers;
