@@ -15,6 +15,10 @@ const resolvers = {
     product: async () => {},
 
     user: async () => {},
+
+    order: async () => {},
+
+    checkout: async () => {},
   },
 };
 
