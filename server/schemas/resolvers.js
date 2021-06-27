@@ -10,7 +10,21 @@ const resolvers = {
     categories: async () => {
       return await Category.find();
     },
-    products: async () => {},
+    products: async (parent, { catergory, name }) => {
+      const params = {};
+
+      if (catergory) {
+        params.catergory = catergory;
+      }
+
+      if (name) {
+        params.name = {
+          $regex: name,
+        };
+      }
+
+      return await Product.find(params).populate("catergory");
+    },
 
     product: async () => {},
 
