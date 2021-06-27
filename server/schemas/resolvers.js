@@ -13,6 +13,8 @@ const resolvers = {
     products: async () => {},
 
     product: async () => {},
+
+    user: async () => {},
   },
 };
 
