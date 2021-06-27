@@ -11,6 +11,8 @@ const resolvers = {
       return await Category.find();
     },
     products: async () => {},
+
+    product: async () => {},
   },
 };
 
