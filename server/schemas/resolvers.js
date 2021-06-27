@@ -30,7 +30,20 @@ const resolvers = {
       return await Product.findById(_id).populate("category");
     },
 
-    user: async () => {},
+    user: async (parent, args, context) => {
+      if (context.user) {
+        const user = await User.findById(context.user._id).populate({
+          path: "orders.products",
+          populate: "category",
+        });
+
+        user.orders.sort((a, b) => b.purchaseDate - a.purchaseDate);
+
+        return user;
+      }
+
+      throw new AuthenticationError("Not logged in");
+    },
 
     order: async () => {},
 
