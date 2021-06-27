@@ -106,6 +106,8 @@ const resolvers = {
     updateUser: async () => {},
 
     updateProduct: async () => {},
+
+    login: async () => {},
   },
 };
 
