@@ -98,7 +98,11 @@ const resolvers = {
 
   // Resolvers for any mutations
 
-  Mutation: {},
+  Mutation: {
+    addUser: async () => {},
+
+    addOrder: async () => {},
+  },
 };
 
 module.exports = resolvers;
