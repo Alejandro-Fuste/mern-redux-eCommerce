@@ -3,4 +3,7 @@ const jwt = require("jsonwebtoken");
 const secret = "mysecretsshhhh";
 const expiration = "2h";
 
-module.exports = {};
+module.exports = {
+  authMiddleware: function () {},
+  signToken: function () {},
+};
