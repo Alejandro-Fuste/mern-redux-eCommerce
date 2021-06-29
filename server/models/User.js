@@ -28,6 +28,14 @@ const userSchema = new Schema({
   orders: [Order.schema],
 });
 
+// Pre-save middleware that hashes password
+userSchema.pre("save", async function (next) {
+  if (this.isNew || this.isModified("password")) {
+    const saltRounds = 10;
+    this.password = await bcrypt.hash(this.password, saltRounds);
+  }
+});
+
 const User = mongoose.model("User", userSchema);
 
 module.exports = User;
