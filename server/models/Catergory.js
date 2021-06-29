@@ -9,3 +9,5 @@ const categorySchema = new Schema({
     trim: true,
   },
 });
+
+const Category = mongoose.model("Category", categorySchema);
