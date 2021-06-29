@@ -18,4 +18,20 @@ db.once("open", async () => {
   // Drop previously inserted products so that new ones can be inserted
 
   await Product.deleteMany();
+
+  const products = await Product.insertMany([]);
+
+  console.log("products seeded");
+
+  // Drop previously inserted users so that new ones can be inserted
+
+  await User.deleteMany();
+
+  await User.create({});
+
+  await User.create({});
+
+  console.log("users seeded");
+
+  process.exit();
 });
