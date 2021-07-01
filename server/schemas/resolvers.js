@@ -61,10 +61,12 @@ const resolvers = {
     },
 
     users: async (parent, args, context) => {
-      return User.find().populate({
+      const user = await User.find().populate({
         path: "orders.products",
         populate: "category",
       });
+
+      return user;
     },
 
     order: async (parent, { _id }, context) => {
