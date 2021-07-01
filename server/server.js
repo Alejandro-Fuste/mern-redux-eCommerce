@@ -6,9 +6,6 @@ const { typeDefs, resolvers } = require("./schemas");
 const { authMiddleware } = require("./utils/auth");
 const db = require("./config/connection");
 
-// Requiring .dotenv file
-require("dotenv").config();
-
 const PORT = process.env.PORT || 3001;
 const app = express();
 const server = new ApolloServer({
