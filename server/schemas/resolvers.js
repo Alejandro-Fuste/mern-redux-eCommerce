@@ -30,6 +30,21 @@ const resolvers = {
       return await Product.findById(_id).populate("category");
     },
 
+    me: async (parent, args, context) => {
+      if (context.user) {
+        const userData = await User.findOne({ _id: context.user._id })
+          .select("-__v -password")
+          .populate({
+            path: "orders.products",
+            populate: "category",
+          });
+
+        return userData;
+      }
+
+      throw new AuthenticationError("Not logged in");
+    },
+
     user: async (parent, args, context) => {
       if (context.user) {
         const user = await User.findById(context.user._id).populate({
