@@ -60,7 +60,12 @@ const resolvers = {
       throw new AuthenticationError("Not logged in");
     },
 
-    users: async (parent, args, context) => {},
+    users: async (parent, args, context) => {
+      return User.find().populate({
+        path: "orders.products",
+        populate: "category",
+      });
+    },
 
     order: async (parent, { _id }, context) => {
       if (context.user) {
