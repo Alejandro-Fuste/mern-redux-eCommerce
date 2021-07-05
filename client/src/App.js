@@ -43,6 +43,7 @@ function App() {
         <div>
           <Provider store={store}>
             <Nav />
+            <Switch></Switch>
           </Provider>
         </div>
       </Router>
