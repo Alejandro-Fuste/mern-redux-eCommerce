@@ -11,4 +11,14 @@ import "./style.css";
 
 const stripePromise = loadStripe("");
 
-const Cart = () => {};
+const Cart = () => {
+  return (
+    <div className="cart">
+      <div className="close" onClick={toggleCart}>
+        [close]
+      </div>
+    </div>
+  );
+};
+
+export default Cart;
