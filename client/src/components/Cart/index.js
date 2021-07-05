@@ -10,3 +10,5 @@ import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from "../../utils/actions";
 import "./style.css";
 
 const stripePromise = loadStripe("");
+
+const Cart = () => {};
