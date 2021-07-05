@@ -41,7 +41,7 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <div>
-          <Provider></Provider>
+          <Provider store={store}></Provider>
         </div>
       </Router>
     </ApolloProvider>
