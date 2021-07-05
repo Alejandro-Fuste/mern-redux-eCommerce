@@ -43,7 +43,9 @@ function App() {
         <div>
           <Provider store={store}>
             <Nav />
-            <Switch></Switch>
+            <Switch>
+              <Route exact path="/" component={Home} />
+            </Switch>
           </Provider>
         </div>
       </Router>
