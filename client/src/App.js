@@ -12,6 +12,7 @@ import { Provider } from "react-redux";
 import store from "./utils/store";
 
 import Home from "./pages/Home";
+import Detail from "./pages/Detail";
 
 function App() {
   return (
