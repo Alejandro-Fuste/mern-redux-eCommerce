@@ -11,6 +11,8 @@ import { setContext } from "@apollo/client/link/context";
 import { Provider } from "react-redux";
 import store from "./utils/store";
 
+import Home from "./pages/Home";
+
 function App() {
   return (
     <div className="App">
