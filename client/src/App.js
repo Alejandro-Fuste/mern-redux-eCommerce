@@ -45,8 +45,9 @@ function App() {
             <Nav />
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route exact path="/Login" component={Login} />
+              <Route exact path="/login" component={Login} />
               <Route exact path="/signup" component={Signup} />
+              <Route exact path="/success" component={Success} />
             </Switch>
           </Provider>
         </div>
