@@ -48,6 +48,7 @@ function App() {
               <Route exact path="/login" component={Login} />
               <Route exact path="/signup" component={Signup} />
               <Route exact path="/success" component={Success} />
+              <Route exact path="/orderHistory" component={OrderHistory} />
             </Switch>
           </Provider>
         </div>
