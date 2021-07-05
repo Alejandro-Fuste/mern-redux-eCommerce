@@ -16,6 +16,7 @@ import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import Success from "./pages/Success";
 
 function App() {
   return (
