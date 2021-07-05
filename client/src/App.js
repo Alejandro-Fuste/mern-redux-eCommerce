@@ -13,6 +13,7 @@ import store from "./utils/store";
 
 import Home from "./pages/Home";
 import Detail from "./pages/Detail";
+import NoMatch from "./pages/NoMatch";
 
 function App() {
   return (
