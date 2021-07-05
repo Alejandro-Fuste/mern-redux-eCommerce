@@ -24,6 +24,10 @@ const httpLink = createHttpLink({
   uri: "/graphgl",
 });
 
+const authLink = setContext((_, { headers }) => {
+  const token = localStorage.getItem("id_token");
+});
+
 function App() {
   return (
     <div className="App">
