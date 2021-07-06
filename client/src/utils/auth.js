@@ -6,6 +6,10 @@ class AuthService {
   loggedIn() {}
 
   isTokenExpired(token) {}
+
+  getToken() {}
+
+  login(idToken) {}
 }
 
 export default new AuthService();
