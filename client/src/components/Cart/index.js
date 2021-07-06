@@ -26,7 +26,9 @@ const Cart = () => {
 
   useEffect(() => {});
 
-  function toggleCart() {}
+  function toggleCart() {
+    dispatch({ type: TOGGLE_CART });
+  }
 
   function calculateTotal() {}
 
