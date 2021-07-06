@@ -18,7 +18,17 @@ const Cart = () => {
         [close]
       </div>
       <h2>Shopping Cart</h2>
-      {state.cart.length ? "" : ""}
+      {state.cart.length ? (
+        <div>
+          {state.cart.map((item) => (
+            <CartItem key={item.id} item={item} />
+          ))}
+
+          <div className="flex-row space-between"></div>
+        </div>
+      ) : (
+        ""
+      )}
     </div>
   );
 };
