@@ -14,6 +14,7 @@ const stripePromise = loadStripe("");
 const Cart = () => {
   const dispatch = useDispatch();
   const state = useSelector((state) => state);
+  const [getCheckout, { data }] = useLazyQuery(QUERY_CHECKOUT);
 
   return (
     <div className="cart">
