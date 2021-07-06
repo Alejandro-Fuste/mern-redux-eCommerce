@@ -1,7 +1,9 @@
 import decode from "jwt-decode";
 
 class AuthService {
-  getProfile() {}
+  getProfile() {
+    return decode(this.getToken());
+  }
 
   loggedIn() {}
 
@@ -10,6 +12,8 @@ class AuthService {
   getToken() {}
 
   login(idToken) {}
+
+  logout() {}
 }
 
 export default new AuthService();
