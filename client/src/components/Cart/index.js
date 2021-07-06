@@ -28,6 +28,8 @@ const Cart = () => {
 
   function toggleCart() {}
 
+  function calculateTotal() {}
+
   return (
     <div className="cart">
       <div className="close" onClick={toggleCart}>
