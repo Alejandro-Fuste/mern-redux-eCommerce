@@ -16,6 +16,8 @@ const Cart = () => {
   const state = useSelector((state) => state);
   const [getCheckout, { data }] = useLazyQuery(QUERY_CHECKOUT);
 
+  useEffect(() => {});
+
   return (
     <div className="cart">
       <div className="close" onClick={toggleCart}>
