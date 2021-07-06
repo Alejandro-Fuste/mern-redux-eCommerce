@@ -12,6 +12,7 @@ import "./style.css";
 const stripePromise = loadStripe("");
 
 const Cart = () => {
+  const dispatch = useDispatch();
   return (
     <div className="cart">
       <div className="close" onClick={toggleCart}>
