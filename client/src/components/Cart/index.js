@@ -26,6 +26,8 @@ const Cart = () => {
 
   useEffect(() => {});
 
+  function toggleCart() {}
+
   return (
     <div className="cart">
       <div className="close" onClick={toggleCart}>
