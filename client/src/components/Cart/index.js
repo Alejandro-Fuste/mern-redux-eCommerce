@@ -18,6 +18,7 @@ const Cart = () => {
         [close]
       </div>
       <h2>Shopping Cart</h2>
+      {state.cart.length ? "" : ""}
     </div>
   );
 };
