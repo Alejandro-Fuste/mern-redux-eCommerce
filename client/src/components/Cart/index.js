@@ -24,7 +24,9 @@ const Cart = () => {
             <CartItem key={item.id} item={item} />
           ))}
 
-          <div className="flex-row space-between"></div>
+          <div className="flex-row space-between">
+            <strong>Total: ${calculateTotal()}</strong>
+          </div>
         </div>
       ) : (
         ""
