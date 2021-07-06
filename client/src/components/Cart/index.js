@@ -13,6 +13,8 @@ const stripePromise = loadStripe("");
 
 const Cart = () => {
   const dispatch = useDispatch();
+  const state = useSelector((state) => state);
+
   return (
     <div className="cart">
       <div className="close" onClick={toggleCart}>
