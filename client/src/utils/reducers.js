@@ -18,6 +18,6 @@ const initialState = {
   cartOpen: false,
 };
 
-export const reducers = () => {};
+export const reducers = (state = initialState, action) => {};
 
 export default reducers;
