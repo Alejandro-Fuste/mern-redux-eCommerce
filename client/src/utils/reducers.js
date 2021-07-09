@@ -68,8 +68,11 @@ export const reducers = (state = initialState, action) => {
              cart: []
          };
 
-         case :
-         return {};
+         case TOGGLE_CART:
+         return {
+             ...state, 
+             cartOpen: !state.cartOpen
+         };
 
          case :
          return {};
