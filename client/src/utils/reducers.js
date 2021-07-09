@@ -26,8 +26,12 @@ export const reducers = (state = initialState, action) => {
              products: [...action.products]
          };
 
-         case :
-         return {};
+         case ADD_TO_CART:
+         return {
+             ...state,
+             cartOpen: true,
+             cart: [...state.cart, action.product]
+         };
          
          case :
          return {};
