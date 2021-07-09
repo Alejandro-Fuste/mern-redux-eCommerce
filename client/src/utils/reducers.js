@@ -9,3 +9,11 @@ import {
   CLEAR_CART,
   TOGGLE_CART,
 } from "./actions";
+
+const initialState = {
+  products: [],
+  categories: [],
+  currentCategory: "",
+  cart: [],
+  cartOpen: false,
+};
