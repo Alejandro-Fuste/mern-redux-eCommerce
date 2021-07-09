@@ -74,8 +74,11 @@ export const reducers = (state = initialState, action) => {
              cartOpen: !state.cartOpen
          };
 
-         case :
-         return {};
+         case UPDATE_CATEGORIES:
+         return {
+             ...state, 
+             categories: [...action.categories]
+         };
 
          case :
          return {};
