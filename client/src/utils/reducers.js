@@ -40,13 +40,33 @@ export const reducers = (state = initialState, action) => {
          };
 
          case UPDATE_CART_QUANTITY:
-         return {};
+         return {
+             ...state,
+             cartOpen: true,
+             cart: state.cart.map(product => {
+                 if (action._id === product.id) {
+                     product.purchaseQuantity = action.purchaseQuantity
+                 }
+                 return product
+             })
+         };
 
-         case :
-         return {};
+         case REMOVE_FROM_CART:
+            let newState = state.cart.filter(product => {
+                return product._id !== action.id;
+            })
+         return {
+             ...state,
+             cartOpen: newState.length > 0, 
+             cart: newState
+         };
 
-         case :
-         return {};
+         case CLEAR_CART:
+         return {
+             ...state, 
+             cartOpen: false,
+             cart: []
+         };
 
          case :
          return {};
