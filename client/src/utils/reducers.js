@@ -17,3 +17,5 @@ const initialState = {
   cart: [],
   cartOpen: false,
 };
+
+export const reducers = () => {};
