@@ -19,3 +19,5 @@ const initialState = {
 };
 
 export const reducers = () => {};
+
+export default reducers;
