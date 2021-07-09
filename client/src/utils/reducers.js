@@ -20,8 +20,11 @@ const initialState = {
 
 export const reducers = (state = initialState, action) => {
     switch (action.type) {
-        case :
-         return {};
+        case UPDATE_PRODUCTS:
+         return {
+             ...state, 
+             products: [...action.products]
+         };
 
          case :
          return {};
