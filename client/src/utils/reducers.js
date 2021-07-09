@@ -33,10 +33,13 @@ export const reducers = (state = initialState, action) => {
              cart: [...state.cart, action.product]
          };
          
-         case :
-         return {};
+         case ADD_MULTIPLE_TO_CART:
+         return {
+             ...state,
+             cart: [...state.cart, ...action.products]
+         };
 
-         case :
+         case UPDATE_CART_QUANTITY:
          return {};
 
          case :
