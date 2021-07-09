@@ -39,6 +39,13 @@ export const QUERY_ALL_PRODUCTS = gql`
   }
 `;
 
-export const QUERY_CATEGORIES = gql``;
+export const QUERY_CATEGORIES = gql`
+  {
+    catergories {
+      _id
+      name
+    }
+  }
+`;
 
 export const QUERY_USER = gql``;
