@@ -7,6 +7,8 @@ const CartItem = ({ item }) => {
   const dispatch = useDispatch();
 
   const removeFromCart = (item) => {};
+
+  const onChange = (e) => {};
 };
 
 export default CartItem;
