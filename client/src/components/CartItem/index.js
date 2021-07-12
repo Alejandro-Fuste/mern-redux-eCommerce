@@ -9,6 +9,8 @@ const CartItem = ({ item }) => {
   const removeFromCart = (item) => {};
 
   const onChange = (e) => {};
+
+  return ();
 };
 
 export default CartItem;
