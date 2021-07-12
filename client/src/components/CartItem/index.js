@@ -19,6 +19,9 @@ const CartItem = ({ item }) => {
         <div>
           {item.name}, ${item.price}
         </div>
+        <div>
+          <span>Qty:</span>
+        </div>
       </div>
     </div>
   );
