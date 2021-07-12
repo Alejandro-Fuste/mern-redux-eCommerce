@@ -15,6 +15,11 @@ const CartItem = ({ item }) => {
       <div>
         <img src={`/images/${item.image}`} alt="" />
       </div>
+      <div>
+        <div>
+          {item.name}, ${item.price}
+        </div>
+      </div>
     </div>
   );
 };
