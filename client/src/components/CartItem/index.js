@@ -21,6 +21,12 @@ const CartItem = ({ item }) => {
         </div>
         <div>
           <span>Qty:</span>
+          <input
+            type="number"
+            placeholder="1"
+            value={item.purchaseQuantity}
+            onChange={onChange}
+          />
         </div>
       </div>
     </div>
