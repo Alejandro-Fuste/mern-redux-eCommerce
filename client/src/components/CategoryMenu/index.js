@@ -20,6 +20,8 @@ function CategoryMenu() {
     return () => {};
   }, []);
 
+  const handleClick = (id) => {};
+
   return (
     <div>
       <h2>Choose a Category:</h2>
