@@ -16,6 +16,10 @@ function CategoryMenu() {
 
   const { loading, data: categoryData } = useQuery(QUERY_CATEGORIES);
 
+  useEffect(() => {
+    return () => {};
+  }, []);
+
   return (
     <div>
       <h2>Choose a Category:</h2>
