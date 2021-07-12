@@ -9,6 +9,8 @@ import { QUERY_CATEGORIES } from "../../utils/queries";
 import { idbPromise } from "../../utils/helpers";
 
 function CategoryMenu() {
+  const dispatch = useDispatch();
+
   return (
     <div>
       <h2>Choose a Category:</h2>
