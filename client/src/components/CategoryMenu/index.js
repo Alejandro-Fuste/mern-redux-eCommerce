@@ -35,7 +35,12 @@ function CategoryMenu() {
     }
   }, [categoryData, loading, dispatch]);
 
-  const handleClick = (id) => {};
+  const handleClick = (id) => {
+    dispatch({
+      type: UPDATE_CURRENT_CATEGORY,
+      currentCategory: id,
+    });
+  };
 
   return (
     <div>
