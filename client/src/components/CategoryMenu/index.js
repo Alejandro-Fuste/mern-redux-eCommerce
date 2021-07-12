@@ -14,6 +14,8 @@ function CategoryMenu() {
 
   const { categories } = state;
 
+  const { loading, data: categoryData } = useQuery(QUERY_CATEGORIES);
+
   return (
     <div>
       <h2>Choose a Category:</h2>
