@@ -14,7 +14,9 @@ const CartItem = ({ item }) => {
     idbPromise("cart", "delete", { ...item });
   };
 
-  const onChange = (e) => {};
+  const onChange = (e) => {
+    const value = e.target.value;
+  };
 
   return (
     <div className="flex-row">
