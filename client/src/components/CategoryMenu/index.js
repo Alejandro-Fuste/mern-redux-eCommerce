@@ -8,6 +8,12 @@ import {
 import { QUERY_CATEGORIES } from "../../utils/queries";
 import { idbPromise } from "../../utils/helpers";
 
-function CategoryMenu() {}
+function CategoryMenu() {
+  return (
+    <div>
+      <h2>Choose a Category:</h2>
+    </div>
+  );
+}
 
 export default CategoryMenu;
