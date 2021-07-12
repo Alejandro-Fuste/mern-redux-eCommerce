@@ -16,6 +16,9 @@ const CartItem = ({ item }) => {
 
   const onChange = (e) => {
     const value = e.target.value;
+    if (value === "0") {
+    } else {
+    }
   };
 
   return (
