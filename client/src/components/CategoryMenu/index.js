@@ -17,8 +17,10 @@ function CategoryMenu() {
   const { loading, data: categoryData } = useQuery(QUERY_CATEGORIES);
 
   useEffect(() => {
-    return () => {};
-  }, []);
+    if (categoryData) {
+    } else if (!loading) {
+    }
+  }, [categoryData, loading, dispatch]);
 
   const handleClick = (id) => {};
 
