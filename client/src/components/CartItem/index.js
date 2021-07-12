@@ -10,7 +10,11 @@ const CartItem = ({ item }) => {
 
   const onChange = (e) => {};
 
-  return ();
+  return (
+    <div className="flex-row">
+      <div></div>
+    </div>
+  );
 };
 
 export default CartItem;
