@@ -12,6 +12,8 @@ function CategoryMenu() {
   const dispatch = useDispatch();
   const state = useSelector((state) => state);
 
+  const { categories } = state;
+
   return (
     <div>
       <h2>Choose a Category:</h2>
