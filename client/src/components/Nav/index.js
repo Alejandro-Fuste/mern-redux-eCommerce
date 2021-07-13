@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 import Auth from "../../utils/auth";
 
 function Nav() {
-  function showNavigation() {}
+  function showNavigation() {
+      if () {} else {}
+  }
 
   return (
     <header className="flex-row px-1">
