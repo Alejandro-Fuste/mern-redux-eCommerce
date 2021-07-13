@@ -4,7 +4,16 @@ import Auth from "../../utils/auth";
 
 function Nav() {
   function showNavigation() {
-      if () {} else {}
+    if (Auth.loggedIn()) {
+      return (
+        <ul className="flex-row">
+          <li className="mx-1">
+            <Link to="/orderHistory">Order History</Link>
+          </li>
+        </ul>
+      );
+    } else {
+    }
   }
 
   return (
