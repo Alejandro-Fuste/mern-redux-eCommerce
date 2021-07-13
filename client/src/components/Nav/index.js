@@ -19,6 +19,11 @@ function Nav() {
         </ul>
       );
     } else {
+      return (
+        <ul className="flex-row">
+          <li className="mx-1"></li>
+        </ul>
+      );
     }
   }
 
