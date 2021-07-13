@@ -10,6 +10,8 @@ function ProductItem(item) {
   const state = useSelector((state) => state);
 
   const { image, name, id, price, quantity } = item;
+
+  const { cart } = state;
 }
 
 export default ProductItem;
