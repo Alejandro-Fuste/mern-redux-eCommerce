@@ -4,3 +4,5 @@ import React from "react";
  That way we don't have to define them all individually */
 
 function DeleteBtn(props) {}
+
+export default DeleteBtn;
