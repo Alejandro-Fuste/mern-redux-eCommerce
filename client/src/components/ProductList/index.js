@@ -34,7 +34,9 @@ function ProductList() {
     }
   }, [data, loading, dispatch]);
 
-  function filterProducts() {}
+  function filterProducts() {
+      if () {}
+  }
 
   return <div></div>;
 }
