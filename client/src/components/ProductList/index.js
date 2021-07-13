@@ -14,6 +14,8 @@ function ProductList() {
   const { currentCategory } = state;
 
   const { loading, data } = useQuery(QUERY_PRODUCTS);
+
+  useEffect(() => {}, []);
 }
 
 export default ProductList;
