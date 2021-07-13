@@ -16,6 +16,8 @@ function ProductList() {
   const { loading, data } = useQuery(QUERY_PRODUCTS);
 
   useEffect(() => {}, []);
+
+  function filterProducts() {}
 }
 
 export default ProductList;
