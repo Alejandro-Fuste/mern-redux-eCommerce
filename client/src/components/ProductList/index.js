@@ -16,8 +16,16 @@ function ProductList() {
   const { loading, data } = useQuery(QUERY_PRODUCTS);
 
   useEffect(() => {
-      if () {} else if () {}
-  }, []);
+      if (data) {
+          dispatch({
+              type: UPDATE_PRODUCTS,
+              products: data.products
+          });
+          data.products.forEach((product)=>{
+              idbPromise('products', 'put', product)
+          })
+      } else if () {}
+  }, [data, loading, dispatch]);
 
   function filterProducts() {}
 
