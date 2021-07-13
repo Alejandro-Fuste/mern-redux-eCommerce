@@ -12,6 +12,8 @@ function ProductItem(item) {
   const { image, name, id, price, quantity } = item;
 
   const { cart } = state;
+
+  const addToCart = () => {};
 }
 
 export default ProductItem;
