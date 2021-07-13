@@ -9,6 +9,9 @@ import spinner from "../../assets/spinner.gif";
 
 function ProductList() {
   const dispatch = useDispatch();
+  const state = useSelector((state) => state);
+
+  const { currentCategoruy } = state;
 }
 
 export default ProductList;
