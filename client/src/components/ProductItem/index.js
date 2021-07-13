@@ -9,11 +9,13 @@ function ProductItem(item) {
   const dispatch = useDispatch();
   const state = useSelector((state) => state);
 
-  const { image, name, id, price, quantity } = item;
+  const { image, name, _id, price, quantity } = item;
 
   const { cart } = state;
 
-  const addToCart = () => {};
+  const addToCart = () => {
+    const itemInCart = cart.find((cartItem) => cartItem._id === _id);
+  };
 
   return (
     <div className="card px-1 py-1">
