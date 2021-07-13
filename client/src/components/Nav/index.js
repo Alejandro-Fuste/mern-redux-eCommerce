@@ -4,9 +4,14 @@ import Auth from "../../utils/auth";
 
 function Nav() {
   return (
-    <header>
+    <header className="flex-row px-1">
       <h1>
-        <Link></Link>
+        <Link to="/">
+          <span role="img" aria-label="shopping bag">
+            🛍️
+          </span>
+          -Shop-Shop
+        </Link>
       </h1>
     </header>
   );
