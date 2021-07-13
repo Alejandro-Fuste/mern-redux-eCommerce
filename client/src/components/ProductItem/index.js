@@ -5,6 +5,8 @@ import { pluralize } from "../../utils/helpers";
 import { ADD_TO_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
 import { idbPromise } from "../../utils/helpers";
 
-function ProductItem() {}
+function ProductItem() {
+  const dispatch = useDispatch();
+}
 
 export default ProductItem;
