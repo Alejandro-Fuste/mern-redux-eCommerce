@@ -8,3 +8,5 @@ import { idbPromise } from "../../utils/helpers";
 import spinner from "../../assets/spinner.gif";
 
 function ProductList() {}
+
+export default ProductList;
