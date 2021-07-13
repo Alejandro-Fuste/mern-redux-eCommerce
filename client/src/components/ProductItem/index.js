@@ -14,6 +14,14 @@ function ProductItem(item) {
   const { cart } = state;
 
   const addToCart = () => {};
+
+  return (
+    <div className="card px-1 py-1">
+      <Link></Link>
+      <div></div>
+      <button></button>
+    </div>
+  );
 }
 
 export default ProductItem;
