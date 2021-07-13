@@ -40,7 +40,12 @@ function ProductItem(item) {
           <img alt={name} src={`/images/${image}`} />
           <p>{name}</p>
       </Link>
-      <div></div>
+      <div>
+          <div>
+
+          </div>
+          <span></span>
+      </div>
       <button></button>
     </div>
   );
