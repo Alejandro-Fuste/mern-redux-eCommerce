@@ -18,6 +18,8 @@ function ProductList() {
   useEffect(() => {}, []);
 
   function filterProducts() {}
+
+  return <div></div>;
 }
 
 export default ProductList;
