@@ -13,6 +13,8 @@ function Nav() {
           -Shop-Shop
         </Link>
       </h1>
+
+      <nav>{showNavigation()}</nav>
     </header>
   );
 }
