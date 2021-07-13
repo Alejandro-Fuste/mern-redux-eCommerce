@@ -7,6 +7,7 @@ import { idbPromise } from "../../utils/helpers";
 
 function ProductItem() {
   const dispatch = useDispatch();
+  const state = useSelector((state) => state);
 }
 
 export default ProductItem;
