@@ -35,7 +35,11 @@ function ProductList() {
   }, [data, loading, dispatch]);
 
   function filterProducts() {
-      if () {}
+    if (!currentCategory) {
+      return state.products;
+    }
+
+    return;
   }
 
   return <div></div>;
