@@ -28,7 +28,7 @@ function Detail() {
   useEffect(() => {
       // already in global store
       if () {} else if () {} else if () {}
-  });
+  },[products, data, loading, dispatch, id]);
 
   const addToCart = () => {};
 
