@@ -12,3 +12,4 @@ import {
 } from "../utils/actions";
 import { QUERY_PRODUCTS } from "../utils/queries";
 import { idbPromise } from "../utils/helpers";
+import moduleName from "../assets/spinner.gif";
