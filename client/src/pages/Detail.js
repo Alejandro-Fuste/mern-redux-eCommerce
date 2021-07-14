@@ -12,7 +12,7 @@ import {
 } from "../utils/actions";
 import { QUERY_PRODUCTS } from "../utils/queries";
 import { idbPromise } from "../utils/helpers";
-import moduleName from "../assets/spinner.gif";
+import spinner from "../assets/spinner.gif";
 
 function Detail() {
   const dispatch = useDispatch();
@@ -25,7 +25,10 @@ function Detail() {
 
   const { products, cart } = state;
 
-  useEffect(() => {});
+  useEffect(() => {
+      // already in global store
+      if () {} else if () {} else if () {}
+  });
 
   const addToCart = () => {};
 
