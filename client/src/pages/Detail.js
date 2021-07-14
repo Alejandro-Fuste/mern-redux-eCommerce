@@ -13,3 +13,5 @@ import {
 import { QUERY_PRODUCTS } from "../utils/queries";
 import { idbPromise } from "../utils/helpers";
 import moduleName from "../assets/spinner.gif";
+
+function Detail() {}
