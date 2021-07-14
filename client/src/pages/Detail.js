@@ -74,7 +74,10 @@ function Detail() {
   };
 
   const removeFromCart = () => {
-    dispatch({});
+    dispatch({
+      type: REMOVE_FROM_CART,
+      _id: currentProduct._id,
+    });
 
     idbPromise({});
   };
