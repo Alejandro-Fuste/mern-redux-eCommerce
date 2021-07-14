@@ -85,7 +85,7 @@ function Detail() {
   return (
     <>
       {}
-      {}
+      {loading ? <img src={spinner} alt="loading" /> : null}
       <Cart />
     </>
   );
