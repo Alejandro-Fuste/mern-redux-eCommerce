@@ -15,3 +15,5 @@ import { idbPromise } from "../utils/helpers";
 import moduleName from "../assets/spinner.gif";
 
 function Detail() {}
+
+export default Detail;
