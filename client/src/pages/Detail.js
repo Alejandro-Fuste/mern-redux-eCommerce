@@ -52,7 +52,9 @@ function Detail() {
     }
   }, [products, data, loading, dispatch, id]);
 
-  const addToCart = () => {};
+  const addToCart = () => {
+    const itemInCart = cart.find((cartItem) => cartItem._id === id);
+  };
 
   const removeFromCart = () => {};
 
