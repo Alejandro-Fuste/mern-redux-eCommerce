@@ -79,7 +79,7 @@ function Detail() {
       _id: currentProduct._id,
     });
 
-    idbPromise({});
+    idbPromise("cart", "delete", { ...currentProduct });
   };
 
   return;
