@@ -29,7 +29,18 @@ function Detail() {
       // already in global store
       if (products.length) {
           setCurrentProduct(products.find((product) => product._id === id))
-      } else if () {} else if () {}
+      }
+      // retrieved from server
+      else if (data) {
+          dispatch({
+              type: UPDATE_PRODUCTS,
+              products: data.products
+          });
+
+          data.products.forEach((product) => {
+              idbPromise('products', 'put', product);
+          });
+      } else if () {}
   },[products, data, loading, dispatch, id]);
 
   const addToCart = () => {};
