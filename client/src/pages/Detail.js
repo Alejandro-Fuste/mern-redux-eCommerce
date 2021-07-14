@@ -16,6 +16,7 @@ import moduleName from "../assets/spinner.gif";
 
 function Detail() {
   const dispatch = useDispatch();
+  const state = useSelector((state) => state);
 
   useEffect(() => {});
 
