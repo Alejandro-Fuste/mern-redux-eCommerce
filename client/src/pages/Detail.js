@@ -4,3 +4,10 @@ import { useQuery } from "@apollo/client";
 import { useDispatch, useSelector } from "react-redux";
 
 import Cart from "../components/Cart";
+import {
+  REMOVE_FROM_CART,
+  UPDATE_CART_QUANTITY,
+  ADD_TO_CART,
+  UPDATE_PRODUCTS,
+} from "../utils/actions";
+import { QUERY_PRODUCTS } from "../utils/queries";
