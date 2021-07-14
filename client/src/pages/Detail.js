@@ -82,7 +82,13 @@ function Detail() {
     idbPromise("cart", "delete", { ...currentProduct });
   };
 
-  return;
+  return (
+    <>
+      {}
+      {}
+      <Cart />
+    </>
+  );
 }
 
 export default Detail;
