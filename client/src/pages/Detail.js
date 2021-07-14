@@ -73,7 +73,11 @@ function Detail() {
     }
   };
 
-  const removeFromCart = () => {};
+  const removeFromCart = () => {
+    dispatch({});
+
+    idbPromise({});
+  };
 
   return;
 }
