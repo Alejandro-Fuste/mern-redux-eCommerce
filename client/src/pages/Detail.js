@@ -19,6 +19,8 @@ function Detail() {
   const state = useSelector((state) => state);
   const { id } = useParams();
 
+  const [currentProduct, setCurrentProduct] = useState({});
+
   useEffect(() => {});
 
   const addToCart = () => {};
