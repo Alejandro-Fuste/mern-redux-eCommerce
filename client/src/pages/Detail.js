@@ -26,22 +26,31 @@ function Detail() {
   const { products, cart } = state;
 
   useEffect(() => {
-      // already in global store
-      if (products.length) {
-          setCurrentProduct(products.find((product) => product._id === id))
-      }
-      // retrieved from server
-      else if (data) {
-          dispatch({
-              type: UPDATE_PRODUCTS,
-              products: data.products
-          });
+    // already in global store
+    if (products.length) {
+      setCurrentProduct(products.find((product) => product._id === id));
+    }
+    // retrieved from server
+    else if (data) {
+      dispatch({
+        type: UPDATE_PRODUCTS,
+        products: data.products,
+      });
 
-          data.products.forEach((product) => {
-              idbPromise('products', 'put', product);
-          });
-      } else if () {}
-  },[products, data, loading, dispatch, id]);
+      data.products.forEach((product) => {
+        idbPromise("products", "put", product);
+      });
+    }
+    // get cache from idb
+    else if (!loading) {
+      idbPromise("products", "get").then((indexedProducts) => {
+        dispatch({
+          type: UPDATE_PRODUCTS,
+          products: indexedProducts,
+        });
+      });
+    }
+  }, [products, data, loading, dispatch, id]);
 
   const addToCart = () => {};
 
