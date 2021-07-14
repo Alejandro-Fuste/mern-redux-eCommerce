@@ -54,6 +54,7 @@ function Detail() {
 
   const addToCart = () => {
     const itemInCart = cart.find((cartItem) => cartItem._id === id);
+    if () {} else {}
   };
 
   const removeFromCart = () => {};
