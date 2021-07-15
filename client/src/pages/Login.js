@@ -56,7 +56,7 @@ function Login(props) {
             onChange={handleChange}
           />
         </div>
-        {erro ? (
+        {error ? (
           <div>
             <p className="error-text">The provided credentials are incorrect</p>
           </div>
