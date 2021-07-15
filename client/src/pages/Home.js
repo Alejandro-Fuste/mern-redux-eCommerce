@@ -4,7 +4,11 @@ import CategoryMenu from "../components/CategoryMenu";
 import Cart from "../components/Cart";
 
 const Home = () => {
-  return <div className="container"></div>;
+  return (
+    <div className="container">
+      <CategoryMenu />
+    </div>
+  );
 };
 
 export default Home;
