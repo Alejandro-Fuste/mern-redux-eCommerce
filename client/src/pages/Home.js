@@ -4,3 +4,5 @@ import CategoryMenu from "../components/CategoryMenu";
 import Cart from "../components/Cart";
 
 const Home = () => {};
+
+export default Home;
