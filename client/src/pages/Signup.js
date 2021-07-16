@@ -8,7 +8,19 @@ function Signup(props) {
   const [formState, setFormState] = useState({ email: "", password: "" });
   const [addUser] = useMutation(ADD_USER);
 
-  const handleFormSubmit = async (event) => {};
+  const handleFormSubmit = async (event) => {
+    event.preventDefault();
+    const mutuationResponse = await addUser({
+      variables: {
+        email: formState.email,
+        password: formState.password,
+        firstName: formState.firstName,
+        lastName: formState.lastName,
+      },
+    });
+    const token = mutuationResponse.data.addUser.token;
+    Auth.login(token);
+  };
 
   const handleChange = (event) => {};
 
