@@ -8,9 +8,19 @@ function OrderHistory() {
   const { data } = useQuery(QUERY_USER);
   let user;
 
-  if () {}
+  if (data) {
+    user = data.user;
+  }
 
-  return 
+  return (
+    <>
+      <div className="container my-1">
+        <Link></Link>
+
+        {}
+      </div>
+    </>
+  );
 }
 
 export default OrderHistory;
