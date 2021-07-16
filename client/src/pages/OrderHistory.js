@@ -5,3 +5,5 @@ import { useQuery } from "@apollo/client";
 import { QUERY_USER } from "../utils/queries";
 
 function OrderHistory() {}
+
+export default OrderHistory;
