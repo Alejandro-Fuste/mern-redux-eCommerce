@@ -6,6 +6,7 @@ import { QUERY_USER } from "../utils/queries";
 
 function OrderHistory() {
   const { data } = useQuery(QUERY_USER);
+  let user;
 }
 
 export default OrderHistory;
