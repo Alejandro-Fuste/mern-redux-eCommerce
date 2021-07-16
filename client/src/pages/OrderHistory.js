@@ -17,9 +17,14 @@ function OrderHistory() {
       <div className="container my-1">
         <Link to="/">← Back to Products</Link>
 
-        { user ? () : null
-
-        }
+        {user ? (
+          <>
+            <h2>
+              Order History for {user.firstName} {user.lastName}
+            </h2>
+            {}
+          </>
+        ) : null}
       </div>
     </>
   );
