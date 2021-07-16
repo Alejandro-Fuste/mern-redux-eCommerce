@@ -30,7 +30,34 @@ function Signup(props) {
     });
   };
 
-  return;
+  return (
+    <div>
+      <Link></Link>
+      <h2></h2>
+
+      <form>
+        <div>
+          <label></label>
+          <input />
+        </div>
+        <div>
+          <label></label>
+          <input />
+        </div>
+        <div>
+          <label></label>
+          <input />
+        </div>
+        <div>
+          <label></label>
+          <input />
+        </div>
+        <div>
+          <button></button>
+        </div>
+      </form>
+    </div>
+  );
 }
 
 export default Signup;
