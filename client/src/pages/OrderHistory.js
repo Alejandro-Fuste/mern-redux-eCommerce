@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 import { useQuery } from "@apollo/client";
 import { QUERY_USER } from "../utils/queries";
-import { parse } from "graphql";
 
 function OrderHistory() {
   const { data } = useQuery(QUERY_USER);
