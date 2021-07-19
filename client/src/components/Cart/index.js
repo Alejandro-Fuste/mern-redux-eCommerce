@@ -25,7 +25,9 @@ const Cart = () => {
   }, [data]);
 
   useEffect(() => {
-    async function getCart() {}
+    async function getCart() {
+      const cart = await idbPromise('cart', 'get')
+    }
 
     if (){}
   }, [state.cart.length, dispatch]);
