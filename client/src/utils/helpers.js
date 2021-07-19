@@ -1,11 +1,11 @@
-export function pluralize(name, count) {
+export const pluralize = (name, count) => {
   if (count === 1) {
     return name;
   }
   return name + "s";
-}
+};
 
-export function idbPromise(storeName, method, object) {
+export const idbPromise = (storeName, method, object) => {
   return new Promise((resolve, reject) => {
     const request = window.indexedDB.open("shop-shop", 1);
     let db, tx, store;
@@ -53,4 +53,6 @@ export function idbPromise(storeName, method, object) {
       };
     };
   });
-}
+};
+
+export default { pluralize, idbPromise };
