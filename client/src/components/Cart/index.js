@@ -26,6 +26,8 @@ const Cart = () => {
 
   useEffect(() => {
     async function getCart() {}
+
+    if (){}
   }, [state.cart.length, dispatch]);
 
   function toggleCart() {
