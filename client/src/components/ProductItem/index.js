@@ -21,30 +21,30 @@ function ProductItem(item) {
         _id: _id,
         purchaseQuantity: parseInt(itemInCart.purchaseQuantity) + 1,
       });
-      idbPromise('cart', 'put' {
-          ...itemInCart, 
-          purchaseQuantity: parseInt(itemInCart.purchaseQuantity) + 1,
-      })
+      idbPromise("cart", "put", {
+        ...itemInCart,
+        purchaseQuantity: parseInt(itemInCart.purchaseQuantity) + 1,
+      });
     } else {
-        dispatch({
-            type: ADD_TO_CART,
-            product: {...item, purchaseQuantity: 1}
-        });
-        idbPromise('cart','put',{...item, purchaseQuantity: 1});
+      dispatch({
+        type: ADD_TO_CART,
+        product: { ...item, purchaseQuantity: 1 },
+      });
+      idbPromise("cart", "put", { ...item, purchaseQuantity: 1 });
     }
   };
 
   return (
     <div className="card px-1 py-1">
       <Link to={`/products/${_id}`}>
-          <img alt={name} src={`/images/${image}`} />
-          <p>{name}</p>
+        <img alt={name} src={`/images/${image}`} />
+        <p>{name}</p>
       </Link>
       <div>
-          <div>
-            {quantity} {pluralize('item', quantity)} in stock
-          </div>
-          <span>${price}</span>
+        <div>
+          {quantity} {pluralize("item", quantity)} in stock
+        </div>
+        <span>${price}</span>
       </div>
       <button onClick={addToCart}>Add to Cart</button>
     </div>
