@@ -21,13 +21,16 @@ import OrderHistory from "./pages/OrderHistory";
 import Nav from "./components/Nav";
 
 const httpLink = createHttpLink({
-  uri: "/graphgl",
+  uri: "/graphql",
 });
 
 const authLink = setContext((_, { headers }) => {
   const token = localStorage.getItem("id_token");
   return {
-    headers: { ...headers, authorization: token ? `Bearer ${token}` : "" },
+    headers: {
+      ...headers,
+      authorization: token ? `Bearer ${token}` : "",
+    },
   };
 });
 
