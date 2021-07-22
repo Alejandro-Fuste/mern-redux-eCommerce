@@ -44,7 +44,7 @@ export const reducers = (state = initialState, action) => {
         ...state,
         cartOpen: true,
         cart: state.cart.map((product) => {
-          if (action._id === product.id) {
+          if (action._id === product._id) {
             product.purchaseQuantity = action.purchaseQuantity;
           }
           return product;
@@ -53,7 +53,7 @@ export const reducers = (state = initialState, action) => {
 
     case REMOVE_FROM_CART:
       let newState = state.cart.filter((product) => {
-        return product._id !== action.id;
+        return product._id !== action._id;
       });
       return {
         ...state,
