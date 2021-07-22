@@ -1,7 +1,9 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { REMOVE_FROM_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
-import idbPromise from "../../utils/helpers";
+import helpers from "../../utils/helpers";
+
+const { idbPromise } = helpers;
 
 const CartItem = ({ item }) => {
   const dispatch = useDispatch();
@@ -16,6 +18,7 @@ const CartItem = ({ item }) => {
 
   const onChange = (e) => {
     const value = e.target.value;
+
     if (value === "0") {
       dispatch({
         type: REMOVE_FROM_CART,
