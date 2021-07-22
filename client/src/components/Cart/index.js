@@ -12,7 +12,12 @@ import "./style.css";
 
 const { idbPromise } = helpers;
 
-const stripePromise = loadStripe("");
+// Requiring .dotenv file
+require("dotenv").config();
+
+const stripePromise = loadStripe("pk_test_TYooMQauvdEDq54NiTphI7jx");
+
+// const stripePromise = loadStripe(process.env.STRIPE_KEY);
 
 const Cart = () => {
   const dispatch = useDispatch();
@@ -86,7 +91,7 @@ const Cart = () => {
       {state.cart.length ? (
         <div>
           {state.cart.map((item) => (
-            <CartItem key={item.id} item={item} />
+            <CartItem key={item._id} item={item} />
           ))}
 
           <div className="flex-row space-between">
