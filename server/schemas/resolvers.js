@@ -88,6 +88,7 @@ const resolvers = {
 
     checkout: async (parent, args, context) => {
       const url = new URL(context.headers.referer).origin;
+      console.log(url);
       const order = new Order({ products: args.products });
       const line_items = [];
 
@@ -116,9 +117,11 @@ const resolvers = {
         payment_method_types: ["card"],
         line_items,
         mode: "payment",
-        success_url: `${url}/succes?session_id={CHECKOUT_SESSION_ID}`,
+        success_url: `${url}/success?session_id={CHECKOUT_SESSION_ID}`,
         cancel_url: `${url}/`,
       });
+
+      console.log(session.success_url);
 
       return { session: session.id };
     },
