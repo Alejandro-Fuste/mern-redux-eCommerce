@@ -5,7 +5,7 @@ const { signToken } = require("../utils/auth");
 // Requiring .dotenv file
 require("dotenv").config();
 
-const stripe = require("stripe")(process.env.STRIPE_KEY);
+const stripe = require("stripe")(process.env.RESOLVER_STRIPE_KEY);
 
 const resolvers = {
   // Resolvers for any queries
@@ -87,6 +87,7 @@ const resolvers = {
     },
 
     checkout: async (parent, args, context) => {
+      console.log(process.env.RESOLVER_STRIPE_KEY);
       const url = new URL(context.headers.referer).origin;
       console.log(url);
       const order = new Order({ products: args.products });
