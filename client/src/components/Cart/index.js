@@ -15,9 +15,9 @@ const { idbPromise } = helpers;
 // Requiring .dotenv file
 require("dotenv").config();
 
-const stripePromise = loadStripe("pk_test_TYooMQauvdEDq54NiTphI7jx");
+// const stripePromise = loadStripe("pk_test_TYooMQauvdEDq54NiTphI7jx");
 
-// const stripePromise = loadStripe(process.env.STRIPE_KEY);
+const stripePromise = loadStripe(process.env.STRIPE_KEY);
 
 const Cart = () => {
   const dispatch = useDispatch();
