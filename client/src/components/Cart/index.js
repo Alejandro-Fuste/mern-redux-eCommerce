@@ -12,12 +12,9 @@ import "./style.css";
 
 const { idbPromise } = helpers;
 
-// Requiring .dotenv file
-require("dotenv").config();
+const stripePromise = loadStripe("pk_test_TYooMQauvdEDq54NiTphI7jx");
 
-// const stripePromise = loadStripe("pk_test_TYooMQauvdEDq54NiTphI7jx");
-
-const stripePromise = loadStripe(process.env.STRIPE_KEY);
+// const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_KEY);
 
 const Cart = () => {
   const dispatch = useDispatch();
@@ -26,7 +23,9 @@ const Cart = () => {
 
   useEffect(() => {
     if (data) {
+      console.log(`data:${data}`);
       stripePromise.then((res) => {
+        console.log(`res:${res}`);
         res.redirectToCheckout({ sessionId: data.checkout.session });
       });
     }
@@ -59,6 +58,7 @@ const Cart = () => {
   }
 
   function submitCheckout() {
+    console.log("Checkout button clicked");
     const productIds = [];
 
     state.cart.forEach((item) => {
