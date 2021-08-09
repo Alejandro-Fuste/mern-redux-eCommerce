@@ -14,8 +14,6 @@ const { idbPromise } = helpers;
 
 const stripePromise = loadStripe("pk_test_TYooMQauvdEDq54NiTphI7jx");
 
-// const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_KEY);
-
 const Cart = () => {
   const dispatch = useDispatch();
   const state = useSelector((state) => state);
@@ -23,9 +21,7 @@ const Cart = () => {
 
   useEffect(() => {
     if (data) {
-      console.log(`data:${data}`);
       stripePromise.then((res) => {
-        console.log(`res:${res}`);
         res.redirectToCheckout({ sessionId: data.checkout.session });
       });
     }
