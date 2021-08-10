@@ -14,7 +14,9 @@ const Home = () => {
         <CategoryMenu />
         <Cart />
       </Row>
-      <ProductList />
+      <Row>
+        <ProductList />
+      </Row>
     </Container>
   );
 };
