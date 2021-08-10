@@ -10,9 +10,11 @@ import Col from "react-bootstrap/Col";
 const Home = () => {
   return (
     <Container>
-      <CategoryMenu />
+      <Row>
+        <CategoryMenu />
+        <Cart />
+      </Row>
       <ProductList />
-      <Cart />
     </Container>
   );
 };
