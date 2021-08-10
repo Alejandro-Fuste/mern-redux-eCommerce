@@ -47,7 +47,7 @@ function App() {
       <Router>
         <div>
           <Provider store={store}>
-            <Container fluid="true">
+            <Container fluid>
               <Nav />
               <Switch>
                 <Route exact path="/" component={Home} />
