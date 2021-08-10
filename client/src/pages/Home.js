@@ -11,8 +11,12 @@ const Home = () => {
   return (
     <Container>
       <Row>
-        <CategoryMenu />
-        <Cart />
+        <Col sm={8}>
+          <CategoryMenu />
+        </Col>
+        <Col sm={4}>
+          <Cart />
+        </Col>
       </Row>
       <Row>
         <ProductList />
