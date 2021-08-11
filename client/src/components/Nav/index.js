@@ -38,28 +38,17 @@ function Nav() {
 
   return (
     <Navbar expand="lg" variant="dark">
-      <Navbar.Brand href="#home">
-        <img src={Logo} alt="logo" id="logo" />
+      <Navbar.Brand href="/">
+        <span role="img" aria-label="shopping bag">
+          🛍️
+        </span>
+        -Shop-Shop
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="#home" className="link">
-            {/* <FontAwesomeIcon icon={faHome} className="icon" />Home */}
-            Home
-          </Nav.Link>
-          <Nav.Link href="#about">
-            {/* <FontAwesomeIcon icon={faUser} className="icon" /> */}
-            About
-          </Nav.Link>
-          <Nav.Link href="#portfolio">
-            {/* <FontAwesomeIcon icon={faTh} className="icon" /> */}
-            Portfolio
-          </Nav.Link>
-          <Nav.Link href="#contact">
-            {/* <FontAwesomeIcon icon={faEnvelope} className="icon" /> */}
-            Contact
-          </Nav.Link>
+          {showNavigation()}
+          <CartModal />
         </Nav>
       </Navbar.Collapse>
     </Navbar>
