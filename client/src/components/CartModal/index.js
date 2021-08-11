@@ -19,6 +19,9 @@ const stripePromise = loadStripe("pk_test_TYooMQauvdEDq54NiTphI7jx");
 
 function CartModal() {
   const [show, setShow] = useState(false);
+  const dispatch = useDispatch();
+  const state = useSelector((state) => state);
+  const [getCheckout, { data }] = useLazyQuery(QUERY_CHECKOUT);
 
   return (
     <>
