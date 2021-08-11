@@ -86,15 +86,30 @@ function CartModal() {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p>
-            Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde
-            commodi aspernatur enim, consectetur. Cumque deleniti temporibus
-            ipsam atque a dolores quisquam quisquam adipisci possimus
-            laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod
-            accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia
-            reiciendis porro quo magni incidunt dolore amet atque facilis ipsum
-            deleniti rem!
-          </p>
+          {state.cart.length ? (
+            <div>
+              {state.cart.map((item) => (
+                <CartItem key={item._id} item={item} />
+              ))}
+
+              <div className="flex-row space-between">
+                <strong>Total: ${calculateTotal()}</strong>
+
+                {Auth.loggedIn() ? (
+                  <button onClick={submitCheckout}>Checkout</button>
+                ) : (
+                  <span>log in to check out</span>
+                )}
+              </div>
+            </div>
+          ) : (
+            <h3>
+              <span role="img" aria-label="shocked">
+                😱
+              </span>
+              You haven't added anything to your cart yet!
+            </h3>
+          )}
         </Modal.Body>
       </Modal>
     </>
