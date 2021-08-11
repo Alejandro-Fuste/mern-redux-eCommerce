@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Auth from "../../utils/auth";
 
 import Cart from "../Cart";
-import Modal from "../Modal";
+import CartModal from "../CartModal";
 
 function Nav() {
   function showNavigation() {
@@ -47,7 +47,7 @@ function Nav() {
       </h1>
 
       <nav>{showNavigation()}</nav>
-      <Modal />
+      <CartModal />
     </header>
   );
 }
