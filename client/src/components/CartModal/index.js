@@ -6,12 +6,14 @@ import helpers from "../../utils/helpers";
 import CartItem from "../CartItem";
 import Auth from "../../utils/auth";
 import { useDispatch, useSelector } from "react-redux";
-import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from "../../utils/actions";
+import { ADD_MULTIPLE_TO_CART } from "../../utils/actions";
 
 import "./style.css";
 
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 const { idbPromise } = helpers;
 
@@ -71,7 +73,7 @@ function CartModal() {
   return (
     <>
       <Button variant="primary" id="cartButton" onClick={() => setShow(true)}>
-        Modal
+        <FontAwesomeIcon icon={faShoppingCart} />
       </Button>
 
       <Modal
