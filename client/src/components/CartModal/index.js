@@ -70,7 +70,7 @@ function CartModal() {
 
   return (
     <>
-      <Button variant="primary" onClick={() => setShow(true)}>
+      <Button variant="primary" id="cartButton" onClick={() => setShow(true)}>
         Modal
       </Button>
 
