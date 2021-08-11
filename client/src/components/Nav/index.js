@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Auth from "../../utils/auth";
 
+import Cart from "../Cart";
+import Modal from "../Modal";
+
 function Nav() {
   function showNavigation() {
     if (Auth.loggedIn()) {
@@ -44,6 +47,7 @@ function Nav() {
       </h1>
 
       <nav>{showNavigation()}</nav>
+      <Modal />
     </header>
   );
 }
