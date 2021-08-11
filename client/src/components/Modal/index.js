@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import Modal from "react-bootstrap/Modal";
+
 function Modal() {
   const [show, setShow] = useState(false);
 
