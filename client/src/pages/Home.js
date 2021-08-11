@@ -14,9 +14,7 @@ const Home = () => {
         <Col xs={8}>
           <CategoryMenu />
         </Col>
-        <Col xs={4}>
-          <Cart />
-        </Col>
+        <Col xs={4}>{/* <Cart /> */}</Col>
       </Row>
       <Row>
         <ProductList />
