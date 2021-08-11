@@ -13,6 +13,10 @@ import "./style.css";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
+const { idbPromise } = helpers;
+
+const stripePromise = loadStripe("pk_test_TYooMQauvdEDq54NiTphI7jx");
+
 function CartModal() {
   const [show, setShow] = useState(false);
 
