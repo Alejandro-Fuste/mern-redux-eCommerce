@@ -45,6 +45,29 @@ function CartModal() {
     }
   }, [state.cart.length, dispatch]);
 
+  function calculateTotal() {
+    let sum = 0;
+    state.cart.forEach((item) => {
+      sum += item.price * item.purchaseQuantity;
+    });
+    return sum.toFixed(2);
+  }
+
+  function submitCheckout() {
+    console.log("Checkout button clicked");
+    const productIds = [];
+
+    state.cart.forEach((item) => {
+      for (let i = 0; i < item.purchaseQuantity; i++) {
+        productIds.push(item._id);
+      }
+    });
+
+    getCheckout({
+      variables: { products: productIds },
+    });
+  }
+
   return (
     <>
       <Button variant="primary" onClick={() => setShow(true)}>
