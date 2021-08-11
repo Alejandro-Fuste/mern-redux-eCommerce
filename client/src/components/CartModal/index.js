@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
 function CartModal() {
@@ -8,7 +9,7 @@ function CartModal() {
   return (
     <>
       <Button variant="primary" onClick={() => setShow(true)}>
-        Custom Width Modal
+        Modal
       </Button>
 
       <Modal
