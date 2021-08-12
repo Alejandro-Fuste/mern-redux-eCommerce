@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Auth from "../../utils/auth";
-// import Cart from "../Cart";
 import CartModal from "../CartModal";
 import "./style.css";
 
