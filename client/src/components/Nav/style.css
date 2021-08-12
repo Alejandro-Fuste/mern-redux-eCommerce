@@ -1,3 +1,8 @@
 #navParent {
   display: block;
 }
+
+#basic-navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+}
