@@ -7,6 +7,9 @@ import "./style.css";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+
 function Navi() {
   function showNavigation() {
     if (Auth.loggedIn()) {
