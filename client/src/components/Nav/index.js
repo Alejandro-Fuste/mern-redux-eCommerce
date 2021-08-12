@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Auth from "../../utils/auth";
-import Cart from "../Cart";
+// import Cart from "../Cart";
 import CartModal from "../CartModal";
 
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-function Nav() {
+function nav() {
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
@@ -33,7 +33,7 @@ function Nav() {
 
   return (
     <Nav>
-      <Navbar expand="lg" variant="dark">
+      <Navbar expand="lg" variant="dark" bg="dark">
         <Navbar.Brand href="/">
           <span role="img" aria-label="shopping bag">
             🛍️
@@ -52,7 +52,7 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default nav;
 
 // {
 //   /* <header className="flex-row px-1">
