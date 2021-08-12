@@ -31,41 +31,43 @@ function Nav() {
   }
 
   return (
-    <Navbar expand="lg" variant="dark">
-      <Navbar.Brand href="/">
-        <span role="img" aria-label="shopping bag">
-          🛍️
-        </span>
-        -Shop-Shop
-      </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto">
-          {showNavigation()}
-          <CartModal />
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+    <Nav>
+      <Navbar expand="lg" variant="dark">
+        <Navbar.Brand href="/">
+          <span role="img" aria-label="shopping bag">
+            🛍️
+          </span>
+          -Shop-Shop
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ml-auto">
+            {showNavigation()}
+            <CartModal />
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    </Nav>
   );
 }
 
 export default Nav;
 
-{
-  /* <header className="flex-row px-1">
-      <h1>
-        <Link to="/">
-          <span role="img" aria-label="shopping bag">
-            🛍️
-          </span>
-          -Shop-Shop
-        </Link>
-      </h1>
+// {
+//   /* <header className="flex-row px-1">
+//       <h1>
+//         <Link to="/">
+//           <span role="img" aria-label="shopping bag">
+//             🛍️
+//           </span>
+//           -Shop-Shop
+//         </Link>
+//       </h1>
 
-      <nav>{showNavigation()}</nav>
-      <CartModal />
-    </header> */
-}
+//       <nav>{showNavigation()}</nav>
+//       <CartModal />
+//     </header> */
+// }
 
 // function showNavigation() {
 //   if (Auth.loggedIn()) {
