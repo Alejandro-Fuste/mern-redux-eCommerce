@@ -32,7 +32,7 @@ function Navi() {
   }
 
   return (
-    <Nav>
+    <Nav className="navParent">
       <Navbar expand="lg" variant="dark" bg="dark">
         <Navbar.Brand href="/">
           <span role="img" aria-label="shopping bag">
