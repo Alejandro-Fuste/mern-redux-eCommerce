@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Auth from "../../utils/auth";
 // import Cart from "../Cart";
 import CartModal from "../CartModal";
@@ -12,7 +12,7 @@ function Navi() {
     if (Auth.loggedIn()) {
       return (
         <>
-          <Nav.Link href="/orderHistory">Order History</Nav.Link>
+          <Link to="/orderHistory">Order History</Link>
 
           {/* this is not using the Link component to logout or user and then refresh the application to the start */}
           <a href="/" onClick={() => Auth.logout()}>
@@ -23,9 +23,9 @@ function Navi() {
     } else {
       return (
         <>
-          <Nav.Link href="/signup">Signup</Nav.Link>
+          <Link to="/signup">Signup</Link>
 
-          <Nav.Link href="/login">Login</Nav.Link>
+          <Link to="/login">Login</Link>
         </>
       );
     }
