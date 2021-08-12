@@ -8,7 +8,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import { faUserPlus, faSignInAlt } from "@fortawesome/free-solid-svg-icons";
 
 function Navi() {
   function showNavigation() {
@@ -29,11 +29,11 @@ function Navi() {
       return (
         <>
           <Link to="/signup" className="navbarLinks">
-            Signup
+            <FontAwesomeIcon icon={faUserPlus} /> Signup
           </Link>
 
           <Link to="/login" className="navbarLinks">
-            Login
+            <FontAwesomeIcon icon={faSignInAlt} /> Login
           </Link>
         </>
       );
