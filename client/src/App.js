@@ -47,7 +47,7 @@ function App() {
       <Router>
         <div>
           <Provider store={store}>
-            <Container fluid>
+            <Container fluid style={{ padding: "0px" }}>
               <Nav />
               <Switch>
                 <Route exact path="/" component={Home} />
