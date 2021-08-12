@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Auth from "../../utils/auth";
 // import Cart from "../Cart";
 import CartModal from "../CartModal";
@@ -7,7 +7,7 @@ import CartModal from "../CartModal";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-function nav() {
+function Navi() {
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
@@ -52,7 +52,7 @@ function nav() {
   );
 }
 
-export default nav;
+export default Navi;
 
 // {
 //   /* <header className="flex-row px-1">
