@@ -4,6 +4,7 @@ import Auth from "../../utils/auth";
 import Cart from "../Cart";
 import CartModal from "../CartModal";
 
+import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 function Nav() {
