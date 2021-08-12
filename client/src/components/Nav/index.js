@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Auth from "../../utils/auth";
 // import Cart from "../Cart";
 import CartModal from "../CartModal";
+import "./style.css";
 
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -32,7 +33,7 @@ function Navi() {
   }
 
   return (
-    <Nav style={{ display: "block" }}>
+    <Nav id="navParent">
       <Navbar expand="lg" variant="dark" bg="dark">
         <Navbar.Brand href="/">
           <span role="img" aria-label="shopping bag">
