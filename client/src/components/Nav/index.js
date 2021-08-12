@@ -13,10 +13,12 @@ function Navi() {
     if (Auth.loggedIn()) {
       return (
         <>
-          <Link to="/orderHistory">Order History</Link>
+          <Link to="/orderHistory" className="navbarLinks">
+            Order History
+          </Link>
 
           {/* this is not using the Link component to logout or user and then refresh the application to the start */}
-          <a href="/" onClick={() => Auth.logout()}>
+          <a href="/" onClick={() => Auth.logout()} className="navbarLinks">
             Logout
           </a>
         </>
@@ -24,9 +26,13 @@ function Navi() {
     } else {
       return (
         <>
-          <Link to="/signup">Signup</Link>
+          <Link to="/signup" className="navbarLinks">
+            Signup
+          </Link>
 
-          <Link to="/login">Login</Link>
+          <Link to="/login" className="navbarLinks">
+            Login
+          </Link>
         </>
       );
     }
