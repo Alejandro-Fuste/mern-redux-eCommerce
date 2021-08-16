@@ -48,7 +48,7 @@ function Navi() {
           <span role="img" aria-label="shopping bag">
             <img src={Logo} alt="logo" id="logo" />
           </span>
-          -Shop-Shop
+          A-Shop
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
