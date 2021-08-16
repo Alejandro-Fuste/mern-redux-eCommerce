@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Auth from "../../utils/auth";
 import CartModal from "../CartModal";
-import Logo from "../../../public/logo.svg";
+import Logo from "../../assets/logo.svg";
 import "./style.css";
 
 import Nav from "react-bootstrap/Nav";
@@ -46,7 +46,7 @@ function Navi() {
       <Navbar expand="lg" variant="dark" bg="dark">
         <Navbar.Brand href="/">
           <span role="img" aria-label="shopping bag">
-            🛍️
+            <img src={Logo} alt="logo" id="logo" />
           </span>
           -Shop-Shop
         </Navbar.Brand>
