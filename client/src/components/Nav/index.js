@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Auth from "../../utils/auth";
 import CartModal from "../CartModal";
+import Logo from "../../../public/logo.svg";
 import "./style.css";
 
 import Nav from "react-bootstrap/Nav";
