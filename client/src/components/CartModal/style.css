@@ -1,16 +1,40 @@
 #cartButton {
   border-radius: 50%;
   padding: 1rem;
-  height: 10vh;
+  height: 8vh;
   color: #000;
   background-color: #f1a138;
   border-color: #f1a138;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   #cartButton {
     width: 15vw;
     height: 8vh;
     margin: auto;
   }
 }
+
+/* @media screen and (min-width: 200px) {
+  #cartButton {
+    width: 15vw;
+    height: 8vh;
+    margin: auto;
+  }
+} */
+
+/* @media screen and (max-width: 900px) {
+  #cartButton {
+    width: 15vw;
+    height: 8vh;
+    margin: auto;
+  }
+} */
+
+/* @media screen and (max-width: 1100px) {
+  #cartButton {
+    width: 15vw;
+    height: 8vh;
+    margin: auto;
+  }
+} */

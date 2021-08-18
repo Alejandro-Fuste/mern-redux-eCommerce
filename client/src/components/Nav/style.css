@@ -29,7 +29,7 @@ span[role="img"] {
   margin: 0 2vw 0 4vw;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   #basic-navbar-nav {
     margin-right: 0px;
   }
@@ -40,7 +40,7 @@ span[role="img"] {
   }
 }
 
-@media screen and (min-width: 700px) {
+/* @media screen and (max-width: 900px) {
   #basic-navbar-nav {
     margin-right: 0px;
   }
@@ -49,4 +49,15 @@ span[role="img"] {
     margin: 2vh 4vw 0px 0px;
     border-top: 2px solid grey;
   }
-}
+} */
+
+/* @media screen and (min-width: 700px) {
+  #basic-navbar-nav {
+    margin-right: 0px;
+  }
+
+  .navbar-nav {
+    margin: 2vh 4vw 0px 0px;
+    border-top: 2px solid grey;
+  }
+} */
