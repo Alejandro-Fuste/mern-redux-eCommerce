@@ -6,3 +6,15 @@
   background-color: #f1a138;
   border-color: #f1a138;
 }
+
+@media screen and (max-width: 480px) {
+  #cartButton {
+    width: 15vw;
+    height: 8vh;
+    margin: auto;
+  }
+
+  #basic-navbar-nav {
+    margin-right: 0px;
+  }
+}
