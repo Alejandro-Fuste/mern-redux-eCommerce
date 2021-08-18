@@ -18,7 +18,7 @@
 }
 
 .navbar-collapse {
-  margin-left: 4vw;
+  margin: 0px 0px 0px 4vw;
 }
 
 svg {
@@ -32,5 +32,10 @@ span[role="img"] {
 @media screen and (max-width: 480px) {
   #basic-navbar-nav {
     margin-right: 0px;
+  }
+
+  .navbar-nav {
+    margin: 2vh 4vw 0px 0px;
+    border-top: 2px solid grey;
   }
 }
