@@ -223,6 +223,15 @@ input:focus {
   height: 80vh;
 }
 
+form {
+  width: 40%;
+  margin: 20px;
+}
+
+.loginH2 {
+  margin-bottom: 1.5rem;
+}
+
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
