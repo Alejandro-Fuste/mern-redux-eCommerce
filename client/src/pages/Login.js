@@ -38,7 +38,9 @@ function Login(props) {
   return (
     <Container id="loginContainer">
       <Row id="loginRow">
-        <Col sm={10}>Test Column</Col>
+        <Col sm={10} id="loginCol">
+          <span>Test Column</span>
+        </Col>
       </Row>
     </Container>
 
