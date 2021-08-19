@@ -38,7 +38,7 @@ function Login(props) {
   return (
     <Container>
       <Row>
-        <Col></Col>
+        <Col sm={10}>Test Column</Col>
       </Row>
     </Container>
 
