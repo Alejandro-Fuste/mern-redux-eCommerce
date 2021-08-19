@@ -66,7 +66,13 @@ function Login(props) {
                 onChange={handleChange}
               />
             </Form.Group>
-
+            {error ? (
+              <div>
+                <p className="error-text">
+                  The provided credentials are incorrect
+                </p>
+              </div>
+            ) : null}
             <Button variant="primary" type="submit">
               Log In
             </Button>
