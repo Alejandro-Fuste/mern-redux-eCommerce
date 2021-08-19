@@ -150,6 +150,10 @@ input:focus {
   flex-wrap: wrap;
 }
 
+#loginRow {
+  justify-content: center;
+}
+
 .space-between {
   justify-content: space-between;
 }
