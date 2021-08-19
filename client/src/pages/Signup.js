@@ -40,7 +40,7 @@ function Signup(props) {
     <Container id="signUpContainer">
       <Row id="signUpRow">
         <Col sm={10} id="signUpCol">
-          <Form>
+          <Form onSubmit={handleFormSubmit}>
             <h2 className="loginH2">Sign Up</h2>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
@@ -55,7 +55,7 @@ function Signup(props) {
               <Form.Control type="password" placeholder="Password" />
             </Form.Group>
 
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" className="formButton">
               Sign Up
             </Button>
           </Form>
