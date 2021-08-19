@@ -73,7 +73,7 @@ function Login(props) {
                 </p>
               </div>
             ) : null}
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" className="formButton">
               Log In
             </Button>
           </Form>

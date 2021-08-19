@@ -236,6 +236,11 @@ form {
   margin-bottom: 1.5rem;
 }
 
+form .formButton {
+  padding: 0.6rem 2.6rem;
+  font-size: 1.1rem;
+}
+
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
