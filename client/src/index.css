@@ -223,10 +223,6 @@ input:focus {
   height: 100vh;
 }
 
-.headerBackGround {
-  background-color: white;
-}
-
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
