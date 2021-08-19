@@ -41,7 +41,7 @@ function Signup(props) {
       <Row id="signUpRow">
         <Col sm={10} id="signUpCol">
           <Form>
-            <h2>Sign Up</h2>
+            <h2 className="loginH2">Sign Up</h2>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
               <Form.Control type="email" placeholder="Enter email" />
