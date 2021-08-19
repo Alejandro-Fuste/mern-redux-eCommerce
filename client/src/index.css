@@ -141,7 +141,8 @@ input:focus {
   margin-right: auto;
 }
 
-#loginContainer {
+#loginContainer,
+#signUpContainer {
   height: 100vh;
 }
 
@@ -150,11 +151,13 @@ input:focus {
   flex-wrap: wrap;
 }
 
-#loginRow {
+#loginRow,
+#signUpRow {
   justify-content: center;
 }
 
-#loginCol {
+#loginCol,
+#signUpCol {
   display: flex;
   justify-content: center;
   align-items: center;
