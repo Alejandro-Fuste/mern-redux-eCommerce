@@ -228,6 +228,10 @@ form {
   margin: 20px;
 }
 
+.form-control {
+  margin-bottom: 1rem;
+}
+
 .loginH2 {
   margin-bottom: 1.5rem;
 }
