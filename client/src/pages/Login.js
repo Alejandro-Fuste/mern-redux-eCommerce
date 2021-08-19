@@ -41,7 +41,7 @@ function Login(props) {
       <Row id="loginRow">
         <Col sm={10} id="loginCol">
           <Form onSubmit={handleFormSubmit}>
-            <h2>Login</h2>
+            <h2 className="loginH2">Login</h2>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
               <Form.Control
