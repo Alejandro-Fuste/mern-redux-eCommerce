@@ -36,6 +36,14 @@ function Signup(props) {
   };
 
   return (
+    <Container id="loginContainer">
+      <Row id="loginRow">
+        <Col sm={10} id="loginCol">
+          <span>Test Column</span>
+        </Col>
+      </Row>
+    </Container>
+
     // <div className="container my-1">
     //   <Link to="/login">← Go to Login</Link>
 
