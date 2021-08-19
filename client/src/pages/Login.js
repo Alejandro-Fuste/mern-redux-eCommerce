@@ -41,7 +41,7 @@ function Login(props) {
       <Row id="loginRow">
         <Col sm={10} id="loginCol">
           <Form>
-            <header id="loginBackGround">
+            <header className="headerBackGround">
               <span>A-Shop</span>
             </header>
             <Form.Group className="mb-3" controlId="formBasicEmail">

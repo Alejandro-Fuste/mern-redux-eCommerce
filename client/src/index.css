@@ -223,7 +223,7 @@ input:focus {
   height: 100vh;
 }
 
-#loginBackGround {
+.headerBackGround {
   background-color: white;
 }
 
