@@ -36,9 +36,9 @@ function Signup(props) {
   };
 
   return (
-    <Container id="loginContainer">
-      <Row id="loginRow">
-        <Col sm={10} id="loginCol">
+    <Container id="signUpContainer">
+      <Row id="signUpRow">
+        <Col sm={10} id="signUpCol">
           <span>Test Column</span>
         </Col>
       </Row>
