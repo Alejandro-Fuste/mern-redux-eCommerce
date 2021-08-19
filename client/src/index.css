@@ -141,6 +141,10 @@ input:focus {
   margin-right: auto;
 }
 
+#loginContainer {
+  height: 100vh;
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
