@@ -141,27 +141,9 @@ input:focus {
   margin-right: auto;
 }
 
-#loginContainer,
-#signUpContainer {
-  height: 100vh;
-}
-
 .flex-row {
   display: flex;
   flex-wrap: wrap;
-}
-
-#loginRow,
-#signUpRow {
-  justify-content: center;
-}
-
-#loginCol,
-#signUpCol {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 
 .space-between {
@@ -219,6 +201,30 @@ input:focus {
 
 .error-text {
   color: var(--error);
+}
+
+/* ****** My CSS Styling ***** */
+
+#loginContainer,
+#signUpContainer {
+  height: 100vh;
+}
+
+#loginRow,
+#signUpRow {
+  justify-content: center;
+}
+
+#loginCol,
+#signUpCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#loginBackGround {
+  background-color: white;
 }
 
 @media screen and (max-width: 768px) {
