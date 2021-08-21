@@ -9,7 +9,12 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUserPlus, faSignInAlt } from "@fortawesome/free-solid-svg-icons";
+import {
+  faUserPlus,
+  faSignInAlt,
+  faHistory,
+  faSignOutAlt,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Navi() {
   function showNavigation() {
@@ -17,12 +22,12 @@ function Navi() {
       return (
         <>
           <Link to="/orderHistory" className="navbarLinks">
-            Order History
+            <FontAwesomeIcon icon={faHistory} /> Order History
           </Link>
 
           {/* this is not using the Link component to logout or user and then refresh the application to the start */}
           <a href="/" onClick={() => Auth.logout()} className="navbarLinks">
-            Logout
+            <FontAwesomeIcon icon={faSignOutAlt} /> Logout
           </a>
         </>
       );
