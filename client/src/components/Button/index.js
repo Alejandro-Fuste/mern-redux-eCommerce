@@ -1,7 +1,12 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
 
 function CustomButton() {
-  return <div></div>;
+  return (
+    <>
+      <Button></Button>
+    </>
+  );
 }
 
 export default CustomButton;
