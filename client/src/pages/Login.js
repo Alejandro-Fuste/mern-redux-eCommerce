@@ -7,7 +7,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
+
+import Button from "../components/Button";
 
 function Login(props) {
   const [formState, setFormState] = useState({ email: "", password: "" });
@@ -72,9 +74,14 @@ function Login(props) {
                 </p>
               </div>
             ) : null}
-            <Button variant="primary" type="submit" className="formButton">
+            <Button
+              name="Log In"
+              type="submit"
+              nameForClass="formButton"
+            ></Button>
+            {/* <Button variant="primary" type="submit" className="formButton">
               Log In
-            </Button>
+            </Button> */}
           </Form>
         </Col>
       </Row>
