@@ -55,7 +55,6 @@ function ProductItem(item) {
         nameForClass="formButton"
         onClick={addToCart}
       ></Button>
-      {/* <button onClick={addToCart}>Add to Cart</button> */}
     </div>
   );
 }
