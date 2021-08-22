@@ -11,10 +11,9 @@ const Home = () => {
   return (
     <Container>
       <Row>
-        <Col xs={8}>
+        <Col xs={12}>
           <CategoryMenu />
         </Col>
-        <Col xs={4}>{/* <Cart /> */}</Col>
       </Row>
       <Row>
         <ProductList />
