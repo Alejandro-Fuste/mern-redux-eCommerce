@@ -49,7 +49,13 @@ function ProductItem(item) {
         </div>
         <span>${price}</span>
       </div>
-      <button onClick={addToCart}>Add to Cart</button>
+      <Button
+        name="Add to Cart"
+        type="submit"
+        nameForClass="formButton"
+        onClick={addToCart}
+      ></Button>
+      {/* <button onClick={addToCart}>Add to Cart</button> */}
     </div>
   );
 }
