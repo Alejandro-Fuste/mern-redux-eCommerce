@@ -53,7 +53,7 @@ function CategoryMenu() {
         <Button
           key={item._id}
           type="submit"
-          id="cardButton"
+          id="catergoryButton"
           onClick={() => {
             handleClick(item._id);
           }}
