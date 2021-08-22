@@ -87,10 +87,15 @@ function Signup(props) {
                 onChange={handleChange}
               />
             </Form.Group>
+            <Button
+              name="Sign Up"
+              type="submit"
+              nameForClass="formButton"
+            ></Button>
 
-            <Button variant="primary" type="submit" className="formButton">
+            {/* <Button variant="primary" type="submit" className="formButton">
               Sign Up
-            </Button>
+            </Button> */}
           </Form>
         </Col>
       </Row>
