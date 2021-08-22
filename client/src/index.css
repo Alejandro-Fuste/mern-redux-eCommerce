@@ -240,7 +240,8 @@ form .form-label {
   margin-bottom: 1.5rem;
 }
 
-form .formButton {
+form .formButton,
+#cardButton {
   padding: 0.6rem 2.6rem;
   font-size: 1.1rem;
   background-color: var(--secondary);
