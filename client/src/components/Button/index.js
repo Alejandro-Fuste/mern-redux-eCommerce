@@ -1,10 +1,11 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 
-function CustomButton({ name, type, nameForClass, id, onClick }) {
+function CustomButton({ name, key, type, nameForClass, id, onClick }) {
   return (
     <>
       <Button
+        key={key}
         variant="primary"
         type={type}
         className={nameForClass}
