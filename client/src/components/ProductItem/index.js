@@ -4,6 +4,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { ADD_TO_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
 import helpers from "../../utils/helpers";
 
+import Button from "../Button";
+
 const { idbPromise, pluralize } = helpers;
 
 function ProductItem(item) {
