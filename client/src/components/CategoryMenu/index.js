@@ -69,6 +69,14 @@ function CategoryMenu() {
         //   {item.name}
         // </button>
       ))}
+      <Button
+        name="All"
+        type="button"
+        id="catergoryButton"
+        onClick={() => {
+          handleClick("");
+        }}
+      />
     </div>
   );
 }
