@@ -79,10 +79,7 @@ function Login(props) {
               type="submit"
               nameForClass="formButton"
             ></Button>
-            {/* <Button variant="primary" type="submit" className="formButton">
-              Log In
-            </Button> */}
-          </Form>
+            
         </Col>
       </Row>
     </Container>
