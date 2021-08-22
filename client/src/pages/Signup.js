@@ -7,7 +7,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
-// import Button from "react-bootstrap/Button";
 
 import Button from "../components/Button";
 
@@ -92,10 +91,6 @@ function Signup(props) {
               type="submit"
               nameForClass="formButton"
             ></Button>
-
-            {/* <Button variant="primary" type="submit" className="formButton">
-              Sign Up
-            </Button> */}
           </Form>
         </Col>
       </Row>
