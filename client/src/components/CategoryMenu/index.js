@@ -52,14 +52,13 @@ function CategoryMenu() {
       {categories.map((item) => (
         <Button
           key={item._id}
+          name={item.name}
           type="submit"
           id="catergoryButton"
           onClick={() => {
             handleClick(item._id);
           }}
-        >
-          {item.name}
-        </Button>
+        />
 
         // <button
         //   key={item._id}
