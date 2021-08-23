@@ -4,7 +4,10 @@ import { useDispatch, useSelector } from "react-redux";
 import { ADD_TO_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
 import helpers from "../../utils/helpers";
 import Button from "../Button";
+
 import Toast from "react-bootstrap/Toast";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 const { idbPromise, pluralize } = helpers;
 
@@ -39,24 +42,49 @@ function ProductItem(item) {
   };
 
   return (
-    <div className="card px-1 py-1">
-      <Link to={`/products/${_id}`}>
-        <img alt={name} src={`/images/${image}`} />
-        <p>{name}</p>
-      </Link>
-      <div>
+    <>
+      <div className="card px-1 py-1">
+        <Link to={`/products/${_id}`}>
+          <img alt={name} src={`/images/${image}`} />
+          <p>{name}</p>
+        </Link>
         <div>
-          {quantity} {pluralize("item", quantity)} in stock
+          <div>
+            {quantity} {pluralize("item", quantity)} in stock
+          </div>
+          <span>${price}</span>
         </div>
-        <span>${price}</span>
+        <Button
+          name="Add to Cart"
+          type="submit"
+          id="cardButton"
+          onClick={addToCart}
+        ></Button>
       </div>
-      <Button
-        name="Add to Cart"
-        type="submit"
-        id="cardButton"
-        onClick={addToCart}
-      ></Button>
-    </div>
+      <Row>
+        <Col xs={6}>
+          <Toast
+            onClose={() => setShow(false)}
+            show={show}
+            delay={3000}
+            autohide
+          >
+            <Toast.Header>
+              <img
+                src="../../assets/logo.svg"
+                className="rounded me-2"
+                alt=""
+              />
+              <strong className="me-auto">A-Shop</strong>
+            </Toast.Header>
+            <Toast.Body>Oh snap! You added an item to your cart!</Toast.Body>
+          </Toast>
+        </Col>
+        {/* <Col xs={6}>
+          <Button onClick={() => setShow(true)}>Show Toast</Button>
+        </Col> */}
+      </Row>
+    </>
   );
 }
 
