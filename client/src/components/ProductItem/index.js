@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { ADD_TO_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
 import helpers from "../../utils/helpers";
 import Button from "../Button";
-import Alert from "../Alert";
 
 const { idbPromise, pluralize } = helpers;
 
