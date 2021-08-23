@@ -6,9 +6,7 @@ import helpers from "../../utils/helpers";
 import Button from "../Button";
 import Logo from "../../assets/logo.svg";
 
-import Toast from "react-bootstrap/Toast";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import Modal from "react-bootstrap/Modal";
 
 const { idbPromise, pluralize } = helpers;
 
@@ -69,8 +67,8 @@ function ProductItem(item) {
           <Toast
             onClose={() => setShow(false)}
             show={show}
-            delay={3000}
-            autohide
+            // delay={3000}
+            // autohide
           >
             <Toast.Header>
               <img src={Logo} className="rounded me-2" alt="logo" />
