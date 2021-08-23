@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { ADD_TO_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
 import helpers from "../../utils/helpers";
 import Button from "../Button";
+import Logo from "../../assets/logo.svg";
 
 import Toast from "react-bootstrap/Toast";
 import Row from "react-bootstrap/Row";
@@ -72,11 +73,7 @@ function ProductItem(item) {
             autohide
           >
             <Toast.Header>
-              <img
-                src="../../assets/logo.svg"
-                className="rounded me-2"
-                alt=""
-              />
+              <img src={Logo} className="rounded me-2" alt="logo" />
               <strong className="me-auto">A-Shop</strong>
             </Toast.Header>
             <Toast.Body>Oh snap! You added an item to your cart!</Toast.Body>
