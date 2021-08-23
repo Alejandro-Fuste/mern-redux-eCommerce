@@ -59,15 +59,6 @@ function CategoryMenu() {
             handleClick(item._id);
           }}
         />
-
-        // <button
-        //   key={item._id}
-        //   onClick={() => {
-        //     handleClick(item._id);
-        //   }}
-        // >
-        //   {item.name}
-        // </button>
       ))}
       <Button
         name="All"

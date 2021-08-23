@@ -5,7 +5,6 @@ function CustomButton({ name, type, nameForClass, id, onClick }) {
   return (
     <>
       <Button
-        // key={key}
         variant="primary"
         type={type}
         className={nameForClass}
