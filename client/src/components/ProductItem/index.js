@@ -8,6 +8,7 @@ import Button from "../Button";
 const { idbPromise, pluralize } = helpers;
 
 function ProductItem(item) {
+  const [show, setShow] = useState(false);
   const dispatch = useDispatch();
   const state = useSelector((state) => state);
 
