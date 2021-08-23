@@ -38,6 +38,7 @@ function ProductItem(item) {
         product: { ...item, purchaseQuantity: 1 },
       });
       idbPromise("cart", "put", { ...item, purchaseQuantity: 1 });
+      setShow(true);
     }
   };
 
