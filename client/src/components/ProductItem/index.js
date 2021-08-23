@@ -32,6 +32,7 @@ function ProductItem(item) {
         ...itemInCart,
         purchaseQuantity: parseInt(itemInCart.purchaseQuantity) + 1,
       });
+      setShow(true);
     } else {
       dispatch({
         type: ADD_TO_CART,
