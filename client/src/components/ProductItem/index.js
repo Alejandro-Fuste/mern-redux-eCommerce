@@ -62,25 +62,22 @@ function ProductItem(item) {
           onClick={addToCart}
         ></Button>
       </div>
-      <Row>
-        <Col xs={6}>
-          <Toast
-            onClose={() => setShow(false)}
-            show={show}
-            // delay={3000}
-            // autohide
-          >
-            <Toast.Header>
-              <img src={Logo} className="rounded me-2" alt="logo" />
-              <strong className="me-auto">A-Shop</strong>
-            </Toast.Header>
-            <Toast.Body>Oh snap! You added an item to your cart!</Toast.Body>
-          </Toast>
-        </Col>
-        {/* <Col xs={6}>
-          <Button onClick={() => setShow(true)}>Show Toast</Button>
-        </Col> */}
-      </Row>
+      <Modal
+        show={show}
+        onHide={() => setShow(false)}
+        dialogClassName="modal-50w"
+        aria-labelledby="example-custom-modal-styling-title"
+      >
+        <Modal.Header closeButton>
+          <img src={Logo} alt="logo" />
+          <Modal.Title id="example-custom-modal-styling-title">
+            A-Shop
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p>Oh snap! You added an item to your cart!</p>
+        </Modal.Body>
+      </Modal>
     </>
   );
 }
