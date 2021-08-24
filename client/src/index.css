@@ -245,7 +245,7 @@ form .formButton,
   border-radius: 30px;
 }
 
-.my-2 {
+#my-2 {
   margin-top: 1rem;
   margin-bottom: var(--spacing-two);
 }
