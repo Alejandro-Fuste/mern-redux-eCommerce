@@ -189,17 +189,13 @@ input:focus {
   padding-bottom: var(--spacing-two);
 }
 
-.card {
-  width: 21%;
-  text-align: center;
-  margin: 2%;
-}
-
 .error-text {
   color: var(--error);
 }
 
-/* ****** My CSS Styling ***** */
+/* ***************** My CSS Styling ***************** */
+
+/* Login and Sigup */
 
 #loginContainer,
 #signUpContainer {
@@ -246,6 +242,8 @@ form .formButton,
   color: black;
 }
 
+/* Category Button */
+
 #catergoryButton {
   padding: 0.5rem 2rem;
   margin: 10px;
@@ -256,6 +254,16 @@ form .formButton,
   margin-top: 1rem;
   margin-bottom: var(--spacing-two);
 }
+
+/* Product Cards */
+
+.card {
+  width: 21%;
+  text-align: center;
+  margin: 2%;
+}
+
+/* Media Queries */
 
 @media screen and (max-width: 768px) {
   .card {
