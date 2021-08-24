@@ -42,7 +42,7 @@ function Login(props) {
         <Col sm={10} id="loginCol">
           <Form onSubmit={handleFormSubmit}>
             <h2 className="loginH2">Login</h2>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3">
               <Form.Label>Email address</Form.Label>
               <Form.Control
                 type="email"
@@ -56,7 +56,7 @@ function Login(props) {
               </Form.Text>
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Group className="mb-3">
               <Form.Label>Password</Form.Label>
               <Form.Control
                 type="password"
