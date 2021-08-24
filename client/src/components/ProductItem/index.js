@@ -8,6 +8,8 @@ import Logo from "../../assets/logo.svg";
 
 import Card from "react-bootstrap/Card";
 import Modal from "react-bootstrap/Modal";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 const { idbPromise, pluralize } = helpers;
 
