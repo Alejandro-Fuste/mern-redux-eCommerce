@@ -261,7 +261,7 @@ form .formButton,
 .card {
   width: 21%;
   text-align: center;
-  margin: 2%;
+  margin: 1% 2% 2% 2%;
 }
 
 /* Media Queries */
