@@ -1,7 +1,7 @@
 import React from "react";
 import Modal from "react-bootstrap/Modal";
 
-function modal() {
+function modal({ nameForClass, logo, title, message }) {
   return (
     <>
       <Modal
@@ -12,13 +12,13 @@ function modal() {
         centered
       >
         <Modal.Header closeButton>
-          <img src={Logo} alt="logo" />
+          <img src={logo} alt="logo" />
           <Modal.Title id="example-custom-modal-styling-title">
-            A-Shop
+            {title}
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p>Oh snap! You added an item to your cart!</p>
+          <p>Oh snap! You added an item to your cart!{message}</p>
         </Modal.Body>
       </Modal>
     </>
