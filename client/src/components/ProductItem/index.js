@@ -67,6 +67,7 @@ function ProductItem(item) {
         onHide={() => setShow(false)}
         dialogClassName="modal-50w"
         aria-labelledby="example-custom-modal-styling-title"
+        centered
       >
         <Modal.Header closeButton>
           <img src={Logo} alt="logo" />
