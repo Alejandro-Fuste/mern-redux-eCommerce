@@ -141,11 +141,6 @@ input:focus {
   margin-right: auto;
 }
 
-.flex-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .space-between {
   justify-content: space-between;
 }
@@ -256,6 +251,12 @@ form .formButton,
 }
 
 /* Product Cards */
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .card {
   width: 21%;
