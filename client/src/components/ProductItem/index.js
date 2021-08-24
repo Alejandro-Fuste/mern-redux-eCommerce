@@ -50,14 +50,26 @@ function ProductItem(item) {
       <Card>
         <Card.Img variant="top" alt={name} src={`/images/${image}`} />
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>
+            <Link to={`/products/${_id}`}>{name}</Link>
+          </Card.Title>
           <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
+            <div>
+              <div>
+                {quantity} {pluralize("item", quantity)} in stock
+              </div>
+              <span>${price}</span>
+            </div>
           </Card.Text>
+          <Button
+            name="Add to Cart"
+            type="submit"
+            id="cardButton"
+            onClick={addToCart}
+          ></Button>
         </Card.Body>
       </Card>
-      <div className="card px-1 py-1">
+      {/* <div className="card px-1 py-1">
         <Link to={`/products/${_id}`}>
           <img alt={name} src={`/images/${image}`} />
           <p>{name}</p>
@@ -74,7 +86,7 @@ function ProductItem(item) {
           id="cardButton"
           onClick={addToCart}
         ></Button>
-      </div>
+      </div> */}
       <Modal
         show={show}
         onHide={() => setShow(false)}
