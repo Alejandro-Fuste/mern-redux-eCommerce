@@ -11,7 +11,6 @@ import {
   UPDATE_PRODUCTS,
 } from "../utils/actions";
 import { QUERY_PRODUCTS } from "../utils/queries";
-// import { idbPromise } from "../utils/helpers";
 import helpers from "../utils/helpers";
 import spinner from "../assets/spinner.gif";
 
