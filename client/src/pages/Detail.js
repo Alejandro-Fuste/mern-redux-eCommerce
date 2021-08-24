@@ -3,7 +3,6 @@ import { Link, useParams } from "react-router-dom";
 import { useQuery } from "@apollo/client";
 import { useDispatch, useSelector } from "react-redux";
 
-import Cart from "../components/Cart";
 import {
   REMOVE_FROM_CART,
   UPDATE_CART_QUANTITY,
@@ -110,7 +109,6 @@ function Detail() {
         </div>
       ) : null}
       {loading ? <img src={spinner} alt="loading" /> : null}
-      <Cart />
     </>
   );
 }
