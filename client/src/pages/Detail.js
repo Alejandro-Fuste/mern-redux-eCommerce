@@ -11,6 +11,7 @@ import {
 import { QUERY_PRODUCTS } from "../utils/queries";
 import helpers from "../utils/helpers";
 import spinner from "../assets/spinner.gif";
+import Logo from "../assets/logo.svg";
 import Modal from "../components/Modal";
 
 const { idbPromise } = helpers;
@@ -109,6 +110,14 @@ function Detail() {
         </div>
       ) : null}
       {loading ? <img src={spinner} alt="loading" /> : null}
+      <Modal
+        show={show}
+        onHide={() => setShow(false)}
+        nameForClass="modal-50w"
+        logo={Logo}
+        title="A-Shop"
+        message="Oh snap! You added an item to your cart!"
+      />
     </>
   );
 }
