@@ -5,6 +5,7 @@ import { ADD_TO_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
 import helpers from "../../utils/helpers";
 import Button from "../Button";
 import Logo from "../../assets/logo.svg";
+import "./style.css";
 
 import Card from "react-bootstrap/Card";
 import Modal from "react-bootstrap/Modal";
