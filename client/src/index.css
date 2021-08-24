@@ -266,8 +266,19 @@ form .formButton,
 
 /* Media Queries */
 
+/* ------------- iPad ------------- */
+
 @media screen and (max-width: 768px) {
   .card {
     width: 40%;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .card {
+    width: 93%;
   }
 }
