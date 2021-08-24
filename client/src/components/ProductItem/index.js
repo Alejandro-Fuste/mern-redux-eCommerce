@@ -6,6 +6,7 @@ import helpers from "../../utils/helpers";
 import Button from "../Button";
 import Logo from "../../assets/logo.svg";
 
+import Card from "react-bootstrap/Card";
 import Modal from "react-bootstrap/Modal";
 
 const { idbPromise, pluralize } = helpers;
