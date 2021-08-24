@@ -8,6 +8,9 @@ import { QUERY_PRODUCTS } from "../../utils/queries";
 import helpers from "../../utils/helpers";
 import spinner from "../../assets/spinner.gif";
 
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
 const { idbPromise } = helpers;
 
 function ProductList() {
