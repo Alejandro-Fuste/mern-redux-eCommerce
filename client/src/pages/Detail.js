@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useQuery } from "@apollo/client";
 import { useDispatch, useSelector } from "react-redux";
-
 import {
   REMOVE_FROM_CART,
   UPDATE_CART_QUANTITY,
@@ -12,6 +11,7 @@ import {
 import { QUERY_PRODUCTS } from "../utils/queries";
 import helpers from "../utils/helpers";
 import spinner from "../assets/spinner.gif";
+import Modal from "../components/Modal";
 
 const { idbPromise } = helpers;
 
