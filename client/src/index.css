@@ -169,11 +169,6 @@ input:focus {
   margin-bottom: var(--spacing-one);
 }
 
-.my-2 {
-  margin-top: var(--spacing-two);
-  margin-bottom: var(--spacing-two);
-}
-
 .px-1 {
   padding-right: var(--spacing-one);
   padding-left: var(--spacing-one);
@@ -195,8 +190,9 @@ input:focus {
 }
 
 .card {
-  width: 25%;
+  width: 21%;
   text-align: center;
+  margin: 2%;
 }
 
 .error-text {
@@ -254,6 +250,11 @@ form .formButton,
   padding: 0.5rem 2rem;
   margin: 10px;
   border-radius: 30px;
+}
+
+.my-2 {
+  margin-top: 1rem;
+  margin-bottom: var(--spacing-two);
 }
 
 @media screen and (max-width: 768px) {
