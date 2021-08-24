@@ -7,8 +7,8 @@ import {
 } from "../../utils/actions";
 import { QUERY_CATEGORIES } from "../../utils/queries";
 import helpers from "../../utils/helpers";
-
 import Button from "../Button";
+import "./style.css";
 
 const { idbPromise } = helpers;
 
