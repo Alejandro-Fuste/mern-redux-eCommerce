@@ -67,24 +67,6 @@ function ProductItem(item) {
           ></Button>
         </Card.Body>
       </Card>
-      {/* <div className="card px-1 py-1">
-        <Link to={`/products/${_id}`}>
-          <img alt={name} src={`/images/${image}`} />
-          <p>{name}</p>
-        </Link>
-        <div>
-          <div>
-            {quantity} {pluralize("item", quantity)} in stock
-          </div>
-          <span>${price}</span>
-        </div>
-        <Button
-          name="Add to Cart"
-          type="submit"
-          id="cardButton"
-          onClick={addToCart}
-        ></Button>
-      </div> */}
       <Modal
         show={show}
         onHide={() => setShow(false)}

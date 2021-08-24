@@ -8,9 +8,6 @@ import { QUERY_PRODUCTS } from "../../utils/queries";
 import helpers from "../../utils/helpers";
 import spinner from "../../assets/spinner.gif";
 
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-
 const { idbPromise } = helpers;
 
 function ProductList() {
@@ -51,39 +48,27 @@ function ProductList() {
   }
 
   return (
-    <>
-      <Row xs={1} md={2} className="g-4">
-        <h2>Our Products:</h2>
-        {state.products.length ? (
-          <div className="flex-row">
-            {filterProducts().map((product) => (
-              <ProductItem
-                key={product._id}
-                _id={product._id}
-                image={product.image}
-                name={product.name}
-                price={product.price}
-                quantity={product.quantity}
-              />
-            ))}
-          </div>
-        ) : (
-          <h3>You haven't added any products yet!</h3>
-        )}
-        {loading ? <img src={spinner} alt="loading" /> : null}
-      </Row>
-    </>
+    <div className="my-2">
+      <h2>Our Products:</h2>
+      {state.products.length ? (
+        <div className="flex-row">
+          {filterProducts().map((product) => (
+            <ProductItem
+              key={product._id}
+              _id={product._id}
+              image={product.image}
+              name={product.name}
+              price={product.price}
+              quantity={product.quantity}
+            />
+          ))}
+        </div>
+      ) : (
+        <h3>You haven't added any products yet!</h3>
+      )}
+      {loading ? <img src={spinner} alt="loading" /> : null}
+    </div>
   );
 }
 
 export default ProductList;
-
-{
-  /* <Row xs={1} md={2} className="g-4">
-  {Array.from({ length: 4 }).map((_, idx) => (
-    <Col>
-      
-    </Col>
-  ))}
-</Row> */
-}
