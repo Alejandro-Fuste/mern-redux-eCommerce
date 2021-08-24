@@ -5,9 +5,9 @@ function modal({ nameForClass, logo, title, message }) {
   return (
     <>
       <Modal
-        show={show}
-        onHide={() => setShow(false)}
-        dialogClassName="modal-50w"
+        // show={show}
+        // onHide={() => setShow(false)}
+        dialogClassName={nameForClass}
         aria-labelledby="example-custom-modal-styling-title"
         centered
       >
@@ -18,7 +18,7 @@ function modal({ nameForClass, logo, title, message }) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p>Oh snap! You added an item to your cart!{message}</p>
+          <p>{message}</p>
         </Modal.Body>
       </Modal>
     </>
