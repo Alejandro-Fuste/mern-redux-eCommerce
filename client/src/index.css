@@ -190,7 +190,7 @@ input:focus {
 
 /* ***************** My CSS Styling ***************** */
 
-/* Login and Sigup */
+/* Login, Sigup, Detail Pages */
 
 #loginContainer,
 #signUpContainer,
@@ -212,6 +212,8 @@ input:focus {
   align-items: center;
   height: 80vh;
 }
+
+/* Forms in Login and Signup Pages */
 
 form {
   width: 40%;
