@@ -205,7 +205,8 @@ input:focus {
 }
 
 #loginCol,
-#signUpCol {
+#signUpCol,
+#detailCol {
   display: flex;
   justify-content: center;
   align-items: center;
