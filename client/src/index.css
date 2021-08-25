@@ -193,7 +193,8 @@ input:focus {
 /* Login and Sigup */
 
 #loginContainer,
-#signUpContainer {
+#signUpContainer,
+#detailContainer {
   height: 80vh;
 }
 
