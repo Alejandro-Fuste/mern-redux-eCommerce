@@ -199,7 +199,8 @@ input:focus {
 }
 
 #loginRow,
-#signUpRow {
+#signUpRow,
+#detailRow {
   justify-content: center;
 }
 
