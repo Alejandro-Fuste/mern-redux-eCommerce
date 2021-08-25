@@ -92,6 +92,7 @@ function Detail() {
         <Col sm={10} id="detailCol">
           {currentProduct && cart ? (
             <div id="detailDiv">
+              <div className="detailInnerDiv"></div>
               <Link to="/">← Back to Products</Link>
 
               <h2>{currentProduct.name}</h2>
