@@ -85,7 +85,7 @@ function Detail() {
   };
 
   return (
-    <Container>
+    <Container id="detailContainer">
       {currentProduct && cart ? (
         <div className="container my-1">
           <Link to="/">← Back to Products</Link>
