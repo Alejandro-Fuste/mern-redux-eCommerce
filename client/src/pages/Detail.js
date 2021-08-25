@@ -12,6 +12,8 @@ import { QUERY_PRODUCTS } from "../utils/queries";
 import helpers from "../utils/helpers";
 import spinner from "../assets/spinner.gif";
 
+import Container from "react-bootstrap/Container";
+
 const { idbPromise } = helpers;
 
 function Detail() {
