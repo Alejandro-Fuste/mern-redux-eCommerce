@@ -43,7 +43,7 @@ function Signup(props) {
           <Form onSubmit={handleFormSubmit}>
             <h2 className="loginH2">Sign Up</h2>
 
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3">
               <Form.Label>First Name</Form.Label>
               <Form.Control
                 placeholder="First Name"
@@ -54,7 +54,7 @@ function Signup(props) {
               />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3">
               <Form.Label>Last Name</Form.Label>
               <Form.Control
                 placeholder="lastName"
@@ -65,7 +65,7 @@ function Signup(props) {
               />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3">
               <Form.Label>Email address</Form.Label>
               <Form.Control
                 type="email"
@@ -76,7 +76,7 @@ function Signup(props) {
               />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Group className="mb-3">
               <Form.Label>Password</Form.Label>
               <Form.Control
                 type="password"
