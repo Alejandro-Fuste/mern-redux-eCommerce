@@ -242,6 +242,12 @@ form .formButton,
   color: black;
 }
 
+/* Detail Page */
+
+#detailDiv {
+  width: 50vw;
+}
+
 /* Category Button */
 
 #catergoryButton {
