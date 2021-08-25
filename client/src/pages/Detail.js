@@ -91,7 +91,7 @@ function Detail() {
       <Row id="detailRow">
         <Col sm={10} id="detailCol">
           {currentProduct && cart ? (
-            <div className="container my-1">
+            <div id="detailDiv">
               <Link to="/">← Back to Products</Link>
 
               <h2>{currentProduct.name}</h2>
