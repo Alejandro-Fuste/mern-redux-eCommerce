@@ -13,6 +13,7 @@ import helpers from "../utils/helpers";
 import spinner from "../assets/spinner.gif";
 
 import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
 
 const { idbPromise } = helpers;
 
