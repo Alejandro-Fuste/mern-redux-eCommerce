@@ -249,6 +249,10 @@ form .formButton,
 }
 
 .detailInnerDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 82%;
+  margin-bottom: 1rem;
 }
 
 .detailH2 {
