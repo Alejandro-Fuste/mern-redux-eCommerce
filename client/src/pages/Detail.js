@@ -114,7 +114,7 @@ function Detail() {
                   <Button
                     name="Add to Cart"
                     type="submit"
-                    id="cardButton"
+                    id="detailAddButton"
                     onClick={addToCart}
                   ></Button>
 
