@@ -91,6 +91,7 @@ function Detail() {
     });
 
     idbPromise("cart", "delete", { ...currentProduct });
+    setShow2(true);
   };
 
   return (
