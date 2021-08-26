@@ -72,12 +72,14 @@ function Detail() {
         ...itemInCart,
         purchaseQuantity: parseInt(itemInCart.purchaseQuantity) + 1,
       });
+      setShow(true);
     } else {
       dispatch({
         type: ADD_TO_CART,
         product: { ...currentProduct, purchaseQuantity: 1 },
       });
       idbPromise("cart", "put", { ...currentProduct, purchaseQuantity: 1 });
+      setShow(true);
     }
   };
 
