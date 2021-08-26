@@ -110,13 +110,7 @@ function Detail() {
                     id="cardButton"
                     onClick={addToCart}
                   ></Button>
-                  {/* <button onClick={addToCart}>Add to Cart</button> */}
-                  {/* <button
-                    disabled={!cart.find((p) => p._id === currentProduct._id)}
-                    onClick={removeFromCart}
-                  >
-                    Remove from Cart
-                  </button> */}
+
                   <Button
                     name="Remove from Cart"
                     type="submit"
