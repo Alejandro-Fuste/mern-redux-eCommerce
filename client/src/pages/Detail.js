@@ -11,6 +11,7 @@ import {
 import { QUERY_PRODUCTS } from "../utils/queries";
 import helpers from "../utils/helpers";
 import spinner from "../assets/spinner.gif";
+import Logo from "../assets/logo.svg";
 import Button from "../components/Button";
 
 import Container from "react-bootstrap/Container";
