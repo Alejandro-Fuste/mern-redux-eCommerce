@@ -259,6 +259,10 @@ form .formButton,
   display: inline-flex;
 }
 
+strong {
+  margin-right: 10px;
+}
+
 /* Category Button */
 
 #catergoryButton {
