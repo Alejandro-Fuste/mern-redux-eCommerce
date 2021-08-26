@@ -11,7 +11,7 @@ import {
 import { QUERY_PRODUCTS } from "../utils/queries";
 import helpers from "../utils/helpers";
 import spinner from "../assets/spinner.gif";
-import Button from "../Button";
+import Button from "../components/Button";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -104,7 +104,13 @@ function Detail() {
                 </p>
 
                 <div>
-                  <button onClick={addToCart}>Add to Cart</button>
+                  <Button
+                    name="Add to Cart"
+                    type="submit"
+                    id="cardButton"
+                    onClick={addToCart}
+                  ></Button>
+                  {/* <button onClick={addToCart}>Add to Cart</button> */}
                   <button
                     disabled={!cart.find((p) => p._id === currentProduct._id)}
                     onClick={removeFromCart}
