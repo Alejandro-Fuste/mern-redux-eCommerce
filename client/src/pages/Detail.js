@@ -28,6 +28,7 @@ function Detail() {
 
   const [currentProduct, setCurrentProduct] = useState({});
   const [show, setShow] = useState(false);
+  const [show2, setShow2] = useState(false);
 
   const { loading, data } = useQuery(QUERY_PRODUCTS);
 
@@ -147,6 +148,24 @@ function Detail() {
             </Modal.Header>
             <Modal.Body>
               <p>Oh snap! You added an item to your cart!</p>
+            </Modal.Body>
+          </Modal>
+
+          <Modal
+            show={show2}
+            onHide={() => setShow2(false)}
+            dialogClassName="modal-50w"
+            aria-labelledby="example-custom-modal-styling-title"
+            centered
+          >
+            <Modal.Header closeButton>
+              <img src={Logo} alt="logo" />
+              <Modal.Title id="example-custom-modal-styling-title">
+                A-Shop
+              </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              <p>Oh dang! You removed an item from your cart!</p>
             </Modal.Body>
           </Modal>
         </Col>
