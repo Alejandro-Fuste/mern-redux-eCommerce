@@ -26,6 +26,7 @@ function Detail() {
   const { id } = useParams();
 
   const [currentProduct, setCurrentProduct] = useState({});
+  const [show, setShow] = useState(false);
 
   const { loading, data } = useQuery(QUERY_PRODUCTS);
 
