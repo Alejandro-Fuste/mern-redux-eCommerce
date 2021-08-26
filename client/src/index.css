@@ -256,6 +256,7 @@ form .formButton,
 }
 
 .detailH2 {
+  display: inline-flex;
 }
 
 /* Category Button */
