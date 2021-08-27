@@ -45,7 +45,7 @@ const CartItem = ({ item }) => {
           className="cartImage"
         />
       </div>
-      <div>
+      <div id="cartItemInnerDiv">
         <div>
           {item.name}, ${item.price}
         </div>
