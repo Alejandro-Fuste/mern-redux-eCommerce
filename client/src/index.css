@@ -253,7 +253,7 @@ form .formButton,
 .detailInnerDiv {
   display: flex;
   justify-content: space-between;
-  width: 82%;
+  width: 100%;
   margin-bottom: 1rem;
 }
 
