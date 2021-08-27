@@ -166,7 +166,7 @@ function Detail() {
               </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-              <p>Oh dang! You removed an item from your cart!</p>
+              <p>Dang, you removed an item from your cart!</p>
             </Modal.Body>
           </Modal>
         </Col>
