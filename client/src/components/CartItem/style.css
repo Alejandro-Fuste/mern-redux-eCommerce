@@ -1,5 +1,13 @@
+.cartItemDiv {
+  display: flex;
+}
+
 .cartImage {
   width: 10vw;
   margin-right: 1rem;
   border-radius: 10px;
+}
+
+#cartItemInnerDiv {
+  margin-left: 1rem;
 }
