@@ -245,6 +245,10 @@ form .formButton,
 
 /* Detail Page */
 
+#detailRow {
+  margin-top: 2rem;
+}
+
 #detailDiv {
   width: 45vw;
   padding: 0 2rem;
