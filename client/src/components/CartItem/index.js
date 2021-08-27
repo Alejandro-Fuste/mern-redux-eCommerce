@@ -46,9 +46,7 @@ const CartItem = ({ item }) => {
         />
       </div>
       <div id="cartItemInnerDiv">
-        <div>
-          {item.name}, ${item.price}
-        </div>
+        <div>{item.name}</div>
         <div>
           <span>Qty:</span>
           <input
@@ -57,6 +55,7 @@ const CartItem = ({ item }) => {
             value={item.purchaseQuantity}
             onChange={onChange}
           />
+          <span>${item.price}</span>
           <span
             role="img"
             aria-label="trash"
