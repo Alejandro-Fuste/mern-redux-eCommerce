@@ -7,6 +7,13 @@
   border-color: #f1a138;
 }
 
+#cartBottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
 @media screen and (max-width: 900px) {
   #cartButton {
     width: 15vw;
