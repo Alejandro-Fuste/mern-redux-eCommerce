@@ -60,7 +60,7 @@ const CartItem = ({ item }) => {
             />
           </span>
         </div>
-        <div>
+        <div id="cartItemRight">
           <span>${item.price}</span>
           <span
             role="img"
