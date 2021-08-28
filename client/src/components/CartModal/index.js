@@ -7,7 +7,7 @@ import CartItem from "../CartItem";
 import Auth from "../../utils/auth";
 import { useDispatch, useSelector } from "react-redux";
 import { ADD_MULTIPLE_TO_CART } from "../../utils/actions";
-import Button from "../Button";
+import CustomButton from "../Button";
 import "./style.css";
 
 import Button from "react-bootstrap/Button";
@@ -98,8 +98,14 @@ function CartModal() {
                 <strong>Total: ${calculateTotal()}</strong>
 
                 {Auth.loggedIn() ? (
-                  <button onClick={submitCheckout}>Checkout</button>
+                  <CustomButton
+                    name="Checkout"
+                    type="submit"
+                    id="cardButton"
+                    onClick={submitCheckout}
+                  ></CustomButton>
                 ) : (
+                  // <button onClick={submitCheckout}>Checkout</button>
                   <span>log in to check out</span>
                 )}
               </div>
