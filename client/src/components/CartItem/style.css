@@ -14,9 +14,15 @@
   display: flex;
 }
 
-#cartItemLeft {
+#cartItemLeft,
+#cartItemRight {
   display: flex;
   flex-direction: column;
+}
+
+#cartItemRight {
+  align-items: flex-end;
+  margin-left: 2rem;
 }
 
 #cartItemInput {
