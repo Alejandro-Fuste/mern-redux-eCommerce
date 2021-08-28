@@ -18,6 +18,7 @@
 #cartItemRight {
   display: flex;
   flex-direction: column;
+  padding-top: 0.5rem;
 }
 
 #cartItemRight {
@@ -27,8 +28,15 @@
 
 #cartItemInput {
   width: 4vw;
+  margin-top: 1.5rem;
 }
 
 #trash {
   margin: 0rem;
+  margin-top: 1.7rem;
 }
+
+/* #cartItemInput,
+#trash {
+  margin-top: 4rem;
+} */
