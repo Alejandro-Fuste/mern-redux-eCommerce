@@ -7,7 +7,7 @@ import CartItem from "../CartItem";
 import Auth from "../../utils/auth";
 import { useDispatch, useSelector } from "react-redux";
 import { ADD_MULTIPLE_TO_CART } from "../../utils/actions";
-
+import Button from "../Button";
 import "./style.css";
 
 import Button from "react-bootstrap/Button";
