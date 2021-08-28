@@ -46,7 +46,7 @@ const CartItem = ({ item }) => {
         />
       </div>
       <div id="cartItemInnerDiv">
-        <div>
+        <div id="cartItemLeft">
           {item.name}
 
           <span>Qty:</span>
