@@ -71,7 +71,7 @@ const CartItem = ({ item }) => {
             aria-label="trash"
             onClick={() => removeFromCart(item)}
           >
-            🗑️ Remove
+            <FontAwesomeIcon icon={faTrash} /> Remove
           </span>
         </div>
       </div>
