@@ -94,7 +94,7 @@ function CartModal() {
                 <CartItem key={item._id} item={item} />
               ))}
 
-              <div className="flex-row space-between">
+              <div id="cartBottom">
                 <strong>Total: ${calculateTotal()}</strong>
 
                 {Auth.loggedIn() ? (
