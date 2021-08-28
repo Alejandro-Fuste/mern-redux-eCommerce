@@ -11,3 +11,7 @@
 #cartItemInnerDiv {
   margin-left: 1rem;
 }
+
+#cartItemInput {
+  width: 4vw;
+}
