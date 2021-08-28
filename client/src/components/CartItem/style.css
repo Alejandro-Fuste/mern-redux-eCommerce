@@ -30,7 +30,7 @@
 
 #cartItemRight {
   align-items: flex-end;
-  margin-left: 3rem;
+  width: 6vw;
 }
 
 #cartItemInput {
