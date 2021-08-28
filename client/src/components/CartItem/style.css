@@ -7,6 +7,7 @@
 
 .cartImage {
   width: 10vw;
+  height: 12vh;
   margin-right: 1rem;
   border-radius: 10px;
 }
@@ -23,9 +24,13 @@
   padding-top: 0.5rem;
 }
 
+#cartItemLeft {
+  width: 17vw;
+}
+
 #cartItemRight {
   align-items: flex-end;
-  margin-left: 4rem;
+  margin-left: 3rem;
 }
 
 #cartItemInput {
