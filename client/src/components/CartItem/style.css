@@ -14,6 +14,11 @@
   display: flex;
 }
 
+#cartItemLeft {
+  display: flex;
+  flex-direction: column;
+}
+
 #cartItemInput {
   width: 4vw;
 }
