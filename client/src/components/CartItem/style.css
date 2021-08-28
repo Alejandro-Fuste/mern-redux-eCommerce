@@ -1,5 +1,6 @@
 .cartItemDiv {
   display: flex;
+  margin-bottom: 2rem;
 }
 
 .cartImage {
