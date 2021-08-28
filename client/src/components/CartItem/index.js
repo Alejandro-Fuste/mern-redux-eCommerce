@@ -46,15 +46,19 @@ const CartItem = ({ item }) => {
         />
       </div>
       <div id="cartItemInnerDiv">
-        <div>{item.name}</div>
         <div>
+          {item.name}
+
           <span>Qty:</span>
           <input
             type="number"
             placeholder="1"
             value={item.purchaseQuantity}
             onChange={onChange}
+            id="cartItemInput"
           />
+        </div>
+        <div>
           <span>${item.price}</span>
           <span
             role="img"
