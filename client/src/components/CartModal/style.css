@@ -14,6 +14,9 @@
   justify-content: flex-end;
 }
 
+#strongTotal {
+}
+
 @media screen and (max-width: 900px) {
   #cartButton {
     width: 15vw;

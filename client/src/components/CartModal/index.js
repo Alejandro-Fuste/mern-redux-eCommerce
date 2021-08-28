@@ -95,7 +95,7 @@ function CartModal() {
               ))}
 
               <div id="cartBottom">
-                <strong>Total: ${calculateTotal()}</strong>
+                <strong id="strongTotal">Total: ${calculateTotal()}</strong>
 
                 {Auth.loggedIn() ? (
                   <CustomButton
