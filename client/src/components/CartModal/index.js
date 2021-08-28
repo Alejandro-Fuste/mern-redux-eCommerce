@@ -105,7 +105,6 @@ function CartModal() {
                     onClick={submitCheckout}
                   ></CustomButton>
                 ) : (
-                  // <button onClick={submitCheckout}>Checkout</button>
                   <span>log in to check out</span>
                 )}
               </div>
