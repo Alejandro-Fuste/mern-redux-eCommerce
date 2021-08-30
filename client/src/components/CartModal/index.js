@@ -111,7 +111,7 @@ function CartModal() {
             </div>
           ) : (
             <h3 id="noItemsMessage">
-              <span role="img" aria-label="shocked">
+              <span role="img" aria-label="shocked" id="noItemsImage">
                 😱
               </span>
               You haven't added anything to your cart yet!
