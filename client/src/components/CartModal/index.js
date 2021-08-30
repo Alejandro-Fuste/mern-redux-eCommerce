@@ -99,7 +99,19 @@ function CartModal() {
 
                 {Auth.loggedIn() ? (
                   <CustomButton
-                    name="Checkout"
+                    name={
+                      loading ? (
+                        <Spinner
+                          as="span"
+                          animation="border"
+                          size="sm"
+                          role="status"
+                          aria-hidden="true"
+                        />
+                      ) : (
+                        "Checkout"
+                      )
+                    }
                     type="submit"
                     id="cardButton"
                     onClick={submitCheckout}
@@ -117,7 +129,18 @@ function CartModal() {
               You haven't added anything to your cart yet!
             </h3>
           )}
-          {loading ? <img src={spinner} alt="loading" /> : null}
+          {/* {loading ? (
+            <Button variant="primary" disabled>
+              <Spinner
+                as="span"
+                animation="border"
+                size="sm"
+                role="status"
+                aria-hidden="true"
+              />{" "}
+              Loading...
+            </Button>
+          ) : null} */}
         </Modal.Body>
       </Modal>
     </>
