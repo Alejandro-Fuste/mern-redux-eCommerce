@@ -19,6 +19,14 @@
   margin-right: 2rem;
 }
 
+/* #noItemsMessage, #noItemsImage {
+
+} */
+
+#noItemsMessage {
+  display: grid;
+}
+
 @media screen and (max-width: 900px) {
   #cartButton {
     width: 15vw;
