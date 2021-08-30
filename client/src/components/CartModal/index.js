@@ -117,6 +117,7 @@ function CartModal() {
               You haven't added anything to your cart yet!
             </h3>
           )}
+          {loading ? <img src={spinner} alt="loading" /> : null}
         </Modal.Body>
       </Modal>
     </>
