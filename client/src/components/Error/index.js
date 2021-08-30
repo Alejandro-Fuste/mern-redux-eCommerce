@@ -1,13 +1,13 @@
 import React from "react";
 
-function Error({ className, ariaLabel, text }) {
+function Error({ h3ClassName, spanClassName, ariaLabel, text }) {
   return (
     <>
-      <h3 id="noItemsMessage">
-        <span role="img" aria-label="shocked" id="noItemsImage">
+      <h3 className={h3ClassName}>
+        <span role="img" aria-label={ariaLabel} className={spanClassName}>
           😱
         </span>
-        You haven't added anything to your cart yet!
+        {text}
       </h3>
     </>
   );
