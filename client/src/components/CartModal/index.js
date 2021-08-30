@@ -129,18 +129,14 @@ function CartModal() {
               You haven't added anything to your cart yet!
             </h3>
           )}
-          {/* {loading ? (
-            <Button variant="primary" disabled>
-              <Spinner
-                as="span"
-                animation="border"
-                size="sm"
-                role="status"
-                aria-hidden="true"
-              />{" "}
-              Loading...
-            </Button>
-          ) : null} */}
+          {error ? (
+            <h3 id="noItemsMessage">
+              <span role="img" aria-label="shocked" id="noItemsImage">
+                😱
+              </span>
+              Opps, something went wrong! Refresh and try again.
+            </h3>
+          ) : null}
         </Modal.Body>
       </Modal>
     </>
