@@ -19,12 +19,17 @@
   margin-right: 2rem;
 }
 
-/* #noItemsMessage, #noItemsImage {
-
-} */
+#noItemsMessage,
+#noItemsImage {
+  text-align: center;
+}
 
 #noItemsMessage {
   display: grid;
+}
+
+#noItemsImage {
+  margin: 1rem auto;
 }
 
 @media screen and (max-width: 900px) {
