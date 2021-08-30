@@ -24,7 +24,7 @@ function CartModal() {
   const [show, setShow] = useState(false);
   const dispatch = useDispatch();
   const state = useSelector((state) => state);
-  const [getCheckout, { data }] = useLazyQuery(QUERY_CHECKOUT);
+  const [getCheckout, { loading, error, data }] = useLazyQuery(QUERY_CHECKOUT);
 
   useEffect(() => {
     if (data) {
