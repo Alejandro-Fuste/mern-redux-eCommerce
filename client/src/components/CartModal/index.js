@@ -56,7 +56,6 @@ function CartModal() {
   }
 
   function submitCheckout() {
-    console.log("Checkout button clicked");
     const productIds = [];
 
     state.cart.forEach((item) => {
