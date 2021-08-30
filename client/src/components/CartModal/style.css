@@ -12,6 +12,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-end;
+  margin-bottom: 1rem;
 }
 
 #strongTotal {
