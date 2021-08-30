@@ -19,16 +19,16 @@
   margin-right: 2rem;
 }
 
-#noItemsMessage,
-#noItemsImage {
+.noItemsMessage,
+.noItemsImage {
   text-align: center;
 }
 
-#noItemsMessage {
+.noItemsMessage {
   display: grid;
 }
 
-#noItemsImage {
+.noItemsImage {
   margin: 1rem auto;
 }
 
