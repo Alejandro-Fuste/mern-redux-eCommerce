@@ -129,12 +129,6 @@ function CartModal() {
               ariaLabel="shocked"
               text="You haven't added anything to your cart yet!"
             />
-            // <h3 id="noItemsMessage">
-            //   <span role="img" aria-label="shocked" id="noItemsImage">
-            //     😱
-            //   </span>
-            //   You haven't added anything to your cart yet!
-            // </h3>
           )}
           {error ? (
             <CustomError
@@ -143,13 +137,7 @@ function CartModal() {
               ariaLabel="shocked"
               text="Opps, something went wrong! Refresh and try again."
             />
-          ) : // <h3 id="noItemsMessage">
-          //   <span role="img" aria-label="shocked" id="noItemsImage">
-          //     😱
-          //   </span>
-          //   Opps, something went wrong! Refresh and try again.
-          // </h3>
-          null}
+          ) : null}
         </Modal.Body>
       </Modal>
     </>
