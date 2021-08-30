@@ -110,7 +110,7 @@ function CartModal() {
               </div>
             </div>
           ) : (
-            <h3>
+            <h3 id="noItemsMessage">
               <span role="img" aria-label="shocked">
                 😱
               </span>
