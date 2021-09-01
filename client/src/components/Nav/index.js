@@ -48,7 +48,7 @@ function Navi() {
 
   return (
     <Nav id="navParent">
-      <Navbar expand="lg" variant="dark">
+      <Navbar id="navbar" expand="lg" variant="dark">
         <Navbar.Brand href="/">
           <span role="img" aria-label="shopping bag">
             <img src={Logo} alt="logo" id="logo" />
