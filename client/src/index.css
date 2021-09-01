@@ -198,6 +198,17 @@ input:focus {
   padding: 1rem 8rem;
 }
 
+#categoryRow,
+#productRow {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 1rem 1.5rem;
+}
+
+#categoryRow {
+  margin-bottom: 3rem;
+}
+
 /* Login, Sigup, Detail Pages */
 
 #loginContainer,
