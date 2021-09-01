@@ -9,7 +9,7 @@ import Col from "react-bootstrap/Col";
 
 const Home = () => {
   return (
-    <Container>
+    <Container fluid>
       <Row>
         <Col xs={12}>
           <CategoryMenu />
