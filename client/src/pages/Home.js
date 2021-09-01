@@ -10,12 +10,12 @@ import Col from "react-bootstrap/Col";
 const Home = () => {
   return (
     <Container fluid id="productsContainer">
-      <Row>
+      <Row id="categoryRow">
         <Col xs={12}>
           <CategoryMenu />
         </Col>
       </Row>
-      <Row>
+      <Row id="productRow">
         <ProductList />
       </Row>
     </Container>
