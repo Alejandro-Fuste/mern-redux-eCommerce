@@ -202,7 +202,7 @@ input:focus {
 #productRow {
   background-color: #ffffff;
   border-radius: 20px;
-  padding: 1rem 1.5rem;
+  padding: 1.5rem;
 }
 
 #categoryRow {
@@ -300,10 +300,10 @@ strong {
   border-radius: 30px;
 }
 
-#my-2 {
+/* #my-2 {
   margin-top: 1rem;
   margin-bottom: var(--spacing-two);
-}
+} */
 
 /* Product Cards */
 
