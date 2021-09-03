@@ -32,7 +32,9 @@
   margin-right: 50px;
 }
 
-.navbar-brand {
+.nav .navbar-brand {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.25rem;
 }
 
 .navbarLinks {
