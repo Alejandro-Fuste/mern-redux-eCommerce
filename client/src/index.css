@@ -19,7 +19,7 @@ body {
   min-height: 100%;
 }
 
-body {
+html body {
   margin: 0;
   padding: 0;
   font-family: "Karla", sans-serif;
@@ -27,6 +27,7 @@ body {
   line-height: 1.5;
   font-size: 16px;
   color: var(--dark);
+  background-color: var(--neutral);
 }
 
 h1,
