@@ -1,3 +1,7 @@
+:root {
+  --logoFont: "Nunito", sans-serif;
+}
+
 #navParent {
   display: block;
 }
@@ -33,7 +37,7 @@
 }
 
 .nav .navbar-brand {
-  font-family: "Nunito", sans-serif;
+  font-family: var(--logoFont);
   font-size: 2.25rem;
 }
 

@@ -8,6 +8,8 @@
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --neutral: #f0efef;
+  --logoFont: "Nunito", sans-serif;
+  --primaryFont: "Roboto", sans-serif;
 }
 
 * {
@@ -22,7 +24,7 @@ body {
 html body {
   margin: 0;
   padding: 0;
-  font-family: "Karla", sans-serif;
+  font-family: var(--logoFont);
   font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
@@ -36,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rubik", sans-serif;
+  font-family: var(--primaryFont);
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
