@@ -7,7 +7,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-const Home = () => {
+const Shop = () => {
   return (
     <Container fluid id="productsContainer">
       <Row id="categoryRow">
@@ -22,4 +22,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Shop;
