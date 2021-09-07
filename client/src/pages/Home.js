@@ -1,4 +1,5 @@
 import React from "react";
+import BlueGif from "../../public/images/gifImages/CreditCardPaymentBlue.gif";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
