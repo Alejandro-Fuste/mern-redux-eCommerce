@@ -12,6 +12,7 @@ import { Provider } from "react-redux";
 import store from "./utils/store";
 
 import Home from "./pages/Home";
+import Shop from "./pages/Shop";
 import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
 import Login from "./pages/Login";
