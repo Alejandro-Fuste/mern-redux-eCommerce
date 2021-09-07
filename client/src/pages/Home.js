@@ -6,8 +6,8 @@ import Col from "react-bootstrap/Col";
 
 const Home = () => {
   return (
-    <Container>
-      <Row>
+    <Container fluid>
+      <Row xs={12}>
         <Col></Col>
       </Row>
     </Container>
