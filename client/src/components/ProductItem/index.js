@@ -47,7 +47,11 @@ function ProductItem(item) {
   return (
     <>
       <Card>
-        <Card.Img variant="top" alt={name} src={`/images/${image}`} />
+        <Card.Img
+          variant="top"
+          alt={name}
+          src={`/images/transparentImages/${image}`}
+        />
         <Card.Body>
           <Card.Title>
             <Link to={`/products/${_id}`}>{name}</Link>
