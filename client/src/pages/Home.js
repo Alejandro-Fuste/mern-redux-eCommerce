@@ -1,5 +1,5 @@
 import React from "react";
-import BlueGif from "../assets/CreditCardBlue.svg";
+import WaveBorder from "../components/WaveBorder";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -10,9 +10,7 @@ const Home = () => {
     <Container fluid>
       <Row xs={12}>
         <Col>
-          <span>
-            <img src={BlueGif} alt="Credit Cart Payment" />
-          </span>
+          <WaveBorder />
         </Col>
       </Row>
     </Container>
