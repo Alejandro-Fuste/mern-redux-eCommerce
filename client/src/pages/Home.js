@@ -1,7 +1,7 @@
 import React from "react";
-import WaveBorder from "../components/WaveBorder";
 import Image from "../components/Image";
 
+import { ReactComponent as Wave } from "../assets/wave1.svg";
 import imageSrc from "../assets/CreditCardBlue.svg";
 
 import Container from "react-bootstrap/Container";
@@ -13,7 +13,7 @@ const Home = () => {
     <Container fluid>
       <Row xs={12}>
         <Col>
-          {/* <WaveBorder /> */}
+          <Wave />
           <Image src={imageSrc} alt="Credit Card" id="creditCard" />
         </Col>
       </Row>
