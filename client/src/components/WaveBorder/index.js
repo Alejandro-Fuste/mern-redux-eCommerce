@@ -1,8 +1,7 @@
 import React from "react";
-import BlueGif from "../../assets/CreditCardBlue.svg";
 
-const WaveBorder = () => {
-  return <></>;
+const WaveBorder = (props) => {
+  return <div>{props.children}</div>;
 };
 
 export default WaveBorder;
