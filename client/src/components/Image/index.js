@@ -1,11 +1,10 @@
 import React from "react";
-import BlueGif from "../../assets/CreditCardBlue.svg";
 
-const Image = () => {
+const Image = ({ src, alt, id }) => {
   return (
     <>
       <span>
-        <img src={BlueGif} alt="Credit Cart Payment" />
+        <img src={src} alt={alt} id={id} />
       </span>
     </>
   );
