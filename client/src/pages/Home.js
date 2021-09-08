@@ -1,5 +1,5 @@
 import React from "react";
-import BlueGif from "../assets/CreditCardPaymentBlue.gif";
+import BlueGif from "../assets/CreditCardBlue.svg";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -10,7 +10,9 @@ const Home = () => {
     <Container fluid>
       <Row xs={12}>
         <Col>
-          <img src={BlueGif} alt="Credit Cart Payment" />
+          <span>
+            <img src={BlueGif} alt="Credit Cart Payment" />
+          </span>
         </Col>
       </Row>
     </Container>
