@@ -1,5 +1,6 @@
 import React from "react";
 import WaveBorder from "../components/WaveBorder";
+import Image from "../components/Image";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -10,7 +11,8 @@ const Home = () => {
     <Container fluid>
       <Row xs={12}>
         <Col>
-          <WaveBorder />
+          {/* <WaveBorder /> */}
+          <Image />
         </Col>
       </Row>
     </Container>
