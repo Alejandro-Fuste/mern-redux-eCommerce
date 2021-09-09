@@ -210,6 +210,13 @@ input:focus {
   padding: 0rem 2rem;
 }
 
+#textBookHeading {
+  margin-bottom: 2rem;
+}
+
+#textBoxParagraph {
+}
+
 /* ************ Shop Page ************** */
 
 #productsContainer {
