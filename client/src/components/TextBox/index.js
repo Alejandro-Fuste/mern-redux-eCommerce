@@ -1,10 +1,10 @@
 import React from "react";
 
-const TextBox = ({ textHeading, pText }) => {
+const TextBox = ({ textHeading, pText, textBookHeading, textBoxParagraph }) => {
   return (
     <>
-      <h2>{textHeading}</h2>
-      <p>{pText}</p>
+      <h2 id={textBookHeading}>{textHeading}</h2>
+      <p id={textBoxParagraph}>{pText}</p>
     </>
   );
 };
