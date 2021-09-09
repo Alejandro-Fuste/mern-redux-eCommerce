@@ -17,7 +17,7 @@ const Home = () => {
         <Col xs={12}>
           <Image src={imageSrc} alt="Credit Card" id="creditCard" />
         </Col>
-        <Col xs={12}>
+        <Col xs={12} id="textBox">
           <TextBox
             textHeading="Text Heading"
             pText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo nulla facilisi nullam vehicula. Elementum nibh tellus molestie nunc. Volutpat ac tincidunt vitae semper quis lectus nulla at volutpat. "
