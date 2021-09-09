@@ -7,13 +7,13 @@ import "./style.css";
 const Footer = () => {
   return (
     <div id="footerDiv">
-      <span>
+      <span className="footerIcons">
         <FontAwesomeIcon icon={faLinkedin} />
       </span>
-      <span>
+      <span className="footerIcons">
         <FontAwesomeIcon icon={faGithub} />
       </span>
-      <span>
+      <span className="footerIcons">
         <FontAwesomeIcon icon={faIdCard} />
       </span>
     </div>

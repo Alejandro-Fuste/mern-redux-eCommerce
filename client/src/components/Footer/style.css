@@ -1,6 +1,13 @@
 #footerDiv {
   position: absolute;
-  bottom: 3rem;
+  bottom: 0.5rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  padding: 2rem 40rem 0 40rem;
+}
+
+.footerIcons {
+  margin: 0;
+  font-size: 2rem;
+  color: lightgrey;
 }
