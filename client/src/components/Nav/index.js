@@ -8,6 +8,8 @@ import "./style.css";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
+import { ReactComponent as Wave } from "../../assets/wave1.svg";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faUserPlus,
@@ -63,6 +65,7 @@ function Navi() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+      <Wave />
     </Nav>
   );
 }
