@@ -16,7 +16,7 @@ const Home = () => {
     <Container fluid>
       <Row xs={12}>
         <Col>
-          <Wave />
+          {/* <Wave /> */}
           <Image src={imageSrc} alt="Credit Card" id="creditCard" />
           <TextBox
             textHeading="Text Heading"
