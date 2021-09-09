@@ -212,9 +212,16 @@ input:focus {
 
 #textBookHeading {
   margin-bottom: 2rem;
+  font-size: 2.1rem;
+  font-weight: bold;
 }
 
 #textBoxParagraph {
+  line-height: 2rem;
+  width: 80%;
+  font-size: 1.3rem;
+  color: grey;
+  margin-bottom: 2rem;
 }
 
 /* ************ Shop Page ************** */
