@@ -5,7 +5,7 @@ import { faIdCard } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
-    <div>
+    <div id="footerDiv">
       <span>
         <FontAwesomeIcon icon={faLinkedin} />
       </span>
