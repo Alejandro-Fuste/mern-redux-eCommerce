@@ -25,7 +25,6 @@ const Home = () => {
             textBoxParagraph="textBoxParagraph"
           />
           <Button name="Login" type="button" id="catergoryButton" />
-          {/* <Footer /> */}
         </Col>
         <Footer />
       </Row>
