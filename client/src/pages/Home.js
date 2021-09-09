@@ -13,9 +13,11 @@ import Col from "react-bootstrap/Col";
 const Home = () => {
   return (
     <Container fluid>
-      <Row xs={12}>
-        <Col>
+      <Row>
+        <Col xs={12}>
           <Image src={imageSrc} alt="Credit Card" id="creditCard" />
+        </Col>
+        <Col xs={12}>
           <TextBox
             textHeading="Text Heading"
             pText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo nulla facilisi nullam vehicula. Elementum nibh tellus molestie nunc. Volutpat ac tincidunt vitae semper quis lectus nulla at volutpat. "
