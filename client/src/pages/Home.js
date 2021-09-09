@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "../components/Image";
 import TextBox from "../components/TextBox";
+import Button from "../components/Button";
 
 import { ReactComponent as Wave } from "../assets/wave1.svg";
 import imageSrc from "../assets/CreditCardBlue.svg";
@@ -20,6 +21,7 @@ const Home = () => {
             textHeading="Text Heading"
             pText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo nulla facilisi nullam vehicula. Elementum nibh tellus molestie nunc. Volutpat ac tincidunt vitae semper quis lectus nulla at volutpat. "
           />
+          <Button name="Login" type="button" id="catergoryButton" />
         </Col>
       </Row>
     </Container>
