@@ -193,8 +193,16 @@ input:focus {
 }
 
 /* ***************** My CSS Styling ***************** */
-
 /* ************ Home Page ************** */
+
+#creditCard {
+  position: absolute;
+  right: 0px;
+  bottom: 117px;
+  max-width: 50%;
+}
+
+/* ************ Shop Page ************** */
 
 #productsContainer {
   width: 100vw;
