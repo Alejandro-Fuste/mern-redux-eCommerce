@@ -4,7 +4,6 @@ import TextBox from "../components/TextBox";
 import Button from "../components/Button";
 import Footer from "../components/Footer";
 
-import { ReactComponent as Wave } from "../assets/wave1.svg";
 import imageSrc from "../assets/CreditCardBlue.svg";
 
 import Container from "react-bootstrap/Container";
@@ -16,7 +15,6 @@ const Home = () => {
     <Container fluid>
       <Row xs={12}>
         <Col>
-          {/* <Wave /> */}
           <Image src={imageSrc} alt="Credit Card" id="creditCard" />
           <TextBox
             textHeading="Text Heading"
