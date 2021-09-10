@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "../components/Image";
 import TextBox from "../components/TextBox";
-// import Button from "../components/Button";
 import Footer from "../components/Footer";
 
 import imageSrc from "../assets/CreditCardBlue.svg";
@@ -25,7 +24,6 @@ const Home = () => {
             textBookHeading="textBookHeading"
             textBoxParagraph="textBoxParagraph"
           />
-          {/* <Button name="Login" type="button" id="catergoryButton" /> */}
           <Link to="/login" id="linkToLogin">
             Login
           </Link>
