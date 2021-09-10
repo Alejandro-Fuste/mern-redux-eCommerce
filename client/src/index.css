@@ -224,6 +224,12 @@ input:focus {
   margin-bottom: 2rem;
 }
 
+#textBox #linkToLogin {
+  border-radius: 30px;
+  padding: 0.8rem 3.8rem;
+  text-decoration: none;
+}
+
 /* ************ Shop Page ************** */
 
 #productsContainer {
