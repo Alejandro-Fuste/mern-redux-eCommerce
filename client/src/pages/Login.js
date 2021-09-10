@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useMutation } from "@apollo/client";
 import { LOGIN } from "../utils/mutations";
 import Auth from "../utils/auth";
+import Nav from "../components/Nav";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -37,7 +38,8 @@ function Login(props) {
   };
 
   return (
-    <Container id="loginContainer">
+    <Container fluid style={{ padding: "0px" }} id="loginContainer">
+      <Nav />
       <Row id="loginRow">
         <Col sm={10} id="loginCol">
           <Form onSubmit={handleFormSubmit}>
