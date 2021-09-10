@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "../components/Image";
 import TextBox from "../components/TextBox";
-import Button from "../components/Button";
+// import Button from "../components/Button";
 import Footer from "../components/Footer";
 
 import imageSrc from "../assets/CreditCardBlue.svg";
@@ -9,6 +9,7 @@ import imageSrc from "../assets/CreditCardBlue.svg";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -24,7 +25,10 @@ const Home = () => {
             textBookHeading="textBookHeading"
             textBoxParagraph="textBoxParagraph"
           />
-          <Button name="Login" type="button" id="catergoryButton" />
+          {/* <Button name="Login" type="button" id="catergoryButton" /> */}
+          <Link to="/login" id="linkToLogin">
+            Login
+          </Link>
         </Col>
         <Footer />
       </Row>

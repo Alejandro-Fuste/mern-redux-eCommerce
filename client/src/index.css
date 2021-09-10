@@ -287,7 +287,8 @@ form .form-label {
 form .formButton,
 #cardButton,
 #catergoryButton,
-#detailAddButton {
+#detailAddButton,
+#linkToLogin {
   padding: 0.6rem 2.6rem;
   font-size: 1.1rem;
   background-color: var(--secondary);
