@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Image from "../components/Image";
 import TextBox from "../components/TextBox";
 import Footer from "../components/Footer";
@@ -8,7 +9,6 @@ import imageSrc from "../assets/CreditCardBlue.svg";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
