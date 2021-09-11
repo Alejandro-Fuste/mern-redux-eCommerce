@@ -290,10 +290,10 @@ input:focus {
   box-shadow: -4px 10px 24px -13px lightgrey;
   position: absolute;
   bottom: 0;
-  animation: signUpMotion 1s ease-in;
+  animation: formMotion 1s ease-in;
 }
 
-@keyframes signUpMotion {
+@keyframes formMotion {
   0% {
     bottom: -40rem;
   }
