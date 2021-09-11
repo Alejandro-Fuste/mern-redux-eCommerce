@@ -38,7 +38,8 @@ function Signup(props) {
   };
 
   return (
-    <Container id="signUpContainer">
+    <Container fluid style={{ padding: "0px" }} id="signUpContainer">
+      <Nav />
       <Row id="signUpRow">
         <Col sm={10} id="signUpCol">
           <Form onSubmit={handleFormSubmit}>
