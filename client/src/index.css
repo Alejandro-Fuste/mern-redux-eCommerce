@@ -288,6 +288,18 @@ input:focus {
 .signUpForm {
   margin-bottom: 3rem;
   box-shadow: -4px 10px 24px -13px lightgrey;
+  position: absolute;
+  bottom: 0;
+  animation: signUpMotion 1s ease-in;
+}
+
+@keyframes signUpMotion {
+  0% {
+    bottom: -40rem;
+  }
+  100% {
+    bottom: 0;
+  }
 }
 
 form .form-label {
