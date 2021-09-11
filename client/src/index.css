@@ -274,7 +274,8 @@ input:focus {
 
 /* Forms in Login and Signup Pages */
 
-form {
+form,
+.loginForm {
   width: 40%;
   margin: 20px;
   background-color: white;
