@@ -269,6 +269,7 @@ input:focus {
   justify-content: center;
   align-items: center;
   height: 80vh;
+  position: absolute;
 }
 
 /* Forms in Login and Signup Pages */
