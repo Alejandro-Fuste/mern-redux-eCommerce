@@ -42,7 +42,7 @@ function Signup(props) {
       <Nav />
       <Row id="signUpRow">
         <Col sm={10} id="signUpCol">
-          <Form onSubmit={handleFormSubmit} id="signUpForm">
+          <Form onSubmit={handleFormSubmit} className="signUpForm">
             <h2 className="loginH2">Sign Up</h2>
 
             <Form.Group className="mb-3">
