@@ -56,6 +56,19 @@
   color: black;
 }
 
+#SignupLink {
+  border-radius: 30px;
+  padding: 0.8rem 3.8rem;
+  text-decoration: none;
+  padding: 0.6rem 2.6rem;
+  margin-left: 2rem;
+  font-size: 1.1rem;
+  /* background-color: var(--secondary); */
+  border: 5px solid var(--secondary);
+  /* border-color: var(--secondary); */
+  color: white;
+}
+
 svg {
   margin-right: 5px;
 }
