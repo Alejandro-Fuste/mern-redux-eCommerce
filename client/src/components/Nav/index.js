@@ -48,12 +48,12 @@ function Navi() {
     } else {
       return (
         <>
-          <Link to="/signup" className="navbarLinks">
-            <FontAwesomeIcon icon={faUserPlus} /> Signup
+          <Link to="/signup" className="linkToLogin">
+            Signup
           </Link>
 
-          <Link to="/login" className="navbarLinks">
-            <FontAwesomeIcon icon={faSignInAlt} /> Login
+          <Link to="/login" id="linkToLogin">
+            Login
           </Link>
         </>
       );
