@@ -48,7 +48,7 @@ function Navi() {
     } else {
       return (
         <>
-          <Link to="/signup" className="linkToLogin">
+          <Link to="/signup" id="SignupLink">
             Signup
           </Link>
 
