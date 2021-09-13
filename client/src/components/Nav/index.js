@@ -52,7 +52,7 @@ function Navi() {
             Signup
           </Link>
 
-          <Link to="/login" id="linkToLogin">
+          <Link to="/login" id="loginLink">
             Login
           </Link>
         </>
