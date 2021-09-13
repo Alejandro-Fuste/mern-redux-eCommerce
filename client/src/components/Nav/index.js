@@ -41,6 +41,8 @@ function Navi() {
           <a href="/" onClick={() => Auth.logout()} className="navbarLinks">
             <FontAwesomeIcon icon={faSignOutAlt} /> Logout
           </a>
+
+          <CartModal />
         </>
       );
     } else {
@@ -71,7 +73,7 @@ function Navi() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
             {showNavigation()}
-            <CartModal />
+            {/* <CartModal /> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>
