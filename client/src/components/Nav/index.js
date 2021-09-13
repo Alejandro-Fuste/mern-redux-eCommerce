@@ -17,6 +17,7 @@ import {
   faHistory,
   faSignOutAlt,
   faShoppingBag,
+  faHome,
 } from "@fortawesome/free-solid-svg-icons";
 
 function Navi() {
@@ -24,6 +25,10 @@ function Navi() {
     if (Auth.loggedIn()) {
       return (
         <>
+          <Link to="/shop" className="navbarLinks">
+            <FontAwesomeIcon icon={faHome} /> Home
+          </Link>
+
           <Link to="/shop" className="navbarLinks">
             <FontAwesomeIcon icon={faShoppingBag} /> Shop
           </Link>
