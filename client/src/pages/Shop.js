@@ -14,10 +14,8 @@ const Shop = () => {
       <Row id="categoryRow">
         <Col xs={12}>
           <CategoryMenu />
+          <ProductList />
         </Col>
-      </Row>
-      <Row id="productRow">
-        <ProductList />
       </Row>
     </Container>
   );
