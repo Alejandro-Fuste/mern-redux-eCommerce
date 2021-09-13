@@ -24,6 +24,10 @@
   margin-right: 50px;
 }
 
+.navbar-nav {
+  margin: 1rem 0 1rem 0;
+}
+
 .nav .navbar-brand {
   font-family: var(--logoFont);
   font-size: 2.25rem;
@@ -45,26 +49,25 @@
 }
 
 #loginLink {
-  border-radius: 30px;
-  padding: 0.8rem 3.8rem;
+  padding: 1rem 3.8rem;
   text-decoration: none;
-  padding: 0.6rem 2.6rem;
   margin-left: 2rem;
   font-size: 1.1rem;
   background-color: var(--secondary);
+  border-radius: 30px;
   border-color: var(--secondary);
   color: black;
 }
 
 #SignupLink {
-  border-radius: 30px;
   padding: 0.8rem 3.8rem;
   text-decoration: none;
-  padding: 0.6rem 2.6rem;
   margin-left: 2rem;
   font-size: 1.1rem;
-  /* background-color: var(--secondary); */
+  border-radius: 30px;
   border: 5px solid var(--secondary);
+  /* background-color: var(--secondary); */
+  /* padding: 0.6rem 2.6rem; */
   /* border-color: var(--secondary); */
   color: white;
 }
