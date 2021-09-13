@@ -12,8 +12,6 @@ import { ReactComponent as Wave } from "../../assets/wave1.svg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faUserPlus,
-  faSignInAlt,
   faHistory,
   faSignOutAlt,
   faShoppingBag,
