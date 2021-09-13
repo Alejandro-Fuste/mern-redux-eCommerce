@@ -25,7 +25,7 @@ function Navi() {
     if (Auth.loggedIn()) {
       return (
         <>
-          <Link to="/shop" className="navbarLinks">
+          <Link to="/" className="navbarLinks">
             <FontAwesomeIcon icon={faHome} /> Home
           </Link>
 
