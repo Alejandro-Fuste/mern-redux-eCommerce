@@ -234,7 +234,7 @@ input:focus {
 
 #productsContainer {
   width: 100vw;
-  padding: 1rem 8rem;
+  padding: 0px;
 }
 
 #categoryRow,
@@ -242,6 +242,7 @@ input:focus {
   background-color: #ffffff;
   border-radius: 20px;
   padding: 1.5rem;
+  /* position: absolute; */
 }
 
 #categoryRow {

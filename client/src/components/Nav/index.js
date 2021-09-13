@@ -18,7 +18,7 @@ import {
   faHome,
 } from "@fortawesome/free-solid-svg-icons";
 
-function Navi() {
+function Navi({ display }) {
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
