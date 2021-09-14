@@ -9,7 +9,6 @@ import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 
 import Button from "../components/Button";
-import Nav from "../components/Nav";
 
 function Login(props) {
   const [formState, setFormState] = useState({ email: "", password: "" });
@@ -39,7 +38,6 @@ function Login(props) {
 
   return (
     <Container fluid style={{ padding: "0px" }} id="loginContainer">
-      {/* <Nav /> */}
       <Row id="loginRow">
         <Col sm={10} id="loginCol">
           <Form onSubmit={handleFormSubmit} className="loginForm">
