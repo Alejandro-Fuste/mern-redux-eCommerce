@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Image from "../components/Image";
 import TextBox from "../components/TextBox";
 import Footer from "../components/Footer";
-import Nav from "../components/Nav";
 
 import imageSrc from "../assets/CreditCardBlue.svg";
 
@@ -14,7 +13,6 @@ import Col from "react-bootstrap/Col";
 const Home = () => {
   return (
     <Container fluid style={{ padding: "0px" }}>
-      {/* <Nav /> */}
       <Row>
         <Col xs={12}>
           <Image src={imageSrc} alt="Credit Card" id="creditCard" />
