@@ -10,7 +10,7 @@ import Col from "react-bootstrap/Col";
 const Shop = () => {
   return (
     <Container fluid id="productsContainer">
-      <Nav />
+      {/* <Nav /> */}
       <Row id="categoryRow">
         <Col xs={12}>
           <CategoryMenu />
