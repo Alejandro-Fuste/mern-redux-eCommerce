@@ -16,7 +16,7 @@ import {
   faHome,
 } from "@fortawesome/free-solid-svg-icons";
 
-function Navi({ display }) {
+function Navi() {
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
@@ -70,7 +70,6 @@ function Navi({ display }) {
           <Nav>{showNavigation()}</Nav>
         </Navbar.Collapse>
       </Navbar>
-      {/* <Wave /> */}
     </Nav>
   );
 }
