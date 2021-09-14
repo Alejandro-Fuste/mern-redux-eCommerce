@@ -193,6 +193,15 @@ input:focus {
 }
 
 /* ***************** My CSS Styling ***************** */
+
+#appContainer {
+  background-image: url("../src/assets/wave1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  padding: 0px;
+}
 /* ************ Home Page ************** */
 
 #creditCard {

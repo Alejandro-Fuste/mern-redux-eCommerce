@@ -72,7 +72,7 @@ function Navi({ display }) {
           <Nav>{showNavigation()}</Nav>
         </Navbar.Collapse>
       </Navbar>
-      <Wave />
+      {/* <Wave /> */}
     </Nav>
   );
 }
