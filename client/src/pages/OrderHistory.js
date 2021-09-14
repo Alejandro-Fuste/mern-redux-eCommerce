@@ -16,7 +16,7 @@ function OrderHistory() {
   }
 
   return (
-    <>
+    <Container>
       <div className="container my-1">
         <Link to="/shop">← Back to Products</Link>
 
@@ -48,7 +48,7 @@ function OrderHistory() {
           </>
         ) : null}
       </div>
-    </>
+    </Container>
   );
 }
 
