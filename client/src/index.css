@@ -342,7 +342,7 @@ form .formButton,
   color: black;
 }
 
-/* Detail Page */
+/********** Detail Page **********/
 
 #detailRow {
   margin-top: 2rem;
@@ -394,7 +394,17 @@ strong {
   margin: 1% 2% 2% 2%;
 }
 
-/* Media Queries */
+/**************** Order History Page ****************/
+
+#navRow {
+  background-image: url("../src/assets/wave1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+/*************** Media Queries ***************/
 
 /* ------------- iPad ------------- */
 
