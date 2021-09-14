@@ -16,39 +16,49 @@ function OrderHistory() {
   }
 
   return (
-    <Container fluid style={{ padding: "0px" }}>
-      <div className="container my-1">
-        <Link to="/shop">← Back to Products</Link>
+    <>
+      <Row id="orderHistoryRow">
+        <Col xs={12}>
+          <Link to="/shop">← Back to Products</Link>
+        </Col>
+      </Row>
 
-        {user ? (
-          <>
-            <h2>
-              Order History for {user.firstName} {user.lastName}
-            </h2>
-            {user.orders.map((order) => (
-              <div key={order._id} className="my-2">
-                <h3>
-                  {new Date(parseInt(order.purchaseDate)).toLocaleDateString()}
-                </h3>
-                <div className="flex-row">
-                  {order.products.map(({ _id, image, name, price }, index) => (
-                    <div key={index} className="card px-1 py-1">
-                      <Link to={`/products/${_id}`}>
-                        <img alt={name} src={`/images/${image}`} />
-                        <p>{name}</p>
-                      </Link>
-                      <div>
-                        <span>${price}</span>
-                      </div>
-                    </div>
-                  ))}
+      <Row>
+        <Col xs={12}>
+          {user ? (
+            <>
+              <h2>
+                Order History for {user.firstName} {user.lastName}
+              </h2>
+              {user.orders.map((order) => (
+                <div key={order._id} className="my-2">
+                  <h3>
+                    {new Date(
+                      parseInt(order.purchaseDate)
+                    ).toLocaleDateString()}
+                  </h3>
+                  <div className="flex-row">
+                    {order.products.map(
+                      ({ _id, image, name, price }, index) => (
+                        <div key={index} className="card px-1 py-1">
+                          <Link to={`/products/${_id}`}>
+                            <img alt={name} src={`/images/${image}`} />
+                            <p>{name}</p>
+                          </Link>
+                          <div>
+                            <span>${price}</span>
+                          </div>
+                        </div>
+                      )
+                    )}
+                  </div>
                 </div>
-              </div>
-            ))}
-          </>
-        ) : null}
-      </div>
-    </Container>
+              ))}
+            </>
+          ) : null}
+        </Col>
+      </Row>
+    </>
   );
 }
 
