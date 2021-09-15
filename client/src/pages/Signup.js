@@ -9,6 +9,7 @@ import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 
 import Button from "../components/Button";
+import Nav from "../components/Nav";
 
 function Signup(props) {
   const [formState, setFormState] = useState({ email: "", password: "" });
@@ -38,6 +39,7 @@ function Signup(props) {
 
   return (
     <Container fluid style={{ padding: "0px" }} id="signUpContainer">
+      <Nav />
       <Row id="signUpRow">
         <Col sm={10} id="signUpCol">
           <Form onSubmit={handleFormSubmit} className="signUpForm">
