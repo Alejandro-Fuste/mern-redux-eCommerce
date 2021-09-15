@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useQuery } from "@apollo/client";
 import { QUERY_USER } from "../utils/queries";
+import Nav from "../components/Nav";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -17,6 +18,7 @@ function OrderHistory() {
 
   return (
     <Container>
+      <Nav />
       <Row>
         <Col xs={12}>
           <Link to="/shop">← Back to Products</Link>
