@@ -15,4 +15,15 @@
 #successTextBox {
   text-align: center;
   color: #434e54;
+  opacity: 1;
+  animation: successText 3s;
+}
+
+@keyframes successText {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
