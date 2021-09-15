@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import { useMutation } from "@apollo/client";
-import Jumbotron from "../components/Jumbotron";
 import { ADD_ORDER } from "../utils/mutations";
 import helpers from "../utils/helpers";
+import Jumbotron from "../components/Jumbotron";
+import Image from "../components/Image";
 
 import imageSrc from "../assets/success.svg";
 
@@ -41,14 +42,18 @@ function Success() {
     <Container>
       <Row>
         <Col xs={12}>
-          <Image src={imageSrc} alt="Credit Card" id="creditCard" />
+          <Image src={imageSrc} alt="Success" />
         </Col>
       </Row>
-      <Jumbotron>
-        <h1>Success!</h1>
-        <h2>Thank you for your purchase!</h2>
-        <h2>You will now be redirected to the homepage</h2>
-      </Jumbotron>
+      <Row>
+        <Col>
+          <Jumbotron>
+            <h1>Success!</h1>
+            <h2>Thank you for your purchase!</h2>
+            <h2>You will now be redirected to the homepage</h2>
+          </Jumbotron>
+        </Col>
+      </Row>
     </Container>
   );
 }
