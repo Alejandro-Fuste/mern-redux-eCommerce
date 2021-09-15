@@ -30,9 +30,9 @@ function Success() {
         });
       }
 
-      // setTimeout(() => {
-      //   window.location.assign("/shop");
-      // }, 3000);
+      setTimeout(() => {
+        window.location.assign("/shop");
+      }, 3000);
     }
 
     saveOrder();
