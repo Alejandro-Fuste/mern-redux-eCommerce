@@ -11,3 +11,8 @@
   color: grey;
   margin-bottom: 2rem;
 }
+
+#successTextBox {
+  text-align: center;
+  color: #434e54;
+}
