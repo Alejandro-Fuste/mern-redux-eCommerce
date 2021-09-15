@@ -4,6 +4,8 @@ import Jumbotron from "../components/Jumbotron";
 import { ADD_ORDER } from "../utils/mutations";
 import helpers from "../utils/helpers";
 
+import imageSrc from "../assets/success.svg";
+
 const { idbPromise } = helpers;
 
 function Success() {
@@ -23,9 +25,9 @@ function Success() {
         });
       }
 
-      setTimeout(() => {
-        window.location.assign("/shop");
-      }, 3000);
+      // setTimeout(() => {
+      //   window.location.assign("/shop");
+      // }, 3000);
     }
 
     saveOrder();
