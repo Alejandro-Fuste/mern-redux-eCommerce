@@ -223,20 +223,6 @@ input:focus {
   padding: 0rem 8rem;
 }
 
-#textBookHeading {
-  margin-bottom: 2rem;
-  font-size: 2.1rem;
-  font-weight: bold;
-}
-
-#textBoxParagraph {
-  line-height: 2rem;
-  width: 80%;
-  font-size: 1.3rem;
-  color: grey;
-  margin-bottom: 2rem;
-}
-
 #textBox #linkToLogin {
   border-radius: 30px;
   padding: 0.8rem 3.8rem;
