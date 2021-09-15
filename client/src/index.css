@@ -262,7 +262,7 @@ input:focus {
   margin-bottom: 3rem;
 }
 
-/* Login, Sigup, Detail Pages */
+/*************** Login, Sigup, Detail Pages ***************/
 
 #loginContainer,
 #signUpContainer,
@@ -355,7 +355,7 @@ form .formButton,
   color: black;
 }
 
-/********** Detail Page **********/
+/********************** Detail Page **********************/
 
 #detailRow {
   margin-top: 2rem;
@@ -407,7 +407,7 @@ strong {
   margin: 1% 2% 2% 2%;
 }
 
-/**************** Order History Page ****************/
+/********************** Order History Page **********************/
 
 #navRow {
   background-image: url("../src/assets/wave1.svg");
@@ -415,6 +415,20 @@ strong {
   background-size: cover;
   width: 100vw;
   height: 100vh;
+}
+
+/* ********************** Success Page ************************ */
+
+#successContainer {
+}
+
+#successImage {
+  display: flex;
+  height: 65vh;
+  width: 100vw;
+  align-content: center;
+  justify-content: center;
+  margin: 2rem auto 0 auto;
 }
 
 /*************** Media Queries ***************/

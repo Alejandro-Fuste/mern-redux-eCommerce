@@ -39,10 +39,10 @@ function Success() {
   }, [addOrder]);
 
   return (
-    <Container>
+    <Container id="successContainer">
       <Row>
         <Col xs={12}>
-          <Image src={imageSrc} alt="Success" />
+          <Image src={imageSrc} alt="Success" id="successImage" />
         </Col>
       </Row>
       <Row>
