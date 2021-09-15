@@ -6,6 +6,10 @@ import helpers from "../utils/helpers";
 
 import imageSrc from "../assets/success.svg";
 
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
 const { idbPromise } = helpers;
 
 function Success() {
