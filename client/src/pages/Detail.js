@@ -13,6 +13,7 @@ import helpers from "../utils/helpers";
 import spinner from "../assets/spinner.gif";
 import Logo from "../assets/logo.svg";
 import Button from "../components/Button";
+import Nav from "../components/Nav";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -96,6 +97,7 @@ function Detail() {
 
   return (
     <Container id="detailContainer">
+      <Nav />
       <Row id="detailRow">
         <Col sm={10} id="detailCol">
           {currentProduct && cart ? (
