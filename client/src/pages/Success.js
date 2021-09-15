@@ -38,13 +38,18 @@ function Success() {
   }, [addOrder]);
 
   return (
-    <div>
+    <Container>
+      <Row>
+        <Col xs={12}>
+          <Image src={imageSrc} alt="Credit Card" id="creditCard" />
+        </Col>
+      </Row>
       <Jumbotron>
         <h1>Success!</h1>
         <h2>Thank you for your purchase!</h2>
         <h2>You will now be redirected to the homepage</h2>
       </Jumbotron>
-    </div>
+    </Container>
   );
 }
 
