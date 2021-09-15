@@ -24,7 +24,7 @@ function Success() {
       }
 
       setTimeout(() => {
-        window.location.assign("/");
+        window.location.assign("/shop");
       }, 3000);
     }
 
