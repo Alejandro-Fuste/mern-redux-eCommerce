@@ -406,6 +406,14 @@ strong {
 /* ********************** Success Page ************************ */
 
 #successContainer {
+  padding: 0px;
+}
+
+#successRow {
+  justify-content: center;
+}
+
+#successCol {
   width: 50%;
   height: 50%;
   margin-top: 4rem;
@@ -414,6 +422,10 @@ strong {
   border: 5px solid white;
   border-radius: 20px;
   box-shadow: 0px 8px 15px 5px lightgrey;
+}
+
+#slantImg {
+  filter: drop-shadow(3px 5px 5px rgb(0 0 0 / 0.4));
 }
 
 #successImage {
@@ -427,6 +439,9 @@ strong {
 
 #slantDiv {
   background-image: url("../src/assets/slant.svg");
+  height: 22vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*************** Media Queries ***************/
