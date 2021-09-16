@@ -428,7 +428,7 @@ strong {
 /*************** Media Queries ***************/
 
 /* ------------- iPad Pro ------------- */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-device-width: 1200px) {
   #successContainer {
     width: 75%;
     padding: 10px 10px;
