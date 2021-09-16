@@ -6,7 +6,6 @@ import Image from "../components/Image";
 import TextBox from "../components/TextBox";
 
 import imageSrc from "../assets/success.svg";
-// import slantImg from "../assets/slant.svg";
 import logo from "../assets/logo.svg";
 
 import Container from "react-bootstrap/Container";
@@ -61,15 +60,6 @@ function Success() {
           </TextBox>
         </Col>
       </Row>
-      {/* <Row>
-        <Col>
-          <TextBox id="successTextBox">
-            <h1>Success!</h1>
-            <h2>Thank you for your purchase!</h2>
-            <h2>You will now be redirected to the homepage</h2>
-          </TextBox>
-        </Col>
-      </Row> */}
     </Container>
   );
 }
