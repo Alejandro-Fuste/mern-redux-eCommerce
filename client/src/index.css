@@ -447,6 +447,16 @@ strong {
   background-repeat: no-repeat;
   background-size: cover;
   filter: drop-shadow(3px 5px 5px rgb(0 0 0 / 0.4));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#successH1 {
+  color: #c4c2c2;
+  display: inline-flex;
+  margin: 2px 0 0 15px;
+  font-family: "Nunito";
 }
 
 /*************** Media Queries ***************/

@@ -6,7 +6,8 @@ import Image from "../components/Image";
 import TextBox from "../components/TextBox";
 
 import imageSrc from "../assets/success.svg";
-import slantImg from "../assets/slant.svg";
+// import slantImg from "../assets/slant.svg";
+import logo from "../assets/logo.svg";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -39,12 +40,15 @@ function Success() {
     saveOrder();
   }, [addOrder]);
 
+  // #707070
   return (
     <Container fluid id="successContainer">
       <Row>
         <Col xs={12}>
-          <div id="slantDiv"></div>
-          {/* <Image src={slantImg} alt="Slant" id="slantImg" /> */}
+          <div id="slantDiv">
+            <Image src={logo} alt="logo" />
+            <h1 id="successH1">A-Shop</h1>
+          </div>
         </Col>
       </Row>
       <Row id="successRow">
