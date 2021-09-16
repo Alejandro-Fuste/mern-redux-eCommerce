@@ -39,19 +39,15 @@ function Success() {
   }, [addOrder]);
 
   return (
-    <Container id="successContainer">
+    <Container>
       <Row>
         <Col xs={12}>
           <div id="slantDiv"></div>
         </Col>
       </Row>
       <Row>
-        <Col xs={12}>
+        <Col xs={12} id="successContainer">
           <Image src={imageSrc} alt="Success" id="successImage" />
-        </Col>
-      </Row>
-      <Row>
-        <Col>
           <TextBox id="successTextBox">
             <h1>Success!</h1>
             <h2>Thank you for your purchase!</h2>
@@ -59,6 +55,15 @@ function Success() {
           </TextBox>
         </Col>
       </Row>
+      {/* <Row>
+        <Col>
+          <TextBox id="successTextBox">
+            <h1>Success!</h1>
+            <h2>Thank you for your purchase!</h2>
+            <h2>You will now be redirected to the homepage</h2>
+          </TextBox>
+        </Col>
+      </Row> */}
     </Container>
   );
 }
