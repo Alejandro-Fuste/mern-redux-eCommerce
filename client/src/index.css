@@ -498,6 +498,21 @@ strong {
   }
 }
 
+/* ----------- iPhone 6,7,8 Plus ----------- */
+@media only screen and (min-device-width: 400px) and (max-device-width: 500px) {
+  #successContainer {
+    width: 75%;
+    padding: 10px 10px;
+    margin-top: 6rem;
+    height: 71vh;
+  }
+
+  #successImage {
+    height: auto;
+    margin: 0 auto 10px auto;
+  }
+}
+
 /* ----------- Galaxy Fold ----------- */
 
 @media only screen and (min-device-width: 280px) and (max-device-width: 350px) {
