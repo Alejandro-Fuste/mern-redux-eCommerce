@@ -461,6 +461,22 @@ strong {
   }
 }
 
+/* ----------- Surface Duo ----------- */
+
+@media only screen and (min-device-width: 540px) and (max-device-width: 720px) {
+  #successContainer {
+    width: 80%;
+    padding: 10px 10px;
+    margin-top: 4rem;
+    height: 83vh;
+  }
+
+  #successImage {
+    height: auto;
+    margin: 0 auto 10px auto;
+  }
+}
+
 /* ----------- iPhone X ----------- */
 
 /* Portrait and Landscape */
@@ -482,14 +498,14 @@ strong {
   }
 }
 
-/* ----------- Surface Duo ----------- */
+/* ----------- Galaxy Fold ----------- */
 
-@media only screen and (min-device-width: 540px) and (max-device-width: 720px) {
+@media only screen and (min-device-width: 280px) and (max-device-width: 350px) {
   #successContainer {
     width: 80%;
     padding: 10px 10px;
-    margin-top: 4rem;
-    height: 83vh;
+    margin-top: 5rem;
+    height: 66vh;
   }
 
   #successImage {
