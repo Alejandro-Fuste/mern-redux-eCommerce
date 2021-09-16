@@ -420,7 +420,7 @@ strong {
 #successCol {
   width: 50%;
   height: 50%;
-  margin-top: 4rem;
+  margin-top: 3rem;
   padding: 10px 0px;
   background-color: white;
   border: 5px solid white;
@@ -434,7 +434,7 @@ strong {
 
 #successImage {
   display: flex;
-  height: 60vh;
+  height: 43vh;
   width: 100vw;
   align-content: center;
   justify-content: center;
