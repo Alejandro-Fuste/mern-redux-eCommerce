@@ -425,6 +425,10 @@ strong {
   margin: 0 auto;
 }
 
+#slantDiv {
+  background-image: url("../src/assets/slant.svg");
+}
+
 /*************** Media Queries ***************/
 
 /* ------------- iPad Pro ------------- */
