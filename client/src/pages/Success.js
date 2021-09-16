@@ -43,8 +43,8 @@ function Success() {
     <Container fluid id="successContainer">
       <Row>
         <Col xs={12}>
-          {/* <div id="slantDiv"></div> */}
-          <Image src={slantImg} alt="Slant" id="slantImg" />
+          <div id="slantDiv"></div>
+          {/* <Image src={slantImg} alt="Slant" id="slantImg" /> */}
         </Col>
       </Row>
       <Row id="successRow">
