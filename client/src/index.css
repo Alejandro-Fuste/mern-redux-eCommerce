@@ -481,3 +481,19 @@ strong {
     margin: 0 auto 10px auto;
   }
 }
+
+/* ----------- Surface Duo ----------- */
+
+@media only screen and (min-device-width: 540px) and (max-device-width: 720px) {
+  #successContainer {
+    width: 80%;
+    padding: 10px 10px;
+    margin-top: 4rem;
+    height: 83vh;
+  }
+
+  #successImage {
+    height: auto;
+    margin: 0 auto 10px auto;
+  }
+}
