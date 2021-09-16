@@ -42,6 +42,11 @@ function Success() {
     <Container id="successContainer">
       <Row>
         <Col xs={12}>
+          <div id="slantDiv"></div>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={12}>
           <Image src={imageSrc} alt="Success" id="successImage" />
         </Col>
       </Row>
