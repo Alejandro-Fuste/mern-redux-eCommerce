@@ -572,10 +572,15 @@ strong {
 /* ----------- iPhone 6,7,8 Plus ----------- */
 @media only screen and (min-device-width: 400px) and (max-device-width: 500px) {
   #successContainer {
-    width: 75%;
-    padding: 10px 10px;
-    margin-top: 6rem;
-    height: 71vh;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #successCol {
+    width: 70%;
+    margin-top: 1.5rem;
   }
 
   #successImage {
