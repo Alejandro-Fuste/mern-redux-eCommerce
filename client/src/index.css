@@ -466,9 +466,23 @@ strong {
     padding: 0px;
   }
 
+  #successCol {
+    width: 70%;
+    margin-top: 5rem;
+  }
+
   #successImage {
     height: auto;
     margin: 0 auto 10px auto;
+  }
+
+  #logo {
+    height: 5.5rem;
+  }
+
+  #successH1 {
+    font-size: 3.5rem;
+    margin: 2px 0 0 30px;
   }
 }
 

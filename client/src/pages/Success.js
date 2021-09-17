@@ -45,7 +45,7 @@ function Success() {
       <Row>
         <Col xs={12}>
           <div id="slantDiv">
-            <Image src={logo} alt="logo" />
+            <Image src={logo} alt="logo" id="logo" />
             <h1 id="successH1">A-Shop</h1>
           </div>
         </Col>
