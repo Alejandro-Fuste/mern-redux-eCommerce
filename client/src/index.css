@@ -493,15 +493,29 @@ strong {
     width: 40%;
   }
   #successContainer {
-    width: 80%;
-    padding: 10px 10px;
-    margin-top: 8rem;
-    height: 75vh;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #successCol {
+    width: 70%;
+    margin-top: 2rem;
   }
 
   #successImage {
     height: auto;
     margin: 0 auto 10px auto;
+  }
+
+  #logo {
+    height: 5.5rem;
+  }
+
+  #successH1 {
+    font-size: 3.5rem;
+    margin: 2px 0 0 30px;
   }
 }
 
