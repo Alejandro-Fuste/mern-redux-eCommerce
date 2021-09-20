@@ -514,7 +514,7 @@ strong {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
   /* Home Page */
-  .homeRow {
+  #homeContainer .row {
     --bs-gutter-x: 0rem;
   }
   #creditCard {
@@ -527,7 +527,7 @@ strong {
     padding: 0rem;
   }
 
-  #footerDiv {
+  #homeContainer #footerDiv {
     padding: 0rem;
   }
 
