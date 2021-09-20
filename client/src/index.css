@@ -513,6 +513,25 @@ strong {
 /* ----------- iPhone X, Moto G4, Galaxy S5 ----------- */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  /* Home Page */
+  .homeRow {
+    --bs-gutter-x: 0rem;
+  }
+  #creditCard {
+    position: inherit;
+    max-width: 100%;
+  }
+  #textBox {
+    width: 100vw;
+    bottom: none;
+    padding: 0rem;
+  }
+
+  #footerDiv {
+    padding: 0rem;
+  }
+
+  /* Success Page */
   #successCol {
     margin-top: 4rem;
   }
