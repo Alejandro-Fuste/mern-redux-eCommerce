@@ -211,6 +211,11 @@ input:focus {
   padding: 0px;
 }
 
+.homeRow {
+  width: 100vw;
+  height: 50vh;
+}
+
 #creditCard {
   position: absolute;
   right: 0rem;

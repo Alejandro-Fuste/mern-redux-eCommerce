@@ -15,12 +15,12 @@ const Home = () => {
   return (
     <Container fluid style={{ padding: "0px" }} id="homeContainer">
       <Nav />
-      <Row>
+      <Row className="homeRow">
         <Col xs={12}>
           <Image src={imageSrc} alt="Credit Card" id="creditCard" />
         </Col>
       </Row>
-      <Row>
+      <Row className="homeRow">
         <Col xs={12} id="textBox">
           <TextBox>
             <h2 id="textBoxHeading">E-Commerce App</h2>
@@ -35,8 +35,8 @@ const Home = () => {
           <Link to="/login" id="linkToLogin">
             Login
           </Link>
+          <Footer />
         </Col>
-        <Footer />
       </Row>
     </Container>
   );
