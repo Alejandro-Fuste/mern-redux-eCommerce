@@ -213,7 +213,7 @@ input:focus {
 
 .homeRow {
   width: 100vw;
-  height: 50vh;
+  height: 0vh;
 }
 
 #creditCard {
@@ -517,6 +517,12 @@ strong {
   #homeContainer .row {
     --bs-gutter-x: 0rem;
   }
+
+  .homeRow {
+    width: 100vw;
+    height: 50vh;
+  }
+
   #creditCard {
     position: absolute;
     right: 1rem;
