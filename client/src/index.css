@@ -364,13 +364,14 @@ form .formButton,
     rgba(20, 30, 48, 1) 0%,
     rgba(36, 58, 85, 1) 100%
   );
-  /* background-color: #141e30; */
   border-bottom-left-radius: 100px;
   height: 30vh;
 }
 
 #detailRow {
-  margin-top: 2rem;
+  margin: 0rem;
+  height: 100vh;
+  width: 100vw;
 }
 
 #detailDiv {
