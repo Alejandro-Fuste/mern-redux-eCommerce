@@ -19,6 +19,8 @@ const Home = () => {
         <Col xs={12}>
           <Image src={imageSrc} alt="Credit Card" id="creditCard" />
         </Col>
+      </Row>
+      <Row>
         <Col xs={12} id="textBox">
           <TextBox>
             <h2 id="textBoxHeading">E-Commerce App</h2>

@@ -19,6 +19,7 @@
 html,
 body {
   min-height: 100%;
+  width: 100vw;
 }
 
 html body {
@@ -196,6 +197,8 @@ input:focus {
 
 #appContainer {
   padding: 0px;
+  height: 100vh;
+  width: 100vw;
 }
 
 /* ************ Home Page ************** */
