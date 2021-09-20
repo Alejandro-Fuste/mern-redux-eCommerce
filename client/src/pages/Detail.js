@@ -112,7 +112,7 @@ function Detail() {
               />
               <div className="detailInnerDiv">
                 <h2 id="detailH2">{currentProduct.name}</h2>
-                <Link to="/">← Back to Products</Link>
+                <Link to="/shop">← Back to Products</Link>
               </div>
 
               <div className="detailInnerDiv">
