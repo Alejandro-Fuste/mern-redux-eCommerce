@@ -358,6 +358,15 @@ form .formButton,
 }
 
 #detailNavRow {
+  background: rgb(20, 30, 48);
+  background: linear-gradient(
+    144deg,
+    rgba(20, 30, 48, 1) 0%,
+    rgba(36, 58, 85, 1) 100%
+  );
+  /* background-color: #141e30; */
+  border-bottom-left-radius: 100px;
+  height: 30vh;
 }
 
 #detailRow {
