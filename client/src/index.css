@@ -351,6 +351,12 @@ form .formButton,
 
 /********************** Detail Page **********************/
 
+#detailContainer {
+  height: 100vh;
+  margin: 0;
+  padding: 0rem;
+}
+
 #detailRow {
   margin-top: 2rem;
 }

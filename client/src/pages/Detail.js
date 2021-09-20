@@ -96,12 +96,16 @@ function Detail() {
   };
 
   return (
-    <Container id="detailContainer">
+    <Container fluid id="detailContainer">
       <Nav />
       <Row id="detailRow">
         <Col sm={10} id="detailCol">
           {currentProduct && cart ? (
             <div id="detailDiv">
+              <img
+                src={`/images/transparentImages/${currentProduct.image}`}
+                alt={currentProduct.name}
+              />
               <div className="detailInnerDiv">
                 <h2 id="detailH2">{currentProduct.name}</h2>
                 <Link to="/">← Back to Products</Link>
@@ -129,10 +133,6 @@ function Detail() {
                   ></Button>
                 </div>
               </div>
-              <img
-                src={`/images/${currentProduct.image}`}
-                alt={currentProduct.name}
-              />
             </div>
           ) : null}
           {loading ? <img src={spinner} alt="loading" /> : null}
