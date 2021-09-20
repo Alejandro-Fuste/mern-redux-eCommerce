@@ -28,6 +28,20 @@
   }
 }
 
+#homeTextbox {
+  opacity: 1;
+  animation: homeText 3s;
+}
+
+@keyframes homeText {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /*************** Media Queries ***************/
 
 /* ----------- iPhone X, Moto G4, Galaxy S5 ----------- */
