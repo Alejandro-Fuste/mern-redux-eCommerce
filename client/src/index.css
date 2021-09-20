@@ -518,12 +518,14 @@ strong {
     --bs-gutter-x: 0rem;
   }
   #creditCard {
-    position: inherit;
+    position: absolute;
+    right: 1rem;
+    top: 6rem;
     max-width: 100%;
   }
   #textBox {
     width: 100vw;
-    bottom: -8rem;
+    bottom: -6rem;
     padding: 0rem;
     display: flex;
     flex-direction: column;
