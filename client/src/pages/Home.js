@@ -22,7 +22,7 @@ const Home = () => {
       </Row>
       <Row className="homeRow">
         <Col xs={12} id="textBox">
-          <TextBox>
+          <TextBox id="homeTextbox">
             <h2 id="textBoxHeading">E-Commerce App</h2>
             <p id="textBoxParagraph">
               Welcome to my E-Commerce application! This app is a full-stack
