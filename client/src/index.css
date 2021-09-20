@@ -357,6 +357,9 @@ form .formButton,
   padding: 0rem;
 }
 
+#detailNavRow {
+}
+
 #detailRow {
   margin-top: 2rem;
 }

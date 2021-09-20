@@ -97,9 +97,13 @@ function Detail() {
 
   return (
     <Container fluid id="detailContainer">
-      <Nav />
+      <Row id="detailNavRow">
+        <Col sm={12}>
+          <Nav />
+        </Col>
+      </Row>
       <Row id="detailRow">
-        <Col sm={10} id="detailCol">
+        <Col sm={12} id="detailCol">
           {currentProduct && cart ? (
             <div id="detailDiv">
               <img
