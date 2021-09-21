@@ -110,6 +110,7 @@ function Detail() {
               <img
                 src={`/images/transparentImages/${currentProduct.image}`}
                 alt={currentProduct.name}
+                id="detailImg"
               />
               <div className="nameLinkDiv">
                 <h2 id="detailH2">{currentProduct.name}</h2>

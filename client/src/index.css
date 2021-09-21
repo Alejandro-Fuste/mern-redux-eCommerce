@@ -365,7 +365,7 @@ form .formButton,
     rgba(36, 58, 85, 1) 100%
   );
   border-bottom-left-radius: 100px;
-  height: 30vh;
+  height: 40vh;
 }
 
 #detailRow {
@@ -373,7 +373,7 @@ form .formButton,
   height: 100vh;
   width: 100vw;
   position: absolute;
-  top: 14rem;
+  top: 23rem;
 }
 
 #detailDiv {
@@ -383,6 +383,14 @@ form .formButton,
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.nameLinkDiv,
+.priceDescriptionDiv {
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0px 5px 14px 0px lightgrey;
 }
 
 .nameLinkDiv {
@@ -400,6 +408,11 @@ form .formButton,
   margin-bottom: 1rem;
   flex-direction: column;
   flex-wrap: wrap;
+  background-color: #f5f5f5;
+}
+
+#detailImg {
+  filter: drop-shadow(3px 5px 5px rgb(0 0 0 / 0.4));
 }
 
 .detailH2 {
