@@ -117,11 +117,22 @@ function Detail() {
               </div>
 
               <div className="detailInnerDiv">
-                <p id="detailH2">
-                  <strong>Price:</strong>${currentProduct.price}{" "}
-                </p>
+                <TextBox>
+                  <p id="detailH2">
+                    <strong>Price:</strong>${currentProduct.price}{" "}
+                  </p>
 
-                <div>
+                  <h4>Description</h4>
+
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Lectus mauris ultrices eros in cursus turpis massa
+                    tincidunt. Rhoncus aenean vel elit scelerisque mauris
+                  </p>
+                </TextBox>
+
+                <div id="buttonDiv">
                   <Button
                     name="Add to Cart"
                     type="submit"
