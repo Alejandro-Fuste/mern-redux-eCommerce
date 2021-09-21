@@ -425,7 +425,7 @@ form .formButton,
   position: absolute;
   z-index: -1;
   font-size: 9rem;
-  top: -2rem;
+  top: 0rem;
   opacity: 0.1;
   text-transform: uppercase;
 }
@@ -439,6 +439,10 @@ form .formButton,
 #backLink {
   color: #595959;
   text-decoration: none;
+}
+
+#backLink:hover {
+  text-decoration: underline;
 }
 
 #starDiv {
