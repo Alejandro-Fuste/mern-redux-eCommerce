@@ -110,7 +110,7 @@ function Detail() {
         <Col sm={12} id="detailCol">
           {currentProduct && cart ? (
             <div id="detailDiv">
-              <div>
+              <div id="imageDiv">
                 <img
                   src={`/images/transparentImages/${currentProduct.image}`}
                   alt={currentProduct.name}
