@@ -57,7 +57,7 @@ db.once("open", async () => {
       quantity: 50,
     },
     {
-      name: "Set of Wooden Spoons",
+      name: "Wooden Spoons",
       category: categories[1]._id,
       description:
         "Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.",
@@ -102,7 +102,7 @@ db.once("open", async () => {
       quantity: 1000,
     },
     {
-      name: "Set of Plastic Horses",
+      name: "Plastic Horses",
       category: categories[4]._id,
       description:
         "Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.",
