@@ -390,10 +390,17 @@ form .formButton,
   justify-content: space-between;
   width: 100%;
   margin-bottom: 1rem;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .detailH2 {
   display: inline-flex;
+}
+
+#buttonDiv {
+  display: flex;
+  justify-content: center;
 }
 
 strong {
