@@ -416,7 +416,7 @@ form .formButton,
   filter: drop-shadow(3px 5px 5px rgb(0 0 0 / 0.4));
 }
 
-#detailH2,
+.detailH2,
 #descriptionHeader {
   font-weight: bold;
   color: #595959;
@@ -425,6 +425,16 @@ form .formButton,
 #backLink {
   color: #595959;
   text-decoration: none;
+}
+
+#starDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.star {
+  color: #d7db53;
 }
 
 #descriptionHeader {

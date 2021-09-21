@@ -116,7 +116,7 @@ function Detail() {
                 id="detailImg"
               />
               <div className="nameLinkDiv">
-                <h2 id="detailH2">{currentProduct.name}</h2>
+                <h2 className="detailH2">{currentProduct.name}</h2>
                 <Link to="/shop" id="backLink">
                   ← Back to Products
                 </Link>
@@ -124,9 +124,20 @@ function Detail() {
 
               <div className="priceDescriptionDiv">
                 <TextBox>
-                  <p id="detailH2">
-                    <strong>Price:</strong>${currentProduct.price}{" "}
-                  </p>
+                  <div id="starDiv">
+                    <p className="detailH2">
+                      <FontAwesomeIcon icon={faStar} className="star" />
+                      <FontAwesomeIcon icon={faStar} className="star" />
+                      <FontAwesomeIcon icon={faStar} className="star" />
+                      <FontAwesomeIcon icon={faStar} className="star" />
+                      <FontAwesomeIcon icon={faStarHalf} className="star" />
+                      24 (Reviews)
+                    </p>
+
+                    <p className="detailH2">
+                      <strong>Price:</strong>${currentProduct.price}{" "}
+                    </p>
+                  </div>
 
                   <h4 id="descriptionHeader">Description</h4>
 
