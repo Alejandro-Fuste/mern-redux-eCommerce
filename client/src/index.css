@@ -373,7 +373,7 @@ form .formButton,
   height: 100vh;
   width: 100vw;
   position: absolute;
-  top: 10rem;
+  top: 14rem;
 }
 
 #detailDiv {
@@ -385,7 +385,15 @@ form .formButton,
   align-items: center;
 }
 
-.detailInnerDiv {
+.nameLinkDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1rem;
+}
+
+.priceDescriptionDiv {
   display: flex;
   justify-content: space-between;
   width: 100%;

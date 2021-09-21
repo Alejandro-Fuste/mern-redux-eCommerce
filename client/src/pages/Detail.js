@@ -111,12 +111,12 @@ function Detail() {
                 src={`/images/transparentImages/${currentProduct.image}`}
                 alt={currentProduct.name}
               />
-              <div className="detailInnerDiv">
+              <div className="nameLinkDiv">
                 <h2 id="detailH2">{currentProduct.name}</h2>
                 <Link to="/shop">← Back to Products</Link>
               </div>
 
-              <div className="detailInnerDiv">
+              <div className="priceDescriptionDiv">
                 <TextBox>
                   <p id="detailH2">
                     <strong>Price:</strong>${currentProduct.price}{" "}
