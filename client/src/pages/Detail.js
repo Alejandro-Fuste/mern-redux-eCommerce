@@ -110,11 +110,14 @@ function Detail() {
         <Col sm={12} id="detailCol">
           {currentProduct && cart ? (
             <div id="detailDiv">
-              <img
-                src={`/images/transparentImages/${currentProduct.image}`}
-                alt={currentProduct.name}
-                id="detailImg"
-              />
+              <div>
+                <img
+                  src={`/images/transparentImages/${currentProduct.image}`}
+                  alt={currentProduct.name}
+                  id="detailImg"
+                />
+                <h2 id="backgroundName">{currentProduct.name}</h2>
+              </div>
               <div className="nameLinkDiv">
                 <h2 className="detailH2">{currentProduct.name}</h2>
                 <Link to="/shop" id="backLink">
