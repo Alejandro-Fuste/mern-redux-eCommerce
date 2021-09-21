@@ -122,9 +122,9 @@ function Detail() {
                     <strong>Price:</strong>${currentProduct.price}{" "}
                   </p>
 
-                  <h4>Description</h4>
+                  <h4 id="descriptionHeader">Description</h4>
 
-                  <p>
+                  <p id="descriptionParagraph">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Lectus mauris ultrices eros in cursus turpis massa

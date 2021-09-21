@@ -406,9 +406,21 @@ form .formButton,
   display: inline-flex;
 }
 
+#descriptionHeader {
+  margin-bottom: 1rem;
+}
+
+#descriptionParagraph {
+  line-height: 2rem;
+  width: 100%;
+  font-size: 1.3rem;
+  color: grey;
+}
+
 #buttonDiv {
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 strong {
