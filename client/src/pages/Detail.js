@@ -21,6 +21,14 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Modal from "react-bootstrap/Modal";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHistory,
+  faSignOutAlt,
+  faShoppingBag,
+  faHome,
+} from "@fortawesome/free-solid-svg-icons";
+
 const { idbPromise } = helpers;
 
 function Detail() {
@@ -114,7 +122,9 @@ function Detail() {
               />
               <div className="nameLinkDiv">
                 <h2 id="detailH2">{currentProduct.name}</h2>
-                <Link to="/shop">← Back to Products</Link>
+                <Link to="/shop" id="backLink">
+                  ← Back to Products
+                </Link>
               </div>
 
               <div className="priceDescriptionDiv">

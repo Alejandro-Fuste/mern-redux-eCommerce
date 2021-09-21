@@ -397,6 +397,7 @@ form .formButton,
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   margin: 1rem;
 }
@@ -415,8 +416,15 @@ form .formButton,
   filter: drop-shadow(3px 5px 5px rgb(0 0 0 / 0.4));
 }
 
-.detailH2 {
-  display: inline-flex;
+#detailH2,
+#descriptionHeader {
+  font-weight: bold;
+  color: #595959;
+}
+
+#backLink {
+  color: #595959;
+  text-decoration: none;
 }
 
 #descriptionHeader {
