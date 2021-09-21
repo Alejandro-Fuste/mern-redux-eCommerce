@@ -14,6 +14,7 @@ import spinner from "../assets/spinner.gif";
 import Logo from "../assets/logo.svg";
 import Button from "../components/Button";
 import Nav from "../components/Nav";
+import TextBox from "../components/TextBox";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
