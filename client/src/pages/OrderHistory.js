@@ -21,7 +21,9 @@ function OrderHistory() {
       <Nav />
       <Row>
         <Col xs={12}>
-          <Link to="/shop">← Back to Products</Link>
+          <Link to="/shop" id="backLink">
+            ← Back to Products
+          </Link>
         </Col>
       </Row>
 
