@@ -10,9 +10,7 @@ import Form from "react-bootstrap/Form";
 
 import Button from "../components/Button";
 import Image from "../components/Image";
-// import Nav from "../components/Nav";
 import logo from "../assets/logo.svg";
-import loginImage from "../assets/loginImage.svg";
 import loginImage2 from "../assets/loginImage2.svg";
 
 function Login(props) {
@@ -42,7 +40,6 @@ function Login(props) {
 
   return (
     <Container fluid id="loginContainer">
-      {/* <Nav /> */}
       <Row id="loginRow">
         <Col xs={7} id="leftLoginCol">
           <span className="tagLineText">Log in to start saving!</span>
