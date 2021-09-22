@@ -256,29 +256,24 @@ input:focus {
   margin-bottom: 3rem;
 }
 
-/*************** Login, Sigup, Detail Pages ***************/
+/*************** Login & Sigup Pages ***************/
 
 #loginContainer,
-#signUpContainer,
-#detailContainer {
-  height: 80vh;
+#signUpContainer {
+  height: 100vh;
+  padding: 0px;
 }
 
 #loginRow,
-#signUpRow,
-#detailRow {
-  justify-content: center;
+#signUpRow {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
 }
 
-#loginCol,
+/* #loginCol,
 #signUpCol,
-#detailCol {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  position: absolute;
-}
+*/
 
 /* Forms in Login and Signup Pages */
 
@@ -355,6 +350,14 @@ form .formButton,
   height: 100vh;
   margin: 0;
   padding: 0rem;
+}
+
+#detailCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  position: absolute;
 }
 
 #detailNavRow {
