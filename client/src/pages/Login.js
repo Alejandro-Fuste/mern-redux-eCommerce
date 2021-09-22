@@ -45,10 +45,10 @@ function Login(props) {
         <Col xs={7} id="leftLoginCol">
           <span className="tagLineText">Log in to start saving!</span>
         </Col>
-        <Col id="loginCol">
+        <Col id="rightLoginCol">
           <div id="logoHeader">
             <Image src={logo} alt="logo" id="logo" />
-            <h1 id="successH1">A-Shop</h1>
+            <h1 id="shopName">A-Shop</h1>
           </div>
           <Form onSubmit={handleFormSubmit} className="loginForm">
             <h2 className="loginH2">Login</h2>

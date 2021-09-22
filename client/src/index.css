@@ -277,9 +277,10 @@ input:focus {
   flex-direction: row;
 }
 
-/* #loginCol,
-#signUpCol,
-*/
+#rightLoginCol,
+#rightSignUpCol {
+  padding: 3rem;
+}
 
 #leftLoginCol {
   width: 60vw;
@@ -294,19 +295,25 @@ input:focus {
 /* Forms in Login and Signup Pages */
 
 #logoHeader {
-  margin: 2rem 0 0 3.2rem;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+#shopName {
+  padding-left: 0.5rem;
+  font-family: "Nunito";
+  color: #c4c2c2;
 }
 
 .signUpForm,
 .loginForm {
-  margin: 20px;
-  padding: 2rem;
-  width: 37%;
+  width: 33.4%;
   display: flex;
   flex-direction: column;
   align-content: center;
   position: absolute;
-  bottom: 3.4rem;
+  bottom: 6.4rem;
 }
 
 .loginForm {
@@ -348,7 +355,7 @@ form .form-label {
 }
 
 .loginH2 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 3.5rem;
 }
 
 form .formButton,
