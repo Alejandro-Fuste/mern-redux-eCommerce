@@ -275,6 +275,10 @@ input:focus {
 #signUpCol,
 */
 
+#leftLoginCol {
+  width: 60vw;
+}
+
 /* Forms in Login and Signup Pages */
 
 .signUpForm,

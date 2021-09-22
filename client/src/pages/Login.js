@@ -40,7 +40,7 @@ function Login(props) {
     <Container fluid id="loginContainer">
       {/* <Nav /> */}
       <Row id="loginRow">
-        <Col id="leftLoginCol">
+        <Col xs={7} id="leftLoginCol">
           <span>Left Column</span>
         </Col>
         <Col id="loginCol">
