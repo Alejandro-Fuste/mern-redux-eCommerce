@@ -9,6 +9,9 @@ import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 
 import Button from "../components/Button";
+import Image from "../components/Image";
+import logo from "../assets/logo.svg";
+import loginImage2 from "../assets/loginImage2.svg";
 
 function Signup(props) {
   const [formState, setFormState] = useState({ email: "", password: "" });
@@ -37,9 +40,9 @@ function Signup(props) {
   };
 
   return (
-    <Container fluid style={{ padding: "0px" }} id="signUpContainer">
+    <Container fluid id="signUpContainer">
       <Row id="signUpRow">
-        <Col sm={10} id="signUpCol">
+        <Col id="rightSignUpCol">
           <Form onSubmit={handleFormSubmit} className="signUpForm">
             <h2 className="loginH2">Sign Up</h2>
 
