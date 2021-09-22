@@ -42,6 +42,10 @@ function Signup(props) {
   return (
     <Container fluid id="signUpContainer">
       <Row id="signUpRow">
+        <Col xs={7} id="leftSignUpCol">
+          <span className="tagLineText">Sign up to start saving!</span>
+          <Image src={loginImage2} alt="Login" id="loginImage" />
+        </Col>
         <Col id="rightSignUpCol">
           <Form onSubmit={handleFormSubmit} className="signUpForm">
             <h2 className="loginH2">Sign Up</h2>

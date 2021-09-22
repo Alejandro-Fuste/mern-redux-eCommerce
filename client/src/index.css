@@ -282,7 +282,8 @@ input:focus {
   padding: 3rem;
 }
 
-#leftLoginCol {
+#leftLoginCol,
+#leftSignUpCol {
   width: 60vw;
   display: flex;
   flex-direction: column;
@@ -345,11 +346,11 @@ input:focus {
 }
 
 .signUpForm {
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem;
   box-shadow: -4px 10px 24px -13px lightgrey;
-  position: absolute;
+  position: absolute; */
   bottom: 0;
-  animation: signUpMotion 0.8s ease-in;
+  animation: signUpMotion 1s;
 }
 
 @keyframes signUpMotion {
