@@ -12,6 +12,7 @@ import Button from "../components/Button";
 import Image from "../components/Image";
 // import Nav from "../components/Nav";
 import logo from "../assets/logo.svg";
+import loginImage from "../assets/loginImage.svg";
 
 function Login(props) {
   const [formState, setFormState] = useState({ email: "", password: "" });
@@ -44,6 +45,7 @@ function Login(props) {
       <Row id="loginRow">
         <Col xs={7} id="leftLoginCol">
           <span className="tagLineText">Log in to start saving!</span>
+          <Image src={loginImage} alt="Login" id="loginImage" />
         </Col>
         <Col id="rightLoginCol">
           <div id="logoHeader">
