@@ -293,6 +293,10 @@ input:focus {
 
 /* Forms in Login and Signup Pages */
 
+#logoHeader {
+  margin: 2rem 0 0 3.2rem;
+}
+
 .signUpForm,
 .loginForm {
   margin: 20px;

@@ -9,7 +9,9 @@ import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 
 import Button from "../components/Button";
+import Image from "../components/Image";
 // import Nav from "../components/Nav";
+import logo from "../assets/logo.svg";
 
 function Login(props) {
   const [formState, setFormState] = useState({ email: "", password: "" });
@@ -44,6 +46,10 @@ function Login(props) {
           <span className="tagLineText">Log in to start saving!</span>
         </Col>
         <Col id="loginCol">
+          <div id="logoHeader">
+            <Image src={logo} alt="logo" id="logo" />
+            <h1 id="successH1">A-Shop</h1>
+          </div>
           <Form onSubmit={handleFormSubmit} className="loginForm">
             <h2 className="loginH2">Login</h2>
             <Form.Group className="mb-3">
