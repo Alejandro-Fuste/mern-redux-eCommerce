@@ -41,7 +41,7 @@ function Login(props) {
       {/* <Nav /> */}
       <Row id="loginRow">
         <Col xs={7} id="leftLoginCol">
-          <span>Left Column</span>
+          <span className="tagLineText">Log in to start saving!</span>
         </Col>
         <Col id="loginCol">
           <Form onSubmit={handleFormSubmit} className="loginForm">
