@@ -59,7 +59,7 @@ function Login(props) {
           <Form onSubmit={handleFormSubmit} className="loginForm">
             <h2 className="loginH2">Login</h2>
             <Form.Group className="mb-3">
-              <Form.Label>Email address</Form.Label>
+              <Form.Label className="inputForm">Email address</Form.Label>
               <Form.Control
                 type="email"
                 placeholder="youremail@test.com"
@@ -73,7 +73,7 @@ function Login(props) {
             </Form.Group>
 
             <Form.Group className="mb-3">
-              <Form.Label>Password</Form.Label>
+              <Form.Label className="inputForm">Password</Form.Label>
               <Form.Control
                 type="password"
                 placeholder="*******"

@@ -337,7 +337,7 @@ input:focus {
   flex-direction: column;
   align-content: center;
   position: absolute;
-  bottom: 6.4rem;
+  bottom: 7.4rem;
   opacity: 1;
 }
 
@@ -373,8 +373,10 @@ input:focus {
   margin-bottom: 1rem;
 } */
 
-.form-control {
-  margin-bottom: 0rem;
+.inputForm,
+#email,
+#pwd {
+  margin-bottom: 1rem;
 }
 
 .loginH2 {

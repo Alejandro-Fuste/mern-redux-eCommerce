@@ -89,7 +89,7 @@ function Signup(props) {
                 type="email"
                 placeholder="youremail@test.com"
                 name="email"
-                id="email"
+                id="emailSignUp"
                 onChange={handleChange}
               />
             </Form.Group>
@@ -100,7 +100,7 @@ function Signup(props) {
                 type="password"
                 placeholder="*******"
                 name="password"
-                id="pwd"
+                id="pwdSignUp"
                 onChange={handleChange}
               />
             </Form.Group>
