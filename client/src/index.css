@@ -355,7 +355,6 @@ input:focus {
 }
 
 .signUpForm {
-  /* margin-bottom: 2rem; */
   bottom: 4.5rem;
   animation: signUpMotion 1s;
 }
@@ -368,10 +367,6 @@ input:focus {
     opacity: 1;
   }
 }
-
-/* form .form-label {
-  margin-bottom: 1rem;
-} */
 
 .inputForm,
 #email,
