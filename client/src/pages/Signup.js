@@ -43,12 +43,12 @@ function Signup(props) {
   return (
     <Container fluid id="signUpContainer">
       <Row id="signUpRow">
-        <Col xs={7} id="leftSignUpCol">
+        <Col xs={12} xl={7} id="leftSignUpCol">
           <span className="tagLineText">Sign up to start saving!</span>
           <Image src={loginImage2} alt="Login" id="loginImage" />
         </Col>
 
-        <Col id="rightSignUpCol">
+        <Col xs={12} xl={5} id="rightSignUpCol">
           <Link to="/" id="signUpHeader">
             <Image src={logo} alt="logo" id="logo" />
             <h1 id="shopName">A-Shop</h1>
