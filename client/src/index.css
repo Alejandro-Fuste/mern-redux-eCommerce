@@ -265,7 +265,8 @@ input:focus {
   padding: 0px;
 }
 
-#loginContainer .row {
+#loginContainer .row,
+#signUpContainer .row {
   --bs-gutter-x: 0rem;
 }
 
