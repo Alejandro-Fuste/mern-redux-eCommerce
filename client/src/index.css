@@ -355,8 +355,8 @@ input:focus {
 }
 
 .signUpForm {
-  margin-bottom: 2rem;
-  bottom: 0;
+  /* margin-bottom: 2rem; */
+  bottom: 4.5rem;
   animation: signUpMotion 1s;
 }
 
@@ -369,12 +369,12 @@ input:focus {
   }
 }
 
-form .form-label {
+/* form .form-label {
   margin-bottom: 1rem;
-}
+} */
 
 .form-control {
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
 }
 
 .loginH2 {
@@ -395,6 +395,10 @@ form .formButton,
   background-color: var(--secondary);
   border-color: var(--secondary);
   color: black;
+}
+
+form .formButton {
+  margin-top: 2rem;
 }
 
 /********************** Detail Page **********************/

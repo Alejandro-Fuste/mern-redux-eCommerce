@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { useMutation } from "@apollo/client";
 import Auth from "../utils/auth";
 import { ADD_USER } from "../utils/mutations";
@@ -47,10 +48,15 @@ function Signup(props) {
           <Image src={loginImage2} alt="Login" id="loginImage" />
         </Col>
         <Col id="rightSignUpCol">
-          <div id="signUpHeader">
+          {/* <div id="signUpHeader">
             <Image src={logo} alt="logo" id="logo" />
             <h1 id="shopName">A-Shop</h1>
-          </div>
+          </div> */}
+
+          <Link to="/" id="signUpHeader">
+            <Image src={logo} alt="logo" id="logo" />
+            <h1 id="shopName">A-Shop</h1>
+          </Link>
 
           <Form onSubmit={handleFormSubmit} className="signUpForm">
             <h2 className="signUpH2">Sign Up</h2>
