@@ -741,6 +741,14 @@ strong {
     bottom: 0rem;
   }
 
+  .loginForm {
+    bottom: 0rem;
+  }
+
+  .signUpForm {
+    bottom: -6rem;
+  }
+
   .loginH2 {
     margin-bottom: 1.8rem;
   }
