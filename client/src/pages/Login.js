@@ -41,13 +41,13 @@ function Login(props) {
 
   return (
     <Container fluid id="loginContainer">
-      <Row id="loginRow">
-        <Col xs={7} id="leftLoginCol">
+      <Row xs={12} id="loginRow">
+        <Col xs={12} xl={7} id="leftLoginCol">
           <span className="tagLineText">Log in to start saving!</span>
           <Image src={loginImage2} alt="Login" id="loginImage" />
         </Col>
 
-        <Col id="rightLoginCol">
+        <Col xs={12} xl={5} id="rightLoginCol">
           <Link to="/" id="logoHeader">
             <Image src={logo} alt="logo" id="logo" />
             <h1 id="shopName">A-Shop</h1>
