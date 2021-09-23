@@ -277,9 +277,12 @@ input:focus {
   flex-direction: row;
 }
 
-#rightLoginCol,
-#rightSignUpCol {
+#rightLoginCol {
   padding: 3rem;
+}
+
+#rightSignUpCol {
+  padding: 1rem 3rem;
 }
 
 #leftLoginCol,
@@ -306,10 +309,15 @@ input:focus {
 
 /* Forms in Login and Signup Pages */
 
-#logoHeader {
+#logoHeader,
+#signUpHeader {
   display: flex;
   align-content: center;
   align-items: center;
+}
+
+#signUpHeader {
+  margin-bottom: 4rem;
 }
 
 #shopName {
@@ -346,9 +354,7 @@ input:focus {
 }
 
 .signUpForm {
-  /* margin-bottom: 3rem;
-  box-shadow: -4px 10px 24px -13px lightgrey;
-  position: absolute; */
+  margin-bottom: 2rem;
   bottom: 0;
   animation: signUpMotion 1s;
 }
@@ -372,6 +378,10 @@ form .form-label {
 
 .loginH2 {
   margin-bottom: 3.5rem;
+}
+
+.signUpH2 {
+  margin-bottom: 2rem;
 }
 
 form .formButton,

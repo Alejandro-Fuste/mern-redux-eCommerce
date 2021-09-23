@@ -47,8 +47,13 @@ function Signup(props) {
           <Image src={loginImage2} alt="Login" id="loginImage" />
         </Col>
         <Col id="rightSignUpCol">
+          <div id="signUpHeader">
+            <Image src={logo} alt="logo" id="logo" />
+            <h1 id="shopName">A-Shop</h1>
+          </div>
+
           <Form onSubmit={handleFormSubmit} className="signUpForm">
-            <h2 className="loginH2">Sign Up</h2>
+            <h2 className="signUpH2">Sign Up</h2>
 
             <Form.Group className="mb-3">
               <Form.Label>First Name</Form.Label>
