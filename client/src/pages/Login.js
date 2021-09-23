@@ -46,11 +46,8 @@ function Login(props) {
           <span className="tagLineText">Log in to start saving!</span>
           <Image src={loginImage2} alt="Login" id="loginImage" />
         </Col>
+
         <Col id="rightLoginCol">
-          {/* <div id="logoHeader">
-            <Image src={logo} alt="logo" id="logo" />
-            <h1 id="shopName">A-Shop</h1>
-          </div> */}
           <Link to="/" id="logoHeader">
             <Image src={logo} alt="logo" id="logo" />
             <h1 id="shopName">A-Shop</h1>

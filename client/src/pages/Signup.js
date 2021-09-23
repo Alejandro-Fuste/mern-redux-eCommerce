@@ -47,12 +47,8 @@ function Signup(props) {
           <span className="tagLineText">Sign up to start saving!</span>
           <Image src={loginImage2} alt="Login" id="loginImage" />
         </Col>
-        <Col id="rightSignUpCol">
-          {/* <div id="signUpHeader">
-            <Image src={logo} alt="logo" id="logo" />
-            <h1 id="shopName">A-Shop</h1>
-          </div> */}
 
+        <Col id="rightSignUpCol">
           <Link to="/" id="signUpHeader">
             <Image src={logo} alt="logo" id="logo" />
             <h1 id="shopName">A-Shop</h1>
