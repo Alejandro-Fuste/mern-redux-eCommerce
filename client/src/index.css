@@ -277,6 +277,11 @@ input:focus {
   flex-direction: row;
 }
 
+#rightLoginCol,
+#rightSignUpCol {
+  width: auto;
+}
+
 #rightLoginCol {
   padding: 3rem;
 }
@@ -705,6 +710,42 @@ strong {
   #loginRow,
   #signUpRow {
     flex-direction: column;
+  }
+
+  #leftLoginCol,
+  #leftSignUpCol {
+    width: 100vw;
+    height: 40vh;
+  }
+
+  #rightLoginCol,
+  #rightSignUpCol {
+    padding: 2rem 3rem 3rem 3rem;
+  }
+
+  .tagLineText {
+    margin: 1rem 0 0 2rem;
+  }
+
+  #loginImage {
+    width: 100%;
+    height: 24vh;
+    margin-top: 1rem;
+    padding-right: 1.2rem;
+  }
+
+  .signUpForm,
+  .loginForm {
+    width: 75%;
+    bottom: 0rem;
+  }
+
+  .loginH2 {
+    margin-bottom: 1.8rem;
+  }
+
+  form .formButton {
+    margin: 0px 0px 1rem 0px;
   }
 
   /* Success Page */
