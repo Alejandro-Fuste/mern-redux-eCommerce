@@ -647,7 +647,7 @@ strong {
 
   #rightLoginCol,
   #rightSignUpCol {
-    padding: 2rem 3rem 3rem 3rem;
+    padding: 2rem 2rem 3rem 2.2rem;
   }
 
   .tagLineText {
@@ -673,11 +673,10 @@ strong {
   .signUpForm,
   .loginForm {
     width: 75%;
-    bottom: 0rem;
   }
 
   .loginForm {
-    bottom: 0rem;
+    bottom: -5rem;
   }
 
   .signUpForm {
