@@ -632,6 +632,59 @@ strong {
 /* ----------- Galaxy Fold ----------- */
 
 @media only screen and (min-device-width: 280px) and (max-device-width: 350px) {
+  /* Login & Sign Up Pages */
+  /* Login and SignUp Page */
+  #loginRow,
+  #signUpRow {
+    flex-direction: column;
+  }
+
+  #leftLoginCol,
+  #leftSignUpCol {
+    width: 100vw;
+    height: 40vh;
+  }
+
+  #rightLoginCol,
+  #rightSignUpCol {
+    padding: 2rem 3rem 3rem 3rem;
+  }
+
+  .tagLineText {
+    margin: 1rem 0 0 2rem;
+    font-size: 1.4rem;
+  }
+
+  #loginImage {
+    width: 100%;
+    height: 24vh;
+    margin-top: 1rem;
+    padding-right: 1.2rem;
+  }
+
+  .signUpForm,
+  .loginForm {
+    width: 75%;
+    bottom: 0rem;
+  }
+
+  .loginForm {
+    bottom: 0rem;
+  }
+
+  .signUpForm {
+    bottom: -6rem;
+  }
+
+  .loginH2 {
+    margin-bottom: 1.8rem;
+  }
+
+  form .formButton {
+    margin: 0px 0px 1rem 0px;
+  }
+
+  /* Success Page */
   #successContainer {
     width: 100%;
     height: 100%;
@@ -652,6 +705,7 @@ strong {
 /* ------------- iPhone 5/SE --------------- */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  /* Success Page */
   #successCol {
     margin-top: 1rem;
   }
