@@ -39,7 +39,6 @@ function Success() {
     saveOrder();
   }, [addOrder]);
 
-  // #707070
   return (
     <Container fluid id="successContainer">
       <Row>

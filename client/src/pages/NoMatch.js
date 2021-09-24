@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "../components/Image";
+import TextBox from "../components/TextBox";
 import Jumbotron from "../components/Jumbotron";
 
 import Container from "react-bootstrap/Container";
@@ -9,7 +11,12 @@ const NoMatch = () => {
   return (
     <Container fluid id="noMatchContainer">
       <Row>
-        <Col xs={12}></Col>
+        <Col xs={12} id="noMatchCol">
+          {/* <Image src={imageSrc} alt="No Match" id="noMatchImage" /> */}
+          <TextBox id="successTextBox">
+            <p>Oops, something went wrong!</p>
+          </TextBox>
+        </Col>
       </Row>
     </Container>
 
