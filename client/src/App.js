@@ -19,7 +19,6 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Success from "./pages/Success";
 import OrderHistory from "./pages/OrderHistory";
-import Nav from "./components/Nav";
 
 import Container from "react-bootstrap/Container";
 
@@ -49,7 +48,6 @@ function App() {
         <div>
           <Provider store={store}>
             <Container fluid id="appContainer">
-              {/* <Nav /> */}
               <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/shop" component={Shop} />
