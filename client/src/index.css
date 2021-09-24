@@ -1134,6 +1134,10 @@ strong {
     height: 3.5rem;
   }
 
+  #rightSignUpCol {
+    padding: 3rem 3rem;
+  }
+
   .signUpForm,
   .loginForm {
     width: 89%;
@@ -1141,6 +1145,10 @@ strong {
 
   .loginForm {
     bottom: 12rem;
+  }
+
+  .signUpForm {
+    bottom: 9rem;
   }
   /* Success Page */
 
