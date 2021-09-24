@@ -946,6 +946,16 @@ strong {
 /* ------------- iPhone 6,7,8 --------------- */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  /* Login and SignUp Pages */
+  .loginForm {
+    bottom: -5rem;
+  }
+
+  .signUpForm {
+    bottom: -11rem;
+  }
+
+  /* Success Page */
   #successCol {
     width: 70%;
     margin-top: 1.8rem;
