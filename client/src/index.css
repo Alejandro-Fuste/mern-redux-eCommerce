@@ -852,7 +852,7 @@ strong {
 
 /* ----------- iPhone X, Moto G4, Galaxy S5 ----------- */
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   /* Home Page */
   #homeContainer .row {
     --bs-gutter-x: 0rem;
@@ -917,12 +917,12 @@ strong {
     bottom: 0rem;
   }
 
-  .loginForm {
-    bottom: 0rem;
+  #rightLoginCol .loginForm {
+    bottom: 1rem;
   }
 
-  .signUpForm {
-    bottom: -6rem;
+  #rightSignUpCol .signUpForm {
+    bottom: -5rem;
   }
 
   .loginH2 {
@@ -945,7 +945,7 @@ strong {
 
 /* ------------- iPhone 6,7,8 --------------- */
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   /* Login and SignUp Pages */
   .loginForm {
     bottom: -5rem;
@@ -986,6 +986,20 @@ strong {
 
   #successImage {
     height: 35vh;
+  }
+}
+
+/* ------------- iPhone 6,7,8 Plus ------------- */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+  /* Login & SignUp Pages */
+
+  .loginForm {
+    bottom: 0rem;
+  }
+
+  .signUpForm {
+    bottom: -8rem;
   }
 }
 
