@@ -629,6 +629,12 @@ strong {
 
 /* ********************** NoMatch Page ************************ */
 
+#noMatchContainer {
+  width: 100vw;
+  height: 100vh;
+  padding: 0px;
+}
+
 #backgroundCircle {
   height: 100px;
   width: 100px;
