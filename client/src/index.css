@@ -1006,9 +1006,56 @@ strong {
 /* ------------- iPad ------------- */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Login and SignUp Page */
+  #loginRow,
+  #signUpRow {
+    flex-direction: column;
+  }
+
+  #leftLoginCol,
+  #leftSignUpCol {
+    width: 100vw;
+    height: 40vh;
+  }
+
+  #loginImage {
+    width: 85%;
+    height: 26vh;
+    margin: 1rem 3rem;
+  }
+
+  #rightSignUpCol {
+    padding: 2rem 3rem;
+  }
+
+  #rightLoginCol #logo,
+  #rightSignUpCol #logo {
+    height: 3.5rem;
+  }
+
+  .signUpForm,
+  .loginForm {
+    width: 87%;
+  }
+
+  .loginForm {
+    bottom: 4rem;
+  }
+
+  .signUpForm {
+    bottom: 1rem;
+  }
+
+  form .formButton {
+    margin-top: 1rem;
+  }
+
+  /* Shop Page */
   .card {
     width: 40%;
   }
+
+  /* Success Page */
   #successContainer {
     width: 100%;
     height: 100%;
