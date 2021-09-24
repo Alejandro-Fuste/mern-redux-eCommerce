@@ -754,11 +754,11 @@ strong {
   }
 
   .loginForm {
-    bottom: -5rem;
+    bottom: -8rem;
   }
 
   .signUpForm {
-    bottom: -11rem;
+    bottom: -14rem;
   }
 
   .loginH2 {
@@ -946,6 +946,29 @@ strong {
 /* ------------- iPhone 6,7,8 --------------- */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  #successCol {
+    width: 70%;
+    margin-top: 1.8rem;
+  }
+
+  #successImage {
+    height: 35vh;
+  }
+}
+
+/* ------------- Pixel 2 XL --------------- */
+
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) {
+  /* Login and SignUp Page */
+  .loginForm {
+    bottom: 2rem;
+  }
+
+  .signUpForm {
+    bottom: -5rem;
+  }
+
+  /* Success Page */
   #successCol {
     width: 70%;
     margin-top: 1.8rem;
