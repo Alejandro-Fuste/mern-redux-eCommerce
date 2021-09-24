@@ -12,7 +12,10 @@ const NoMatch = () => {
     <Container fluid id="noMatchContainer">
       <Row>
         <Col xs={12} id="noMatchCol">
-          {/* <Image src={imageSrc} alt="No Match" id="noMatchImage" /> */}
+          <div>
+            <span id="backgroundCircle"></span>
+            {/* <Image src={imageSrc} alt="No Match" id="noMatchImage" /> */}
+          </div>
           <TextBox id="successTextBox">
             <p>Oops, something went wrong!</p>
           </TextBox>
