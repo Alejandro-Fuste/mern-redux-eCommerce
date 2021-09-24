@@ -637,6 +637,10 @@ strong {
   display: inline-block;
 }
 
+#noMatchImage {
+  max-width: 20%;
+}
+
 /*************** Media Queries ***************/
 
 /* ----------- Galaxy Fold ----------- */

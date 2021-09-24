@@ -14,7 +14,7 @@ const NoMatch = () => {
     <Container fluid id="noMatchContainer">
       <Row>
         <Col xs={12} id="noMatchCol">
-          <div>
+          <div id="noMatchImgDiv">
             <span id="backgroundCircle"></span>
             <Image src={imageSrc} alt="No Match" id="noMatchImage" />
           </div>
