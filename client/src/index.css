@@ -1003,6 +1003,20 @@ strong {
   }
 }
 
+/* ------------- Surface Duo ------------- */
+
+@media only screen and (min-device-width: 540px) and (max-device-width: 720px) and (-webkit-min-device-pixel-ratio: 2.5) {
+  .loginForm {
+    width: 86%;
+    bottom: -2rem;
+  }
+
+  .signUpForm {
+    width: 87%;
+    bottom: -9rem;
+  }
+}
+
 /* ------------- iPad ------------- */
 /* ------ Portrait ------ */
 
