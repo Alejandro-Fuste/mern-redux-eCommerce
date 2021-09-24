@@ -1179,6 +1179,62 @@ strong {
   }
 }
 
+@media screen and (orientation: landscape) and (min-width: 1024px) and (max-device-width: 1366px) {
+  /* ------ Landscape ------ */
+  /* Login and SignUp */
+
+  #rightSignUpCol {
+    padding: 3rem 3rem;
+  }
+
+  #rightLoginCol #logo,
+  #rightSignUpCol #logo {
+    height: 3.5rem;
+  }
+
+  .signUpForm,
+  .loginForm {
+    width: 32.4%;
+  }
+
+  .loginForm {
+    bottom: 21.4rem;
+  }
+
+  .signUpForm {
+    width: 32%;
+    bottom: 18.5rem;
+  }
+
+  /* Success Page */
+
+  #successContainer {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #successCol {
+    width: 70%;
+    margin-top: 5rem;
+  }
+
+  #successImage {
+    height: auto;
+    margin: 0 auto 10px auto;
+  }
+
+  #logo {
+    height: 5.5rem;
+  }
+
+  #successH1 {
+    font-size: 3.5rem;
+    margin: 2px 0 0 30px;
+  }
+}
+
 /* ------------- Orientation --------------- */
 
 @media (orientation: landscape) and (max-device-width: 1200px) {
