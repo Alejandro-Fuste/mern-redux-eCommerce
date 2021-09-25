@@ -644,8 +644,21 @@ strong {
   width: 100vw;
 }
 
+#noMatchCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+#noMatchImgDiv span {
+  display: flex;
+  justify-content: center;
+}
+
 #noMatchImage {
-  max-width: 20%;
+  max-width: 36%;
 }
 
 /*************** Media Queries ***************/
