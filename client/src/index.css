@@ -644,14 +644,6 @@ strong {
   width: 100vw;
 }
 
-#backgroundCircle {
-  height: 100px;
-  width: 100px;
-  background-color: #243b55;
-  border-radius: 50%;
-  display: inline-block;
-}
-
 #noMatchImage {
   max-width: 20%;
 }

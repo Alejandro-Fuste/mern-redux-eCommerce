@@ -15,7 +15,6 @@ const NoMatch = () => {
       <Row id="noMatchRow">
         <Col xs={12} id="noMatchCol">
           <div id="noMatchImgDiv">
-            <span id="backgroundCircle"></span>
             <Image src={imageSrc} alt="No Match" id="noMatchImage" />
           </div>
           <TextBox id="successTextBox">
