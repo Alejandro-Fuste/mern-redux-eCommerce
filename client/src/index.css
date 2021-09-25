@@ -661,6 +661,22 @@ strong {
   max-width: 36%;
 }
 
+#noMatchText {
+  color: #253237;
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+
+#linkToShop {
+  border-radius: 10px;
+  padding: 1% 8%;
+  font-size: 1.1rem;
+  background-color: #fce5ca;
+  color: #253237;
+  text-decoration: none;
+  /* background-color: var(--secondary); */
+}
+
 /*************** Media Queries ***************/
 
 /* ----------- Galaxy Fold ----------- */

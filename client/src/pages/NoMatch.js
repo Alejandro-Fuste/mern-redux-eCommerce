@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Image from "../components/Image";
 import TextBox from "../components/TextBox";
 import Jumbotron from "../components/Jumbotron";
@@ -17,8 +18,11 @@ const NoMatch = () => {
           <div id="noMatchImgDiv">
             <Image src={imageSrc} alt="No Match" id="noMatchImage" />
           </div>
-          <TextBox id="successTextBox">
-            <p>Oops, something went wrong!</p>
+          <TextBox id="noMatchTextBox">
+            <p id="noMatchText">Oops, something went wrong!</p>
+            <Link to="/shop" id="linkToShop">
+              Back to shopping
+            </Link>
           </TextBox>
         </Col>
       </Row>
