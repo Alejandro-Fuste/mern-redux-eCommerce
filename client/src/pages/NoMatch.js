@@ -12,7 +12,7 @@ import Col from "react-bootstrap/Col";
 const NoMatch = () => {
   return (
     <Container fluid id="noMatchContainer">
-      <Row>
+      <Row id="noMatchRow">
         <Col xs={12} id="noMatchCol">
           <div id="noMatchImgDiv">
             <span id="backgroundCircle"></span>
