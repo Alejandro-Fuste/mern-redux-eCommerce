@@ -11,6 +11,7 @@ import logo from "../assets/logo.svg";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Spinner from "react-bootstrap/Spinner";
 
 const { idbPromise } = helpers;
 
@@ -31,9 +32,9 @@ function Success() {
         });
       }
 
-      // setTimeout(() => {
-      //   window.location.assign("/shop");
-      // }, 3000);
+      setTimeout(() => {
+        window.location.assign("/shop");
+      }, 3000);
     }
 
     saveOrder();
@@ -45,7 +46,7 @@ function Success() {
         <Col xs={12}>
           <div id="slantDiv">
             <Image src={logo} alt="logo" id="logo" />
-            <h1 id="successH1">A-Shop</h1>
+            <h1 >A-Shop</h1>
           </div>
         </Col>
       </Row> */}
@@ -53,9 +54,19 @@ function Success() {
         <Col xs={12} id="successCol">
           <Image src={imageSrc} alt="Success" id="successImage" />
           <TextBox id="successTextBox">
-            <h1>Success!</h1>
+            <h5 id="successH1">Your products will be delivered soon.</h5>
             {/* <h2>Thank you for your purchase!</h2>
             <h2>You will now be redirected to the homepage</h2> */}
+            <span id="redirectBox">
+              <Spinner
+                as="span"
+                animation="border"
+                size="md"
+                role="status"
+                aria-hidden="true"
+              />
+              Redirecting...
+            </span>
           </TextBox>
         </Col>
       </Row>

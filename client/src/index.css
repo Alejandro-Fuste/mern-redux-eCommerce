@@ -592,7 +592,7 @@ strong {
 #successCol {
   width: 50%;
   height: 50%;
-  margin-top: 3rem;
+  margin-top: 2%;
   padding: 10px 0px;
   /* background-color: white;
   border: 5px solid white;
@@ -602,14 +602,44 @@ strong {
 
 #successImage {
   display: flex;
-  height: 43vh;
+  height: 66vh;
   width: 100vw;
   align-content: center;
   justify-content: center;
   margin: 0 auto;
 }
 
-#slantDiv {
+#successTextBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#successH1 {
+  color: #496995;
+  font-family: "Nunito";
+  margin-top: 2%;
+}
+
+#redirectBox {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: center;
+  margin-top: 4%;
+  padding: 1%;
+  font-size: 1.8rem;
+  background-color: #496995;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.spinner-border {
+  margin-right: 20px;
+  border: 0.2em solid #ffffff;
+}
+
+/* #slantDiv {
   background-image: url("../src/assets/slant.svg");
   height: 22vh;
   background-repeat: no-repeat;
@@ -619,13 +649,7 @@ strong {
   justify-content: center;
   align-items: center;
 }
-
-#successH1 {
-  color: #c4c2c2;
-  display: inline-flex;
-  margin: 2px 0 0 15px;
-  font-family: "Nunito";
-}
+*/
 
 /* ********************** NoMatch Page ************************ */
 
