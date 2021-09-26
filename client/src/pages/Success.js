@@ -31,9 +31,9 @@ function Success() {
         });
       }
 
-      setTimeout(() => {
-        window.location.assign("/shop");
-      }, 3000);
+      // setTimeout(() => {
+      //   window.location.assign("/shop");
+      // }, 3000);
     }
 
     saveOrder();
@@ -41,14 +41,14 @@ function Success() {
 
   return (
     <Container fluid id="successContainer">
-      <Row>
+      {/* <Row>
         <Col xs={12}>
           <div id="slantDiv">
             <Image src={logo} alt="logo" id="logo" />
             <h1 id="successH1">A-Shop</h1>
           </div>
         </Col>
-      </Row>
+      </Row> */}
       <Row id="successRow">
         <Col xs={12} id="successCol">
           <Image src={imageSrc} alt="Success" id="successImage" />
