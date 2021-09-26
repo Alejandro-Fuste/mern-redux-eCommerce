@@ -594,10 +594,6 @@ strong {
   height: 50%;
   margin-top: 2%;
   padding: 10px 0px;
-  /* background-color: white;
-  border: 5px solid white;
-  border-radius: 20px;
-  box-shadow: 0px 8px 15px 5px lightgrey; */
 }
 
 #successImage {
@@ -638,18 +634,6 @@ strong {
   margin-right: 20px;
   border: 0.2em solid #ffffff;
 }
-
-/* #slantDiv {
-  background-image: url("../src/assets/slant.svg");
-  height: 22vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: drop-shadow(3px 5px 5px rgb(0 0 0 / 0.4));
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-*/
 
 /* ********************** NoMatch Page ************************ */
 

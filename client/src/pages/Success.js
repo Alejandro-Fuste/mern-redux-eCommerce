@@ -6,7 +6,6 @@ import Image from "../components/Image";
 import TextBox from "../components/TextBox";
 
 import imageSrc from "../assets/success.svg";
-import logo from "../assets/logo.svg";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -42,14 +41,6 @@ function Success() {
 
   return (
     <Container fluid id="successContainer">
-      {/* <Row>
-        <Col xs={12}>
-          <div id="slantDiv">
-            <Image src={logo} alt="logo" id="logo" />
-            <h1 >A-Shop</h1>
-          </div>
-        </Col>
-      </Row> */}
       <Row id="successRow">
         <Col xs={12} id="successCol">
           <Image src={imageSrc} alt="Success" id="successImage" />
