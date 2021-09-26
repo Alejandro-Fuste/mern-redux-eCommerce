@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Image from "../components/Image";
 import TextBox from "../components/TextBox";
-import Jumbotron from "../components/Jumbotron";
 
 import imageSrc from "../assets/noMatch.svg";
 
@@ -27,17 +26,6 @@ const NoMatch = () => {
         </Col>
       </Row>
     </Container>
-
-    // <div>
-    //   <Jumbotron>
-    //     <h1>404 Page Not Found</h1>
-    //     <h1>
-    //       <span role="img" aria-label="Face With Rolling Eyes Emoji">
-    //         🙄
-    //       </span>
-    //     </h1>
-    //   </Jumbotron>
-    // </div>
   );
 };
 
