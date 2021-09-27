@@ -2,7 +2,11 @@ import React from "react";
 import ProductList from "../components/ProductList";
 import CategoryMenu from "../components/CategoryMenu";
 import Nav from "../components/Nav";
-// import Jumbotron from "../components/Jumbotron";
+import Jumbotron from "../components/Jumbotron";
+import Image from "../components/Image";
+import TextBox from "../components/TextBox";
+
+import imageSrc from "../assets/camera.png";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -14,6 +18,12 @@ const Shop = () => {
       <Nav navbarLinks="shopNavLinks" logoName="shopLogoName" />
       <Row id="categoryRow">
         <Col xs={12}>
+          <Jumbotron>
+            <TextBox>
+              <h2>Camera</h2>
+            </TextBox>
+            <Image src={imageSrc} alt="Shop Header" id="shopImage" />
+          </Jumbotron>
           <CategoryMenu />
           <ProductList />
         </Col>
