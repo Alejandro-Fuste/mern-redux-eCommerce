@@ -34,10 +34,14 @@
 }
 
 .navbarLinks {
-  color: white;
+  color: black;
   text-decoration: none;
   margin: 1.8vh 2vw 0px 0px;
   font-family: var(--logoFont);
+}
+
+.navIcons {
+  display: none;
 }
 
 .navbar-toggler {
