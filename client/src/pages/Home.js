@@ -14,7 +14,7 @@ import Col from "react-bootstrap/Col";
 const Home = () => {
   return (
     <Container fluid style={{ padding: "0px" }} id="homeContainer">
-      <Nav navbarLinks="homeNavLinks" />
+      <Nav navbarLinks="homeNavLinks" logoName="homeLogoName" />
       <Row className="homeRow">
         <Col xs={12}>
           <Image src={imageSrc} alt="Credit Card" id="creditCard" />

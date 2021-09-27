@@ -87,7 +87,16 @@ svg {
 }
 
 span[role="img"] {
-  margin: 0 2vw 0 4vw;
+  margin: 0 1vw 0 4vw;
+}
+
+#homeLogoName {
+  color: white;
+}
+
+#shopLogoName {
+  /* color: #465965; */
+  color: #a0a9b1;
 }
 
 /* -------------- Media Queries -------------- */

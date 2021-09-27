@@ -16,7 +16,7 @@ import {
   faHome,
 } from "@fortawesome/free-solid-svg-icons";
 
-function Navi({ navbarLinks }) {
+function Navi({ navbarLinks, logoName }) {
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
@@ -60,8 +60,8 @@ function Navi({ navbarLinks }) {
   return (
     <Nav id="navParent">
       <Navbar id="navbar" expand="lg" variant="dark">
-        <Navbar.Brand href="/">
-          <span role="img" aria-label="shopping bag">
+        <Navbar.Brand href="/" id={logoName}>
+          <span role="img" aria-label="logo name">
             <img src={Logo} alt="logo" id="logo" />
           </span>
           A-Shop
