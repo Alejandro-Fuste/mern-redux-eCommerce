@@ -83,6 +83,14 @@ span[role="img"] {
   margin: 0 2vw 0 4vw;
 }
 
+/* -------------- Media Queries -------------- */
+
+@media only screen and (min-device-width: 280px) /*and (max-device-width: 350px) */ {
+  .navIcons {
+    display: inline-block;
+  }
+}
+
 @media screen and (max-width: 900px) {
   #basic-navbar-nav {
     margin-right: 0px;
@@ -91,5 +99,11 @@ span[role="img"] {
   .navbar-nav {
     margin: 2vh 4vw 0px 0px;
     border-top: 2px solid grey;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navIcons {
+    display: none;
   }
 }
