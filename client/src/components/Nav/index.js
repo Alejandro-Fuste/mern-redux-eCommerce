@@ -22,20 +22,21 @@ function Navi() {
       return (
         <>
           <Link to="/" className="navbarLinks">
-            <FontAwesomeIcon icon={faHome} /> Home
+            <FontAwesomeIcon icon={faHome} className="navIcons" /> Home
           </Link>
 
           <Link to="/shop" className="navbarLinks">
-            <FontAwesomeIcon icon={faShoppingBag} /> Shop
+            <FontAwesomeIcon icon={faShoppingBag} className="navIcons" /> Shop
           </Link>
 
           <Link to="/orderHistory" className="navbarLinks">
-            <FontAwesomeIcon icon={faHistory} /> Order History
+            <FontAwesomeIcon icon={faHistory} className="navIcons" /> Order
+            History
           </Link>
 
           {/* this is not using the Link component to logout or user and then refresh the application to the start */}
           <a href="/" onClick={() => Auth.logout()} className="navbarLinks">
-            <FontAwesomeIcon icon={faSignOutAlt} /> Logout
+            <FontAwesomeIcon icon={faSignOutAlt} className="navIcons" /> Logout
           </a>
 
           <CartModal />
