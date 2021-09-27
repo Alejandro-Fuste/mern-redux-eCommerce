@@ -16,26 +16,26 @@ import {
   faHome,
 } from "@fortawesome/free-solid-svg-icons";
 
-function Navi() {
+function Navi({ navbarLinks }) {
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
         <>
-          <Link to="/" className="navbarLinks">
+          <Link to="/" className={navbarLinks}>
             <FontAwesomeIcon icon={faHome} className="navIcons" /> Home
           </Link>
 
-          <Link to="/shop" className="navbarLinks">
+          <Link to="/shop" className={navbarLinks}>
             <FontAwesomeIcon icon={faShoppingBag} className="navIcons" /> Shop
           </Link>
 
-          <Link to="/orderHistory" className="navbarLinks">
+          <Link to="/orderHistory" className={navbarLinks}>
             <FontAwesomeIcon icon={faHistory} className="navIcons" /> Order
             History
           </Link>
 
           {/* this is not using the Link component to logout or user and then refresh the application to the start */}
-          <a href="/" onClick={() => Auth.logout()} className="navbarLinks">
+          <a href="/" onClick={() => Auth.logout()} className={navbarLinks}>
             <FontAwesomeIcon icon={faSignOutAlt} className="navIcons" /> Logout
           </a>
 
