@@ -18,7 +18,7 @@ const Shop = () => {
       <Nav navbarLinks="shopNavLinks" logoName="shopLogoName" />
       <Row id="categoryRow">
         <Col xs={12}>
-          <Jumbotron>
+          <Jumbotron id="jumboContainer">
             <TextBox>
               <h2>Camera</h2>
             </TextBox>
