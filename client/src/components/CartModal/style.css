@@ -10,11 +10,12 @@
   border-color: #f1a138;
 }
 
-#shopCartButton {
+/* #shopCartButton {
   color: #465965;
   background-color: white;
   border-color: #465965;
-}
+  
+} */
 
 #cartBottom {
   display: flex;

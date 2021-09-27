@@ -45,9 +45,9 @@ function Navi({ navbarLinks, logoName }) {
           </div>
 
           <div id="cartContainer">
-            <FontAwesomeIcon icon={faSearch} />
-            <FontAwesomeIcon icon={faUser} />
-            <CartModal id="shopCartButton" />
+            <FontAwesomeIcon icon={faSearch} className="otherLinks" />
+            <FontAwesomeIcon icon={faUser} className="otherLinks" />
+            <CartModal id="homeCartButton" />
           </div>
         </div>
       );
