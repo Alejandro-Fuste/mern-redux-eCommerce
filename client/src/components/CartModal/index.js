@@ -21,7 +21,7 @@ const { idbPromise } = helpers;
 
 const stripePromise = loadStripe("pk_test_TYooMQauvdEDq54NiTphI7jx");
 
-function CartModal() {
+function CartModal({ id }) {
   const [show, setShow] = useState(false);
   const dispatch = useDispatch();
   const state = useSelector((state) => state);
@@ -73,7 +73,7 @@ function CartModal() {
 
   return (
     <>
-      <Button variant="primary" id="cartButton" onClick={() => setShow(true)}>
+      <Button variant="primary" id={id} onClick={() => setShow(true)}>
         <FontAwesomeIcon icon={faShoppingCart} />
       </Button>
 

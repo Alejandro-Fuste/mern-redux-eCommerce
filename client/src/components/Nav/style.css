@@ -24,6 +24,24 @@
   margin-right: 50px;
 }
 
+#newNavContainer {
+  display: flex;
+  width: 56rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#linksContainer {
+  margin-right: 35%;
+}
+
+#cartContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10rem;
+}
+
 .navbar-nav {
   margin: 1rem 0 1rem 0;
 }
@@ -45,6 +63,10 @@
   text-decoration: none;
   margin: 1.8vh 2vw 0px 0px;
   font-family: var(--logoFont);
+}
+
+.otherLinks {
+  color: #a0a9b1;
 }
 
 .navIcons {

@@ -14,33 +14,42 @@ import {
   faSignOutAlt,
   faShoppingBag,
   faHome,
+  faSearch,
+  faUser,
 } from "@fortawesome/free-solid-svg-icons";
 
 function Navi({ navbarLinks, logoName }) {
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
-        <>
-          <Link to="/" className={navbarLinks}>
-            <FontAwesomeIcon icon={faHome} className="navIcons" /> Home
-          </Link>
+        <div id="newNavContainer">
+          <div id="linksContainer">
+            <Link to="/" className={navbarLinks}>
+              <FontAwesomeIcon icon={faHome} className="navIcons" /> Home
+            </Link>
 
-          <Link to="/shop" className={navbarLinks}>
-            <FontAwesomeIcon icon={faShoppingBag} className="navIcons" /> Shop
-          </Link>
+            <Link to="/shop" className={navbarLinks}>
+              <FontAwesomeIcon icon={faShoppingBag} className="navIcons" /> Shop
+            </Link>
 
-          <Link to="/orderHistory" className={navbarLinks}>
-            <FontAwesomeIcon icon={faHistory} className="navIcons" /> Order
-            History
-          </Link>
+            <Link to="/orderHistory" className={navbarLinks}>
+              <FontAwesomeIcon icon={faHistory} className="navIcons" /> Order
+              History
+            </Link>
 
-          {/* this is not using the Link component to logout or user and then refresh the application to the start */}
-          <a href="/" onClick={() => Auth.logout()} className={navbarLinks}>
-            <FontAwesomeIcon icon={faSignOutAlt} className="navIcons" /> Logout
-          </a>
+            {/* this is not using the Link component to logout or user and then refresh the application to the start */}
+            <a href="/" onClick={() => Auth.logout()} className={navbarLinks}>
+              <FontAwesomeIcon icon={faSignOutAlt} className="navIcons" />{" "}
+              Logout
+            </a>
+          </div>
 
-          <CartModal />
-        </>
+          <div id="cartContainer">
+            <FontAwesomeIcon icon={faSearch} />
+            <FontAwesomeIcon icon={faUser} />
+            <CartModal id="shopCartButton" />
+          </div>
+        </div>
       );
     } else {
       return (

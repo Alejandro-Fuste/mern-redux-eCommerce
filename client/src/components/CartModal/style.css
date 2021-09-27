@@ -1,9 +1,19 @@
-#cartButton {
+#homeCartButton,
+#shopCartButton {
   border-radius: 50px;
   padding: 1rem;
+}
+
+#homeCartButton {
   color: #000;
   background-color: #f1a138;
   border-color: #f1a138;
+}
+
+#shopCartButton {
+  color: #465965;
+  background-color: white;
+  border-color: #465965;
 }
 
 #cartBottom {
