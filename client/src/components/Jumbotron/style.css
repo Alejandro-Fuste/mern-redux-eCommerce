@@ -1,2 +1,9 @@
 #jumboContainer {
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 20px;
+  width: 90%;
+  height: 35%;
+  position: relative;
 }

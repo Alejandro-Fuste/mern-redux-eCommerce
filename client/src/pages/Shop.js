@@ -19,7 +19,7 @@ const Shop = () => {
       <Row id="categoryRow">
         <Col xs={12}>
           <Jumbotron id="jumboContainer">
-            <TextBox>
+            <TextBox id="shopTextBox">
               <h2>Camera</h2>
             </TextBox>
             <Image src={imageSrc} alt="Shop Header" id="shopImage" />
