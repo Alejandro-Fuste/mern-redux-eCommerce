@@ -46,8 +46,6 @@ function Success() {
           <Image src={imageSrc} alt="Success" id="successImage" />
           <TextBox id="successTextBox">
             <h5 id="successH1">Your products will be delivered soon.</h5>
-            {/* <h2>Thank you for your purchase!</h2>
-            <h2>You will now be redirected to the homepage</h2> */}
             <span id="redirectBox">
               <Spinner
                 as="span"
