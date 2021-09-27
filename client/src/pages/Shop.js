@@ -2,6 +2,7 @@ import React from "react";
 import ProductList from "../components/ProductList";
 import CategoryMenu from "../components/CategoryMenu";
 import Nav from "../components/Nav";
+// import Jumbotron from "../components/Jumbotron";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
