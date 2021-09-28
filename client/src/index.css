@@ -286,6 +286,13 @@ input:focus {
   color: black;
 }
 
+#categoryDiv {
+  margin-bottom: 3rem;
+}
+
+#productDiv {
+}
+
 /*************** Login & Sigup Pages ***************/
 
 #loginContainer,
