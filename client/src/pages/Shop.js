@@ -29,8 +29,12 @@ const Shop = () => {
             </TextBox>
             <Image src={imageSrc} alt="Shop Header" id="shopImage" />
           </Jumbotron>
-          <CategoryMenu />
-          <ProductList />
+          <div>
+            <CategoryMenu />
+          </div>
+          <div>
+            <ProductList />
+          </div>
         </Col>
       </Row>
     </Container>
