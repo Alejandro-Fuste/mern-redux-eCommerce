@@ -239,16 +239,23 @@ input:focus {
 
 /* ************ Shop Page ************** */
 
-#productsContainer {
+#shopContainer {
   width: 100vw;
   height: 100vh;
   padding: 0px;
 }
 
-#categoryRow {
+#shopRow {
   background-color: #ffffff;
   padding: 5rem;
   height: 85%;
+}
+
+#shopCol {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 #shopImage {

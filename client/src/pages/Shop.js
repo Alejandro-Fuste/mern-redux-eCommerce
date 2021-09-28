@@ -15,10 +15,10 @@ import Col from "react-bootstrap/Col";
 
 const Shop = () => {
   return (
-    <Container fluid id="productsContainer">
+    <Container fluid id="shopContainer">
       <Nav navbarLinks="shopNavLinks" logoName="shopLogoName" />
-      <Row id="categoryRow">
-        <Col xs={12}>
+      <Row id="shopRow">
+        <Col xs={12} id="shopCol">
           <Jumbotron id="jumboContainer">
             <TextBox id="shopTextBox">
               <h2 id="shopTextBoxH2">Camera</h2>
