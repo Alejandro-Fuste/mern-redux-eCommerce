@@ -1,7 +1,11 @@
 #jumboContainer {
   display: flex;
   align-items: center;
-  background-color: lightgray;
+  background: linear-gradient(
+    136deg,
+    rgba(20, 30, 48, 1) 0%,
+    rgba(36, 59, 85, 1) 100%
+  );
   border-radius: 20px;
   width: 90%;
   height: 35%;

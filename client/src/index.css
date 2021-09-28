@@ -263,6 +263,27 @@ input:focus {
   width: 47%;
 }
 
+#shopTextBoxH2 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#shopTextBoxhH5 {
+  color: lightgrey;
+  margin-bottom: 1.5rem;
+}
+
+#textBoxLink {
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 0.6rem 2.6rem;
+  font-size: 1.1rem;
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+  color: black;
+}
+
 /*************** Login & Sigup Pages ***************/
 
 #loginContainer,

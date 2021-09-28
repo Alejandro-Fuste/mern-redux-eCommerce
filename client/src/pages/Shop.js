@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ProductList from "../components/ProductList";
 import CategoryMenu from "../components/CategoryMenu";
 import Nav from "../components/Nav";
@@ -20,7 +21,11 @@ const Shop = () => {
         <Col xs={12}>
           <Jumbotron id="jumboContainer">
             <TextBox id="shopTextBox">
-              <h2>Camera</h2>
+              <h2 id="shopTextBoxH2">Camera</h2>
+              <h5 id="shopTextBoxhH5">New Product</h5>
+              <Link to="products/614a3c5fb78888d00b8f9d1b" id="textBoxLink">
+                View Product
+              </Link>
             </TextBox>
             <Image src={imageSrc} alt="Shop Header" id="shopImage" />
           </Jumbotron>
