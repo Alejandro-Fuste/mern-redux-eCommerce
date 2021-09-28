@@ -247,14 +247,8 @@ input:focus {
 
 #categoryRow {
   background-color: #ffffff;
-  border-radius: 20px;
-  padding: 1.5rem;
-  margin: 0 10rem;
-  position: absolute;
-}
-
-#categoryRow {
-  margin-bottom: 3rem;
+  padding: 5rem;
+  height: 85%;
 }
 
 #shopImage {
