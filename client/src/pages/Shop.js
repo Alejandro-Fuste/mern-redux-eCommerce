@@ -17,8 +17,8 @@ const Shop = () => {
   return (
     <Container fluid id="shopContainer">
       <Nav navbarLinks="shopNavLinks" logoName="shopLogoName" />
-      <Row id="shopRow">
-        <Col xs={12} id="shopCol">
+      <Row id="categoryRow">
+        <Col xs={12} id="categoryCol">
           <Jumbotron id="jumboContainer">
             <TextBox id="shopTextBox">
               <h2 id="shopTextBoxH2">Camera</h2>
@@ -32,9 +32,11 @@ const Shop = () => {
           <div id="categoryDiv">
             <CategoryMenu />
           </div>
-          <div id="productDiv">
-            <ProductList />
-          </div>
+        </Col>
+      </Row>
+      <Row id="productRow">
+        <Col id="productCol">
+          <ProductList />
         </Col>
       </Row>
     </Container>

@@ -245,18 +245,37 @@ input:focus {
   padding: 0px;
 }
 
-#shopRow {
+#categoryRow,
+#productRow {
   background-color: #ffffff;
   padding: 5rem;
+}
+
+#categoryRow {
   height: 85%;
 }
 
-#shopCol {
+#productRow {
+  height: auto;
+  /* background: linear-gradient(
+    136deg,
+    rgba(20, 30, 48, 1) 0%,
+    rgba(36, 59, 85, 1) 100%
+  ); */
+}
+
+#categoryCol,
+#productCol {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
 }
+
+/* #productCol {
+  overflow: auto;
+  white-space: nowrap;
+} */
 
 #shopImage {
   position: absolute;
@@ -290,7 +309,35 @@ input:focus {
   margin-bottom: 3rem;
 }
 
-#productDiv {
+/* Category Button */
+
+#catergoryButton {
+  padding: 0.5rem 2rem;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+/* Product Cards */
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#productCol .card {
+  width: 21%;
+  text-align: center;
+  margin: 1% 2% 2% 2%;
+  border-radius: 1.25rem;
+  box-shadow: 5px 0px 23px 5px #e7e7e7;
+  border: none;
+}
+
+#productCol .card-img-top {
+  border-radius: 1.25rem;
+  border: 7px solid white;
+  background: #e7e7e7;
 }
 
 /*************** Login & Sigup Pages ***************/
