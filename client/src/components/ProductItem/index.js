@@ -59,13 +59,15 @@ function ProductItem(item) {
           {/* <Card.Text id="cardText1">
             {quantity} {pluralize("item", quantity)} in stock
           </Card.Text> */}
-          <Card.Text>${price}</Card.Text>
-          <Button
-            name="Add to Cart"
-            type="submit"
-            id="cardButton"
-            onClick={addToCart}
-          ></Button>
+          <div>
+            <Card.Text>${price}</Card.Text>
+            <Button
+              name="Add to Cart"
+              type="submit"
+              id="cardButton"
+              onClick={addToCart}
+            ></Button>
+          </div>
         </Card.Body>
       </Card>
       <Modal
