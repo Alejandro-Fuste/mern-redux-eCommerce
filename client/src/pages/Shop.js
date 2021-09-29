@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import ProductList from "../components/ProductList";
 import CategoryMenu from "../components/CategoryMenu";
 import Nav from "../components/Nav";
+import CartModal from "../components/CartModal";
 import Jumbotron from "../components/Jumbotron";
 import Image from "../components/Image";
 import TextBox from "../components/TextBox";
@@ -16,7 +17,10 @@ import Col from "react-bootstrap/Col";
 const Shop = () => {
   return (
     <Container fluid id="shopContainer">
-      <Nav navbarLinks="shopNavLinks" logoName="shopLogoName" />
+      <header id="shopHeader">
+        <Nav navbarLinks="shopNavLinks" logoName="shopLogoName" />
+        <CartModal id="homeCartButton" />
+      </header>
       <Row id="categoryRow">
         <Col xs={12} id="categoryCol">
           <Jumbotron id="jumboContainer">

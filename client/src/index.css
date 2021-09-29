@@ -84,13 +84,13 @@ a:hover {
   text-decoration: underline;
 }
 
-header {
+/* header {
   background: var(--primary);
 }
 
 header a {
   color: var(--light);
-}
+} */
 
 button {
   font-size: 1rem;
@@ -243,6 +243,12 @@ input:focus {
   width: 100vw;
   height: 100vh;
   padding: 0px;
+}
+
+#shopHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #categoryRow,

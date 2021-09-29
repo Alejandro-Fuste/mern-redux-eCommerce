@@ -3,11 +3,9 @@
 }
 
 #navParent {
-  display: block;
-}
-
-#navParent {
   height: 15vh;
+  width: 80vw;
+  display: inline-block;
   align-items: baseline;
   position: relative;
   border-top: 1px solid #141e30;
@@ -19,25 +17,25 @@
   z-index: 3;
 }
 
-#basic-navbar-nav {
+/* #basic-navbar-nav {
   justify-content: flex-end;
   margin-right: 50px;
-}
+} */
 
 #newNavContainer {
   display: flex;
-  width: 56rem;
-  justify-content: flex-end;
+  width: 53rem;
+  /* justify-content: flex-end; */
   align-items: center;
 }
 
 #linksContainer {
-  margin-right: 35%;
+  margin: 0 10rem;
 }
 
 #cartContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   width: 10rem;
 }

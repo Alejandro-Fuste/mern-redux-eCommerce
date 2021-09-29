@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Auth from "../../utils/auth";
-import CartModal from "../CartModal";
 import Logo from "../../assets/logo.svg";
 import "./style.css";
 
@@ -47,7 +46,7 @@ function Navi({ navbarLinks, logoName }) {
           <div id="cartContainer">
             <FontAwesomeIcon icon={faSearch} className="otherLinks" />
             <FontAwesomeIcon icon={faUser} className="otherLinks" />
-            <CartModal id="homeCartButton" />
+            {/* <CartModal id="homeCartButton" /> */}
           </div>
         </div>
       );
