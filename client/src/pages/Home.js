@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Auth from "../utils/auth";
+
 import Image from "../components/Image";
 import TextBox from "../components/TextBox";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
+import CartModal from "../components/CartModal";
 
 import imageSrc from "../assets/CreditCardBlue.svg";
 
@@ -12,9 +15,27 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 const Home = () => {
+  function showCartButton() {
+    if (Auth.loggedIn()) {
+      return (
+        <>
+          <Nav navbarLinks="homeNavLinks" logoName="homeLogoName" />
+          <CartModal id="homeCartButton" />
+        </>
+      );
+    } else {
+      return (
+        <>
+          <Nav navbarLinks="homeNavLinks" logoName="homeLogoName" />
+        </>
+      );
+    }
+  }
+
   return (
     <Container fluid style={{ padding: "0px" }} id="homeContainer">
-      <Nav navbarLinks="homeNavLinks" logoName="homeLogoName" />
+      <header id="shopHeader">{showCartButton()}</header>
+      {/* <Nav navbarLinks="homeNavLinks" logoName="homeLogoName" /> */}
       <Row className="homeRow">
         <Col xs={12}>
           <Image src={imageSrc} alt="Credit Card" id="creditCard" />
