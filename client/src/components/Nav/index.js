@@ -46,7 +46,6 @@ function Navi({ navbarLinks, logoName }) {
           <div id="cartContainer">
             <FontAwesomeIcon icon={faSearch} className="otherLinks" />
             <FontAwesomeIcon icon={faUser} className="otherLinks" />
-            {/* <CartModal id="homeCartButton" /> */}
           </div>
         </div>
       );
@@ -69,7 +68,7 @@ function Navi({ navbarLinks, logoName }) {
     <Nav id="navParent">
       <Navbar id="navbar" expand="lg" variant="dark">
         <Navbar.Brand href="/" id={logoName}>
-          <span role="img" aria-label="logo name">
+          <span role="img" aria-label="logo name" id="logoSpan">
             <img src={Logo} alt="logo" id="logo" />
           </span>
           A-Shop

@@ -245,6 +245,10 @@ input:focus {
   padding: 0px;
 }
 
+#shopContainer .row {
+  --bs-gutter-x: 0rem;
+}
+
 #shopHeader {
   display: flex;
   align-items: center;
