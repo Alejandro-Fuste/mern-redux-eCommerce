@@ -35,7 +35,6 @@ const Home = () => {
   return (
     <Container fluid style={{ padding: "0px" }} id="homeContainer">
       <header id="shopHeader">{showCartButton()}</header>
-      {/* <Nav navbarLinks="homeNavLinks" logoName="homeLogoName" /> */}
       <Row className="homeRow">
         <Col xs={12}>
           <Image src={imageSrc} alt="Credit Card" id="creditCard" />
