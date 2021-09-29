@@ -36,11 +36,7 @@ const Shop = () => {
 
   return (
     <Container fluid id="shopContainer">
-      <header id="shopHeader">
-        {showCartButton()}
-        {/* <Nav navbarLinks="shopNavLinks" logoName="shopLogoName" />
-        <CartModal id="shopCartButton" /> */}
-      </header>
+      <header id="shopHeader">{showCartButton()}</header>
       <Row id="categoryRow">
         <Col xs={12} id="categoryCol">
           <Jumbotron id="jumboContainer">
