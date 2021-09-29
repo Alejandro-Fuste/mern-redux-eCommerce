@@ -19,7 +19,7 @@ const Shop = () => {
     <Container fluid id="shopContainer">
       <header id="shopHeader">
         <Nav navbarLinks="shopNavLinks" logoName="shopLogoName" />
-        <CartModal id="homeCartButton" />
+        <CartModal id="shopCartButton" />
       </header>
       <Row id="categoryRow">
         <Col xs={12} id="categoryCol">
