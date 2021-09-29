@@ -43,7 +43,7 @@ function Navi({ navbarLinks, logoName }) {
             </a>
           </div>
 
-          <div id="cartContainer">
+          <div id="otherLinksContainer">
             <FontAwesomeIcon icon={faSearch} className="otherLinks" />
             <FontAwesomeIcon icon={faUser} className="otherLinks" />
           </div>

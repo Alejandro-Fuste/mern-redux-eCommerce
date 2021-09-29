@@ -27,7 +27,7 @@
   margin: 0 9rem 0 16rem;
 }
 
-#cartContainer {
+#otherLinksContainer {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -117,6 +117,7 @@ svg {
 #shopLogoName {
   /* color: #465965; */
   color: #a0a9b1;
+  margin-top: 10px;
 }
 
 /* -------------- Media Queries -------------- */
