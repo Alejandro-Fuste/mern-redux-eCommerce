@@ -56,9 +56,9 @@ function ProductItem(item) {
           <Card.Title>
             <Link to={`/products/${_id}`}>{name}</Link>
           </Card.Title>
-          <Card.Text id="cardText1">
+          {/* <Card.Text id="cardText1">
             {quantity} {pluralize("item", quantity)} in stock
-          </Card.Text>
+          </Card.Text> */}
           <Card.Text>${price}</Card.Text>
           <Button
             name="Add to Cart"
