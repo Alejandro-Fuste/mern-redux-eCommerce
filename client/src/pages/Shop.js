@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Auth from "../utils/auth";
+
 import ProductList from "../components/ProductList";
 import CategoryMenu from "../components/CategoryMenu";
 import Nav from "../components/Nav";
@@ -15,11 +17,29 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 const Shop = () => {
+  function showCartButton() {
+    if (Auth.loggedIn()) {
+      return (
+        <>
+          <Nav navbarLinks="shopNavLinks" logoName="shopLogoName" />
+          <CartModal id="shopCartButton" />
+        </>
+      );
+    } else {
+      return (
+        <>
+          <Nav navbarLinks="shopNavLinks" logoName="shopLogoName" />
+        </>
+      );
+    }
+  }
+
   return (
     <Container fluid id="shopContainer">
       <header id="shopHeader">
-        <Nav navbarLinks="shopNavLinks" logoName="shopLogoName" />
-        <CartModal id="shopCartButton" />
+        {showCartButton()}
+        {/* <Nav navbarLinks="shopNavLinks" logoName="shopLogoName" />
+        <CartModal id="shopCartButton" /> */}
       </header>
       <Row id="categoryRow">
         <Col xs={12} id="categoryCol">
