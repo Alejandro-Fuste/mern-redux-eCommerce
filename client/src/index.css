@@ -484,7 +484,7 @@ input:focus {
 
 form .formButton,
 #cardButton,
-#catergoryButton,
+#allCategoryButton,
 #detailAddButton,
 #linkToLogin {
   padding: 0.6rem 2.6rem;
@@ -639,10 +639,19 @@ strong {
 
 /* Category Button */
 
-#catergoryButton {
-  padding: 0.5rem 2rem;
+#categoryButton {
+  padding: 0.3rem 1rem;
   margin: 10px;
-  border-radius: 30px;
+  border-radius: 5px;
+  background-color: white;
+  border-color: #e7e7e7;
+  color: #b6b6b6;
+}
+
+#allCategoryButton {
+  padding: 0.3rem 1rem;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 /* Product Cards */
