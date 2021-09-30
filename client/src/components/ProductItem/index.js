@@ -54,13 +54,15 @@ function ProductItem(item) {
         />
         <Card.Body>
           <Card.Title>
-            <Link to={`/products/${_id}`}>{name}</Link>
+            <Link to={`/products/${_id}`} id="productName">
+              {name}
+            </Link>
           </Card.Title>
           {/* <Card.Text id="cardText1">
             {quantity} {pluralize("item", quantity)} in stock
           </Card.Text> */}
           <div id="priceButtonDiv">
-            <Card.Text>${price}</Card.Text>
+            <Card.Text id="cardPrice">${price}</Card.Text>
             <Button
               name="+"
               type="submit"

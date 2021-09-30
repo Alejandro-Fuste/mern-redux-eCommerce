@@ -357,20 +357,45 @@ input:focus {
   background: #243a55;
 }
 
+.card-body {
+  height: 16vh;
+}
+
+.card-title {
+  text-align: left;
+}
+
+#productName {
+  text-decoration: none;
+  color: #171f1f;
+}
+
 #priceButtonDiv {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+}
+
+#cardPrice {
+  position: absolute;
+  bottom: -2.5rem;
+  left: 0rem;
+  margin: 0rem;
+  color: #707070;
 }
 
 #cardButton {
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 0.2rem 1.2rem;
   font-size: 1.5rem;
   background-color: #243a55;
   border-color: #243a55;
   color: white;
   font-weight: bold;
+  position: absolute;
+  bottom: -3rem;
+  right: -0.3rem;
 }
 
 /*************** Login & Sigup Pages ***************/
