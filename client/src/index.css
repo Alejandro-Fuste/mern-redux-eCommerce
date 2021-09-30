@@ -340,14 +340,15 @@ input:focus {
   text-align: center;
   margin: 1% 2% 2% 2%;
   border-radius: 1.25rem;
-  box-shadow: 5px 0px 23px 5px #e7e7e7;
+  /* box-shadow: 5px 0px 23px 5px #e7e7e7; */
   border: none;
+  background: #f7f7f7;
 }
 
 #productCol .card-img-top {
   border-radius: 1.25rem;
-  border: 7px solid white;
-  background: #e7e7e7;
+  border: 7px solid #f7f7f7;
+  background: #243a55;
 }
 
 /*************** Login & Sigup Pages ***************/
