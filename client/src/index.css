@@ -273,6 +273,7 @@ input:focus {
 
 #productRow {
   height: auto;
+  padding: 2rem 5rem;
   /* background: linear-gradient(
     136deg,
     rgba(20, 30, 48, 1) 0%,
@@ -286,6 +287,10 @@ input:focus {
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
+}
+
+#productsTitle {
+  margin-left: 2rem;
 }
 
 /* #productCol {
