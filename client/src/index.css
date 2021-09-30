@@ -357,6 +357,16 @@ input:focus {
   background: #243a55;
 }
 
+#cardButton {
+  border-radius: 20px;
+  padding: 0.2rem 1.2rem;
+  font-size: 1.5rem;
+  background-color: #243a55;
+  border-color: #243a55;
+  color: white;
+  font-weight: bold;
+}
+
 /*************** Login & Sigup Pages ***************/
 
 #loginContainer,
@@ -490,7 +500,6 @@ input:focus {
 }
 
 form .formButton,
-#cardButton,
 #allCategoryButton,
 #detailAddButton,
 #linkToLogin {

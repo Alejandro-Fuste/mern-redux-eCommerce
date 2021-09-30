@@ -62,7 +62,7 @@ function ProductItem(item) {
           <div>
             <Card.Text>${price}</Card.Text>
             <Button
-              name="Add to Cart"
+              name="+"
               type="submit"
               id="cardButton"
               onClick={addToCart}
