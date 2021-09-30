@@ -357,6 +357,12 @@ input:focus {
   background: #243a55;
 }
 
+#priceButtonDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #cardButton {
   border-radius: 20px;
   padding: 0.2rem 1.2rem;

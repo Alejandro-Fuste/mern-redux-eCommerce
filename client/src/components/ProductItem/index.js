@@ -59,7 +59,7 @@ function ProductItem(item) {
           {/* <Card.Text id="cardText1">
             {quantity} {pluralize("item", quantity)} in stock
           </Card.Text> */}
-          <div>
+          <div id="priceButtonDiv">
             <Card.Text>${price}</Card.Text>
             <Button
               name="+"
