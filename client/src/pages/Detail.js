@@ -10,11 +10,13 @@ import {
 } from "../utils/actions";
 import { QUERY_PRODUCTS } from "../utils/queries";
 import helpers from "../utils/helpers";
+import Auth from "../utils/auth";
 import spinner from "../assets/spinner.gif";
 import Logo from "../assets/logo.svg";
 import Button from "../components/Button";
 import Nav from "../components/Nav";
 import TextBox from "../components/TextBox";
+import CartModal from "../components/CartModal";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -66,6 +68,23 @@ function Detail() {
     }
   }, [products, data, loading, dispatch, id]);
 
+  function showCartButton() {
+    if (Auth.loggedIn()) {
+      return (
+        <>
+          <Nav navbarLinks="homeNavLinks" logoName="homeLogoName" />
+          <CartModal id="homeCartButton" />
+        </>
+      );
+    } else {
+      return (
+        <>
+          <Nav navbarLinks="homeNavLinks" logoName="homeLogoName" />
+        </>
+      );
+    }
+  }
+
   const addToCart = () => {
     const itemInCart = cart.find((cartItem) => cartItem._id === id);
     if (itemInCart) {
@@ -101,11 +120,7 @@ function Detail() {
 
   return (
     <Container fluid id="detailContainer">
-      <Row id="detailNavRow">
-        <Col sm={12}>
-          <Nav />
-        </Col>
-      </Row>
+      <header id="header">{showCartButton()}</header>
       <Row id="detailRow">
         <Col sm={12} id="detailCol">
           {currentProduct && cart ? (
