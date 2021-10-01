@@ -404,6 +404,10 @@ input:focus {
   text-decoration: none;
 }
 
+#cardButton:hover {
+  opacity: 0.8;
+}
+
 /*************** Login & Sigup Pages ***************/
 
 #loginContainer,
