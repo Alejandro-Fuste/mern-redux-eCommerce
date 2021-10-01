@@ -36,7 +36,7 @@ const Shop = () => {
 
   return (
     <Container fluid id="shopContainer">
-      <header id="shopHeader">{showCartButton()}</header>
+      <header id="header">{showCartButton()}</header>
       <Row id="categoryRow">
         <Col xs={12} id="categoryCol">
           <Jumbotron id="jumboContainer">

@@ -250,7 +250,7 @@ input:focus {
   --bs-gutter-x: 0rem;
 }
 
-#shopHeader {
+#header {
   display: flex;
   align-items: center;
   justify-content: center;
