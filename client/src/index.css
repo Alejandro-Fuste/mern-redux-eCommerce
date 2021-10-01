@@ -405,6 +405,7 @@ input:focus {
   position: absolute;
   bottom: -3rem;
   right: -0.3rem;
+  text-decoration: none;
 }
 
 /*************** Login & Sigup Pages ***************/
