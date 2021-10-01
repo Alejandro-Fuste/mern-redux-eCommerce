@@ -561,6 +561,11 @@ form .formButton {
   height: 100vh;
   margin: 0;
   padding: 0rem;
+  background: linear-gradient(
+    180deg,
+    rgba(20, 30, 48, 1) 0%,
+    rgba(81, 109, 142, 1) 100%
+  );
 }
 
 #detailCol {
