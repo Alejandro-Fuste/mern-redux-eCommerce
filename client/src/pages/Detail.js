@@ -26,7 +26,7 @@ import Modal from "react-bootstrap/Modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faStarHalf } from "@fortawesome/free-solid-svg-icons";
 
-const { idbPromise } = helpers;
+const { idbPromise, pluralize } = helpers;
 
 function Detail() {
   const dispatch = useDispatch();
@@ -45,6 +45,7 @@ function Detail() {
     // already in global store
     if (products.length) {
       setCurrentProduct(products.find((product) => product._id === id));
+      console.log(currentProduct.quantity);
     }
     // retrieved from server
     else if (data) {
@@ -66,7 +67,7 @@ function Detail() {
         });
       });
     }
-  }, [products, data, loading, dispatch, id]);
+  }, [products, data, loading, dispatch, id, currentProduct]);
 
   function showCartButton() {
     if (Auth.loggedIn()) {
@@ -164,6 +165,11 @@ function Detail() {
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Lectus mauris ultrices eros in cursus turpis massa
                     tincidunt. Rhoncus aenean vel elit scelerisque mauris
+                  </p>
+
+                  <p>
+                    {currentProduct.quantity}{" "}
+                    {pluralize("item", currentProduct.quantity)} in stock
                   </p>
                 </TextBox>
 

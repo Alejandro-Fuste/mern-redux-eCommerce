@@ -54,9 +54,6 @@ function ProductItem(item) {
         />
         <Card.Body>
           <Card.Title id="productName">{name}</Card.Title>
-          {/* <Card.Text id="cardText1">
-            {quantity} {pluralize("item", quantity)} in stock
-          </Card.Text> */}
           <div id="priceButtonDiv">
             <Card.Text id="cardPrice">${price}</Card.Text>
             <Link to={`/products/${_id}`} id="cardButton">
