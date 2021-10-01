@@ -53,12 +53,7 @@ function ProductItem(item) {
           src={`/images/transparentImages/${image}`}
         />
         <Card.Body>
-          <Card.Title id="productName">
-            {name}
-            {/* <Link to={`/products/${_id}`} id="productName">
-              {name}
-            </Link> */}
-          </Card.Title>
+          <Card.Title id="productName">{name}</Card.Title>
           {/* <Card.Text id="cardText1">
             {quantity} {pluralize("item", quantity)} in stock
           </Card.Text> */}
@@ -67,12 +62,6 @@ function ProductItem(item) {
             <Link to={`/products/${_id}`} id="cardButton">
               +
             </Link>
-            {/* <Button
-              name="+"
-              type="submit"
-              id="cardButton"
-              onClick={addToCart}
-            ></Button> */}
           </div>
         </Card.Body>
       </Card>

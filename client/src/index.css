@@ -370,10 +370,6 @@ input:focus {
   text-align: left;
 }
 
-.card-title:hover {
-  text-decoration: underline;
-}
-
 #productName {
   text-decoration: none;
   color: #171f1f;
