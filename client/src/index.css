@@ -605,6 +605,7 @@ form .formButton {
   justify-content: center;
   flex-wrap: nowrap;
   flex-direction: column;
+  margin-top: 3rem;
 }
 
 .nameLinkDiv,
@@ -633,10 +634,12 @@ form .formButton {
   flex-direction: column;
   flex-wrap: wrap;
   background-color: #f5f5f5;
+  margin-top: 3rem;
 }
 
 #detailImg {
   filter: drop-shadow(3px 5px 5px rgb(0 0 0 / 0.4));
+  max-width: 85%;
 }
 
 /* #backgroundName {
@@ -652,6 +655,11 @@ form .formButton {
 #descriptionHeader {
   font-weight: bold;
   color: #595959;
+}
+
+#price {
+  font-size: 1.3rem;
+  margin-top: 1rem;
 }
 
 #backLink {
