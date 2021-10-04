@@ -581,17 +581,13 @@ form .formButton {
 
 #detailRow {
   margin: 0rem;
-  /* height: 100vh; */
   width: 100vw;
-  /* position: absolute;
-  top: 23rem; */
 }
 
 #detailCol {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 80vh; */
   position: absolute;
 }
 
@@ -599,7 +595,6 @@ form .formButton {
   width: 100vw;
   padding: 0 2rem;
   display: flex;
-  /* flex-direction: column; */
   flex-wrap: nowrap;
   align-items: center;
 }
