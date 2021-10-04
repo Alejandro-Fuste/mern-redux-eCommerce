@@ -125,13 +125,6 @@ function Detail() {
         <Col sm={12} id="detailCol">
           {currentProduct && cart ? (
             <div id="detailDiv">
-              <div className="nameLinkDiv">
-                <h2 className="detailH2">{currentProduct.name}</h2>
-                <Link to="/shop" id="backLink">
-                  ← Back to Products
-                </Link>
-              </div>
-
               <div id="imageDiv">
                 <img
                   src={`/images/transparentImages/${currentProduct.image}`}
@@ -142,6 +135,12 @@ function Detail() {
               </div>
 
               <div className="priceDescriptionDiv">
+                <div className="nameLinkDiv">
+                  <h2 className="detailH2">{currentProduct.name}</h2>
+                  <Link to="/shop" id="backLink">
+                    ← Back to Products
+                  </Link>
+                </div>
                 <TextBox>
                   <div id="starDiv">
                     <p className="detailH2">
