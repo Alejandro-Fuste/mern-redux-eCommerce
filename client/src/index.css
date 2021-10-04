@@ -593,7 +593,7 @@ form .formButton {
 
 #detailDiv {
   width: 100vw;
-  padding: 1rem 2rem;
+  padding: 0rem 2rem;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -627,7 +627,7 @@ form .formButton {
   display: flex;
   justify-content: space-between;
   width: 37%;
-  height: 77vh;
+  height: 65vh;
   margin-bottom: 1rem;
   flex-direction: column;
   flex-wrap: wrap;
@@ -674,11 +674,13 @@ form .formButton {
 
 #descriptionDiv {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #descriptionHeader {
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 #descriptionParagraph {
@@ -686,12 +688,13 @@ form .formButton {
   width: 100%;
   font-size: 1.2rem;
   color: grey;
+  margin-top: 1rem;
 }
 
 #buttonDiv {
   display: flex;
-  justify-content: center;
-  margin-top: 2rem;
+  justify-content: space-between;
+  margin-top: 0rem;
 }
 
 strong {
