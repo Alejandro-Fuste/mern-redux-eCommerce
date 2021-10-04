@@ -126,12 +126,6 @@ function Detail() {
           {currentProduct && cart ? (
             <div id="detailDiv">
               <div id="imageDiv">
-                <div className="nameLinkDiv">
-                  <h2 className="detailH2">{currentProduct.name}</h2>
-                  <p id="price">
-                    <strong>Price:</strong>${currentProduct.price}{" "}
-                  </p>
-                </div>
                 <img
                   src={`/images/transparentImages/${currentProduct.image}`}
                   alt={currentProduct.name}
@@ -140,6 +134,13 @@ function Detail() {
               </div>
 
               <div className="priceDescriptionDiv">
+                <div className="nameLinkDiv">
+                  <h2 id="productName">{currentProduct.name}</h2>
+                  <p id="price">
+                    <strong>Price:</strong>${currentProduct.price}{" "}
+                  </p>
+                </div>
+
                 <TextBox>
                   <div id="descriptionDiv">
                     <h4 id="descriptionHeader">Description</h4>
