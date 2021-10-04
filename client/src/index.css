@@ -568,14 +568,6 @@ form .formButton {
   );
 }
 
-#detailCol {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  position: absolute;
-}
-
 #detailNavRow {
   background: rgb(20, 30, 48);
   background: linear-gradient(
@@ -589,10 +581,18 @@ form .formButton {
 
 #detailRow {
   margin: 0rem;
-  height: 100vh;
+  /* height: 100vh; */
   width: 100vw;
+  /* position: absolute;
+  top: 23rem; */
+}
+
+#detailCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
   position: absolute;
-  top: 23rem;
 }
 
 #detailDiv {
@@ -607,6 +607,7 @@ form .formButton {
 #imageDiv {
   display: flex;
   justify-content: center;
+  flex-wrap: nowrap;
 }
 
 .nameLinkDiv,
