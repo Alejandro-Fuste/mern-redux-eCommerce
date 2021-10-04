@@ -45,7 +45,6 @@ function Detail() {
     // already in global store
     if (products.length) {
       setCurrentProduct(products.find((product) => product._id === id));
-      console.log(currentProduct.quantity);
     }
     // retrieved from server
     else if (data) {
@@ -67,7 +66,7 @@ function Detail() {
         });
       });
     }
-  }, [products, data, loading, dispatch, id, currentProduct]);
+  }, [products, data, loading, dispatch, id]);
 
   function showCartButton() {
     if (Auth.loggedIn()) {
