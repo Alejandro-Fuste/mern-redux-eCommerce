@@ -591,16 +591,16 @@ form .formButton {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  /* height: 80vh; */
   position: absolute;
 }
 
 #detailDiv {
-  width: 45vw;
+  width: 100vw;
   padding: 0 2rem;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  /* flex-direction: column; */
+  flex-wrap: nowrap;
   align-items: center;
 }
 
