@@ -137,15 +137,16 @@ function Detail() {
                     <strong>Price:</strong>${currentProduct.price}{" "}
                   </p>
                 </div>
-                {/* <h2 id="backgroundName">{currentProduct.name}</h2> */}
               </div>
 
               <div className="priceDescriptionDiv">
                 <TextBox>
-                  <h4 id="descriptionHeader">Description</h4>
-                  <Link to="/shop" id="backLink">
-                    ← Back to Products
-                  </Link>
+                  <div id="descriptionDiv">
+                    <h4 id="descriptionHeader">Description</h4>
+                    <Link to="/shop" id="backLink">
+                      ← Back to Products
+                    </Link>
+                  </div>
 
                   <p id="descriptionParagraph">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

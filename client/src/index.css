@@ -593,16 +593,17 @@ form .formButton {
 
 #detailDiv {
   width: 100vw;
-  padding: 1rem;
+  padding: 1rem 2rem;
   display: flex;
   flex-wrap: nowrap;
-  align-items: center;
+  justify-content: space-between;
 }
 
 #imageDiv {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
+  flex-direction: column;
 }
 
 .nameLinkDiv,
@@ -671,14 +672,19 @@ form .formButton {
   color: #d7db53;
 }
 
+#descriptionDiv {
+  display: flex;
+  flex-direction: column;
+}
+
 #descriptionHeader {
   margin-bottom: 1rem;
 }
 
 #descriptionParagraph {
-  line-height: 2rem;
+  line-height: 1.8rem;
   width: 100%;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: grey;
 }
 
