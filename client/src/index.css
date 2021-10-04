@@ -612,15 +612,12 @@ form .formButton {
 .priceDescriptionDiv {
   border-radius: 20px;
   padding: 2rem;
-  /* box-shadow: 0px 5px 14px 0px lightgrey; */
 }
 
 .nameLinkDiv {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* align-items: center; */
-  /* margin-bottom: 1.5rem; */
   padding: 0rem;
 }
 
@@ -642,15 +639,6 @@ form .formButton {
   max-width: 93%;
 }
 
-/* #backgroundName {
-  position: absolute;
-  z-index: -1;
-  font-size: 9rem;
-  top: 0rem;
-  opacity: 0.1;
-  text-transform: uppercase;
-} */
-
 .detailH2,
 #descriptionHeader {
   font-weight: bold;
@@ -663,7 +651,6 @@ form .formButton {
 }
 
 #productName {
-  /* margin-right: 10rem; */
   font-weight: bold;
 }
 
@@ -698,10 +685,6 @@ form .formButton {
   align-items: center;
 }
 
-/* #descriptionHeader {
-  margin-bottom: 1rem;
-} */
-
 #descriptionParagraph {
   line-height: 1.8rem;
   width: 100%;
@@ -719,10 +702,6 @@ form .formButton {
 strong {
   margin-right: 10px;
 }
-
-/* #detailAddButton {
-  margin-right: 10px;
-} */
 
 /* Category Button */
 
