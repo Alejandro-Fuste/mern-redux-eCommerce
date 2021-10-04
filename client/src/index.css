@@ -605,7 +605,6 @@ form .formButton {
   justify-content: center;
   flex-wrap: nowrap;
   flex-direction: column;
-  margin-top: 3rem;
   align-items: center;
 }
 
@@ -620,7 +619,7 @@ form .formButton {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   /* margin-bottom: 1.5rem; */
   padding: 0rem;
 }
@@ -630,16 +629,17 @@ form .formButton {
   justify-content: space-between;
   width: 37%;
   height: 72vh;
-  margin-bottom: 1rem;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: #f5f5f5;
+  background-color: #ededed;
   margin-top: 3rem;
+  margin-bottom: 1rem;
+  margin: 2rem 4rem 1rem 0rem;
 }
 
 #detailImg {
   filter: drop-shadow(3px 5px 5px rgb(0 0 0 / 0.4));
-  max-width: 85%;
+  max-width: 93%;
 }
 
 /* #backgroundName {
@@ -669,11 +669,11 @@ form .formButton {
 
 #price {
   font-size: 1.3rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 #backLink {
-  color: #595959;
+  color: #a0a9b1;
   text-decoration: none;
 }
 

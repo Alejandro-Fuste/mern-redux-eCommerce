@@ -131,6 +131,9 @@ function Detail() {
                   alt={currentProduct.name}
                   id="detailImg"
                 />
+                <Link to="/shop" id="backLink">
+                  ← Back to Products
+                </Link>
               </div>
 
               <div className="priceDescriptionDiv">
@@ -144,9 +147,6 @@ function Detail() {
                 <TextBox>
                   <div id="descriptionDiv">
                     <h4 id="descriptionHeader">Description</h4>
-                    <Link to="/shop" id="backLink">
-                      ← Back to Products
-                    </Link>
                   </div>
 
                   <p id="descriptionParagraph">
@@ -166,7 +166,7 @@ function Detail() {
                       24 (Reviews)
                     </p>
 
-                    <p>
+                    <p className="detailH2">
                       {currentProduct.quantity}{" "}
                       {pluralize("item", currentProduct.quantity)} in stock
                     </p>
