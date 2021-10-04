@@ -593,7 +593,7 @@ form .formButton {
 
 #detailDiv {
   width: 100vw;
-  padding: 0 2rem;
+  padding: 1rem;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -618,14 +618,15 @@ form .formButton {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  margin: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 0rem;
 }
 
 .priceDescriptionDiv {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 37%;
+  height: 77vh;
   margin-bottom: 1rem;
   flex-direction: column;
   flex-wrap: wrap;

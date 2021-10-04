@@ -131,17 +131,29 @@ function Detail() {
                   alt={currentProduct.name}
                   id="detailImg"
                 />
+                <div className="nameLinkDiv">
+                  <h2 className="detailH2">{currentProduct.name}</h2>
+                  <p className="detailH2">
+                    <strong>Price:</strong>${currentProduct.price}{" "}
+                  </p>
+                </div>
                 {/* <h2 id="backgroundName">{currentProduct.name}</h2> */}
               </div>
 
               <div className="priceDescriptionDiv">
-                <div className="nameLinkDiv">
-                  <h2 className="detailH2">{currentProduct.name}</h2>
+                <TextBox>
+                  <h4 id="descriptionHeader">Description</h4>
                   <Link to="/shop" id="backLink">
                     ← Back to Products
                   </Link>
-                </div>
-                <TextBox>
+
+                  <p id="descriptionParagraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Lectus mauris ultrices eros in cursus turpis massa
+                    tincidunt. Rhoncus aenean vel elit scelerisque mauris
+                  </p>
+
                   <div id="starDiv">
                     <p className="detailH2">
                       <FontAwesomeIcon icon={faStar} className="star" />
@@ -151,20 +163,7 @@ function Detail() {
                       <FontAwesomeIcon icon={faStarHalf} className="star" />
                       24 (Reviews)
                     </p>
-
-                    <p className="detailH2">
-                      <strong>Price:</strong>${currentProduct.price}{" "}
-                    </p>
                   </div>
-
-                  <h4 id="descriptionHeader">Description</h4>
-
-                  <p id="descriptionParagraph">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Lectus mauris ultrices eros in cursus turpis massa
-                    tincidunt. Rhoncus aenean vel elit scelerisque mauris
-                  </p>
 
                   <p>
                     {currentProduct.quantity}{" "}
