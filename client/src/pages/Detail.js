@@ -164,12 +164,12 @@ function Detail() {
                       <FontAwesomeIcon icon={faStarHalf} className="star" />
                       24 (Reviews)
                     </p>
-                  </div>
 
-                  <p>
-                    {currentProduct.quantity}{" "}
-                    {pluralize("item", currentProduct.quantity)} in stock
-                  </p>
+                    <p>
+                      {currentProduct.quantity}{" "}
+                      {pluralize("item", currentProduct.quantity)} in stock
+                    </p>
+                  </div>
                 </TextBox>
 
                 <div id="buttonDiv">
