@@ -72,14 +72,14 @@ function Detail() {
     if (Auth.loggedIn()) {
       return (
         <>
-          <Nav navbarLinks="homeNavLinks" logoName="homeLogoName" />
-          <CartModal id="homeCartButton" />
+          <Nav navbarLinks="shopNavLinks" logoName="shopLogoName" />
+          <CartModal id="shopCartButton" />
         </>
       );
     } else {
       return (
         <>
-          <Nav navbarLinks="homeNavLinks" logoName="homeLogoName" />
+          <Nav navbarLinks="shopNavLinks" logoName="shopLogoName" />
         </>
       );
     }

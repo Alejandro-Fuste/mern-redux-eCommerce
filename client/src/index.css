@@ -561,11 +561,7 @@ form .formButton {
   height: 100vh;
   margin: 0;
   padding: 0rem;
-  background: linear-gradient(
-    180deg,
-    rgba(20, 30, 48, 1) 0%,
-    rgba(81, 109, 142, 1) 100%
-  );
+  background-color: white;
 }
 
 #detailNavRow {
@@ -624,14 +620,18 @@ form .formButton {
 .priceDescriptionDiv {
   display: flex;
   justify-content: space-between;
-  width: 37%;
-  height: 72vh;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: #ededed;
+  width: 37%;
+  height: 72vh;
   margin-top: 3rem;
   margin-bottom: 1rem;
   margin: 2rem 4rem 1rem 0rem;
+  background: linear-gradient(
+    180deg,
+    rgba(20, 30, 48, 1) 0%,
+    rgba(36, 59, 85, 1) 100%
+  );
 }
 
 #detailImg {
@@ -642,12 +642,12 @@ form .formButton {
 .detailH2,
 #descriptionHeader {
   font-weight: bold;
-  color: #595959;
+  color: white;
 }
 
 #productName,
 #price {
-  color: #595959;
+  color: white;
 }
 
 #productName {
