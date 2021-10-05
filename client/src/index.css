@@ -752,6 +752,14 @@ strong {
   --bs-gutter-x: 0rem;
 }
 
+#orderHistoryRow {
+  padding: 3rem 5rem;
+}
+
+.nameDate {
+  padding-left: 1.5rem;
+}
+
 /* ********************** Success Page ************************ */
 
 #successContainer {

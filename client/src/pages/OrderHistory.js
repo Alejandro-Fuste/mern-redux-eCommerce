@@ -14,6 +14,7 @@ import Col from "react-bootstrap/Col";
 function OrderHistory() {
   const { data } = useQuery(QUERY_USER);
   let user;
+  console.log(data);
 
   if (data) {
     user = data.user;
@@ -44,12 +45,12 @@ function OrderHistory() {
         <Col xs={12}>
           {user ? (
             <>
-              <h2>
+              <h2 className="nameDate">
                 Order History for {user.firstName} {user.lastName}
               </h2>
               {user.orders.map((order) => (
                 <div key={order._id} className="my-2">
-                  <h3>
+                  <h3 className="nameDate">
                     {new Date(
                       parseInt(order.purchaseDate)
                     ).toLocaleDateString()}
