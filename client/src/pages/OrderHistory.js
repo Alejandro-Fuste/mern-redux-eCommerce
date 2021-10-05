@@ -6,6 +6,7 @@ import Auth from "../utils/auth";
 
 import Nav from "../components/Nav";
 import CartModal from "../components/CartModal";
+import Error from "../components/Error";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -82,7 +83,14 @@ function OrderHistory() {
                 ))}
               </div>
             </>
-          ) : null}
+          ) : (
+            <Error
+              h3ClassName="errorH3"
+              spanClassName="errorSpan"
+              ariaLabel="error message"
+              text="Oops, something went wrong. Be sure you are logged in."
+            />
+          )}
         </Col>
       </Row>
     </Container>
