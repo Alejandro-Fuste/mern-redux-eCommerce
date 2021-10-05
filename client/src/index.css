@@ -760,6 +760,39 @@ strong {
   padding-left: 1.5rem;
 }
 
+#historyCard {
+  width: 37vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#historyCardBody {
+  height: auto;
+}
+
+.itemRow {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  align-items: center;
+  justify-content: space-around;
+}
+
+#historyImg {
+  width: 13vw;
+  padding: 1rem 0rem;
+}
+
+#namePriceDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* ********************** Success Page ************************ */
 
 #successContainer {

@@ -10,6 +10,7 @@ import CartModal from "../components/CartModal";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Card from "react-bootstrap/Card";
 
 function OrderHistory() {
   const { data } = useQuery(QUERY_USER);
@@ -55,24 +56,26 @@ function OrderHistory() {
                       parseInt(order.purchaseDate)
                     ).toLocaleDateString()}
                   </h3>
-                  <div className="flex-row">
-                    {order.products.map(
-                      ({ _id, image, name, price }, index) => (
-                        <div key={index} className="card px-1 py-1">
-                          <Link to={`/products/${_id}`}>
+                  <Card id="historyCard">
+                    <Card.Body id="historyCardBody">
+                      {order.products.map(
+                        ({ _id, image, name, price }, index) => (
+                          <div key={index} className="itemRow">
                             <img
                               alt={name}
                               src={`/images/transparentImages/${image}`}
+                              id="historyImg"
                             />
-                            <p>{name}</p>
-                          </Link>
-                          <div>
-                            <span>${price}</span>
+
+                            <div id="namePriceDiv">
+                              <Link to={`/products/${_id}`}>{name}</Link>
+                              <span>${price}</span>
+                            </div>
                           </div>
-                        </div>
-                      )
-                    )}
-                  </div>
+                        )
+                      )}
+                    </Card.Body>
+                  </Card>
                 </div>
               ))}
             </>
@@ -84,3 +87,22 @@ function OrderHistory() {
 }
 
 export default OrderHistory;
+
+{
+  /* <div className="flex-row">
+  {order.products.map(({ _id, image, name, price }, index) => (
+    <div key={index} className="card px-1 py-1">
+      <Link to={`/products/${_id}`}>
+        <img alt={name} src={`/images/transparentImages/${image}`} />
+        {/* <p>{name}</p> */
+}
+{
+  /* </Link>
+      <div>
+        <span>{name}</span>
+        <span>${price}</span>
+      </div>
+    </div>
+  ))}
+</div> */
+}
