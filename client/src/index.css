@@ -742,12 +742,14 @@ strong {
 
 /********************** Order History Page **********************/
 
-#navRow {
-  background-image: url("../src/assets/wave1.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw;
+#orderHistoryContainer {
   height: 100vh;
+  width: 100vw;
+  padding: 0px;
+}
+
+#orderHistoryContainer .row {
+  --bs-gutter-x: 0rem;
 }
 
 /* ********************** Success Page ************************ */
