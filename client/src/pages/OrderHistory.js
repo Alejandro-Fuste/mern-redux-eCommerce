@@ -98,22 +98,3 @@ function OrderHistory() {
 }
 
 export default OrderHistory;
-
-{
-  /* <div className="flex-row">
-  {order.products.map(({ _id, image, name, price }, index) => (
-    <div key={index} className="card px-1 py-1">
-      <Link to={`/products/${_id}`}>
-        <img alt={name} src={`/images/transparentImages/${image}`} />
-        {/* <p>{name}</p> */
-}
-{
-  /* </Link>
-      <div>
-        <span>{name}</span>
-        <span>${price}</span>
-      </div>
-    </div>
-  ))}
-</div> */
-}
