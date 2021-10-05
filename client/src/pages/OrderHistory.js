@@ -61,14 +61,15 @@ function OrderHistory() {
                       {order.products.map(
                         ({ _id, image, name, price }, index) => (
                           <div key={index} className="itemRow">
-                            <img
-                              alt={name}
-                              src={`/images/transparentImages/${image}`}
-                              id="historyImg"
-                            />
-
+                            <Link to={`/products/${_id}`}>
+                              <img
+                                alt={name}
+                                src={`/images/transparentImages/${image}`}
+                                id="historyImg"
+                              />
+                            </Link>
                             <div id="namePriceDiv">
-                              <Link to={`/products/${_id}`}>{name}</Link>
+                              <span>{name}</span>
                               <span>${price}</span>
                             </div>
                           </div>
