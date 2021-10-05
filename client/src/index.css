@@ -561,7 +561,12 @@ form .formButton {
   height: 100vh;
   margin: 0;
   padding: 0rem;
-  background-color: white;
+  background: linear-gradient(
+    180deg,
+    rgba(242, 242, 242, 1) 0%,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 #detailNavRow {
