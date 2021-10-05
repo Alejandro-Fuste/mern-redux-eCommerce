@@ -2,7 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useQuery } from "@apollo/client";
 import { QUERY_USER } from "../utils/queries";
+import Auth from "../utils/auth";
+
 import Nav from "../components/Nav";
+import CartModal from "../components/CartModal";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -16,9 +19,26 @@ function OrderHistory() {
     user = data.user;
   }
 
+  function showCartButton() {
+    if (Auth.loggedIn()) {
+      return (
+        <>
+          <Nav navbarLinks="shopNavLinks" logoName="shopLogoName" />
+          <CartModal id="shopCartButton" />
+        </>
+      );
+    } else {
+      return (
+        <>
+          <Nav navbarLinks="shopNavLinks" logoName="shopLogoName" />
+        </>
+      );
+    }
+  }
+
   return (
-    <Container>
-      <Nav />
+    <Container fluid id="orderHistoryContainer">
+      <header id="header">{showCartButton()}</header>
       <Row>
         <Col xs={12}>
           <Link to="/shop" id="backLink">
