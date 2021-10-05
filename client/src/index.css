@@ -480,12 +480,13 @@ input:focus {
 }
 
 #shopName {
+  padding-left: 0.5rem;
+  font-family: "Nunito";
   color: #707070;
 }
 
-#shopName {
-  padding-left: 0.5rem;
-  font-family: "Nunito";
+#shopName:hover {
+  text-decoration: underline;
 }
 
 .signUpForm,
