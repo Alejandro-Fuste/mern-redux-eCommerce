@@ -39,13 +39,6 @@ function OrderHistory() {
   return (
     <Container fluid id="orderHistoryContainer">
       <header id="header">{showCartButton()}</header>
-      <Row>
-        <Col xs={12}>
-          <Link to="/shop" id="backLink">
-            ← Back to Products
-          </Link>
-        </Col>
-      </Row>
 
       <Row id="orderHistoryRow">
         <Col xs={12}>
