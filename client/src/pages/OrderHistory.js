@@ -71,8 +71,8 @@ function OrderHistory() {
                                 />
                               </Link>
                               <div id="namePriceDiv">
-                                <span>{name}</span>
-                                <span>${price}</span>
+                                <span className="detailText">{name}</span>
+                                <span className="detailText">${price}</span>
                               </div>
                             </div>
                           )

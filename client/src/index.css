@@ -743,9 +743,10 @@ strong {
 /********************** Order History Page **********************/
 
 #orderHistoryContainer {
-  height: 100vh;
+  height: auto;
   width: 100vw;
   padding: 0px;
+  background: #f2f2f2;
 }
 
 #orderHistoryContainer .row {
@@ -778,6 +779,7 @@ strong {
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
+  border-radius: 10px;
 }
 
 #historyCardBody {
@@ -790,7 +792,7 @@ strong {
   background-color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 #historyImg {
@@ -804,6 +806,17 @@ strong {
   justify-content: space-between;
   align-items: center;
   height: 10vh;
+  margin-right: 3rem;
+}
+
+.nameDate,
+.detailText {
+  color: #465965;
+  font-weight: bold;
+}
+
+.detailText {
+  font-size: 1.4rem;
 }
 
 /* ********************** Success Page ************************ */
