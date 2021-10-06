@@ -806,7 +806,7 @@ strong {
   justify-content: space-between;
   align-items: center;
   height: 10vh;
-  margin-right: 3rem;
+  width: 34vh;
 }
 
 .nameDate,
