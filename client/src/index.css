@@ -382,12 +382,16 @@ input:focus {
   position: relative;
 }
 
+#productName,
+#cardPrice {
+  color: #707070;
+}
+
 #cardPrice {
   position: absolute;
   bottom: -2.5rem;
   left: 0rem;
   margin: 0rem;
-  color: #707070;
 }
 
 #cardButton {
@@ -651,16 +655,22 @@ form .formButton {
   color: white;
 }
 
-#productName,
-#price {
+/* #productName {
+  color: #707070;
+} */
+
+#detailProductName,
+#detailPrice {
   color: white;
 }
 
-#productName {
+#productName,
+#detailProductName {
   font-weight: bold;
 }
 
-#price {
+#price,
+#detailPrice {
   font-size: 1.3rem;
   margin-top: 0.5rem;
 }

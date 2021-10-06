@@ -138,8 +138,8 @@ function Detail() {
 
               <div className="priceDescriptionDiv">
                 <div className="nameLinkDiv">
-                  <h2 id="productName">{currentProduct.name}</h2>
-                  <p id="price">
+                  <h2 id="detailProductName">{currentProduct.name}</h2>
+                  <p id="detailPrice">
                     <strong>Price:</strong>${currentProduct.price}{" "}
                   </p>
                 </div>
