@@ -29,6 +29,10 @@
   margin-right: 2rem;
 }
 
+.spinner-border-sm {
+  margin-left: 1rem;
+}
+
 .noItemsMessage,
 .noItemsImage {
   text-align: center;

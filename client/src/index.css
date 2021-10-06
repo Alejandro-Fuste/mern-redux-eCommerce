@@ -548,7 +548,8 @@ input:focus {
 form .formButton,
 #allCategoryButton,
 #detailAddButton,
-#linkToLogin {
+#linkToLogin,
+#checkoutButton {
   padding: 0.6rem 2.6rem;
   font-size: 1.1rem;
   background-color: var(--secondary);

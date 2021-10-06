@@ -114,7 +114,7 @@ function CartModal({ id }) {
                       )
                     }
                     type="submit"
-                    id="cardButton"
+                    id="checkoutButton"
                     onClick={submitCheckout}
                   ></CustomButton>
                 ) : (
