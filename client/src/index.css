@@ -1584,6 +1584,21 @@ strong {
     padding: 2%;
     font-size: 2.2rem;
   }
+
+  /* No Match */
+
+  #noMatchImage {
+    max-width: 75%;
+  }
+
+  #noMatchText {
+    font-size: 4.8vw;
+    margin-bottom: 5rem;
+  }
+
+  #linkToShop {
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (orientation: landscape) and (min-width: 1024px) and (max-device-width: 1366px) {
@@ -1639,6 +1654,21 @@ strong {
   #successH1 {
     font-size: 3.5rem;
     margin: 2px 0 0 30px;
+  }
+
+  /* No Match */
+
+  #noMatchImage {
+    max-width: 45%;
+  }
+
+  #noMatchText {
+    font-size: 2.8vw;
+    margin-bottom: 5rem;
+  }
+
+  #linkToShop {
+    font-size: 2.5rem;
   }
 }
 
