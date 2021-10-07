@@ -1470,6 +1470,17 @@ strong {
     font-size: 3.5rem;
     margin: 2px 0 0 30px;
   }
+
+  /* No Match */
+
+  #noMatchImage {
+    max-width: 87%;
+  }
+
+  #noMatchText {
+    font-size: 4.8vw;
+    margin-bottom: 2rem;
+  }
 }
 
 /* ------------- iPad ------------- */
