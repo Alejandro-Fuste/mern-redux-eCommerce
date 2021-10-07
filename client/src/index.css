@@ -1003,6 +1003,17 @@ strong {
     margin: 0px 0px 1rem 0px;
   }
 
+  /* No Match */
+
+  #noMatchImage {
+    max-width: 87%;
+  }
+
+  #noMatchText {
+    font-size: 4.8vw;
+    margin-bottom: 2rem;
+  }
+
   /* Success Page */
   #successContainer {
     width: 100%;
@@ -1164,6 +1175,7 @@ strong {
     margin: 0px 0px 1rem 0px;
   }
 
+  /* Success Page */
   #successCol {
     width: 70%;
   }
@@ -1178,6 +1190,17 @@ strong {
     margin-top: 6%;
     padding: 3%;
     font-size: 4.5vw;
+  }
+
+  /* No Match */
+
+  #noMatchImage {
+    max-width: 87%;
+  }
+
+  #noMatchText {
+    font-size: 4.8vw;
+    margin-bottom: 2rem;
   }
 }
 
