@@ -1011,6 +1011,10 @@ strong {
     padding: 0px;
   }
 
+  #successRow {
+    margin-top: 3rem;
+  }
+
   #successCol {
     width: 70%;
   }
@@ -1018,6 +1022,13 @@ strong {
   #successImage {
     height: auto;
     margin: 0 auto 10px auto;
+  }
+
+  #redirectBox {
+    width: 66vw;
+    margin-top: 6%;
+    padding: 5%;
+    font-size: 6.5vw;
   }
 }
 
@@ -1276,6 +1287,13 @@ strong {
 
   #successImage {
     max-width: 100%;
+  }
+
+  #redirectBox {
+    width: 51vw;
+    margin-top: 6%;
+    padding: 3%;
+    font-size: 4.5vw;
   }
 }
 
