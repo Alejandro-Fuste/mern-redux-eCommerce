@@ -1172,6 +1172,13 @@ strong {
     height: auto;
     margin: 0 auto 10px auto;
   }
+
+  #redirectBox {
+    width: 51vw;
+    margin-top: 6%;
+    padding: 3%;
+    font-size: 4.5vw;
+  }
 }
 
 /* ------------- iPhone 6,7,8 --------------- */
@@ -1197,7 +1204,7 @@ strong {
   }
 }
 
-/* ----------- iPhone X, Moto G4, Galaxy S5 ----------- */
+/* ----------- iPhone X ----------- */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   /* Home Page */
