@@ -1682,6 +1682,20 @@ strong {
     padding: 2%;
     font-size: 2.2rem;
   }
+  /* No Match */
+
+  #noMatchImage {
+    max-width: 42%;
+  }
+
+  #noMatchText {
+    font-size: 2.4vw;
+    margin-bottom: 2rem;
+  }
+
+  #linkToShop {
+    font-size: 1.5rem;
+  }
 }
 
 /* ------------- Nest Hub Max ------------- */
