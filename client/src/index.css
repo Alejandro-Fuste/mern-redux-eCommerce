@@ -1344,6 +1344,7 @@ strong {
 /* ------------- Surface Duo ------------- */
 
 @media only screen and (min-device-width: 540px) and (max-device-width: 720px) and (-webkit-min-device-pixel-ratio: 2.5) {
+  /* Login and SignUp Pages */
   .loginForm {
     width: 86%;
     bottom: -2rem;
@@ -1352,6 +1353,18 @@ strong {
   .signUpForm {
     width: 87%;
     bottom: -9rem;
+  }
+
+  /* Success Page */
+  #successRow {
+    margin-top: 3rem;
+  }
+
+  #redirectBox {
+    width: 51vw;
+    margin-top: 6%;
+    padding: 3%;
+    font-size: 3.5vw;
   }
 }
 
