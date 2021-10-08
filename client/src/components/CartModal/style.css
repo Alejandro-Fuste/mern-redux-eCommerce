@@ -16,13 +16,13 @@
   border-color: #465965;
 }
 
-#cartBottom {
+/* #cartBottom {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-end;
   margin-bottom: 1rem;
-}
+} */
 
 #strongTotal {
   padding-top: 0.5rem;
@@ -46,14 +46,20 @@
   margin: 1rem auto;
 }
 
-@media screen and (max-width: 900px) {
-  #cartButton {
-    margin: auto;
+@media only screen and (min-device-width: 280px) {
+  #shopCartButton {
+    display: none;
   }
 }
 
-@media screen and (max-width: 320px) {
-  #cartButton {
-    padding: 0px;
+@media screen and (min-width: 900px) {
+  #shopCartButton {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #shopCartButton {
+    display: block;
   }
 }

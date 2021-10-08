@@ -4,6 +4,8 @@ import Auth from "../../utils/auth";
 import Logo from "../../assets/logo.svg";
 import "./style.css";
 
+import CartModal from "../CartModal";
+
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
@@ -46,6 +48,7 @@ function Navi({ navbarLinks, logoName }) {
           <div id="otherLinksContainer">
             <FontAwesomeIcon icon={faSearch} className="otherLinks" />
             <FontAwesomeIcon icon={faUser} className="otherLinks" />
+            <CartModal id="responsiveCartButton" />
           </div>
         </div>
       );
