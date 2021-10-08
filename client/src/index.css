@@ -1003,6 +1003,35 @@ strong {
     margin: 0px 0px 1rem 0px;
   }
 
+  /* Shop */
+  #logo {
+    width: 25%;
+  }
+
+  #shopLogoName {
+    font-size: 1.5rem;
+  }
+
+  #categoryRow #jumboContainer {
+    flex-direction: column;
+    width: 82vw;
+  }
+
+  #shopTextBox {
+    width: 60%;
+  }
+
+  #textBoxLink {
+    width: 49vw;
+    padding: 0.6rem 1rem;
+  }
+
+  #shopImage {
+    top: 1rem;
+    right: 1rem;
+    width: 80%;
+  }
+
   /* No Match */
 
   #noMatchImage {
@@ -1173,6 +1202,12 @@ strong {
 
   form .formButton {
     margin: 0px 0px 1rem 0px;
+  }
+
+  /* Shop */
+
+  #logo {
+    width: 34%;
   }
 
   /* Success Page */
