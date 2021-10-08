@@ -1012,10 +1012,6 @@ strong {
     font-size: 1.5rem;
   }
 
-  .nav .navbar {
-    width: 100vw;
-  }
-
   #categoryRow #jumboContainer {
     flex-direction: column;
     width: 82vw;

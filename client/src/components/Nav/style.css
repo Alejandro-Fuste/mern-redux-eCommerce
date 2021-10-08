@@ -138,8 +138,28 @@ svg {
     display: inline-block;
   }
 
+  .nav .navbar {
+    width: 100vw;
+  }
+
   .navbar-nav {
     border-top: 2px solid grey;
+  }
+
+  #navParent .navbar-dark .navbar-toggler {
+    color: #465965;
+    border-color: #465965;
+  }
+
+  #linksContainer {
+    margin: 0rem;
+  }
+
+  #otherLinksContainer {
+    display: flex;
+    align-items: center;
+    width: 0rem;
+    margin-left: 0rem;
   }
 }
 
