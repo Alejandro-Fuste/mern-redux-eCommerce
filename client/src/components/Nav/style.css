@@ -129,7 +129,7 @@ svg {
 
 /* -------------- Media Queries -------------- */
 
-@media only screen and (min-device-width: 280px) /*and (max-device-width: 350px) */ {
+@media only screen and (min-device-width: 280px) and (max-device-width: 899px) {
   .navIcons {
     display: inline-block;
   }
@@ -139,7 +139,7 @@ svg {
   }
 
   .nav .navbar {
-    width: 100vw;
+    width: auto;
   }
 
   .navbar-nav {
@@ -149,6 +149,12 @@ svg {
   #navParent .navbar-dark .navbar-toggler {
     color: #465965;
     border-color: #465965;
+  }
+
+  #newNavContainer {
+    display: flex;
+    width: 0vw;
+    flex-direction: column;
   }
 
   #linksContainer {
@@ -163,7 +169,15 @@ svg {
   }
 }
 
-@media screen and (min-width: 900px) {
+/* @media screen and (min-width: 900px) {
+  #newNavContainer {
+    display: flex;
+    flex-direction: row;
+    width: 63rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+
   #basic-navbar-nav {
     margin-right: 0px;
   }
@@ -186,4 +200,4 @@ svg {
   #responsiveCartButton {
     display: none;
   }
-}
+} */
