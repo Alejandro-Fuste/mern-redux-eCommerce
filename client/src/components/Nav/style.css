@@ -140,6 +140,11 @@ svg {
 
   .nav .navbar {
     width: auto;
+    flex-wrap: nowrap;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
   }
 
   .navbar-nav {
@@ -149,6 +154,7 @@ svg {
   #navParent .navbar-dark .navbar-toggler {
     color: #465965;
     border-color: #465965;
+    margin: 0rem 0rem 0rem 0.5rem;
   }
 
   #newNavContainer {
