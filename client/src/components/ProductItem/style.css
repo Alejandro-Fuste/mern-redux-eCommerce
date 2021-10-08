@@ -1,3 +1,14 @@
 #cardText1 {
   margin-bottom: 0.5rem;
 }
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 350px) {
+  #productCol .card {
+    width: 83%;
+    margin: 2% 2% 2% 2%;
+  }
+
+  .card {
+    min-width: 66vw;
+  }
+}

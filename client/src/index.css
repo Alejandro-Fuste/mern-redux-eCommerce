@@ -1032,6 +1032,16 @@ strong {
     width: 80%;
   }
 
+  #productRow {
+    height: auto;
+    padding: 1rem 2rem 0rem 2rem;
+  }
+
+  /* #productCol .card {
+    width: 83%;
+    margin: 2% 2% 2% 2%
+  } */
+
   /* No Match */
 
   #noMatchImage {

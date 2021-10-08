@@ -6,6 +6,7 @@ import { UPDATE_PRODUCTS } from "../../utils/actions";
 import { QUERY_PRODUCTS } from "../../utils/queries";
 import helpers from "../../utils/helpers";
 import spinner from "../../assets/spinner.gif";
+import "./style.css";
 
 const { idbPromise } = helpers;
 
@@ -47,7 +48,7 @@ function ProductList() {
   }
 
   return (
-    <div>
+    <div id="prodDiv">
       <h2 id="productsTitle">Our Products</h2>
       {state.products.length ? (
         <div className="flex-row">
