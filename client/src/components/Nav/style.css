@@ -153,10 +153,19 @@ svg {
     border-top: 2px solid grey;
   }
 
-  #navParent .navbar-dark .navbar-toggler {
+  /* #navParent .navbar-dark .navbar-toggler {
     color: #465965;
     border-color: #465965;
     margin: 0rem 0rem 0rem 0.5rem;
+  } */
+  .navbar-toggler {
+    margin-right: 0px;
+  }
+
+  #navParent .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.55);
+    border-color: #465965;
+    margin-left: 20px;
   }
 
   #newNavContainer {

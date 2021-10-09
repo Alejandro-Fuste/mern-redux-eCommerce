@@ -69,7 +69,7 @@ function Navi({ navbarLinks, logoName }) {
 
   return (
     <Nav id="navParent">
-      <Navbar id="navbar" expand="lg" variant="dark">
+      <Navbar id="navbar" expand="lg" variant="light">
         <Navbar.Brand href="/" id={logoName}>
           <span role="img" aria-label="logo name" id="logoSpan">
             <img src={Logo} alt="logo" id="logo" />
