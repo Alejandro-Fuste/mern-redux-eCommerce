@@ -1005,7 +1005,7 @@ strong {
 
   /* Shop */
   #logo {
-    width: 25%;
+    width: 30%;
   }
 
   #shopLogoName {
@@ -1015,6 +1015,10 @@ strong {
   #categoryRow #jumboContainer {
     flex-direction: column;
     width: 82vw;
+  }
+
+  #categoryDiv {
+    margin-top: 2rem;
   }
 
   #shopTextBox {

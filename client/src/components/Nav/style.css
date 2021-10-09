@@ -134,6 +134,8 @@ svg {
     display: inline-block;
   }
 
+  /* Shop */
+
   #responsiveCartButton {
     display: inline-block;
   }
@@ -172,6 +174,11 @@ svg {
     align-items: center;
     width: 0rem;
     margin-left: 0rem;
+  }
+
+  #categoryRow {
+    padding: 2rem 5rem 5rem 5rem;
+    height: 87%;
   }
 }
 
