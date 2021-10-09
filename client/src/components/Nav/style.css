@@ -140,8 +140,12 @@ svg {
     display: inline-block;
   }
 
+  #navParent {
+    width: 100vw;
+  }
+
   .nav .navbar {
-    width: auto;
+    width: 100vw;
     flex-wrap: nowrap;
   }
 
@@ -163,13 +167,22 @@ svg {
     margin-left: 20px;
   }
 
+  #wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
   #newNavContainer {
     display: flex;
-    width: 0vw;
+    width: 80vw;
     flex-direction: column;
   }
 
   #linksContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 27vh;
     margin: 0rem;
   }
 
@@ -177,7 +190,7 @@ svg {
     display: flex;
     align-items: center;
     width: 0rem;
-    margin-left: 0rem;
+    margin-left: 4rem;
   }
 
   #categoryRow {

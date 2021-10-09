@@ -6,6 +6,7 @@ import "./style.css";
 
 import CartModal from "../CartModal";
 
+import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
@@ -69,17 +70,19 @@ function Navi({ navbarLinks, logoName }) {
 
   return (
     <Nav id="navParent">
-      <Navbar id="navbar" expand="lg" variant="light">
-        <Navbar.Brand href="/" id={logoName}>
-          <span role="img" aria-label="logo name" id="logoSpan">
-            <img src={Logo} alt="logo" id="logo" />
-          </span>
-          A-Shop
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav>{showNavigation()}</Nav>
-        </Navbar.Collapse>
+      <Navbar id="navbar" expand="lg" variant="light" bg="dark">
+        <Container fluid id="wrapper">
+          <Navbar.Brand href="/" id={logoName}>
+            <span role="img" aria-label="logo name" id="logoSpan">
+              <img src={Logo} alt="logo" id="logo" />
+            </span>
+            A-Shop
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav>{showNavigation()}</Nav>
+          </Navbar.Collapse>
+        </Container>
       </Navbar>
     </Nav>
   );
