@@ -70,7 +70,7 @@ function Navi({ navbarLinks, logoName }) {
 
   return (
     <Nav id="navParent">
-      <Navbar id="navbar" expand="lg" variant="light" bg="dark">
+      <Navbar id="navbar" expand="lg" variant="light">
         <Container fluid id="wrapper">
           <Navbar.Brand href="/" id={logoName}>
             <span role="img" aria-label="logo name" id="logoSpan">
@@ -79,9 +79,11 @@ function Navi({ navbarLinks, logoName }) {
             A-Shop
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav>{showNavigation()}</Nav>
-          </Navbar.Collapse>
+          <Container id="innerWrapper">
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav>{showNavigation()}</Nav>
+            </Navbar.Collapse>
+          </Container>
         </Container>
       </Navbar>
     </Nav>

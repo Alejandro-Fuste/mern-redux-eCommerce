@@ -144,6 +144,17 @@ svg {
     width: 100vw;
   }
 
+  #wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  #shopLogoName {
+    position: absolute;
+    left: 1rem;
+  }
+
   .nav .navbar {
     width: 100vw;
     flex-wrap: nowrap;
@@ -165,17 +176,22 @@ svg {
     color: rgba(0, 0, 0, 0.55);
     border-color: #465965;
     margin-left: 20px;
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
   }
 
-  #wrapper {
-    display: flex;
-    flex-direction: column;
+  #innerWrapper {
+    position: absolute;
+    top: 3rem;
   }
 
   #newNavContainer {
     display: flex;
-    width: 80vw;
+    width: 91vw;
     flex-direction: column;
+    background-color: #f2f2f2;
+    padding-bottom: 1rem;
   }
 
   #linksContainer {
