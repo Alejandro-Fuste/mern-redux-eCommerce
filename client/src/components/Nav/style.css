@@ -262,6 +262,16 @@ svg {
   }
 }
 
+/* ----------- iPhone X ----------- */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  #categoryRow {
+    height: 70%;
+  }
+}
+
+/* ------------- Pixel 2 XL --------------- */
+
 @media only screen and (min-device-width: 411px) and (max-device-width: 823px) {
   #categoryRow {
     height: 73%;
