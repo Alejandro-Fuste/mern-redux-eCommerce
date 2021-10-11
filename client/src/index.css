@@ -1147,6 +1147,13 @@ strong {
     margin: 0px 0px 1rem 0px;
   }
 
+  /* Shop */
+
+  #shopImage {
+    top: 0rem;
+    right: 1rem;
+  }
+
   /* Success Page */
   #successCol {
     margin-top: 1rem;
