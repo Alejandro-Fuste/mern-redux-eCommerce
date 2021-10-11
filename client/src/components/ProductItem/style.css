@@ -85,3 +85,10 @@
     height: 11vh;
   }
 }
+
+/* ------------- Nest Hub ------------- */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1100px) {
+  .card-body {
+    height: 18vh;
+  }
+}
