@@ -227,6 +227,10 @@ svg {
   .nav .navbar-brand {
     font-size: 1.5rem;
   }
+
+  #categoryRow {
+    padding: 2rem 2rem 5rem 2rem;
+  }
 }
 
 /* @media screen and (min-width: 900px) {
