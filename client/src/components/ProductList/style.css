@@ -18,3 +18,11 @@
     padding: 1rem 0rem;
   }
 }
+
+/* iPhone 5/SE */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  /* Shop */
+  #prodDiv {
+    margin-top: 4rem;
+  }
+}
