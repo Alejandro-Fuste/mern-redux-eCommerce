@@ -18,21 +18,21 @@
 
 #newNavContainer {
   display: flex;
-  width: 63rem;
+  width: 68vw;
   justify-content: space-around;
   align-items: center;
 }
 
 #linksContainer {
-  margin: 0 9rem 0 16rem;
+  margin: 0px 8vw 0 18vw;
 }
 
 #otherLinksContainer {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 5rem;
-  margin-left: 10rem;
+  width: 5vw;
+  margin-left: 10vw;
 }
 
 #responsiveCartButton {
