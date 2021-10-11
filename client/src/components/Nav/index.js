@@ -55,7 +55,7 @@ function Navi({ navbarLinks, logoName }) {
       );
     } else {
       return (
-        <>
+        <Container id="loginSignUpWrapper">
           <Link to="/signup" id="SignupLink">
             Signup
           </Link>
@@ -63,7 +63,7 @@ function Navi({ navbarLinks, logoName }) {
           <Link to="/login" id="loginLink">
             Login
           </Link>
-        </>
+        </Container>
       );
     }
   }

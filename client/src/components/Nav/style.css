@@ -134,6 +134,24 @@ svg {
     display: inline-block;
   }
 
+  #loginSignUpWrapper {
+    display: flex;
+    height: 20vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f2f2f2;
+  }
+
+  #SignupLink {
+    padding: 0.5rem 2.5rem;
+    margin-left: 0rem;
+  }
+
+  #loginLink {
+    margin-left: 0rem;
+  }
+
   /* Shop */
 
   #responsiveCartButton {
@@ -230,6 +248,12 @@ svg {
 
   #categoryRow {
     padding: 2rem 2rem 5rem 2rem;
+  }
+}
+
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) {
+  #categoryRow {
+    height: 73%;
   }
 }
 
