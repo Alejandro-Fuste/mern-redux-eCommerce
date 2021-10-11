@@ -319,7 +319,6 @@ svg {
 
   #SignupLink {
     padding: 0rem 2.6rem;
-    text-decoration: none;
     margin-left: 0rem;
   }
 
@@ -371,6 +370,28 @@ svg {
   #categoryRow {
     height: 100%;
     padding: 4rem;
+  }
+}
+
+/* ------------- Nest Hub Max ------------- */
+@media only screen and (min-device-width: 1280px) and (max-device-width: 1300px) {
+  #logo {
+    height: 3.5rem;
+  }
+
+  #loginSignUpWrapper {
+    display: flex;
+    justify-content: flex-end;
+    width: 73vw;
+  }
+
+  #SignupLink {
+    padding: 0rem 2.6rem;
+    margin-left: 0rem;
+  }
+
+  #categoryRow {
+    height: 80%;
   }
 }
 

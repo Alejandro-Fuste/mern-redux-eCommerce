@@ -1835,6 +1835,13 @@ strong {
 
 /* ------------- Nest Hub Max ------------- */
 @media only screen and (min-device-width: 1280px) and (max-device-width: 1300px) {
+  /* Shop */
+  #shopImage {
+    top: 0rem;
+    right: 6rem;
+    width: 40%;
+  }
+
   /* Success Page */
   #successImage {
     max-width: 55%;
