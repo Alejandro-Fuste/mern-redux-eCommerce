@@ -1229,6 +1229,47 @@ strong {
     width: 70%;
   }
 
+  #categoryRow #jumboContainer {
+    flex-direction: column;
+    width: 82vw;
+  }
+
+  #categoryDiv {
+    margin-top: 2rem;
+  }
+
+  #shopImage {
+    top: 0rem;
+    right: 1.5rem;
+    width: 80%;
+  }
+
+  #shopTextBox {
+    width: 60%;
+    margin-top: 1rem;
+  }
+
+  #shopTextBoxH2 {
+    margin-bottom: 0.5rem;
+  }
+
+  #shopTextBoxhH5 {
+    margin-bottom: 1rem;
+  }
+
+  #textBoxLink {
+    width: 49vw;
+    padding: 0.6rem 1rem;
+    text-align: center;
+  }
+
+  #productRow {
+    height: auto;
+    padding: 1rem 2rem 0rem 2rem;
+  }
+
+  /* Success Page */
+
   #successImage {
     height: auto;
     margin: 0 auto 10px auto;
