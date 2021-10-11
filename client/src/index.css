@@ -1482,10 +1482,19 @@ strong {
     bottom: -9rem;
   }
 
-  /* Success Page */
-  #successRow {
-    margin-top: 3rem;
+  /* Shop */
+
+  #productCol .card {
+    width: 65%;
   }
+
+  #shopImage {
+    top: 0rem;
+    right: 6rem;
+    width: 57%;
+  }
+
+  /* Success Page */
 
   #redirectBox {
     width: 51vw;
