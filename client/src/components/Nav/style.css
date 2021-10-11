@@ -35,6 +35,10 @@
   margin-left: 10vw;
 }
 
+#loginSignUpWrapper {
+  display: flex;
+}
+
 #responsiveCartButton {
   display: none;
   color: #000;
