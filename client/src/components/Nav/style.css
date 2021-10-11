@@ -138,6 +138,8 @@ svg {
 
   #responsiveCartButton {
     display: inline-block;
+    border-radius: 50px;
+    padding: 1rem;
   }
 
   #navParent {
