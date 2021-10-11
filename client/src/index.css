@@ -1548,6 +1548,13 @@ strong {
     width: 40%;
   }
 
+  /* Shop */
+  #shopImage {
+    top: 3rem;
+    right: 0rem;
+    width: 50%;
+  }
+
   /* Success Page */
   #successContainer {
     width: 100%;

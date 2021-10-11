@@ -43,3 +43,16 @@
     height: 14vh;
   }
 }
+
+/* ------------- iPad ------------- */
+/* ------ Portrait ------ */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #productCol .card {
+    width: 50%;
+  }
+
+  .card-body {
+    height: 11vh;
+  }
+}

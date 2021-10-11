@@ -278,6 +278,29 @@ svg {
   }
 }
 
+/* ------------- iPad ------------- */
+/* ------ Portrait ------ */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #logo {
+    height: 3.5rem;
+  }
+
+  #navParent .navbar-light .navbar-toggler {
+    top: 1rem;
+  }
+
+  /* Shop */
+  #categoryRow {
+    height: 50%;
+  }
+}
+
+/* ------------- iPad ------------- */
+/* ------ Landscape ------ */
+@media only screen and (orientation: landscape) and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
 /* @media screen and (min-width: 900px) {
   #newNavContainer {
     display: flex;
