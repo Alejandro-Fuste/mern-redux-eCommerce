@@ -2,7 +2,7 @@
   margin-bottom: 0.5rem;
 }
 
-@media only screen and (min-device-width: 280px) and (max-device-width: 350px) {
+@media only screen and (min-device-width: 280px) and (max-device-width: 899px) {
   #productCol .card {
     width: 83%;
     margin: 2% 2% 2% 2%;
