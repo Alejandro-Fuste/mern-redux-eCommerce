@@ -394,36 +394,3 @@ svg {
     height: 80%;
   }
 }
-
-/* @media screen and (min-width: 900px) {
-  #newNavContainer {
-    display: flex;
-    flex-direction: row;
-    width: 63rem;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  #basic-navbar-nav {
-    margin-right: 0px;
-  }
-
-  .navbar-nav {
-    margin: 2vh 4vw 0px 0px;
-    border-top: 0px;
-  }
-
-  #responsiveCartButton {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .navIcons {
-    display: none;
-  }
-
-  #responsiveCartButton {
-    display: none;
-  }
-} */
