@@ -209,6 +209,10 @@ svg {
     margin-left: 4rem;
   }
 
+  .otherLinks {
+    display: none;
+  }
+
   #categoryRow {
     padding: 2rem 5rem 5rem 5rem;
     height: 87%;
