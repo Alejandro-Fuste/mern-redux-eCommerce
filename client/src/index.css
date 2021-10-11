@@ -1676,6 +1676,14 @@ strong {
   .signUpForm {
     bottom: 9rem;
   }
+
+  /* Shop */
+  #shopImage {
+    top: 1rem;
+    right: 4rem;
+    width: 42%;
+  }
+
   /* Success Page */
 
   #successContainer {
