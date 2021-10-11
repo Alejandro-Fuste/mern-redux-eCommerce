@@ -1615,6 +1615,13 @@ strong {
   .signUpForm {
     bottom: 8.4rem;
   }
+
+  /* Shop */
+  #shopImage {
+    top: 0rem;
+    right: 1rem;
+    width: 50%;
+  }
 }
 
 /* ------------- iPad Pro ------------- */

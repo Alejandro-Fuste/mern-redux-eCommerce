@@ -56,3 +56,11 @@
     height: 11vh;
   }
 }
+
+/* ------------- iPad ------------- */
+/* ------ Landscape ------ */
+@media only screen and (orientation: landscape) and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .card-body {
+    height: 14vh;
+  }
+}
