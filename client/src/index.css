@@ -1313,6 +1313,13 @@ strong {
     bottom: -11rem;
   }
 
+  /* Shop */
+
+  #shopImage {
+    top: -1rem;
+    right: 2rem;
+  }
+
   /* Success Page */
   #successCol {
     width: 70%;
