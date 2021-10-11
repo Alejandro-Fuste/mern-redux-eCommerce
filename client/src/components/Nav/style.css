@@ -320,6 +320,44 @@ svg {
   }
 }
 
+/* ------------- iPad Pro ------------- */
+@media screen and (min-width: 1024px) and (max-device-width: 1200px) {
+  #logo {
+    height: 3.5rem;
+  }
+
+  #loginSignUpWrapper {
+    display: flex;
+    justify-content: flex-end;
+    width: 73vw;
+  }
+
+  #SignupLink {
+    padding: 0rem 2.6rem;
+    text-decoration: none;
+    margin-left: 0rem;
+  }
+
+  #categoryRow {
+    height: 45%;
+    padding: 2rem;
+  }
+
+  #categoryDiv {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-width: 1024px) and (max-device-width: 1366px) {
+  #categoryRow {
+    height: 64%;
+  }
+
+  #categoryDiv {
+    margin-top: 3rem;
+  }
+}
+
 /* @media screen and (min-width: 900px) {
   #newNavContainer {
     display: flex;
