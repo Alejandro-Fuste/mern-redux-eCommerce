@@ -142,6 +142,9 @@ svg {
 
   #homeLogoName {
     font-size: 7vw;
+    position: absolute;
+    left: 1rem;
+    top: 0.5rem;
   }
 
   .navIcons {
@@ -184,8 +187,7 @@ svg {
     position: relative;
   }
 
-  #shopLogoName,
-  #homeLogoName {
+  #shopLogoName {
     position: absolute;
     left: 1rem;
   }
