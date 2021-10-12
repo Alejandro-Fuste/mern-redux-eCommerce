@@ -184,7 +184,8 @@ svg {
     position: relative;
   }
 
-  #shopLogoName {
+  #shopLogoName,
+  #homeLogoName {
     position: absolute;
     left: 1rem;
   }
