@@ -1017,14 +1017,14 @@ strong {
 
   #creditCard {
     position: absolute;
-    right: 1rem;
+    right: 0rem;
     top: 5rem;
     max-width: 100%;
   }
   #textBox {
     width: 100vw;
     bottom: -6rem;
-    padding: 0rem;
+    padding: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1032,7 +1032,7 @@ strong {
 
   #homeContainer #footerDiv {
     padding: 0rem;
-    bottom: -1.5rem;
+    bottom: -16.5rem;
   }
 
   /* Shop */
