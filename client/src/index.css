@@ -1003,6 +1003,37 @@ strong {
     margin: 0px 0px 1rem 0px;
   }
 
+  /* Home */
+
+  #homeContainer .row {
+    --bs-gutter-x: 0rem;
+  }
+
+  .homeRow {
+    width: 100vw;
+    height: 50vh;
+  }
+
+  #creditCard {
+    position: absolute;
+    right: 1rem;
+    top: 5rem;
+    max-width: 100%;
+  }
+  #textBox {
+    width: 100vw;
+    bottom: -6rem;
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #homeContainer #footerDiv {
+    padding: 0rem;
+    bottom: -1.5rem;
+  }
+
   /* Shop */
   #logo {
     width: 30%;
@@ -1040,11 +1071,6 @@ strong {
     height: auto;
     padding: 1rem 2rem 0rem 2rem;
   }
-
-  /* #productCol .card {
-    width: 83%;
-    margin: 2% 2% 2% 2%
-  } */
 
   /* No Match */
 
@@ -1334,6 +1360,7 @@ strong {
 /* ----------- iPhone X ----------- */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  ˚º
   /* Home Page */
   #homeContainer .row {
     --bs-gutter-x: 0rem;
