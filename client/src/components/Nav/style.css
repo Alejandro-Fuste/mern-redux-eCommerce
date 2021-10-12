@@ -140,6 +140,12 @@ svg {
     width: 25%;
   }
 
+  .navIcons {
+    display: inline-block;
+  }
+
+  /* Home */
+
   #homeLogoName {
     font-size: 7vw;
     position: absolute;
@@ -147,9 +153,11 @@ svg {
     top: 0.5rem;
   }
 
-  .navIcons {
-    display: inline-block;
+  .homeNavLinks {
+    color: #243b55;
   }
+
+  /* Login & SignUp */
 
   #loginSignUpWrapper {
     display: flex;
