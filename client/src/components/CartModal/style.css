@@ -65,4 +65,8 @@
   #homeCartButton {
     display: block;
   }
+
+  #shopCartButton {
+    margin-top: 1.2rem;
+  }
 }
