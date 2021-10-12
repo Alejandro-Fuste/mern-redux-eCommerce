@@ -1507,7 +1507,7 @@ strong {
 /* ------------- iPad ------------- */
 /* ------ Portrait ------ */
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (orientation: portrait) and (min-width: 768px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
   /* Login and SignUp Page */
   #loginRow,
   #signUpRow {
@@ -1605,7 +1605,7 @@ strong {
 
 /* ------------- iPad ------------- */
 /* ------ Landscape ------ */
-@media only screen and (orientation: landscape) and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (orientation: landscape) and (min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
   /* Login and SignUp */
   #rightLoginCol #logo,
   #rightSignUpCol #logo {
@@ -1815,7 +1815,7 @@ strong {
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1100px) {
   /* Shop */
   #productRow {
-    padding-top: 14rem;
+    padding-top: 18rem;
   }
 
   /* Success Page */
