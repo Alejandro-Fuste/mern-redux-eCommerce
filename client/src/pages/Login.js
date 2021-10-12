@@ -49,7 +49,7 @@ function Login(props) {
 
         <Col xs={12} xl={5} id="rightLoginCol">
           <Link to="/" id="logoHeader">
-            <Image src={logo} alt="logo" id="logo" />
+            <Image src={logo} alt="logo" id="logoSignUp" />
             <h1 id="shopName">A-Shop</h1>
           </Link>
 
