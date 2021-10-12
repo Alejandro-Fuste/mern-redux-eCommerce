@@ -1634,7 +1634,7 @@ strong {
 }
 
 /* ------------- iPad Pro ------------- */
-@media screen and (min-width: 1024px) and (max-device-width: 1200px) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   /* ------ Portrait ------ */
   /* Login and SignUp */
 
@@ -1682,6 +1682,10 @@ strong {
     top: 1rem;
     right: 4rem;
     width: 42%;
+  }
+
+  #shopContainer #productRow {
+    padding-top: 2rem;
   }
 
   /* Success Page */
@@ -1809,6 +1813,11 @@ strong {
 
 /* ------------- Nest Hub ------------- */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1100px) {
+  /* Shop */
+  #productRow {
+    padding-top: 14rem;
+  }
+
   /* Success Page */
   #redirectBox {
     width: 74%;
@@ -1872,3 +1881,5 @@ strong {
     margin-right: 2rem;
   }
 }
+
+/* @media screen and (min-width: 1024px) and (max-device-width: 1000px) */

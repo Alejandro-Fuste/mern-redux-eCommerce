@@ -366,8 +366,8 @@ svg {
 }
 
 /* ------------- Nest Hub ------------- */
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1100px) {
-  #categoryRow {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 600px) {
+  #appContainer #shopContainer #categoryRow {
     height: 100%;
     padding: 4rem;
   }
