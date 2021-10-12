@@ -50,7 +50,7 @@ function Signup(props) {
 
         <Col xs={12} xl={5} id="rightSignUpCol">
           <Link to="/" id="signUpHeader">
-            <Image src={logo} alt="logo" id="logo" />
+            <Image src={logo} alt="logo" id="logoSignUp" />
             <h1 id="shopName">A-Shop</h1>
           </Link>
 
