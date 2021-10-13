@@ -1250,9 +1250,7 @@ strong {
   }
 
   /* Home */
-  /* #homeContainer .row {
-    --bs-gutter-x: 0rem;
-  }
+  /* 
 
   .homeRow {
     width: 100vw;
@@ -1278,6 +1276,10 @@ strong {
     padding: 0rem;
     bottom: -1.5rem;
   } */
+
+  #homeContainer .row {
+    --bs-gutter-x: 0rem;
+  }
 
   #homeContainer #footerDiv {
     padding: 0rem;
