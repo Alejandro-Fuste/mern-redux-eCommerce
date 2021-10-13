@@ -1666,21 +1666,22 @@ strong {
     --bs-gutter-x: 0rem;
   }
 
-  .homeRow {
+  /* .homeRow {
     width: 100vw;
     height: 50vh;
-  }
+  } */
 
   #creditCard {
     position: absolute;
     right: 1rem;
-    top: 5rem;
+    top: 10rem;
     max-width: 100%;
   }
   #textBox {
     width: 100vw;
-    bottom: -6rem;
-    padding: 0rem;
+    height: 50vh;
+    bottom: -12rem;
+    padding: 0rem 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1688,7 +1689,7 @@ strong {
 
   #homeContainer #footerDiv {
     padding: 0rem;
-    bottom: -1.5rem;
+    bottom: 1.5rem;
   }
 
   /* Shop Page */
