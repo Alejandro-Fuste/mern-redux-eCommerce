@@ -1570,6 +1570,15 @@ strong {
 /* ------------- Surface Duo ------------- */
 
 @media only screen and (min-device-width: 540px) and (max-device-width: 720px) and (-webkit-min-device-pixel-ratio: 2.5) {
+  /* Home */
+  #textBox {
+    bottom: -11rem;
+  }
+
+  #homeContainer #footerDiv {
+    bottom: 1.5rem;
+  }
+
   /* Login and SignUp Pages */
   .loginForm {
     width: 86%;
