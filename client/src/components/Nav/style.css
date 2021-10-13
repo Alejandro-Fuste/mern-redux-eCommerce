@@ -201,7 +201,8 @@ svg {
   }
 
   .nav .navbar {
-    width: 100vw;
+    /* width: 100vw; */
+    width: 100%;
     flex-wrap: nowrap;
   }
 
@@ -233,7 +234,8 @@ svg {
 
   #newNavContainer {
     display: flex;
-    width: 91vw;
+    width: 100%;
+    /* width: 91vw; */
     flex-direction: column;
     background-color: #f2f2f2;
     padding-bottom: 1rem;
@@ -242,7 +244,7 @@ svg {
   #linksContainer {
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    width: 80%;
     height: 27vh;
     margin: 0rem;
   }
@@ -323,6 +325,14 @@ svg {
   #navParent .navbar-light .navbar-toggler {
     top: 2rem;
     font-size: 2.25rem;
+  }
+
+  .homeNavLinks {
+    font-size: 1.4rem;
+  }
+
+  #responsiveCartButton {
+    font-size: 1.4rem;
   }
 
   /* Shop */
