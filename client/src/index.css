@@ -1250,14 +1250,6 @@ strong {
   }
 
   /* Home */
-  /* 
-
-  .homeRow {
-    width: 100vw;
-    height: 50vh;
-  }
-
-   */
 
   #homeContainer .row {
     --bs-gutter-x: 0rem;
