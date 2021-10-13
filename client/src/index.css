@@ -1551,6 +1551,11 @@ strong {
 /* ------------- iPhone 6,7,8 Plus ------------- */
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  /* Home */
+  #textBox {
+    bottom: -9rem;
+  }
+
   /* Login & SignUp Pages */
 
   #rightLoginCol .loginForm {
