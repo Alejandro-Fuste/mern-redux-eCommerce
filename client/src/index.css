@@ -1006,32 +1006,6 @@ strong {
 
   /* Home */
 
-  /* 
-
-  .homeRow {
-    width: 100vw;
-    height: 50vh;
-  }
-
-  #creditCard {
-    position: absolute;
-    right: 0rem;
-    top: 5rem;
-    max-width: 100%;
-  }
-  #textBox {
-    width: 100vw;
-    bottom: -6rem;
-    padding: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #homeContainer #footerDiv {
-    padding: 0rem;
-    bottom: -16.5rem;
-  } */
   #homeContainer .row {
     --bs-gutter-x: 0rem;
   }
