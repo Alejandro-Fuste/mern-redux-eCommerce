@@ -1006,9 +1006,7 @@ strong {
 
   /* Home */
 
-  /* #homeContainer .row {
-    --bs-gutter-x: 0rem;
-  }
+  /* 
 
   .homeRow {
     width: 100vw;
@@ -1034,6 +1032,9 @@ strong {
     padding: 0rem;
     bottom: -16.5rem;
   } */
+  #homeContainer .row {
+    --bs-gutter-x: 0rem;
+  }
 
   #creditCard {
     position: absolute;
