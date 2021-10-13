@@ -1051,6 +1051,9 @@ strong {
     height: 66vh;
     bottom: -3.5rem;
     padding: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   #homeContainer #footerDiv {
