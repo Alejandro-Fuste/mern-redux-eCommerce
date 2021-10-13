@@ -1006,7 +1006,7 @@ strong {
 
   /* Home */
 
-  #homeContainer .row {
+  /* #homeContainer .row {
     --bs-gutter-x: 0rem;
   }
 
@@ -1033,6 +1033,20 @@ strong {
   #homeContainer #footerDiv {
     padding: 0rem;
     bottom: -16.5rem;
+  } */
+
+  #creditCard {
+    position: absolute;
+    max-width: 85%;
+    left: 1.5rem;
+    top: 6rem;
+    right: 0;
+    bottom: 0;
+  }
+
+  #homeContainer #footerDiv {
+    padding: 0rem;
+    /* bottom: -16.5rem; */
   }
 
   /* Shop */
