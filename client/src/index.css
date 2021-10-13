@@ -1488,16 +1488,53 @@ strong {
   }
 }
 
-/* ------------- Pixel 2 XL --------------- */
+/* ------------- Pixel 2 --------------- */
 
-@media only screen and (min-device-width: 411px) and (max-device-width: 823px) {
+@media only screen and (min-device-width: 411px) and (max-device-width: 731px) and (-webkit-min-device-pixel-ratio: 2.6) {
+  /* Home */
+  #homeContainer #footerDiv {
+    bottom: -2.5rem;
+  }
+
   /* Login and SignUp Page */
   .loginForm {
-    bottom: 2rem;
+    bottom: -1rem;
   }
 
   .signUpForm {
-    bottom: -5rem;
+    bottom: -9rem;
+  }
+
+  /* Success Page */
+  #successCol {
+    width: 70%;
+    margin-top: 1.8rem;
+  }
+
+  #successImage {
+    height: 35vh;
+  }
+}
+
+/* ------------- Pixel 2 XL --------------- */
+
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 3.5) {
+  /* Home */
+  #textBox {
+    bottom: -7rem;
+  }
+
+  #homeContainer #footerDiv {
+    bottom: 0.5rem;
+  }
+
+  /* Login and SignUp Page */
+  .loginForm {
+    bottom: -1rem;
+  }
+
+  .signUpForm {
+    bottom: -9rem;
   }
 
   /* Success Page */
