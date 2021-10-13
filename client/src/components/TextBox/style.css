@@ -81,16 +81,18 @@
   }
 }
 
-/* ----------- iPhone X, Moto G4, Galaxy S5 ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+/* ----------- Moto G4, Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
   #homeTextbox {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
   }
+  #textBoxParagraph {
+    width: 100%;
+  }
 }
-
 /* ------------- iPad Pro ------------- */
 
 @media screen and (min-width: 1024px) and (max-device-width: 1200px) {

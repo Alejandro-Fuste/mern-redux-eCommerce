@@ -1257,16 +1257,6 @@ strong {
     height: 50vh;
   }
 
-  
-  #textBox {
-    width: 100vw;
-    bottom: -6rem;
-    padding: 0rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   #homeContainer #footerDiv {
     padding: 0rem;
     bottom: -1.5rem;
@@ -1281,6 +1271,15 @@ strong {
     right: 2rem;
     top: 6rem;
     max-width: 80%;
+  }
+
+  #textBox {
+    width: 100vw;
+    bottom: -6rem;
+    padding: 0rem 2rem 0rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   #homeContainer #footerDiv {
