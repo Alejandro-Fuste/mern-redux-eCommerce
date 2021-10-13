@@ -1171,6 +1171,12 @@ strong {
     margin: 0px 0px 1rem 0px;
   }
 
+  /* Home */
+
+  #textBox {
+    bottom: -7.5rem;
+  }
+
   /* Shop */
 
   #shopImage {
