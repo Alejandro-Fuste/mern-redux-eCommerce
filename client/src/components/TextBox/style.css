@@ -70,6 +70,10 @@
 
 /* ----------- Galaxy Fold ----------- */
 @media only screen and (min-device-width: 280px) and (max-device-width: 350px) {
+  #textBoxHeading {
+    padding-left: 1rem;
+  }
+
   #textBoxParagraph {
     width: 100%;
     padding: 1rem;
