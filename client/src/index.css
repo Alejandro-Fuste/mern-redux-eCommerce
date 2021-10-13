@@ -1391,7 +1391,6 @@ strong {
 /* ----------- iPhone X ----------- */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  ˚º
   /* Home Page */
   #homeContainer .row {
     --bs-gutter-x: 0rem;
@@ -1404,9 +1403,9 @@ strong {
 
   #creditCard {
     position: absolute;
-    right: 1rem;
-    top: 5rem;
-    max-width: 100%;
+    right: 1.3rem;
+    top: 7rem;
+    max-width: 90%;
   }
   #textBox {
     width: 100vw;
