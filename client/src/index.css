@@ -1250,7 +1250,7 @@ strong {
   }
 
   /* Home */
-  #homeContainer .row {
+  /* #homeContainer .row {
     --bs-gutter-x: 0rem;
   }
 
@@ -1277,6 +1277,11 @@ strong {
   #homeContainer #footerDiv {
     padding: 0rem;
     bottom: -1.5rem;
+  } */
+
+  #homeContainer #footerDiv {
+    padding: 0rem;
+    /* bottom: -1.5rem; */
   }
 
   /* Shop */
