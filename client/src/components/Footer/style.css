@@ -11,3 +11,11 @@
   font-size: 2rem;
   color: lightgrey;
 }
+
+@media only screen and (orientation: landscape) and (min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  #footerDiv {
+    bottom: -28.5vw;
+    padding: 0rem;
+    left: 70vw;
+  }
+}
