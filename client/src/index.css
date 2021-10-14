@@ -1794,32 +1794,6 @@ strong {
     margin-right: 5vw;
   }
 
-  /* 
-  .homeRow {
-    width: 100vw;
-    height: 50vh;
-  }
-
-  #creditCard {
-    position: absolute;
-    right: 1rem;
-    top: 5rem;
-    max-width: 100%;
-  }
-  #textBox {
-    width: 100vw;
-    bottom: -6rem;
-    padding: 0rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #homeContainer #footerDiv {
-    padding: 0rem;
-    bottom: -1.5rem;
-  } */
-
   /* Shop */
   #shopImage {
     top: 0rem;
