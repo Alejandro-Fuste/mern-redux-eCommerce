@@ -153,3 +153,20 @@
     margin-bottom: 2rem;
   }
 }
+
+/* ------------- iPad Pro Landscape ------------- */
+
+@media screen and (orientation: landscape) and (min-width: 1366px) and (max-device-width: 1366px) {
+  #textBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+
+  #textBoxParagraph {
+    line-height: 2.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+  }
+}

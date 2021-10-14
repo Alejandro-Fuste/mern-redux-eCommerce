@@ -1937,6 +1937,16 @@ strong {
     max-width: 50%;
   }
 
+  #textBox {
+    padding: 0rem 3rem 0rem 8rem;
+  }
+
+  #linkToLogin {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-right: 9vw;
+  }
+
   /* Login and SignUp */
 
   #rightSignUpCol {
