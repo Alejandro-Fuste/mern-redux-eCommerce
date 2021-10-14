@@ -1928,6 +1928,15 @@ strong {
 
 @media screen and (orientation: landscape) and (min-width: 1024px) and (max-device-width: 1366px) {
   /* ------ Landscape ------ */
+  /* Home */
+
+  #creditCard {
+    position: absolute;
+    right: 0rem;
+    bottom: 20rem;
+    max-width: 50%;
+  }
+
   /* Login and SignUp */
 
   #rightSignUpCol {
