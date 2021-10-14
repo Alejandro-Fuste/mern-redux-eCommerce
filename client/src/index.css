@@ -1756,11 +1756,11 @@ strong {
     width: 30.4%;
   }
 
-  .loginForm {
+  #rightLoginCol .loginForm {
     bottom: 12.4rem;
   }
 
-  .signUpForm {
+  #rightSignUpCol .signUpForm {
     bottom: 8.4rem;
   }
 
