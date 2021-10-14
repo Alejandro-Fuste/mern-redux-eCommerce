@@ -70,3 +70,12 @@
     margin-top: 1.2rem;
   }
 }
+
+/* ------------- iPad Pro ------------- */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  #homeCartButton {
+    position: absolute;
+    right: 3vw;
+    top: 2vh;
+  }
+}
