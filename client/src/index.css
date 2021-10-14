@@ -1774,7 +1774,7 @@ strong {
     --bs-gutter-x: 0rem;
   }
 
-  #creditCard {
+  #homeContainer #creditCard {
     right: -41vw;
     bottom: 0vw;
     max-width: 80%;
