@@ -115,7 +115,7 @@ svg {
 }
 
 #logo {
-  width: 30%;
+  width: 45%;
 }
 
 #logoSpan {
@@ -346,20 +346,25 @@ svg {
 @media only screen and (orientation: landscape) and (min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
   /* Home */
   #navParent {
-    width: 100%;
+    /* width: 100%; */
+    width: 94%;
     display: flex;
     justify-content: center;
   }
 
+  .nav .navbar {
+    width: 95%;
+  }
+
   #logo {
-    height: 12vw;
+    width: 30%;
   }
 
   #homeLogoName {
     font-size: 4vw;
     position: absolute;
     top: 0.3vw;
-    left: -66vw;
+    /* left: -66vw; */
   }
 
   #linksContainer {
@@ -369,10 +374,10 @@ svg {
   #loginSignUpWrapper {
     display: flex;
     justify-content: flex-end;
-    width: 73vw;
+    width: 100%;
     position: absolute;
-    top: 5vw;
-    right: -59vw;
+    top: 4vw;
+    right: 1vw;
   }
 
   #SignupLink {
