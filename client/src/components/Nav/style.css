@@ -344,8 +344,22 @@ svg {
 /* ------------- iPad ------------- */
 /* ------ Landscape ------ */
 @media only screen and (orientation: landscape) and (min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Home */
+  #navParent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
   #logo {
-    height: 3.5rem;
+    height: 12vw;
+  }
+
+  #homeLogoName {
+    font-size: 4vw;
+    position: absolute;
+    top: 0.3vw;
+    left: -66vw;
   }
 
   #linksContainer {
@@ -356,6 +370,9 @@ svg {
     display: flex;
     justify-content: flex-end;
     width: 73vw;
+    position: absolute;
+    top: 5vw;
+    right: -59vw;
   }
 
   #SignupLink {
