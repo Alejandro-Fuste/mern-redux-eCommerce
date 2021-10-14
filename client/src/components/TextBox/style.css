@@ -120,9 +120,35 @@
   }
 }
 
-/* ------------- iPad Pro ------------- */
+/* ------------- iPad Pro Portrait------------- */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  #textBox {
+    position: absolute;
+    width: 100vw;
+    height: 50vh;
+    bottom: 3rem;
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
 
-@media screen and (min-width: 1024px) and (max-device-width: 1200px) {
+  #homeTextbox {
+    padding: 0 2rem;
+  }
+
+  #textBoxHeading {
+    font-size: 2.5rem;
+  }
+
+  #textBoxParagraph {
+    line-height: 2.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+  }
+
   #successTextBox {
     margin-bottom: 2rem;
   }

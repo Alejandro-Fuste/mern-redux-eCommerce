@@ -1846,6 +1846,23 @@ strong {
     bottom: 9rem;
   }
 
+  /* Home */
+  #homeContainer .row {
+    --bs-gutter-x: 0rem;
+  }
+
+  #creditCard {
+    position: absolute;
+    right: 15vw;
+    top: 13vh;
+    max-width: 70%;
+  }
+
+  #linkToLogin {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
   /* Shop */
   #shopImage {
     top: 1rem;
