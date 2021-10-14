@@ -105,6 +105,21 @@
   }
 }
 
+/* ------ Landscape ------ */
+
+@media only screen and (orientation: landscape) and (min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  #textBoxHeading {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+
+  #textBoxParagraph {
+    line-height: 2.8rem;
+    width: 100%;
+    font-size: 1.8rem;
+  }
+}
+
 /* ------------- iPad Pro ------------- */
 
 @media screen and (min-width: 1024px) and (max-device-width: 1200px) {
