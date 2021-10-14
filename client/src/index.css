@@ -1774,6 +1774,12 @@ strong {
     --bs-gutter-x: 0rem;
   }
 
+  #creditCard {
+    right: -38vw;
+    bottom: 0vw;
+    max-width: 80%;
+  }
+
   /* 
   .homeRow {
     width: 100vw;
