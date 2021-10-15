@@ -1076,6 +1076,34 @@ strong {
     padding: 2rem 2rem;
   }
 
+  #ordersContainer {
+    width: 100%;
+  }
+
+  .ordersDiv {
+    width: 100%;
+  }
+
+  #historyCard {
+    width: 100%;
+  }
+
+  #historyCardBody {
+    width: 100%;
+  }
+
+  .itemRow {
+    flex-direction: column;
+  }
+
+  #historyImg {
+    width: 32vw;
+  }
+
+  .detailText {
+    font-size: 1rem;
+  }
+
   /* No Match */
 
   #noMatchImage {
