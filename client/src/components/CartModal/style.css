@@ -16,14 +16,6 @@
   border-color: #465965;
 }
 
-/* #cartBottom {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  margin-bottom: 1rem;
-} */
-
 #strongTotal {
   padding-top: 0.5rem;
   margin-right: 2rem;
