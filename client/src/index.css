@@ -1098,10 +1098,17 @@ strong {
 
   #historyImg {
     width: 32vw;
+    padding: 1rem 0rem 1rem 0rem;
   }
 
   .detailText {
     font-size: 1rem;
+  }
+
+  #namePriceDiv {
+    height: 8vh;
+    width: auto;
+    margin-bottom: 1rem;
   }
 
   /* No Match */
