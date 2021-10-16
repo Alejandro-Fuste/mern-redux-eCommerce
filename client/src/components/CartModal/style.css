@@ -78,4 +78,11 @@
     right: 3vw;
     top: 2vh;
   }
+
+  #shopCartButton {
+    margin-top: 1.2rem;
+    position: absolute;
+    top: 1vh;
+    right: 2vw;
+  }
 }

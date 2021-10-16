@@ -2030,6 +2030,41 @@ strong {
     padding: 2rem 2rem;
   }
 
+  #ordersContainer {
+    width: 100%;
+  }
+
+  .ordersDiv {
+    width: 100%;
+  }
+
+  #historyCard {
+    width: 90%;
+    margin: 1rem 2rem;
+  }
+
+  #historyCardBody {
+    width: 100%;
+  }
+
+  .itemRow {
+    width: 100%;
+  }
+
+  #namePriceDiv {
+    height: 8vh;
+    width: 40vw;
+  }
+
+  #historyImg {
+    width: 20vw;
+    margin-left: 2rem;
+  }
+
+  .detailText {
+    font-size: 1.8rem;
+  }
+
   /* Success Page */
 
   #successContainer {
