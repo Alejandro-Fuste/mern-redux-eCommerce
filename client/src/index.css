@@ -1554,6 +1554,12 @@ strong {
     margin: 0px 0px 1rem 0px;
   }
 
+  /* Order History */
+
+  .detailText {
+    font-size: 1.4rem;
+  }
+
   /* Success Page */
   #successCol {
     margin-top: 4rem;
