@@ -1453,6 +1453,19 @@ strong {
     bottom: -11rem;
   }
 
+  /* Order History */
+  #historyImg {
+    padding: 1rem 0rem 1rem 0rem;
+  }
+
+  .detailText {
+    font-size: 1.4rem;
+  }
+
+  #namePriceDiv {
+    margin-bottom: 1.5rem;
+  }
+
   /* Shop */
 
   #shopImage {
@@ -1594,6 +1607,11 @@ strong {
     bottom: -9rem;
   }
 
+  /* Order History */
+  .detailText {
+    font-size: 1.4rem;
+  }
+
   /* Success Page */
   #successCol {
     width: 70%;
@@ -1643,6 +1661,11 @@ strong {
   /* Home */
   #textBox {
     bottom: -9rem;
+  }
+
+  /* Order History */
+  .detailText {
+    font-size: 1.4rem;
   }
 
   /* Login & SignUp Pages */
