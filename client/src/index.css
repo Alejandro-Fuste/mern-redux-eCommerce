@@ -2109,6 +2109,10 @@ strong {
     padding: 2rem 2rem;
   }
 
+  .detailText {
+    font-size: 1.8rem;
+  }
+
   /* Login and SignUp */
 
   #rightSignUpCol {
