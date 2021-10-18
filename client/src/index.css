@@ -561,6 +561,10 @@ form .formButton {
   margin-top: 2rem;
 }
 
+#pwdSignUp {
+  margin-bottom: 1rem;
+}
+
 /********************** Detail Page **********************/
 
 #detailContainer {
