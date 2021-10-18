@@ -1710,6 +1710,12 @@ strong {
     bottom: -9rem;
   }
 
+  /* Detail */
+
+  #buttonDiv {
+    height: 13vh;
+  }
+
   /* Success Page */
   #successCol {
     width: 70%;
