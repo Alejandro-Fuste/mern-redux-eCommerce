@@ -1365,6 +1365,16 @@ strong {
     width: 34%;
   }
 
+  /* Detail */
+
+  #detailDiv {
+    flex-direction: column;
+  }
+
+  .nameLinkDiv {
+    flex-direction: column;
+  }
+
   /* Success Page */
   #successCol {
     width: 70%;
