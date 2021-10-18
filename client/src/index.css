@@ -258,6 +258,7 @@ input:focus {
 
 .cartBadge {
   display: flex;
+  justify-content: center;
   position: absolute;
   background-color: red;
   top: 24px;
