@@ -99,6 +99,10 @@ function Signup(props) {
                 id="pwdSignUp"
                 onChange={handleChange}
               />
+
+              <Form.Text className="text-muted">
+                Have an account? <Link to="/login">Log in now</Link>
+              </Form.Text>
             </Form.Group>
             <Button
               name="Sign Up"
