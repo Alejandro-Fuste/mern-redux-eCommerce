@@ -1375,6 +1375,26 @@ strong {
     flex-direction: column;
   }
 
+  .priceDescriptionDiv {
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+    margin: 2rem 0rem;
+  }
+
+  #starDiv {
+    flex-direction: column;
+  }
+
+  #buttonDiv {
+    flex-direction: column;
+    height: 18vh;
+  }
+
+  #detailAddButton {
+    padding: 0.6rem 1rem;
+  }
+
   /* Success Page */
   #successCol {
     width: 70%;
