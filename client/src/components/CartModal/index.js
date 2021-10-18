@@ -71,10 +71,13 @@ function CartModal({ id }) {
     });
   }
 
+  function numberOfCartItems() {}
+
   return (
     <>
       <Button variant="primary" id={id} onClick={() => setShow(true)}>
         <FontAwesomeIcon icon={faShoppingCart} />
+        <span id="cartBadge">{numberOfCartItems()}</span>
       </Button>
 
       <Modal

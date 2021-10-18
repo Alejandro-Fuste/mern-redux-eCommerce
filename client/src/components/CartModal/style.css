@@ -38,6 +38,17 @@
   margin: 1rem auto;
 }
 
+#cartBadge {
+  position: absolute;
+  background-color: red;
+  top: 24px;
+  right: 62px;
+  height: 24px;
+  width: 24px;
+  border-radius: 15px;
+  color: white;
+}
+
 @media only screen and (min-device-width: 280px) {
   #shopCartButton,
   #homeCartButton {

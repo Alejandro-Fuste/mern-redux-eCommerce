@@ -77,6 +77,8 @@ const Cart = () => {
     );
   }
 
+  console.log(state.cart.length);
+
   return (
     <div className="cart">
       <div className="close" onClick={toggleCart}>
