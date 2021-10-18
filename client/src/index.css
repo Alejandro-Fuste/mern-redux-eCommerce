@@ -1937,14 +1937,16 @@ strong {
     flex-direction: column;
   }
 
-  .nameLinkDiv {
-    flex-direction: column;
+  .priceDescriptionDiv {
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+    margin: 2rem 0rem;
   }
 
-  /* #buttonDiv {
-    flex-direction: column;
-    height: 18vh;
-  } */
+  #buttonDiv {
+    justify-content: space-evenly;
+  }
 
   /* Success Page */
   #successContainer {
