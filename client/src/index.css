@@ -2053,6 +2053,13 @@ strong {
   }
 
   /* Detail */
+  #detailDiv {
+    margin-top: 3.5rem;
+  }
+
+  #detailImg {
+    max-width: 100%;
+  }
 
   .priceDescriptionDiv {
     width: 56%;
