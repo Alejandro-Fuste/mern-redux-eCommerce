@@ -2310,6 +2310,15 @@ strong {
     bottom: 18.5rem;
   }
 
+  /* Detail */
+  #detailCol {
+    top: 23vh;
+  }
+
+  .priceDescriptionDiv {
+    height: 47vh;
+  }
+
   /* Success Page */
 
   #successContainer {
