@@ -64,9 +64,6 @@ function Login(props) {
                 id="email"
                 onChange={handleChange}
               />
-              <Form.Text className="text-muted">
-                We'll never share your email with anyone else.
-              </Form.Text>
             </Form.Group>
 
             <Form.Group className="mb-3">
@@ -78,6 +75,9 @@ function Login(props) {
                 id="pwd"
                 onChange={handleChange}
               />
+              <Form.Text className="text-muted">
+                Don't have an account? <Link to="/signup">Sign Up</Link>
+              </Form.Text>
             </Form.Group>
             {error ? (
               <div>
