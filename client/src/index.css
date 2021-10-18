@@ -518,7 +518,7 @@ input:focus {
 }
 
 .signUpForm {
-  bottom: 4.5rem;
+  bottom: 3.5rem;
   animation: signUpMotion 1s;
 }
 
