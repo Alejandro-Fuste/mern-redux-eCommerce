@@ -1128,6 +1128,10 @@ strong {
     margin: 0rem;
   }
 
+  #starDiv {
+    flex-direction: column;
+  }
+
   /* No Match */
 
   #noMatchImage {
