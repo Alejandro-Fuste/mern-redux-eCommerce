@@ -1533,6 +1533,12 @@ strong {
     right: 2rem;
   }
 
+  /* Detail */
+
+  #buttonDiv {
+    height: 16vh;
+  }
+
   /* Success Page */
   #successCol {
     width: 70%;
@@ -1631,6 +1637,12 @@ strong {
 
   .detailText {
     font-size: 1.4rem;
+  }
+
+  /* Detail */
+
+  #buttonDiv {
+    height: 13vh;
   }
 
   /* Success Page */
