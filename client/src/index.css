@@ -1672,6 +1672,12 @@ strong {
     font-size: 1.4rem;
   }
 
+  /* Detail */
+
+  #buttonDiv {
+    height: 15vh;
+  }
+
   /* Success Page */
   #successCol {
     width: 70%;
