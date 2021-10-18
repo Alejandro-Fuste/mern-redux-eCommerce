@@ -2051,6 +2051,18 @@ strong {
   #orderHistoryRow {
     padding: 2rem 2rem;
   }
+
+  /* Detail */
+
+  .priceDescriptionDiv {
+    width: 56%;
+    height: 60vh;
+    margin: 2rem 0rem;
+  }
+
+  #buttonDiv {
+    width: 44vw;
+  }
 }
 
 /* ------------- iPad Pro ------------- */
