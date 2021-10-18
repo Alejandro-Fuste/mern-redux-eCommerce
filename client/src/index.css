@@ -256,6 +256,18 @@ input:focus {
   justify-content: center;
 }
 
+.cartBadge {
+  display: flex;
+  position: absolute;
+  background-color: red;
+  top: 24px;
+  right: 62px;
+  height: 24px;
+  width: 24px;
+  border-radius: 15px;
+  color: white;
+}
+
 #categoryRow,
 #productRow {
   background-color: #ffffff;
@@ -274,11 +286,6 @@ input:focus {
 #productRow {
   height: auto;
   padding: 2rem 5rem;
-  /* background: linear-gradient(
-    136deg,
-    rgba(20, 30, 48, 1) 0%,
-    rgba(36, 59, 85, 1) 100%
-  ); */
 }
 
 #categoryCol,
@@ -292,11 +299,6 @@ input:focus {
 #productsTitle {
   margin-left: 2rem;
 }
-
-/* #productCol {
-  overflow: auto;
-  white-space: nowrap;
-} */
 
 #shopImage {
   position: absolute;

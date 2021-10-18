@@ -38,7 +38,12 @@
   margin: 1rem auto;
 }
 
-#cartBadge {
+.noCartBadge {
+  display: none;
+}
+
+.cartBadge {
+  display: flex;
   position: absolute;
   background-color: red;
   top: 24px;

@@ -71,13 +71,19 @@ function CartModal({ id }) {
     });
   }
 
-  function numberOfCartItems() {}
+  function numberOfCartItems() {
+    if (!state.cart.length) {
+      return <span className="noCartBadge"></span>;
+    } else {
+      return <span className="cartBadge">{state.cart.length}</span>;
+    }
+  }
 
   return (
     <>
       <Button variant="primary" id={id} onClick={() => setShow(true)}>
         <FontAwesomeIcon icon={faShoppingCart} />
-        <span id="cartBadge">{numberOfCartItems()}</span>
+        {numberOfCartItems()}
       </Button>
 
       <Modal
