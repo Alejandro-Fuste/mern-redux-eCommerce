@@ -1931,6 +1931,21 @@ strong {
     font-size: 1.8rem;
   }
 
+  /* Detail */
+
+  #detailDiv {
+    flex-direction: column;
+  }
+
+  .nameLinkDiv {
+    flex-direction: column;
+  }
+
+  /* #buttonDiv {
+    flex-direction: column;
+    height: 18vh;
+  } */
+
   /* Success Page */
   #successContainer {
     width: 100%;
