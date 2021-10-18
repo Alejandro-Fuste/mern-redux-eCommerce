@@ -1132,6 +1132,15 @@ strong {
     flex-direction: column;
   }
 
+  #buttonDiv {
+    flex-direction: column;
+    height: 22vh;
+  }
+
+  #detailAddButton {
+    padding: 0.6rem 1rem;
+  }
+
   /* No Match */
 
   #noMatchImage {
