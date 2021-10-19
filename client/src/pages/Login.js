@@ -96,11 +96,12 @@ function Login() {
           </Form>
           <Modal
             show={show}
+            onHide={() => setShow(false)}
             size="lg"
             aria-labelledby="contained-modal-title-vcenter"
             centered
           >
-            <Modal.Header closeButton={() => setShow(false)}>
+            <Modal.Header closeButton>
               <Modal.Title id="contained-modal-title-vcenter">
                 Test Login & Credit Card
               </Modal.Title>
