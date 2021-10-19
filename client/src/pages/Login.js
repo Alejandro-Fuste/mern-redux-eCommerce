@@ -15,7 +15,8 @@ import Image from "../components/Image";
 import logo from "../assets/logo.svg";
 import loginImage2 from "../assets/loginImage2.svg";
 
-function Login(props) {
+function Login() {
+  const [show, setShow] = useState(false);
   const [formState, setFormState] = useState({ email: "", password: "" });
   const [login, { error }] = useMutation(LOGIN);
 
