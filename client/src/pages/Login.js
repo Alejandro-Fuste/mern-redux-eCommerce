@@ -16,7 +16,7 @@ import logo from "../assets/logo.svg";
 import loginImage2 from "../assets/loginImage2.svg";
 
 function Login() {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
   const [formState, setFormState] = useState({ email: "", password: "" });
   const [login, { error }] = useMutation(LOGIN);
 
@@ -94,6 +94,30 @@ function Login() {
               nameForClass="formButton"
             ></Button>
           </Form>
+          <Modal
+            show={show}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+          >
+            <Modal.Header closeButton>
+              <Modal.Title id="contained-modal-title-vcenter">
+                Test Login & Credit Card
+              </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              <p>
+                You can test out this application by using{" "}
+                <strong>luke.skywalker@testmail.com</strong> email and{" "}
+                <strong>password12345</strong> password. You can also use the
+                test credit card number of <strong>4242 4242 4242 4242</strong>{" "}
+                when you get to the checkout page.
+              </p>
+            </Modal.Body>
+            <Modal.Footer>
+              <Button onClick={() => setShow(false)}>Close</Button>
+            </Modal.Footer>
+          </Modal>
         </Col>
       </Row>
     </Container>
