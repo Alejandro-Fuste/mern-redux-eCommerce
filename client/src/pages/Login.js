@@ -9,6 +9,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 
+import Modal from "react-bootstrap/Modal";
 import Button from "../components/Button";
 import Image from "../components/Image";
 import logo from "../assets/logo.svg";
