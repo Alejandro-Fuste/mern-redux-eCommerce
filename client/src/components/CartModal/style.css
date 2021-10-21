@@ -88,6 +88,11 @@
 /* ------ Portrait ------ */
 
 @media screen and (orientation: portrait) and (min-width: 768px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+  .cartBadge {
+    height: 32px;
+    width: 32px;
+    border-radius: 20px;
+  }
 }
 
 /* ------ Landscape ------ */
