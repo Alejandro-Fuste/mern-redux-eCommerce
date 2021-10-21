@@ -1773,6 +1773,18 @@ strong {
   }
 }
 
+/* ------------- iPhone XR ------------- */
+@media only screen and (min-device-width: 414px) and (max-device-width: 719px) {
+  /* #textBox {
+    bottom: -9rem;
+  } */
+
+  #homeContainer #footerDiv {
+    bottom: -2.5rem;
+    left: 38vw;
+  }
+}
+
 /* ------------- Surface Duo ------------- */
 
 @media only screen and (min-device-width: 540px) and (max-device-width: 720px) and (-webkit-min-device-pixel-ratio: 2.5) {
