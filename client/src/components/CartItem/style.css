@@ -77,3 +77,9 @@
     text-align: center;
   }
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 500px) {
+  #cartItemInnerDiv {
+    width: 88vw;
+  }
+}
