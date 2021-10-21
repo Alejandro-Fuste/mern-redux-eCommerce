@@ -54,10 +54,15 @@
   color: white;
 }
 
-@media only screen and (min-device-width: 280px) {
+@media only screen and (min-device-width: 280px) and (max-device-width: 899px) {
   #shopCartButton,
   #homeCartButton {
     display: none;
+  }
+
+  .cartBadge {
+    top: -0.7rem;
+    right: -0.2rem;
   }
 }
 

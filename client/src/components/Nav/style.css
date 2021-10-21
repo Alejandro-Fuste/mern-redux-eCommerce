@@ -183,6 +183,7 @@ svg {
     display: inline-block;
     border-radius: 50px;
     padding: 1rem;
+    position: relative;
   }
 
   #navParent {
