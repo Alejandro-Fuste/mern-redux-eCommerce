@@ -1775,12 +1775,12 @@ strong {
 
 /* ------------- iPhone XR ------------- */
 @media only screen and (min-device-width: 414px) and (max-device-width: 719px) {
-  /* #textBox {
+  #textBox {
     bottom: -9rem;
-  } */
+  }
 
   #homeContainer #footerDiv {
-    bottom: -2.5rem;
+    bottom: 0.5rem;
     left: 38vw;
   }
 }
