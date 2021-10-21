@@ -117,7 +117,16 @@
     top: 1vh;
     right: 2vw;
   }
+
+  .cartBadge {
+    top: -8px;
+    right: -2px;
+  }
 }
 
 @media screen and (orientation: landscape) and (min-width: 1366px) and (max-device-width: 1366px) {
+  .cartBadge {
+    top: 48px;
+    right: 56px;
+  }
 }
