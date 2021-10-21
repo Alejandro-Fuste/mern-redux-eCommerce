@@ -42,3 +42,6 @@
   margin: 0rem;
   margin-top: 1.7rem;
 }
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 899px) {
+}
