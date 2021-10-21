@@ -43,5 +43,37 @@
   margin-top: 1.7rem;
 }
 
-@media only screen and (min-device-width: 280px) and (max-device-width: 899px) {
+@media only screen and (min-device-width: 280px) and (max-device-width: 750px) {
+  .cartItemDiv {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  #cartImageDiv {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cartImage {
+    width: 52%;
+    margin-right: 0rem;
+  }
+
+  #cartItemInnerDiv {
+    width: 82vw;
+    margin-left: 0rem;
+  }
+
+  #cartItemLeft {
+    width: 64%;
+  }
+
+  #cartItemRight {
+    width: 36%;
+  }
+
+  #cartItemInput {
+    width: 24%;
+    text-align: center;
+  }
 }
