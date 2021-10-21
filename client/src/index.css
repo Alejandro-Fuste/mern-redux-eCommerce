@@ -1676,6 +1676,7 @@ strong {
   /* Home */
   #homeContainer #footerDiv {
     bottom: -2.5rem;
+    left: 38vw;
   }
 
   /* Login and SignUp Page */
