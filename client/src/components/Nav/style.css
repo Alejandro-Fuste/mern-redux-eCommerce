@@ -1,136 +1,134 @@
 :root {
   --logoFont: "Nunito", sans-serif;
 }
+#logo {
+  width: 25%;
+}
+
+.navIcons {
+  display: inline-block;
+}
+
+/* Home */
+
+#homeLogoName {
+  font-size: 8vw;
+  position: absolute;
+  left: 1rem;
+  top: 0.5rem;
+}
+
+.homeNavLinks {
+  color: #243b55;
+}
+
+/* Login & SignUp */
+
+#loginSignUpWrapper {
+  display: flex;
+  height: 20vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f2f2f2;
+}
+
+#SignupLink {
+  padding: 0.5rem 2.5rem;
+  margin-left: 0rem;
+}
+
+#loginLink {
+  margin-left: 0rem;
+}
+
+/* Shop */
+
+#responsiveCartButton {
+  display: inline-block;
+  border-radius: 50px;
+  padding: 1rem;
+  position: relative;
+}
 
 #navParent {
-  height: 15vh;
-  width: 87vw;
-  display: inline-block;
-  align-items: baseline;
+  width: 100vw;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
   position: relative;
-  padding-top: 0.8vw;
+}
+
+#shopLogoName {
+  position: absolute;
+  left: 1rem;
 }
 
 .nav .navbar {
+  /* width: 100vw; */
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.navbar {
+  flex-wrap: nowrap;
+}
+
+.navbar-nav {
+  border-top: 2px solid grey;
+}
+
+.navbar-toggler {
+  margin-right: 0px;
+}
+
+#navParent .navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: #465965;
+  margin-left: 20px;
   position: absolute;
-  width: auto;
-  z-index: 3;
+  right: 1rem;
+  top: 0.5rem;
+}
+
+#innerWrapper {
+  position: absolute;
+  top: 3rem;
 }
 
 #newNavContainer {
   display: flex;
-  width: 68vw;
-  justify-content: space-around;
-  align-items: center;
+  width: 100%;
+  /* width: 91vw; */
+  flex-direction: column;
+  background-color: #f2f2f2;
+  padding-bottom: 1rem;
 }
 
 #linksContainer {
-  margin: 0px 8vw 0 18vw;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 27vh;
+  margin: 0rem;
 }
 
 #otherLinksContainer {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  width: 5vw;
-  margin-left: 10vw;
-}
-
-#loginSignUpWrapper {
-  display: flex;
-}
-
-#responsiveCartButton {
-  display: none;
-  color: #000;
-  background-color: #f1a138;
-  border-color: #f1a138;
-}
-
-.navbar-nav {
-  margin: 1rem 0 1rem 0;
-}
-
-.nav .navbar-brand {
-  font-family: var(--logoFont);
-  font-size: 2.25rem;
-}
-
-.homeNavLinks {
-  color: white;
-  text-decoration: none;
-  margin: 1.8vh 2vw 0px 0px;
-  font-family: var(--logoFont);
-}
-
-.shopNavLinks {
-  color: #465965;
-  text-decoration: none;
-  margin: 1.8vh 2vw 0px 0px;
-  font-family: var(--logoFont);
+  width: 0rem;
+  margin-left: 4rem;
 }
 
 .otherLinks {
-  color: #a0a9b1;
-  margin: 0 10px;
-}
-
-.navIcons {
   display: none;
 }
 
-.navbar-toggler {
-  margin-right: 20px;
-}
-
-.navbar-collapse {
-  margin: 0px 0px 0px 0vw;
-}
-
-#loginLink {
-  padding: 0.6rem 2.8rem;
-  text-decoration: none;
-  margin-left: 2rem;
-  font-size: 1.1rem;
-  background-color: var(--secondary);
-  border-radius: 30px;
-  border-color: var(--secondary);
-  color: black;
-}
-
-#SignupLink {
-  padding: 0rem 2.6rem;
-  text-decoration: none;
-  margin-left: 44rem;
-  font-size: 1.1rem;
-  border-radius: 30px;
-  border: 2px solid var(--secondary);
-  color: var(--secondary);
-  display: flex;
-  align-items: center;
-}
-
-svg {
-  margin-right: 5px;
-}
-
-#logo {
-  width: 45%;
-}
-
-#logoSpan {
-  margin: 0 1vw 0 0vw;
-}
-
-#homeLogoName {
-  color: white;
-  font-size: 2vw;
-}
-
-#shopLogoName {
-  /* color: #465965; */
-  color: #a0a9b1;
-  margin-top: 10px;
+#categoryRow {
+  padding: 2rem 5rem 5rem 5rem;
+  height: 87%;
 }
 
 /* -------------- Media Queries -------------- */
@@ -268,137 +266,9 @@ svg {
   }
 }
 
-@media only screen and (min-device-width: 280px) and (max-device-width: 899px) {
-  #logo {
-    width: 25%;
-  }
-
-  .navIcons {
-    display: inline-block;
-  }
-
-  /* Home */
-
-  #homeLogoName {
-    font-size: 8vw;
-    position: absolute;
-    left: 1rem;
-    top: 0.5rem;
-  }
-
-  .homeNavLinks {
-    color: #243b55;
-  }
-
-  /* Login & SignUp */
-
-  #loginSignUpWrapper {
-    display: flex;
-    height: 20vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #f2f2f2;
-  }
-
-  #SignupLink {
-    padding: 0.5rem 2.5rem;
-    margin-left: 0rem;
-  }
-
-  #loginLink {
-    margin-left: 0rem;
-  }
-
-  /* Shop */
-
-  #responsiveCartButton {
-    display: inline-block;
-    border-radius: 50px;
-    padding: 1rem;
-    position: relative;
-  }
-
-  #navParent {
-    width: 100vw;
-  }
-
-  #wrapper {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-  }
-
-  #shopLogoName {
-    position: absolute;
-    left: 1rem;
-  }
-
-  .nav .navbar {
-    /* width: 100vw; */
-    width: 100%;
-    flex-wrap: nowrap;
-  }
-
-  .navbar {
-    flex-wrap: nowrap;
-  }
-
-  .navbar-nav {
-    border-top: 2px solid grey;
-  }
-
-  .navbar-toggler {
-    margin-right: 0px;
-  }
-
-  #navParent .navbar-light .navbar-toggler {
-    color: rgba(0, 0, 0, 0.55);
-    border-color: #465965;
-    margin-left: 20px;
-    position: absolute;
-    right: 1rem;
-    top: 0.5rem;
-  }
-
-  #innerWrapper {
-    position: absolute;
-    top: 3rem;
-  }
-
-  #newNavContainer {
-    display: flex;
-    width: 100%;
-    /* width: 91vw; */
-    flex-direction: column;
-    background-color: #f2f2f2;
-    padding-bottom: 1rem;
-  }
-
-  #linksContainer {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    height: 27vh;
-    margin: 0rem;
-  }
-
-  #otherLinksContainer {
-    display: flex;
-    align-items: center;
-    width: 0rem;
-    margin-left: 4rem;
-  }
-
-  .otherLinks {
-    display: none;
-  }
-
-  #categoryRow {
-    padding: 2rem 5rem 5rem 5rem;
-    height: 87%;
-  }
-}
+/* @media only screen and (min-device-width: 280px) and (max-device-width: 899px) {
+ 
+} */
 
 /* ----------- iPhone 5/SE ----------- */
 /* @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
