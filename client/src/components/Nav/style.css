@@ -135,6 +135,139 @@ svg {
 
 /* -------------- Media Queries -------------- */
 
+@media only screen and (min-device-width: 1200px) {
+  #navParent {
+    height: 15vh;
+    width: 87vw;
+    display: inline-block;
+    align-items: baseline;
+    position: relative;
+    padding-top: 0.8vw;
+  }
+
+  .nav .navbar {
+    position: absolute;
+    width: auto;
+    z-index: 3;
+  }
+
+  #newNavContainer {
+    display: flex;
+    width: 68vw;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #linksContainer {
+    margin: 0px 8vw 0 18vw;
+  }
+
+  #otherLinksContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 5vw;
+    margin-left: 10vw;
+  }
+
+  #loginSignUpWrapper {
+    display: flex;
+  }
+
+  #responsiveCartButton {
+    display: none;
+    color: #000;
+    background-color: #f1a138;
+    border-color: #f1a138;
+  }
+
+  .navbar-nav {
+    margin: 1rem 0 1rem 0;
+  }
+
+  .nav .navbar-brand {
+    font-family: var(--logoFont);
+    font-size: 2.25rem;
+  }
+
+  .homeNavLinks {
+    color: white;
+    text-decoration: none;
+    margin: 1.8vh 2vw 0px 0px;
+    font-family: var(--logoFont);
+  }
+
+  .shopNavLinks {
+    color: #465965;
+    text-decoration: none;
+    margin: 1.8vh 2vw 0px 0px;
+    font-family: var(--logoFont);
+  }
+
+  .otherLinks {
+    color: #a0a9b1;
+    margin: 0 10px;
+  }
+
+  .navIcons {
+    display: none;
+  }
+
+  .navbar-toggler {
+    margin-right: 20px;
+  }
+
+  .navbar-collapse {
+    margin: 0px 0px 0px 0vw;
+  }
+
+  #loginLink {
+    padding: 0.6rem 2.8rem;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    background-color: var(--secondary);
+    border-radius: 30px;
+    border-color: var(--secondary);
+    color: black;
+  }
+
+  #SignupLink {
+    padding: 0rem 2.6rem;
+    text-decoration: none;
+    margin-left: 44rem;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    border: 2px solid var(--secondary);
+    color: var(--secondary);
+    display: flex;
+    align-items: center;
+  }
+
+  svg {
+    margin-right: 5px;
+  }
+
+  #logo {
+    width: 45%;
+  }
+
+  #logoSpan {
+    margin: 0 1vw 0 0vw;
+  }
+
+  #homeLogoName {
+    color: white;
+    font-size: 2vw;
+  }
+
+  #shopLogoName {
+    /* color: #465965; */
+    color: #a0a9b1;
+    margin-top: 10px;
+  }
+}
+
 @media only screen and (min-device-width: 280px) and (max-device-width: 899px) {
   #logo {
     width: 25%;
@@ -268,15 +401,15 @@ svg {
 }
 
 /* ----------- iPhone 5/SE ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   #logo {
     width: 33%;
   }
-}
+} */
 
 /* ----------- Moto G4, Galaxy S5 ----------- */
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+/* @media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
   .nav .navbar-brand {
     font-size: 1.5rem;
   }
@@ -284,36 +417,36 @@ svg {
   #categoryRow {
     padding: 2rem 2rem 5rem 2rem;
   }
-}
+} */
 
 /* ----------- iPhone X ----------- */
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+/* @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   #categoryRow {
     height: 70%;
   }
-}
+} */
 
 /* ------------- Pixel 2 XL --------------- */
 
-@media only screen and (min-device-width: 411px) and (max-device-width: 823px) {
+/* @media only screen and (min-device-width: 411px) and (max-device-width: 823px) {
   #categoryRow {
     height: 73%;
   }
-}
+} */
 
 /* ------------- Surface Duo ------------- */
 
-@media only screen and (min-device-width: 540px) and (max-device-width: 720px) and (-webkit-min-device-pixel-ratio: 2.5) {
+/* @media only screen and (min-device-width: 540px) and (max-device-width: 720px) and (-webkit-min-device-pixel-ratio: 2.5) {
   #categoryRow {
     height: 80%;
   }
-}
+} */
 
 /* ------------- iPad ------------- */
 /* ------ Portrait ------ */
 
-@media screen and (orientation: portrait) and (min-width: 768px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+/* @media screen and (orientation: portrait) and (min-width: 768px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
   #logo {
     height: 7.5rem;
   }
@@ -336,16 +469,16 @@ svg {
     font-size: 1.4rem;
   }
 
-  /* Shop */
+
   #categoryRow {
     height: 50%;
   }
-}
+} */
 
 /* ------------- iPad ------------- */
 /* ------ Landscape ------ */
-@media only screen and (orientation: landscape) and (min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-  /* Home */
+/* @media only screen and (orientation: landscape) and (min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  
   #navParent {
     width: 94%;
     display: flex;
@@ -364,7 +497,6 @@ svg {
     font-size: 4vw;
     position: absolute;
     top: 0.3vw;
-    /* left: -66vw; */
   }
 
   #linksContainer {
@@ -388,10 +520,10 @@ svg {
   #categoryRow {
     height: 49%;
   }
-}
+} */
 
 /* ------------- iPad Pro ------------- */
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+/* @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   .nav .navbar {
     width: 100%;
   }
@@ -428,9 +560,9 @@ svg {
   #categoryDiv {
     margin-top: 3rem;
   }
-}
+} */
 
-@media screen and (orientation: landscape) and (min-width: 1366px) and (max-device-width: 1366px) {
+/* @media screen and (orientation: landscape) and (min-width: 1366px) and (max-device-width: 1366px) {
   #categoryRow {
     height: 64%;
   }
@@ -438,10 +570,10 @@ svg {
   #categoryDiv {
     margin-top: 3rem;
   }
-}
+} */
 
 /* ------------- Nest Hub ------------- */
-@media only screen and (min-device-width: 1023px) and (max-device-width: 700px) {
+/* @media only screen and (min-device-width: 1023px) and (max-device-width: 700px) {
   #header #linksContainer {
     margin: 0px -5vw 0 11vw;
   }
@@ -454,10 +586,10 @@ svg {
     height: 73%;
     padding: 4rem;
   }
-}
+} */
 
 /* ------------- Nest Hub Max ------------- */
-@media only screen and (min-device-width: 1280px) and (max-device-width: 1300px) {
+/* @media only screen and (min-device-width: 1280px) and (max-device-width: 1300px) {
   #logo {
     height: 3.5rem;
   }
@@ -476,4 +608,4 @@ svg {
   #categoryRow {
     height: 80%;
   }
-}
+} */
