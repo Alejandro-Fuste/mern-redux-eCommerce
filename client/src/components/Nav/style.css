@@ -18,6 +18,11 @@
   top: 0.5rem;
 }
 
+#shopLogoName {
+  position: absolute;
+  left: 1rem;
+}
+
 .homeNavLinks {
   color: #243b55;
 }
@@ -53,17 +58,13 @@
 
 #navParent {
   width: 100vw;
+  margin-bottom: 2rem;
 }
 
 #wrapper {
   display: flex;
   flex-direction: column;
   position: relative;
-}
-
-#shopLogoName {
-  position: absolute;
-  left: 1rem;
 }
 
 .nav .navbar {
