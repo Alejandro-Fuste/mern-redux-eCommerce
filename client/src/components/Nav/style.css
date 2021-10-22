@@ -1,26 +1,31 @@
 :root {
   --logoFont: "Nunito", sans-serif;
 }
-#logo {
-  width: 25%;
-}
 
 .navIcons {
   display: inline-block;
 }
 
-/* Home */
-
-#homeLogoName {
-  font-size: 8vw;
-  position: absolute;
-  left: 1rem;
-  top: 0.5rem;
+/* Logo */
+#logo {
+  width: 30%;
+  margin-right: 5px;
 }
 
+#homeLogoName,
 #shopLogoName {
   position: absolute;
   left: 1rem;
+  top: 0.3rem;
+  font-size: 7vw;
+}
+
+#homeLogoName {
+  color: white;
+}
+
+#shopLogoName {
+  color: #a0a9b1;
 }
 
 .homeNavLinks {
@@ -261,7 +266,6 @@
   }
 
   #shopLogoName {
-    /* color: #465965; */
     color: #a0a9b1;
     margin-top: 10px;
   }
