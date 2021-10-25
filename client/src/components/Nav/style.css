@@ -231,11 +231,11 @@
     padding-top: 0.8vw;
   }
 
-  .nav .navbar {
+  /* .nav .navbar {
     position: absolute;
     width: auto;
     z-index: 3;
-  }
+  } */
 
   #newNavContainer {
     display: flex;
@@ -243,7 +243,7 @@
     width: 68vw;
     justify-content: space-around;
     align-items: center;
-    background-color: none;
+    background-color: transparent;
   }
 
   #linksContainer {
@@ -259,6 +259,12 @@
     margin-left: 10vw;
   }
 
+  .otherLinks {
+    display: flex;
+    color: #a0a9b1;
+    margin: 0 10px;
+  }
+
   #loginSignUpWrapper {
     display: flex;
   }
@@ -271,7 +277,7 @@
   }
 
   .navbar-nav {
-    margin: 1rem 0 1rem 0;
+    margin: 0;
     border-top: 0px;
   }
 
@@ -292,11 +298,6 @@
     text-decoration: none;
     margin: 1.8vh 2vw 0px 0px;
     font-family: var(--logoFont);
-  }
-
-  .otherLinks {
-    color: #a0a9b1;
-    margin: 0 10px;
   }
 
   .navIcons {
