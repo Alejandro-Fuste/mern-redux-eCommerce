@@ -231,12 +231,6 @@
     padding-top: 0.8vw;
   }
 
-  /* .nav .navbar {
-    position: absolute;
-    width: auto;
-    z-index: 3;
-  } */
-
   #innerWrapper {
     width: 68%;
     position: absolute;
@@ -256,7 +250,6 @@
 
   #linksContainer {
     flex-direction: row;
-    /* margin: 0px 8vw 0 18vw; */
   }
 
   #otherLinksContainer {
@@ -279,8 +272,8 @@
   #responsiveCartButton {
     display: none;
     color: #000;
-    background-color: #f1a138;
-    border-color: #f1a138;
+    background-color: var(--secondaryColor);
+    border-color: var(--secondaryColor);
   }
 
   .navbar-nav {
