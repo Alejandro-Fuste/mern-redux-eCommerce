@@ -29,10 +29,6 @@
   color: #a0a9b1;
 }
 
-.homeNavLinks {
-  color: #243b55;
-}
-
 /* Login & SignUp */
 
 #loginSignUpWrapper {
@@ -140,6 +136,13 @@
   align-items: center;
   width: 0rem;
   margin-left: 4rem;
+}
+
+.homeNavLinks {
+  color: #243b55;
+  text-decoration: none;
+  margin: 1.8vh 2vw 0px 2vw;
+  font-family: var(--logoFont);
 }
 
 .otherLinks {
