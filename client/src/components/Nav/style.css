@@ -239,12 +239,15 @@
 
   #newNavContainer {
     display: flex;
+    flex-direction: row;
     width: 68vw;
     justify-content: space-around;
     align-items: center;
+    background-color: none;
   }
 
   #linksContainer {
+    flex-direction: row;
     margin: 0px 8vw 0 18vw;
   }
 
