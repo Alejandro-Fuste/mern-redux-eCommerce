@@ -237,6 +237,14 @@
     z-index: 3;
   } */
 
+  #innerWrapper {
+    width: 68%;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 0;
+  }
+
   #newNavContainer {
     display: flex;
     flex-direction: row;
@@ -248,15 +256,14 @@
 
   #linksContainer {
     flex-direction: row;
-    margin: 0px 8vw 0 18vw;
+    /* margin: 0px 8vw 0 18vw; */
   }
 
   #otherLinksContainer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 5vw;
-    margin-left: 10vw;
+    width: 5%;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
   }
 
   .otherLinks {
