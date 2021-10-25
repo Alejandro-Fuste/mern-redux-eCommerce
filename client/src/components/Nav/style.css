@@ -47,6 +47,13 @@
 #SignupLink {
   padding: 0.5rem 2.5rem;
   margin-left: 0rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  border: 2px solid var(--secondary);
+  color: var(--secondary);
+  display: flex;
+  align-items: center;
 }
 
 #loginLink {
@@ -239,8 +246,8 @@
 
   #SignupLink {
     padding: 0rem 2.6rem;
-    text-decoration: none;
     margin-left: 44rem;
+    text-decoration: none;
     font-size: 1.1rem;
     border-radius: 30px;
     border: 2px solid var(--secondary);
