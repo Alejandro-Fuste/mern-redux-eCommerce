@@ -347,14 +347,17 @@
     margin: 0 1vw 0 0vw;
   }
 
+  #homeLogoName,
+  #shopLogoName {
+    font-size: 2vw;
+  }
+
   #homeLogoName {
     color: white;
-    font-size: 2vw;
   }
 
   #shopLogoName {
     color: #a0a9b1;
-    margin-top: 10px;
   }
 }
 
