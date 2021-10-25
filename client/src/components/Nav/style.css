@@ -1,5 +1,6 @@
 :root {
   --logoFont: "Nunito", sans-serif;
+  --secondaryColor: #f1a138;
 }
 
 .navIcons {
@@ -65,13 +66,6 @@
 
 /* Shop */
 
-#responsiveCartButton {
-  display: inline-block;
-  border-radius: 50px;
-  padding: 1rem;
-  position: relative;
-}
-
 #navParent {
   width: 100vw;
   margin-bottom: 2rem;
@@ -133,9 +127,9 @@
 
 #otherLinksContainer {
   display: flex;
+  justify-content: center;
   align-items: center;
-  width: 0rem;
-  margin-left: 4rem;
+  width: 100%;
 }
 
 .homeNavLinks {
@@ -147,6 +141,18 @@
 
 .otherLinks {
   display: none;
+}
+
+#responsiveCartButton {
+  display: inline-block;
+  height: 68px;
+  width: 68px;
+  border-radius: 50px;
+  padding: 1rem;
+  position: relative;
+  background-color: var(--secondaryColor);
+  border-color: var(--secondaryColor);
+  color: #000;
 }
 
 #categoryRow {
