@@ -74,7 +74,6 @@
 }
 
 .nav .navbar {
-  /* width: 100vw; */
   width: 100%;
   flex-wrap: nowrap;
 }
@@ -102,7 +101,8 @@
 
 #innerWrapper {
   position: absolute;
-  top: 3rem;
+  top: 4rem;
+  z-index: 3;
 }
 
 #newNavContainer {
