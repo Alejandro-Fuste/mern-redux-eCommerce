@@ -34,16 +34,11 @@
 @media only screen and (orientation: landscape) and (min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
   #shopCartButton,
   #homeCartButton {
-    display: block;
-  }
-
-  #shopCartButton {
-    margin-top: 1.2rem;
+    display: none;
   }
 
   .cartBadge {
-    top: 27px;
-    right: 2px;
+    display: flex;
   }
 }
 
