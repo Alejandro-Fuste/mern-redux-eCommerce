@@ -278,6 +278,8 @@
     align-items: flex-start;
     background-color: transparent;
     width: 100%;
+    position: absolute;
+    right: -3rem;
   }
 
   #responsiveCartButton {
@@ -355,6 +357,8 @@
 
   #homeLogoName,
   #shopLogoName {
+    position: absolute;
+    left: -2rem;
     font-size: 2vw;
   }
 
