@@ -267,6 +267,7 @@
 
   #loginSignUpWrapper {
     display: flex;
+    background-color: transparent;
   }
 
   #responsiveCartButton {
