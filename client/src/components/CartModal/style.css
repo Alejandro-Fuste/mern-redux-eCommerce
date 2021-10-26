@@ -79,6 +79,9 @@
   #homeCartButton,
   #shopCartButton {
     display: block;
+    position: absolute;
+    right: 1.5rem;
+    top: 2rem;
     border-radius: 50px;
     padding: 1rem;
   }
@@ -93,6 +96,11 @@
     color: #465965;
     background-color: #f2f2f2;
     border-color: #465965;
+  }
+
+  .cartBadge {
+    top: -0.5rem;
+    right: 0rem;
   }
 
   #strongTotal {
@@ -119,17 +127,5 @@
 
   .noCartBadge {
     display: none;
-  }
-
-  .cartBadge {
-    display: flex;
-    position: absolute;
-    background-color: red;
-    top: 24px;
-    right: 62px;
-    height: 24px;
-    width: 24px;
-    border-radius: 15px;
-    color: white;
   }
 }
