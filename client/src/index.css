@@ -1365,6 +1365,7 @@ input:focus {
     height: 66vh;
     bottom: 0rem;
     padding: 0rem 8rem;
+    align-items: flex-start;
   }
 
   #textBox #linkToLogin {
