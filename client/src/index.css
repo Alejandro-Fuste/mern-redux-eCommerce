@@ -143,6 +143,10 @@ input:focus {
   width: 100vw;
 }
 
+#homeContainer .row {
+  --bs-gutter-x: 0rem;
+}
+
 /*************** Media Queries ***************/
 
 /* ----------- Galaxy Fold ----------- */
@@ -389,7 +393,7 @@ input:focus {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   /* Login & Sign Up Pages */
-  #loginRow,
+  /* #loginRow,
   #signUpRow {
     flex-direction: column;
   }
@@ -444,42 +448,42 @@ input:focus {
 
   form .formButton {
     margin: 0px 0px 1rem 0px;
-  }
+  } */
 
   /* Home */
 
-  #textBox {
+  /* #textBox {
     bottom: -7.5rem;
-  }
+  } */
 
   /* Order History */
 
-  #orderHistoryRow {
+  /* #orderHistoryRow {
     padding: 2rem 2rem;
-  }
+  } */
 
   /* Shop */
 
-  #shopImage {
+  /* #shopImage {
     top: 0rem;
     right: 1rem;
-  }
+  } */
 
   /* Success Page */
-  #successCol {
+  /* #successCol {
     margin-top: 1rem;
   }
 
   #successImage {
     max-width: 80%;
-  }
+  } */
 }
 
 /* ----------- Moto G4, Galaxy S5 ----------- */
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
   /* Login & Sign Up Pages */
-  #loginRow,
+  /* #loginRow,
   #signUpRow {
     flex-direction: column;
   }
@@ -534,15 +538,11 @@ input:focus {
 
   form .formButton {
     margin: 0px 0px 1rem 0px;
-  }
+  } */
 
   /* Home */
 
-  #homeContainer .row {
-    --bs-gutter-x: 0rem;
-  }
-
-  #creditCard {
+  /* #creditCard {
     position: absolute;
     right: 2.5rem;
     top: 6rem;
@@ -561,17 +561,17 @@ input:focus {
   #homeContainer #footerDiv {
     padding: 0rem;
     bottom: -7.5rem;
-  }
+  } */
 
   /* Shop */
 
-  #logo {
+  /* #logo {
     width: 34%;
-  }
+  } */
 
   /* Detail */
 
-  #detailDiv {
+  /* #detailDiv {
     flex-direction: column;
   }
 
@@ -597,10 +597,10 @@ input:focus {
 
   #detailAddButton {
     padding: 0.6rem 1rem;
-  }
+  } */
 
   /* Success Page */
-  #successCol {
+  /* #successCol {
     width: 70%;
   }
 
@@ -641,10 +641,10 @@ input:focus {
   #productRow {
     height: auto;
     padding: 1rem 2rem 0rem 2rem;
-  }
+  } */
 
   /* Order History */
-  #ordersContainer {
+  /* #ordersContainer {
     width: 100%;
   }
 
@@ -677,11 +677,11 @@ input:focus {
     height: 8vh;
     width: auto;
     margin-bottom: 1rem;
-  }
+  } */
 
   /* Success Page */
 
-  #successImage {
+  /* #successImage {
     height: auto;
     margin: 0 auto 10px auto;
   }
@@ -691,34 +691,34 @@ input:focus {
     margin-top: 6%;
     padding: 3%;
     font-size: 4.5vw;
-  }
+  } */
 
   /* No Match */
 
-  #noMatchImage {
+  /* #noMatchImage {
     max-width: 87%;
   }
 
   #noMatchText {
     font-size: 4.8vw;
     margin-bottom: 2rem;
-  }
+  } */
 }
 
 /* ------------- iPhone 6,7,8 --------------- */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   /* Login and SignUp Pages */
-  .loginForm {
+  /* .loginForm {
     bottom: -5rem;
   }
 
   .signUpForm {
     bottom: -13rem;
-  }
+  } */
 
   /* Order History */
-  #historyImg {
+  /* #historyImg {
     padding: 1rem 0rem 1rem 0rem;
   }
 
@@ -728,41 +728,37 @@ input:focus {
 
   #namePriceDiv {
     margin-bottom: 1.5rem;
-  }
+  } */
 
   /* Shop */
 
-  #shopImage {
+  /* #shopImage {
     top: -1rem;
     right: 2rem;
-  }
+  } */
 
   /* Detail */
 
-  #buttonDiv {
+  /* #buttonDiv {
     height: 16vh;
-  }
+  } */
 
   /* Success Page */
-  #successCol {
+  /* #successCol {
     width: 70%;
     margin-top: 1.8rem;
   }
 
   #successImage {
     height: 35vh;
-  }
+  } */
 }
 
 /* ----------- iPhone X ----------- */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   /* Home Page */
-  #homeContainer .row {
-    --bs-gutter-x: 0rem;
-  }
-
-  .homeRow {
+  /* .homeRow {
     width: 100vw;
     height: 50vh;
   }
@@ -785,10 +781,10 @@ input:focus {
   #homeContainer #footerDiv {
     padding: 0rem;
     bottom: -1.5rem;
-  }
+  } */
 
   /* Login and SignUp Page */
-  #loginRow,
+  /* #loginRow,
   #signUpRow {
     flex-direction: column;
   }
@@ -835,26 +831,26 @@ input:focus {
 
   form .formButton {
     margin: 0px 0px 1rem 0px;
-  }
+  } */
 
   /* Order History */
 
-  .detailText {
+  /* .detailText {
     font-size: 1.4rem;
-  }
+  } */
 
   /* Detail */
 
-  #buttonDiv {
+  /* #buttonDiv {
     height: 13vh;
-  }
+  } */
 
   /* Success Page */
-  #successCol {
+  /* #successCol {
     margin-top: 4rem;
-  }
+  } */
 
-  #successImage {
+  /* #successImage {
     max-width: 100%;
   }
 
@@ -863,110 +859,7 @@ input:focus {
     margin-top: 6%;
     padding: 3%;
     font-size: 4.5vw;
-  }
-}
-
-/* ------------- Pixel 2 --------------- */
-
-@media only screen and (min-device-width: 411px) and (max-device-width: 731px) and (-webkit-min-device-pixel-ratio: 2.6) {
-  /* Home */
-  #homeContainer #footerDiv {
-    bottom: -2.5rem;
-    left: 38vw;
-  }
-
-  /* Login and SignUp Page */
-  .loginForm {
-    bottom: -1rem;
-  }
-
-  .signUpForm {
-    bottom: -9rem;
-  }
-
-  /* Order History */
-  .detailText {
-    font-size: 1.4rem;
-  }
-
-  /* Detail */
-
-  #buttonDiv {
-    height: 15vh;
-  }
-
-  /* Success Page */
-  #successCol {
-    width: 70%;
-    margin-top: 1.8rem;
-  }
-
-  #successImage {
-    height: 35vh;
-  }
-}
-
-/* ------------- Pixel 2 XL --------------- */
-
-@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 3.5) {
-  /* Home */
-  #textBox {
-    bottom: -7rem;
-  }
-
-  #homeContainer #footerDiv {
-    bottom: 0.5rem;
-    left: 37vw;
-  }
-
-  /* Login and SignUp Page */
-  .loginForm {
-    bottom: -1rem;
-  }
-
-  .signUpForm {
-    bottom: -9rem;
-  }
-
-  /* Detail */
-
-  #buttonDiv {
-    height: 13vh;
-  }
-
-  /* Success Page */
-  #successCol {
-    width: 70%;
-    margin-top: 1.8rem;
-  }
-
-  #successImage {
-    height: 35vh;
-  }
-}
-
-/* ------------- iPhone 6,7,8 Plus ------------- */
-
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-  /* Home */
-  #textBox {
-    bottom: -9rem;
-  }
-
-  /* Order History */
-  .detailText {
-    font-size: 1.4rem;
-  }
-
-  /* Login & SignUp Pages */
-
-  #rightLoginCol .loginForm {
-    bottom: 0rem;
-  }
-
-  #rightSignUpCol .signUpForm {
-    bottom: -11rem;
-  }
+  } */
 }
 
 /* ------------- iPhone XR ------------- */
@@ -981,57 +874,12 @@ input:focus {
   }
 }
 
-/* ------------- Surface Duo ------------- */
-
-@media only screen and (min-device-width: 540px) and (max-device-width: 720px) and (-webkit-min-device-pixel-ratio: 2.5) {
-  /* Home */
-  #textBox {
-    bottom: -11rem;
-  }
-
-  #homeContainer #footerDiv {
-    bottom: 1.5rem;
-  }
-
-  /* Login and SignUp Pages */
-  .loginForm {
-    width: 86%;
-    bottom: -2rem;
-  }
-
-  .signUpForm {
-    width: 87%;
-    bottom: -11rem;
-  }
-
-  /* Shop */
-
-  #productCol .card {
-    width: 65%;
-  }
-
-  #shopImage {
-    top: 0rem;
-    right: 6rem;
-    width: 57%;
-  }
-
-  /* Success Page */
-
-  #redirectBox {
-    width: 51vw;
-    margin-top: 6%;
-    padding: 3%;
-    font-size: 3.5vw;
-  }
-}
-
 /* ------------- iPad ------------- */
 /* ------ Portrait ------ */
 
 @media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
   /* Login and SignUp Page */
-  #loginRow,
+  /* #loginRow,
   #signUpRow {
     flex-direction: column;
   }
@@ -1072,11 +920,11 @@ input:focus {
 
   form .formButton {
     margin-top: 1rem;
-  }
+  } */
 
   /* Home */
 
-  #homeContainer .row {
+  /* #homeContainer .row {
     --bs-gutter-x: 0rem;
   }
 
@@ -1104,10 +952,10 @@ input:focus {
   #homeContainer #footerDiv {
     padding: 0rem;
     bottom: 1.5rem;
-  }
+  } */
 
   /* Shop Page */
-  .card {
+  /* .card {
     width: 40%;
   }
 
@@ -1115,11 +963,11 @@ input:focus {
     top: 3rem;
     right: 0rem;
     width: 50%;
-  }
+  } */
 
   /* Order History */
 
-  #orderHistoryRow {
+  /* #orderHistoryRow {
     padding: 2rem 2rem;
   }
 
@@ -1147,11 +995,11 @@ input:focus {
 
   .detailText {
     font-size: 1.8rem;
-  }
+  } */
 
   /* Detail */
 
-  #detailDiv {
+  /* #detailDiv {
     flex-direction: column;
   }
 
@@ -1164,10 +1012,10 @@ input:focus {
 
   #buttonDiv {
     justify-content: space-evenly;
-  }
+  } */
 
   /* Success Page */
-  #successContainer {
+  /* #successContainer {
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -1191,25 +1039,25 @@ input:focus {
   #successH1 {
     font-size: 3.5rem;
     margin: 2px 0 0 30px;
-  }
+  } */
 
   /* No Match */
 
-  #noMatchImage {
+  /* #noMatchImage {
     max-width: 87%;
   }
 
   #noMatchText {
     font-size: 4.8vw;
     margin-bottom: 2rem;
-  }
+  } */
 }
 
 /* ------------- iPad ------------- */
 /* ------ Landscape ------ */
 @media only screen and (orientation: landscape) and (min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
   /* Login and SignUp */
-  #rightLoginCol #logo,
+  /* #rightLoginCol #logo,
   #rightSignUpCol #logo {
     height: 3.5rem;
   }
@@ -1225,11 +1073,11 @@ input:focus {
 
   #rightSignUpCol .signUpForm {
     bottom: 6.4rem;
-  }
+  } */
 
   /* Home */
 
-  #homeContainer {
+  /* #homeContainer {
     width: 141vw;
   }
 
@@ -1255,23 +1103,23 @@ input:focus {
     font-size: 1.5rem;
     font-weight: bold;
     margin-right: 5vw;
-  }
+  } */
 
   /* Shop */
-  #shopImage {
+  /* #shopImage {
     top: 0rem;
     right: 1rem;
     width: 50%;
-  }
+  } */
 
   /* Order History */
 
-  #orderHistoryRow {
+  /* #orderHistoryRow {
     padding: 2rem 2rem;
-  }
+  } */
 
   /* Detail */
-  #detailDiv {
+  /* #detailDiv {
     margin-top: 3.5rem;
   }
 
@@ -1287,7 +1135,7 @@ input:focus {
 
   #buttonDiv {
     width: 44vw;
-  }
+  } */
 }
 
 /* ------------- iPad Pro ------------- */
@@ -1295,7 +1143,7 @@ input:focus {
   /* ------ Portrait ------ */
   /* Login and SignUp */
 
-  #loginRow,
+  /* #loginRow,
   #signUpRow {
     flex-direction: column;
   }
@@ -1332,10 +1180,10 @@ input:focus {
 
   .signUpForm {
     bottom: 9rem;
-  }
+  } */
 
   /* Home */
-  #homeContainer .row {
+  /* #homeContainer .row {
     --bs-gutter-x: 0rem;
   }
 
@@ -1349,10 +1197,10 @@ input:focus {
   #linkToLogin {
     font-size: 1.4rem;
     font-weight: bold;
-  }
+  } */
 
   /* Shop */
-  #shopImage {
+  /* #shopImage {
     top: 1rem;
     right: 4rem;
     width: 42%;
@@ -1360,11 +1208,11 @@ input:focus {
 
   #shopContainer #productRow {
     padding-top: 2rem;
-  }
+  } */
 
   /* Order History */
 
-  #orderHistoryRow {
+  /* #orderHistoryRow {
     padding: 2rem 2rem;
   }
 
@@ -1401,11 +1249,11 @@ input:focus {
 
   .detailText {
     font-size: 1.8rem;
-  }
+  } */
 
   /* Detail */
 
-  #detailDiv {
+  /* #detailDiv {
     flex-direction: column;
   }
 
@@ -1418,11 +1266,11 @@ input:focus {
 
   #buttonDiv {
     justify-content: space-evenly;
-  }
+  } */
 
   /* Success Page */
 
-  #successContainer {
+  /* #successContainer {
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -1454,11 +1302,11 @@ input:focus {
     margin-top: 6%;
     padding: 2%;
     font-size: 2.2rem;
-  }
+  } */
 
   /* No Match */
 
-  #noMatchImage {
+  /* #noMatchImage {
     max-width: 75%;
   }
 
@@ -1469,187 +1317,7 @@ input:focus {
 
   #linkToShop {
     font-size: 2.5rem;
-  }
-}
-
-@media screen and (orientation: landscape) and (min-width: 1024px) and (max-device-width: 1366px) {
-  /* ------ Landscape ------ */
-  /* Home */
-
-  #creditCard {
-    position: absolute;
-    right: 0rem;
-    bottom: 20rem;
-    max-width: 50%;
-  }
-
-  #textBox {
-    padding: 0rem 3rem 0rem 8rem;
-  }
-
-  #linkToLogin {
-    font-size: 1.4rem;
-    font-weight: bold;
-    margin-right: 9vw;
-  }
-
-  /* Order History */
-
-  #orderHistoryRow {
-    padding: 2rem 2rem;
-  }
-
-  .detailText {
-    font-size: 1.8rem;
-  }
-
-  /* Login and SignUp */
-
-  #rightSignUpCol {
-    padding: 3rem 3rem;
-  }
-
-  #rightLoginCol #logo,
-  #rightSignUpCol #logo {
-    height: 3.5rem;
-  }
-
-  .signUpForm,
-  .loginForm {
-    width: 32.4%;
-  }
-
-  .loginForm {
-    bottom: 21.4rem;
-  }
-
-  .signUpForm {
-    width: 32%;
-    bottom: 18.5rem;
-  }
-
-  /* Detail */
-  #detailCol {
-    top: 23vh;
-  }
-
-  .priceDescriptionDiv {
-    height: 47vh;
-  }
-
-  /* Success Page */
-
-  #successContainer {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  #successCol {
-    width: 70%;
-    margin-top: 5rem;
-  }
-
-  #successImage {
-    height: auto;
-    margin: 0 auto 10px auto;
-  }
-
-  #logo {
-    height: 5.5rem;
-  }
-
-  #successH1 {
-    font-size: 3.5rem;
-    margin: 2px 0 0 30px;
-  }
-
-  /* No Match */
-
-  #noMatchImage {
-    max-width: 45%;
-  }
-
-  #noMatchText {
-    font-size: 2.8vw;
-    margin-bottom: 5rem;
-  }
-
-  #linkToShop {
-    font-size: 2.5rem;
-  }
-}
-
-/* ------------- Nest Hub ------------- */
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1100px) {
-  /* Shop */
-  #productRow {
-    padding-top: 18rem;
-  }
-
-  /* Success Page */
-  #redirectBox {
-    width: 74%;
-    justify-content: center;
-    margin-top: 6%;
-    padding: 2%;
-    font-size: 2.2rem;
-  }
-  /* No Match */
-
-  #noMatchImage {
-    max-width: 42%;
-  }
-
-  #noMatchText {
-    font-size: 2.4vw;
-    margin-bottom: 2rem;
-  }
-
-  #linkToShop {
-    font-size: 1.5rem;
-  }
-}
-
-/* ------------- Nest Hub Max ------------- */
-@media only screen and (min-device-width: 1280px) and (max-device-width: 1300px) {
-  /* Shop */
-  #shopImage {
-    top: 0rem;
-    right: 6rem;
-    width: 40%;
-  }
-
-  /* Success Page */
-  #successImage {
-    max-width: 55%;
-  }
-
-  #successH1 {
-    font-size: 2.5rem;
-  }
-
-  #redirectBox {
-    margin-bottom: 2rem;
-  }
-}
-
-/* ------------- Orientation --------------- */
-
-@media (orientation: landscape) and (max-device-width: 1200px) {
-  #successCol {
-    width: 80%;
-    display: flex;
-  }
-
-  #successImage {
-    height: 77vh;
-  }
-
-  #successTextBox {
-    margin-right: 2rem;
-  }
+  } */
 }
 
 /* ------------- New Media Query --------------- */
