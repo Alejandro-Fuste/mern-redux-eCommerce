@@ -186,7 +186,7 @@ form .formButton,
   position: absolute;
   width: 100vw;
   height: 66vh;
-  bottom: -3.5rem;
+  top: 21rem;
   padding: 0rem 2rem;
   display: flex;
   flex-direction: column;
@@ -200,9 +200,7 @@ form .formButton,
 }
 
 #homeContainer #footerDiv {
-  padding: 0rem;
-  bottom: 0rem;
-  left: 33vw;
+  margin-top: 2rem;
 }
 
 /*************** Media Queries ***************/
@@ -210,11 +208,6 @@ form .formButton,
 /* ----------- Galaxy Fold ----------- */
 
 @media only screen and (min-device-width: 280px) and (max-device-width: 350px) {
-  #homeContainer #footerDiv {
-    bottom: -22.5rem;
-    left: 33vw;
-  }
-
   /* Login & Sign Up Pages */
   /* #loginRow,
   #signUpRow {
@@ -909,6 +902,10 @@ form .formButton,
 /* ------ Portrait ------ */
 
 @media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+  #textBox {
+    top: 34rem;
+  }
+
   /* Login and SignUp Page */
   /* #loginRow,
   #signUpRow {
@@ -970,15 +967,7 @@ form .formButton,
     top: 10rem;
     max-width: 100%;
   }
-  #textBox {
-    width: 100vw;
-    height: 50vh;
-    bottom: -12rem;
-    padding: 0rem 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  
 
   #homeContainer #footerDiv {
     padding: 0rem;
@@ -1379,8 +1368,7 @@ form .formButton,
   #textBox {
     position: absolute;
     width: 50vw;
-    height: 66vh;
-    bottom: 0rem;
+    top: 15rem;
     padding: 0rem 8rem;
     align-items: flex-start;
   }
@@ -1392,6 +1380,7 @@ form .formButton,
   }
 
   #homeContainer #footerDiv {
+    position: absolute;
     bottom: 0rem;
     left: 49vw;
   }
