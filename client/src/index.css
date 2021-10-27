@@ -201,7 +201,7 @@ form .formButton,
 
 #homeContainer #footerDiv {
   padding: 0rem;
-  bottom: -22.5rem;
+  bottom: 0rem;
   left: 33vw;
 }
 
@@ -210,6 +210,11 @@ form .formButton,
 /* ----------- Galaxy Fold ----------- */
 
 @media only screen and (min-device-width: 280px) and (max-device-width: 350px) {
+  #homeContainer #footerDiv {
+    bottom: -22.5rem;
+    left: 33vw;
+  }
+
   /* Login & Sign Up Pages */
   /* #loginRow,
   #signUpRow {
@@ -890,14 +895,14 @@ form .formButton,
 
 /* ------------- iPhone XR ------------- */
 @media only screen and (min-device-width: 414px) and (max-device-width: 719px) {
-  #textBox {
+  /* #textBox {
     bottom: -9rem;
   }
 
   #homeContainer #footerDiv {
     bottom: 0.5rem;
     left: 38vw;
-  }
+  } */
 }
 
 /* ------------- iPad ------------- */
