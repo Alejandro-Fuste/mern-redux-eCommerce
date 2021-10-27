@@ -189,8 +189,8 @@ input:focus {
 
 #homeContainer #footerDiv {
   padding: 0rem;
-  bottom: 0rem;
-  left: 48vw;
+  bottom: -22.5rem;
+  left: 29vw;
 }
 
 /*************** Media Queries ***************/
@@ -1354,7 +1354,7 @@ input:focus {
 
   #creditCard {
     position: absolute;
-    left: 44rem;
+    left: 43rem;
     top: 8rem;
     max-width: 50%;
   }
@@ -1371,6 +1371,11 @@ input:focus {
     border-radius: 30px;
     padding: 0.8rem 3.8rem;
     text-decoration: none;
+  }
+
+  #homeContainer #footerDiv {
+    bottom: 0rem;
+    left: 49vw;
   }
 
   /* ************ Shop Page ************** */
