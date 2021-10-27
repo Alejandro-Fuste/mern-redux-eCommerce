@@ -143,6 +143,18 @@ input:focus {
   width: 100vw;
 }
 
+form .formButton,
+#allCategoryButton,
+#detailAddButton,
+#linkToLogin,
+#checkoutButton {
+  padding: 0.6rem 2.6rem;
+  font-size: 1.1rem;
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+  color: black;
+}
+
 /* Home */
 
 #homeContainer {
@@ -1688,18 +1700,6 @@ input:focus {
 
   .signUpH2 {
     margin-bottom: 2rem;
-  }
-
-  form .formButton,
-  #allCategoryButton,
-  #detailAddButton,
-  #linkToLogin,
-  #checkoutButton {
-    padding: 0.6rem 2.6rem;
-    font-size: 1.1rem;
-    background-color: var(--secondary);
-    border-color: var(--secondary);
-    color: black;
   }
 
   form .formButton {
