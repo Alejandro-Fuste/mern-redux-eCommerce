@@ -189,8 +189,8 @@ input:focus {
 
 #homeContainer #footerDiv {
   padding: 0rem;
-  bottom: -22.5rem;
-  left: 29vw;
+  bottom: 0rem;
+  left: 48vw;
 }
 
 /*************** Media Queries ***************/
