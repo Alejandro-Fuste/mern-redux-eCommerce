@@ -1167,7 +1167,7 @@ form .formButton,
 }
 
 /* ------------- iPad Pro ------------- */
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (orientation: portrait) and (min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
   #textBox {
     top: 43rem;
   }
@@ -2093,5 +2093,17 @@ form .formButton,
     color: #253237;
     text-decoration: none;
     /* background-color: var(--secondary); */
+  }
+}
+
+@media screen and (orientation: landscape) and (min-device-width: 1366px) and (max-device-width: 1366px) {
+  #textBox {
+    top: 21rem;
+  }
+
+  #creditCard {
+    left: 35rem;
+    top: 14rem;
+    max-width: 59%;
   }
 }
