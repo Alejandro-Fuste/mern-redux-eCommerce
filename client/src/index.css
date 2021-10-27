@@ -907,6 +907,10 @@ form .formButton,
     height: auto;
   }
 
+  #textBox #linkToLogin {
+    margin: 1rem;
+  }
+
   /* Login and SignUp Page */
   /* #loginRow,
   #signUpRow {
@@ -1081,8 +1085,9 @@ form .formButton,
     top: 46rem;
   }
 
+  #textBox #linkToLogin,
   #homeContainer #footerDiv {
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
 
   /* Login and SignUp */
@@ -1163,6 +1168,14 @@ form .formButton,
 
 /* ------------- iPad Pro ------------- */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  #textBox {
+    top: 43rem;
+  }
+
+  #textBox #linkToLogin {
+    margin: 3rem;
+  }
+
   /* ------ Portrait ------ */
   /* Login and SignUp */
 
