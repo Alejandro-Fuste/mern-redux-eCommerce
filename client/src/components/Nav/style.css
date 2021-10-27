@@ -167,8 +167,8 @@
 @media screen and (orientation: portrait) and (min-width: 768px) and (max-width: 768px) {
   #homeLogoName,
   #shopLogoName {
-    top: -1rem;
-    left: 1.5rem;
+    /* top: -1rem;
+    left: 1.5rem; */
     font-size: 4vw;
   }
   #navParent .navbar-light .navbar-toggler {

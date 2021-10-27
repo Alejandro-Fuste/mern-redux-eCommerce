@@ -904,6 +904,7 @@ form .formButton,
 @media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
   #textBox {
     top: 34rem;
+    height: auto;
   }
 
   /* Login and SignUp Page */
