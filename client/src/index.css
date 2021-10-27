@@ -1077,6 +1077,14 @@ form .formButton,
 /* ------------- iPad ------------- */
 /* ------ Landscape ------ */
 @media only screen and (orientation: landscape) and (min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  #textBox {
+    top: 46rem;
+  }
+
+  #homeContainer #footerDiv {
+    margin-top: 5rem;
+  }
+
   /* Login and SignUp */
   /* #rightLoginCol #logo,
   #rightSignUpCol #logo {
@@ -1112,13 +1120,7 @@ form .formButton,
     max-width: 80%;
   }
 
-  #textBox {
-    width: 65vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0rem 8rem;
-  }
+  
 
   #linkToLogin {
     font-size: 1.5rem;

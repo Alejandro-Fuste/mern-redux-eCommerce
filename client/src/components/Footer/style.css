@@ -8,38 +8,3 @@
   font-size: 2rem;
   color: lightgrey;
 }
-
-@media only screen and (orientation: landscape) and (min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-  /* #footerDiv {
-    bottom: -28.5vw;
-    padding: 0rem;
-    left: 66vw;
-    padding: 0rem;
-  } */
-}
-
-/* ------------- iPad Pro ------------- */
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-  /* #footerDiv {
-    left: 45vw;
-  } */
-}
-
-@media screen and (orientation: landscape) and (min-width: 1366px) and (max-device-width: 1366px) {
-  /* Home */
-  /* #footerDiv {
-    position: absolute;
-    left: 48vw;
-    bottom: 2vh;
-    justify-content: space-around;
-    padding: 0rem;
-  }
-
-  #categoryRow {
-    height: 64%;
-  }
-
-  #categoryDiv {
-    margin-top: 3rem;
-  } */
-}
