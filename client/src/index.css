@@ -1422,19 +1422,6 @@ form .formButton,
     justify-content: center;
   }
 
-  .cartBadge {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    background-color: red;
-    top: 24px;
-    right: 62px;
-    height: 24px;
-    width: 24px;
-    border-radius: 15px;
-    color: white;
-  }
-
   #categoryRow,
   #productRow {
     background-color: #ffffff;
