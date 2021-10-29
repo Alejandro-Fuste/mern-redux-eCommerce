@@ -1416,17 +1416,6 @@ form .formButton,
 
   /* ************ Shop Page ************** */
 
-  /* #appContainer #shopContainer {
-    width: 100vw;
-    height: 100vh;
-    padding: 0px;
-    background-color: #f2f2f2;
-  }
-
-  #shopContainer .row {
-    --bs-gutter-x: 0rem;
-  } */
-
   #header {
     display: flex;
     align-items: center;
