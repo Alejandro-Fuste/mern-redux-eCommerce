@@ -216,6 +216,10 @@ form .formButton,
   --bs-gutter-x: 0rem;
 }
 
+#categoryRow {
+  padding: 3rem 2rem 5rem 2rem;
+  height: 87%;
+}
 /* #categoryRow #jumboContainer {
   flex-direction: column;
   width: 82vw;
