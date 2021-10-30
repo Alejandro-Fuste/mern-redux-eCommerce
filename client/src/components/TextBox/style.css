@@ -70,7 +70,9 @@
 
 @media only screen and (max-device-width: 1199px) {
   #shopTextBox {
-    margin-top: 7rem;
+    position: absolute;
+    bottom: 3rem;
+    width: 63%;
   }
 }
 
@@ -87,6 +89,13 @@
   }
 }
 
+/* ------------- iPhone 5/SE --------------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  #shopTextBox {
+    bottom: 2rem;
+  }
+}
+
 /* ----------- Moto G4, Galaxy S5 ----------- */
 @media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
   #homeTextbox {
@@ -97,6 +106,29 @@
   }
   #textBoxParagraph {
     width: 100%;
+  }
+}
+
+/* ------------- iPhone 6,7,8 --------------- */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  #shopTextBox {
+    bottom: 3rem;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  #shopTextBox {
+    bottom: 6rem;
+  }
+}
+
+/* ------------- iPhone XR ------------- */
+@media only screen and (min-device-width: 414px) and (max-device-width: 719px) {
+  #textBox {
+    bottom: -9rem;
   }
 }
 
