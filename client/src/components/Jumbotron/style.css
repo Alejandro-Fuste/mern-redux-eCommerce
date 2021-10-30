@@ -32,11 +32,19 @@
   }
 }
 
-/* ------------- iPad ------------- */
 /* ------ Landscape ------ */
 @media only screen and (orientation: landscape) and (min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
   #jumboContainer {
     flex-direction: row;
     margin: 2rem 4rem;
+  }
+}
+
+/* ------------- iPad Pro ------------- */
+@media only screen and (orientation: portrait) and (min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  #jumboContainer {
+    flex-direction: row;
+    margin: 3rem 4rem;
+    height: 34vh;
   }
 }

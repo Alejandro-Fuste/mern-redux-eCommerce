@@ -193,6 +193,12 @@
     font-size: 1.8rem;
   }
 
+  #shopTextBox {
+    position: absolute;
+    bottom: auto;
+    width: 54%;
+  }
+
   #successTextBox {
     margin-bottom: 2rem;
   }

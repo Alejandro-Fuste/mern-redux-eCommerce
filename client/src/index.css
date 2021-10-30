@@ -1202,6 +1202,7 @@ form .formButton,
 
 /* ------------- iPad Pro ------------- */
 @media only screen and (orientation: portrait) and (min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Home */
   #textBox {
     top: 43rem;
   }
@@ -1210,7 +1211,13 @@ form .formButton,
     margin: 3rem;
   }
 
-  /* ------ Portrait ------ */
+  /* Shop */
+  #shopImage {
+    top: 5rem;
+    right: 4rem;
+    width: 42%;
+  }
+
   /* Login and SignUp */
 
   /* #loginRow,
@@ -1252,12 +1259,7 @@ form .formButton,
     bottom: 9rem;
   } */
 
-  /* Home */
-  /* #homeContainer .row {
-    --bs-gutter-x: 0rem;
-  }
-
-  #creditCard {
+  /* #creditCard {
     position: absolute;
     right: 15vw;
     top: 13vh;
@@ -1270,11 +1272,7 @@ form .formButton,
   } */
 
   /* Shop */
-  /* #shopImage {
-    top: 1rem;
-    right: 4rem;
-    width: 42%;
-  }
+  /* 
 
   #shopContainer #productRow {
     padding-top: 2rem;
