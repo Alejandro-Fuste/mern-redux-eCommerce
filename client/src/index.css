@@ -949,6 +949,15 @@ form .formButton,
     width: 68%;
   }
 
+  #shopTextBoxH2 {
+    font-size: 3.1rem;
+  }
+
+  #shopTextBoxhH5,
+  #textBoxLink {
+    font-size: 2.1rem;
+  }
+
   /* Login and SignUp Page */
   /* #loginRow,
   #signUpRow {
