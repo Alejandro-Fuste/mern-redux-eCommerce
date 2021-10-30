@@ -9,7 +9,7 @@
   );
   border-radius: 20px;
   width: 82vw;
-  height: 25%;
+  height: 60vh;
   padding: 10rem 0;
   margin-bottom: 3rem;
   position: relative;
@@ -19,9 +19,6 @@
   #jumboContainer {
     flex-direction: row;
     width: 90%;
-    /* height: 25%;
-      padding: 10rem 0;
-      margin-bottom: 3rem;
-      position: relative; */
+    height: 25vh;
   }
 }
