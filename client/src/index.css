@@ -216,6 +216,11 @@ form .formButton,
   --bs-gutter-x: 0rem;
 }
 
+/* #categoryRow #jumboContainer {
+  flex-direction: column;
+  width: 82vw;
+} */
+
 /*************** Media Queries ***************/
 
 /* ----------- Galaxy Fold ----------- */
@@ -286,10 +291,6 @@ form .formButton,
     font-size: 1.5rem;
   }
 
-  #categoryRow #jumboContainer {
-    flex-direction: column;
-    width: 82vw;
-  }
 
   #categoryDiv {
     margin-top: 2rem;
