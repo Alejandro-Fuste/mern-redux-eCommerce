@@ -930,6 +930,7 @@ form .formButton,
 /* ------ Portrait ------ */
 
 @media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Home */
   #textBox {
     top: 34rem;
     height: auto;
@@ -937,6 +938,15 @@ form .formButton,
 
   #textBox #linkToLogin {
     margin: 1rem;
+  }
+
+  /* Shop Page */
+
+  #shopImage {
+    position: absolute;
+    top: 1rem;
+    right: 7rem;
+    width: 68%;
   }
 
   /* Login and SignUp Page */
@@ -983,8 +993,6 @@ form .formButton,
     margin-top: 1rem;
   } */
 
-  /* Home */
-
   /* #homeContainer .row {
     --bs-gutter-x: 0rem;
   }
@@ -1011,12 +1019,6 @@ form .formButton,
   /* .card {
     width: 40%;
   }
-
-  #shopImage {
-    top: 3rem;
-    right: 0rem;
-    width: 50%;
-  } */
 
   /* Order History */
 
