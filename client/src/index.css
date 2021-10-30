@@ -220,10 +220,13 @@ form .formButton,
   padding: 3rem 2rem 5rem 2rem;
   height: 87%;
 }
-/* #categoryRow #jumboContainer {
-  flex-direction: column;
-  width: 82vw;
-} */
+
+#shopImage {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 80%;
+}
 
 /*************** Media Queries ***************/
 
@@ -309,11 +312,7 @@ form .formButton,
     padding: 0.6rem 1rem;
   }
 
-  #shopImage {
-    top: 1rem;
-    right: 1rem;
-    width: 80%;
-  }
+  
 
   #productRow {
     height: auto;
@@ -1460,7 +1459,6 @@ form .formButton,
   }
 
   #shopImage {
-    position: absolute;
     top: 0rem;
     right: 8rem;
     width: 35%;
