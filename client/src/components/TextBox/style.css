@@ -156,6 +156,12 @@
     width: 100%;
     font-size: 1.8rem;
   }
+
+  #shopTextBox {
+    position: absolute;
+    bottom: auto;
+    width: 54%;
+  }
 }
 
 /* ------------- iPad Pro Portrait------------- */

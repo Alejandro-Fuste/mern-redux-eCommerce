@@ -1120,6 +1120,7 @@ form .formButton,
 /* ------------- iPad ------------- */
 /* ------ Landscape ------ */
 @media only screen and (orientation: landscape) and (min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Home */
   #textBox {
     top: 46rem;
   }
@@ -1127,6 +1128,13 @@ form .formButton,
   #textBox #linkToLogin,
   #homeContainer #footerDiv {
     margin-top: 3rem;
+  }
+
+  /* Shop */
+  #shopImage {
+    top: 3rem;
+    right: 1rem;
+    width: 50%;
   }
 
   /* Login and SignUp */
@@ -1150,13 +1158,7 @@ form .formButton,
 
   /* Home */
 
-  /* #homeContainer {
-    width: 141vw;
-  }
-
-  #homeContainer .row {
-    --bs-gutter-x: 0rem;
-  }
+  /* 
 
   #homeContainer #creditCard {
     right: -41vw;
@@ -1170,13 +1172,6 @@ form .formButton,
     font-size: 1.5rem;
     font-weight: bold;
     margin-right: 5vw;
-  } */
-
-  /* Shop */
-  /* #shopImage {
-    top: 0rem;
-    right: 1rem;
-    width: 50%;
   } */
 
   /* Order History */
