@@ -228,6 +228,17 @@ form .formButton,
   width: 80%;
 }
 
+#shopTextBoxH2 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#shopTextBoxhH5 {
+  color: lightgrey;
+  margin-bottom: 1.5rem;
+}
+
 /*************** Media Queries ***************/
 
 /* ----------- Galaxy Fold ----------- */
@@ -1462,17 +1473,6 @@ form .formButton,
     top: 0rem;
     right: 8rem;
     width: 35%;
-  }
-
-  #shopTextBoxH2 {
-    color: white;
-    font-weight: bold;
-    margin-bottom: 1rem;
-  }
-
-  #shopTextBoxhH5 {
-    color: lightgrey;
-    margin-bottom: 1.5rem;
   }
 
   #textBoxLink {
