@@ -253,6 +253,21 @@ form .formButton,
   color: black;
 }
 
+#categoryButton {
+  padding: 0.3rem 1rem;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: white;
+  border-color: #e7e7e7;
+  color: #b6b6b6;
+}
+
+#allCategoryButton {
+  padding: 0.3rem 1rem;
+  margin: 10px;
+  border-radius: 5px;
+}
+
 /*************** Media Queries ***************/
 
 /* ----------- Galaxy Fold ----------- */
@@ -1867,7 +1882,7 @@ form .formButton,
 
   /* Category Button */
 
-  #categoryButton {
+  /* #categoryButton {
     padding: 0.3rem 1rem;
     margin: 10px;
     border-radius: 5px;
@@ -1880,7 +1895,7 @@ form .formButton,
     padding: 0.3rem 1rem;
     margin: 10px;
     border-radius: 5px;
-  }
+  } */
 
   /* Product Cards */
 
