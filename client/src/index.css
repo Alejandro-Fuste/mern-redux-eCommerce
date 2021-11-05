@@ -309,6 +309,31 @@ form .formButton,
   color: #707070;
 }
 
+#cardPrice {
+  position: absolute;
+  bottom: -2.5rem;
+  left: 0rem;
+  margin: 0rem;
+}
+
+#cardButton {
+  border-radius: 10px;
+  padding: 0.2rem 1.2rem;
+  font-size: 1.5rem;
+  background-color: #243a55;
+  border-color: #243a55;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  bottom: -3rem;
+  right: -0.3rem;
+  text-decoration: none;
+}
+
+#cardButton:hover {
+  opacity: 0.8;
+}
+
 /*************** Media Queries ***************/
 
 /* ----------- Galaxy Fold ----------- */
@@ -1548,31 +1573,6 @@ form .formButton,
 
   .card-body {
     height: 16vh;
-  }
-
-  #cardPrice {
-    position: absolute;
-    bottom: -2.5rem;
-    left: 0rem;
-    margin: 0rem;
-  }
-
-  #cardButton {
-    border-radius: 10px;
-    padding: 0.2rem 1.2rem;
-    font-size: 1.5rem;
-    background-color: #243a55;
-    border-color: #243a55;
-    color: white;
-    font-weight: bold;
-    position: absolute;
-    bottom: -3rem;
-    right: -0.3rem;
-    text-decoration: none;
-  }
-
-  #cardButton:hover {
-    opacity: 0.8;
   }
 
   /*************** Login & Sigup Pages ***************/
