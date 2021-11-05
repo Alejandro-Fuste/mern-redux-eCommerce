@@ -277,6 +277,13 @@ form .formButton,
   border-radius: 5px;
 }
 
+#priceButtonDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
 /*************** Media Queries ***************/
 
 /* ----------- Galaxy Fold ----------- */
@@ -1508,7 +1515,13 @@ form .formButton,
 
   /* Product Cards */
 
-  .flex-row {
+  /* .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  } */
+
+  #products {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1538,17 +1551,17 @@ form .formButton,
     text-align: left;
   }
 
-  #productName {
+  /* #productName {
     text-decoration: none;
     color: #171f1f;
-  }
+  } */
 
-  #priceButtonDiv {
+  /* #priceButtonDiv {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
-  }
+  } */
 
   #productName,
   #cardPrice {
