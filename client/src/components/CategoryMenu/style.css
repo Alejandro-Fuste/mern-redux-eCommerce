@@ -17,4 +17,8 @@
     white-space: nowrap;
     width: 100vw;
   }
+
+  #categoryButtonDiv::-webkit-scrollbar {
+    display: none;
+  }
 }
