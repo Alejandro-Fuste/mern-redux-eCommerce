@@ -300,6 +300,10 @@ form .formButton,
   position: relative;
 }
 
+.card-title {
+  text-align: left;
+}
+
 /*************** Media Queries ***************/
 
 /* ----------- Galaxy Fold ----------- */
@@ -1539,10 +1543,6 @@ form .formButton,
 
   .card-body {
     height: 16vh;
-  }
-
-  .card-title {
-    text-align: left;
   }
 
   #productName,
