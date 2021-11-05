@@ -304,6 +304,11 @@ form .formButton,
   text-align: left;
 }
 
+#productName,
+#cardPrice {
+  color: #707070;
+}
+
 /*************** Media Queries ***************/
 
 /* ----------- Galaxy Fold ----------- */
@@ -1543,11 +1548,6 @@ form .formButton,
 
   .card-body {
     height: 16vh;
-  }
-
-  #productName,
-  #cardPrice {
-    color: #707070;
   }
 
   #cardPrice {
