@@ -219,6 +219,15 @@ form .formButton,
 #categoryRow {
   padding: 3rem 2rem 5rem 2rem;
   height: 87%;
+  background: linear-gradient(
+    180deg,
+    rgba(242, 242, 242, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+#productRow {
+  background-color: #ffffff;
 }
 
 #shopImage {
@@ -1464,11 +1473,6 @@ form .formButton,
 
   #categoryRow {
     height: 85%;
-    background: linear-gradient(
-      180deg,
-      rgba(242, 242, 242, 1) 0%,
-      rgba(255, 255, 255, 1) 100%
-    );
   }
 
   #productRow {
