@@ -277,13 +277,6 @@ form .formButton,
   border-radius: 5px;
 }
 
-#priceButtonDiv {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-}
-
 #productCol .card {
   width: 21%;
   text-align: center;
@@ -292,6 +285,19 @@ form .formButton,
   /* box-shadow: 5px 0px 23px 5px #e7e7e7; */
   border: none;
   background: #f7f7f7;
+}
+
+#productCol .card-img-top {
+  border-radius: 1.25rem;
+  border: 7px solid #f7f7f7;
+  background: #243a55;
+}
+
+#priceButtonDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 
 /*************** Media Queries ***************/
@@ -1531,21 +1537,6 @@ form .formButton,
     justify-content: center;
   }
 
-  /* #productCol .card {
-    width: 21%;
-    text-align: center;
-    margin: 1% 2% 2% 2%;
-    border-radius: 1.25rem;
-    border: none;
-    background: #f7f7f7;
-  } */
-
-  #productCol .card-img-top {
-    border-radius: 1.25rem;
-    border: 7px solid #f7f7f7;
-    background: #243a55;
-  }
-
   .card-body {
     height: 16vh;
   }
@@ -1553,18 +1544,6 @@ form .formButton,
   .card-title {
     text-align: left;
   }
-
-  /* #productName {
-    text-decoration: none;
-    color: #171f1f;
-  } */
-
-  /* #priceButtonDiv {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-  } */
 
   #productName,
   #cardPrice {
