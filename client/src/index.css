@@ -309,6 +309,11 @@ form .formButton,
   color: #707070;
 }
 
+#productName,
+#detailProductName {
+  font-weight: bold;
+}
+
 #cardPrice {
   position: absolute;
   bottom: -2.5rem;
@@ -1814,11 +1819,6 @@ form .formButton,
   #detailProductName,
   #detailPrice {
     color: white;
-  }
-
-  #productName,
-  #detailProductName {
-    font-weight: bold;
   }
 
   #price,
