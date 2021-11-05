@@ -9,12 +9,14 @@
     margin-left: 0rem;
   }
 
-  .flex-row {
+  #products {
     display: flex;
+    flex-direction: column;
     overflow: auto;
     white-space: nowrap;
-    width: 100vw;
+    width: 100%;
     flex-wrap: wrap;
+    align-content: center;
     padding: 1rem 0rem;
   }
 }
