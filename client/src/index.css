@@ -339,6 +339,31 @@ form .formButton,
   opacity: 0.8;
 }
 
+/* Order History */
+
+#orderHistoryContainer {
+  height: auto;
+  width: 100vw;
+  padding: 0px;
+}
+
+#orderHistoryContainer .row {
+  --bs-gutter-x: 0rem;
+}
+
+#orderHistoryRow {
+  padding: 3rem 5rem;
+}
+
+.itemRow {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  align-items: center;
+  justify-content: space-between;
+}
+
 /*************** Media Queries ***************/
 
 /* ----------- Galaxy Fold ----------- */
@@ -1914,21 +1939,6 @@ form .formButton,
 
   /********************** Order History Page **********************/
 
-  #orderHistoryContainer {
-    height: auto;
-    width: 100vw;
-    padding: 0px;
-    background: #f2f2f2;
-  }
-
-  #orderHistoryContainer .row {
-    --bs-gutter-x: 0rem;
-  }
-
-  #orderHistoryRow {
-    padding: 3rem 5rem;
-  }
-
   .nameDate {
     padding: 0rem 1rem 1rem 1rem;
     text-align: left;
@@ -1956,15 +1966,6 @@ form .formButton,
 
   #historyCardBody {
     height: auto;
-  }
-
-  .itemRow {
-    display: flex;
-    flex-direction: row;
-    background-color: #fff;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-    align-items: center;
-    justify-content: space-between;
   }
 
   #historyImg {
