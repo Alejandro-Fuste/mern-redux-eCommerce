@@ -1325,6 +1325,12 @@ form .formButton,
   #categoryRow {
     height: 58%;
   }
+
+  #categoryDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
   /* Login and SignUp */
 
   /* #loginRow,
