@@ -1117,6 +1117,9 @@ form .formButton,
   }
 
   /* Orders History */
+  #ordersContainer {
+    justify-content: center;
+  }
 
   .detailText {
     font-size: 1.4rem;
@@ -1314,6 +1317,11 @@ form .formButton,
 
   #cardButton {
     bottom: -4.5rem;
+  }
+
+  /* Order History */
+  .detailText {
+    font-size: 1.4rem;
   }
 
   /* Login and SignUp */
