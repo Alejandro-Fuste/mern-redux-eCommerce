@@ -491,6 +491,57 @@ form .formButton,
   );
 }
 
+.detailH2,
+#descriptionHeader {
+  font-weight: bold;
+  color: white;
+}
+
+#detailProductName,
+#detailPrice {
+  color: white;
+}
+
+#price,
+#detailPrice {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+
+#backLink {
+  color: #a0a9b1;
+  text-decoration: none;
+}
+
+#backLink:hover {
+  text-decoration: underline;
+}
+
+#starDiv {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0rem;
+}
+
+.star {
+  color: #d7db53;
+}
+
+#descriptionDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#descriptionParagraph {
+  line-height: 1.8rem;
+  width: 100%;
+  font-size: 1.2rem;
+  color: grey;
+  margin-top: 1rem;
+}
+
 /*************** Media Queries ***************/
 
 /* ----------- Galaxy Fold ----------- */
@@ -1942,57 +1993,6 @@ form .formButton,
   #detailImg {
     filter: drop-shadow(3px 5px 5px rgb(0 0 0 / 0.4));
     max-width: 93%;
-  }
-
-  .detailH2,
-  #descriptionHeader {
-    font-weight: bold;
-    color: white;
-  }
-
-  #detailProductName,
-  #detailPrice {
-    color: white;
-  }
-
-  #price,
-  #detailPrice {
-    font-size: 1.3rem;
-    margin-top: 0.5rem;
-  }
-
-  #backLink {
-    color: #a0a9b1;
-    text-decoration: none;
-  }
-
-  #backLink:hover {
-    text-decoration: underline;
-  }
-
-  #starDiv {
-    display: flex;
-    justify-content: space-between;
-    margin: 1.5rem 0rem;
-  }
-
-  .star {
-    color: #d7db53;
-  }
-
-  #descriptionDiv {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  #descriptionParagraph {
-    line-height: 1.8rem;
-    width: 100%;
-    font-size: 1.2rem;
-    color: grey;
-    margin-top: 1rem;
   }
 
   #buttonDiv {
