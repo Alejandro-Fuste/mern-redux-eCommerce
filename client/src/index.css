@@ -2112,4 +2112,8 @@ form .formButton,
     top: 14rem;
     max-width: 59%;
   }
+
+  #categoryRow {
+    height: 58%;
+  }
 }
