@@ -1223,6 +1223,12 @@ form .formButton,
     width: 50%;
   }
 
+  #categoryDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
   /* Login and SignUp */
   /* #rightLoginCol #logo,
   #rightSignUpCol #logo {
