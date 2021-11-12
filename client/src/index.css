@@ -369,6 +369,11 @@ form .formButton,
   height: auto;
 }
 
+#historyImg {
+  width: 13vw;
+  padding: 1rem 0rem;
+}
+
 .nameDate {
   padding: 0rem 1rem 1rem 1rem;
   text-align: left;
@@ -1973,10 +1978,10 @@ form .formButton,
     border-radius: 10px;
   }
 
-  #historyImg {
+  /* #historyImg {
     width: 13vw;
     padding: 1rem 0rem;
-  }
+  } */
 
   #namePriceDiv {
     display: flex;
