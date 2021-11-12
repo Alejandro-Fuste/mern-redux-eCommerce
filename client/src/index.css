@@ -1229,6 +1229,10 @@ form .formButton,
     margin-top: 3rem;
   }
 
+  #productRow {
+    padding-top: 4rem;
+  }
+
   /* Login and SignUp */
   /* #rightLoginCol #logo,
   #rightSignUpCol #logo {
