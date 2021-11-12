@@ -1233,6 +1233,14 @@ form .formButton,
     padding-top: 4rem;
   }
 
+  #cardPrice {
+    bottom: -4rem;
+  }
+
+  #cardButton {
+    bottom: -4.5rem;
+  }
+
   /* Login and SignUp */
   /* #rightLoginCol #logo,
   #rightSignUpCol #logo {
@@ -1314,6 +1322,9 @@ form .formButton,
     width: 42%;
   }
 
+  #categoryRow {
+    height: 58%;
+  }
   /* Login and SignUp */
 
   /* #loginRow,
