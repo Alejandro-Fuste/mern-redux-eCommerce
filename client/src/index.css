@@ -355,6 +355,20 @@ form .formButton,
   padding: 3rem 5rem;
 }
 
+#ordersContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ordersDiv {
+  margin-bottom: 1rem;
+}
+
+#historyCardBody {
+  height: auto;
+}
+
 .nameDate {
   padding: 0rem 1rem 1rem 1rem;
   text-align: left;
@@ -1945,14 +1959,9 @@ form .formButton,
 
   /********************** Order History Page **********************/
 
-  #ordersContainer {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-
   .ordersDiv {
     width: 42vw;
+    margin-bottom: 0rem;
   }
 
   #historyCard {
@@ -1962,10 +1971,6 @@ form .formButton,
     flex-direction: column;
     flex-wrap: wrap;
     border-radius: 10px;
-  }
-
-  #historyCardBody {
-    height: auto;
   }
 
   #historyImg {
