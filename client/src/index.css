@@ -355,6 +355,12 @@ form .formButton,
   padding: 3rem 5rem;
 }
 
+.nameDate {
+  padding: 0rem 1rem 1rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
 .itemRow {
   display: flex;
   flex-direction: row;
@@ -1938,12 +1944,6 @@ form .formButton,
   }
 
   /********************** Order History Page **********************/
-
-  .nameDate {
-    padding: 0rem 1rem 1rem 1rem;
-    text-align: left;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-  }
 
   #ordersContainer {
     display: flex;
