@@ -463,6 +463,34 @@ form .formButton,
   align-items: center;
 }
 
+.nameLinkDiv,
+.priceDescriptionDiv {
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.nameLinkDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0rem;
+}
+
+.priceDescriptionDiv {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 72vh;
+  margin: 2rem 0rem 1rem 0rem;
+  background: linear-gradient(
+    180deg,
+    rgba(20, 30, 48, 1) 0%,
+    rgba(36, 59, 85, 1) 100%
+  );
+}
+
 /*************** Media Queries ***************/
 
 /* ----------- Galaxy Fold ----------- */
@@ -1905,34 +1933,10 @@ form .formButton,
     flex-direction: row;
   }
 
-  .nameLinkDiv,
   .priceDescriptionDiv {
-    border-radius: 20px;
-    padding: 2rem;
-  }
-
-  .nameLinkDiv {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0rem;
-  }
-
-  .priceDescriptionDiv {
-    display: flex;
-    justify-content: space-between;
     flex-direction: column;
-    flex-wrap: wrap;
     width: 37%;
-    height: 72vh;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
     margin: 2rem 4rem 1rem 0rem;
-    background: linear-gradient(
-      180deg,
-      rgba(20, 30, 48, 1) 0%,
-      rgba(36, 59, 85, 1) 100%
-    );
   }
 
   #detailImg {
