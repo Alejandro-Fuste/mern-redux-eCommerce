@@ -455,6 +455,14 @@ form .formButton,
   align-items: center;
 }
 
+#imageDiv {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*************** Media Queries ***************/
 
 /* ----------- Galaxy Fold ----------- */
@@ -1895,14 +1903,6 @@ form .formButton,
 
   #detailDiv {
     flex-direction: row;
-  }
-
-  #imageDiv {
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: center;
   }
 
   .nameLinkDiv,
