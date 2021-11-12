@@ -398,6 +398,16 @@ form .formButton,
   justify-content: space-between;
 }
 
+.nameDate,
+.detailText {
+  color: #465965;
+  font-weight: bold;
+}
+
+.detailText {
+  font-size: 1rem;
+}
+
 /*************** Media Queries ***************/
 
 /* ----------- Galaxy Fold ----------- */
@@ -2000,12 +2010,6 @@ form .formButton,
   #namePriceDiv {
     justify-content: space-between;
     width: 34vh;
-  }
-
-  .nameDate,
-  .detailText {
-    color: #465965;
-    font-weight: bold;
   }
 
   .detailText {
