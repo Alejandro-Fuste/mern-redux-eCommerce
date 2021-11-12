@@ -408,6 +408,53 @@ form .formButton,
   font-size: 1rem;
 }
 
+/* Detail */
+
+#detailContainer {
+  height: 100vh;
+  margin: 0;
+  padding: 0rem;
+  background: linear-gradient(
+    180deg,
+    rgba(242, 242, 242, 1) 0%,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+#detailNavRow {
+  background: rgb(20, 30, 48);
+  background: linear-gradient(
+    144deg,
+    rgba(20, 30, 48, 1) 0%,
+    rgba(36, 58, 85, 1) 100%
+  );
+  border-bottom-left-radius: 100px;
+  height: 40vh;
+}
+
+#detailRow {
+  margin: 0rem;
+  width: 100vw;
+}
+
+#detailCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+#detailDiv {
+  width: 100vw;
+  padding: 0rem 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /*************** Media Queries ***************/
 
 /* ----------- Galaxy Fold ----------- */
@@ -1846,48 +1893,8 @@ form .formButton,
 
   /********************** Detail Page **********************/
 
-  #detailContainer {
-    height: 100vh;
-    margin: 0;
-    padding: 0rem;
-    background: linear-gradient(
-      180deg,
-      rgba(242, 242, 242, 1) 0%,
-      rgba(255, 255, 255, 1) 30%,
-      rgba(255, 255, 255, 1) 100%
-    );
-  }
-
-  #detailNavRow {
-    background: rgb(20, 30, 48);
-    background: linear-gradient(
-      144deg,
-      rgba(20, 30, 48, 1) 0%,
-      rgba(36, 58, 85, 1) 100%
-    );
-    border-bottom-left-radius: 100px;
-    height: 40vh;
-  }
-
-  #detailRow {
-    margin: 0rem;
-    width: 100vw;
-  }
-
-  #detailCol {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-  }
-
   #detailDiv {
-    width: 100vw;
-    padding: 0rem 2rem;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
   }
 
   #imageDiv {
