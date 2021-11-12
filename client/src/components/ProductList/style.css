@@ -52,3 +52,18 @@
     margin-top: 2rem;
   }
 }
+
+/* ----------- iPad Landscape ----------- */
+
+@media only screen and (orientation: landscape) and (min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  #products {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    white-space: nowrap;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 1rem 1rem;
+  }
+}
