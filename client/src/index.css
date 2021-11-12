@@ -370,7 +370,7 @@ form .formButton,
 }
 
 #historyImg {
-  width: 13vw;
+  width: 20vw;
   padding: 1rem 0rem;
 }
 
@@ -1094,6 +1094,12 @@ form .formButton,
     font-size: 2.1rem;
   }
 
+  /* Orders History */
+
+  #historyImg {
+    width: 15vw;
+  }
+
   /* Login and SignUp Page */
   /* #loginRow,
   #signUpRow {
@@ -1188,10 +1194,7 @@ form .formButton,
     width: 100%;
   }
 
-  #historyImg {
-    width: 20vw;
-    margin-left: 2rem;
-  }
+  
 
   .detailText {
     font-size: 1.8rem;
@@ -1978,10 +1981,9 @@ form .formButton,
     border-radius: 10px;
   }
 
-  /* #historyImg {
+  #historyImg {
     width: 13vw;
-    padding: 1rem 0rem;
-  } */
+  }
 
   #namePriceDiv {
     display: flex;
