@@ -1414,6 +1414,19 @@ form .formButton,
     justify-content: center;
     margin-top: 3rem;
   }
+
+  /* Orders History */
+  #orderHistoryRow {
+    padding: 5rem;
+  }
+
+  #ordersContainer {
+    justify-content: center;
+  }
+
+  .detailText {
+    font-size: 1.8rem;
+  }
   /* Login and SignUp */
 
   /* #loginRow,
