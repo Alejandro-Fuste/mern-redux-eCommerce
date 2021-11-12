@@ -1122,6 +1122,10 @@ form .formButton,
     width: 15vw;
   }
 
+  .detailText {
+    font-size: 1.4rem;
+  }
+
   /* Login and SignUp Page */
   /* #loginRow,
   #signUpRow {
