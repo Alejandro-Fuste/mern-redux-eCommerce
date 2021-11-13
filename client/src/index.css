@@ -558,6 +558,10 @@ form .formButton,
   margin-top: 0rem;
 }
 
+#detailAddButton {
+  padding: 0.6rem 3.2rem;
+}
+
 /*************** Media Queries ***************/
 
 /* ----------- Galaxy Fold ----------- */
@@ -2019,6 +2023,10 @@ form .formButton,
   #buttonDiv {
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  #detailAddButton {
+    padding: 0.6rem 2.6rem;
   }
 
   strong {
