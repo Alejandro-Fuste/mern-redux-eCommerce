@@ -510,7 +510,11 @@ form .formButton,
 #price,
 #detailPrice {
   font-size: 1.3rem;
-  margin-top: 0.5rem;
+  margin-top: 0rem;
+}
+
+#detailPrice {
+  margin-left: 10px;
 }
 
 #backLink {
@@ -1996,10 +2000,14 @@ form .formButton,
     margin: 2rem 4rem 1rem 0rem;
   }
 
-  /* #detailImg {
-    filter: drop-shadow(3px 5px 5px rgb(0 0 0 / 0.4));
-    max-width: 93%;
-  } */
+  #price,
+  #detailPrice {
+    margin-top: 0.5rem;
+  }
+
+  #detailPrice {
+    margin-left: 0px;
+  }
 
   #buttonDiv {
     display: flex;
