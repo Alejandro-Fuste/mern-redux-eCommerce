@@ -562,6 +562,10 @@ form .formButton,
   padding: 0.6rem 3.2rem;
 }
 
+strong {
+  margin-right: 10px;
+}
+
 /*************** Media Queries ***************/
 
 /* ----------- Galaxy Fold ----------- */
@@ -2027,10 +2031,6 @@ form .formButton,
 
   #detailAddButton {
     padding: 0.6rem 2.6rem;
-  }
-
-  strong {
-    margin-right: 10px;
   }
 
   /* Product Cards */
