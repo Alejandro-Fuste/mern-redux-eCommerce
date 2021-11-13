@@ -463,6 +463,11 @@ form .formButton,
   align-items: center;
 }
 
+#detailImg {
+  filter: drop-shadow(3px 5px 5px rgb(0 0 0 / 0.4));
+  max-width: 93%;
+}
+
 .nameLinkDiv,
 .priceDescriptionDiv {
   border-radius: 20px;
@@ -482,8 +487,8 @@ form .formButton,
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  height: 72vh;
-  margin: 2rem 0rem 1rem 0rem;
+  height: 87vh;
+  margin: 2rem 0rem;
   background: linear-gradient(
     180deg,
     rgba(20, 30, 48, 1) 0%,
@@ -1987,13 +1992,14 @@ form .formButton,
   .priceDescriptionDiv {
     flex-direction: column;
     width: 37%;
+    height: 72vh;
     margin: 2rem 4rem 1rem 0rem;
   }
 
-  #detailImg {
+  /* #detailImg {
     filter: drop-shadow(3px 5px 5px rgb(0 0 0 / 0.4));
     max-width: 93%;
-  }
+  } */
 
   #buttonDiv {
     display: flex;
