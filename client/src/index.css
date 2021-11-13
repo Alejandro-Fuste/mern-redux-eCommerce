@@ -576,6 +576,14 @@ strong {
     padding: 3rem 3rem;
   }
 
+  /* Detail */
+  .nameLinkDiv {
+    flex-direction: column;
+  }
+
+  #detailPrice {
+    margin-left: 0px;
+  }
   /* Login & Sign Up Pages */
   /* #loginRow,
   #signUpRow {
@@ -698,8 +706,6 @@ strong {
     width: auto;
     margin-bottom: 1rem;
   } */
-
-  /* Detail */
 
   /* #detailDiv {
     flex-direction: column;
