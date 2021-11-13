@@ -514,7 +514,7 @@ form .formButton,
 }
 
 #detailPrice {
-  margin-left: 10px;
+  margin-left: 34px;
 }
 
 #backLink {
@@ -549,6 +549,13 @@ form .formButton,
   font-size: 1.2rem;
   color: grey;
   margin-top: 1rem;
+}
+
+#buttonDiv {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-top: 0rem;
 }
 
 /*************** Media Queries ***************/
@@ -2010,9 +2017,8 @@ form .formButton,
   }
 
   #buttonDiv {
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    margin-top: 0rem;
   }
 
   strong {
