@@ -216,7 +216,11 @@ form .formButton,
 }
 
 #rightLoginCol .loginForm {
-  bottom: 1rem;
+  bottom: 4rem;
+}
+
+#rightSignUpCol .signUpForm {
+  bottom: -8rem;
 }
 
 /* Home */
@@ -2018,12 +2022,6 @@ strong {
     height: 100vh;
   }
 
-  /* .tagLineText {
-    color: white;
-    font-size: 1.8rem;
-    margin: 2rem 0 0 2rem;
-  } */
-
   .tagLineText {
     margin: 2rem 0 0 2rem;
   }
@@ -2032,6 +2030,14 @@ strong {
     height: 70vh;
     margin-top: 3.5rem;
     padding-right: 3rem;
+  }
+
+  #rightLoginCol .loginForm {
+    bottom: 7rem;
+  }
+
+  #rightSignUpCol .signUpForm {
+    bottom: 4rem;
   }
 
   /* Forms in Login and Signup Pages */
