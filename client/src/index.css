@@ -1534,66 +1534,13 @@ strong {
   }
 
   /* Login and SignUp */
-  /* #rightLoginCol #logo,
-  #rightSignUpCol #logo {
-    height: 3.5rem;
-  }
-
-  .signUpForm,
-  .loginForm {
-    width: 30.4%;
-  }
-
   #rightLoginCol .loginForm {
-    bottom: 12.4rem;
+    bottom: 2rem;
   }
 
   #rightSignUpCol .signUpForm {
-    bottom: 6.4rem;
-  } */
-
-  /* Home */
-
-  /* 
-
-  #homeContainer #creditCard {
-    right: -41vw;
-    bottom: 0vw;
-    max-width: 80%;
+    bottom: -9rem;
   }
-
-  
-
-  #linkToLogin {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-right: 5vw;
-  } */
-
-  /* Order History */
-
-  /* #orderHistoryRow {
-    padding: 2rem 2rem;
-  } */
-
-  /* Detail */
-  /* #detailDiv {
-    margin-top: 3.5rem;
-  }
-
-  #detailImg {
-    max-width: 100%;
-  }
-
-  .priceDescriptionDiv {
-    width: 56%;
-    height: 60vh;
-    margin: 2rem 0rem;
-  }
-
-  #buttonDiv {
-    width: 44vw;
-  } */
 }
 
 /* ------------- iPad Pro ------------- */
@@ -1656,173 +1603,13 @@ strong {
     margin-bottom: 5px;
   }
   /* Login and SignUp */
-
-  /* #loginRow,
-  #signUpRow {
-    flex-direction: column;
+  #rightLoginCol .loginForm {
+    bottom: 18rem;
   }
 
-  #leftLoginCol,
-  #leftSignUpCol {
-    width: 100vw;
-    height: 40vh;
+  #rightSignUpCol .signUpForm {
+    bottom: 10rem;
   }
-
-  #loginImage {
-    width: 85%;
-    height: 26vh;
-    margin: 2rem 5rem;
-  }
-
-  #rightLoginCol #logo,
-  #rightSignUpCol #logo {
-    height: 3.5rem;
-  }
-
-  #rightSignUpCol {
-    padding: 3rem 3rem;
-  }
-
-  .signUpForm,
-  .loginForm {
-    width: 89%;
-  }
-
-  .loginForm {
-    bottom: 12rem;
-  }
-
-  .signUpForm {
-    bottom: 9rem;
-  } */
-
-  /* #creditCard {
-    position: absolute;
-    right: 15vw;
-    top: 13vh;
-    max-width: 70%;
-  }
-
-  #linkToLogin {
-    font-size: 1.4rem;
-    font-weight: bold;
-  } */
-
-  /* Shop */
-  /* 
-
-  #shopContainer #productRow {
-    padding-top: 2rem;
-  } */
-
-  /* Order History */
-
-  /* #orderHistoryRow {
-    padding: 2rem 2rem;
-  }
-
-  #ordersContainer {
-    width: 100%;
-  }
-
-  .ordersDiv {
-    width: 100%;
-  }
-
-  #historyCard {
-    width: 90%;
-    margin: 1rem 2rem;
-  }
-
-  #historyCardBody {
-    width: 100%;
-  }
-
-  .itemRow {
-    width: 100%;
-  }
-
-  #namePriceDiv {
-    height: 8vh;
-    width: 40vw;
-  }
-
-  #historyImg {
-    width: 20vw;
-    margin-left: 2rem;
-  }
-
-  .detailText {
-    font-size: 1.8rem;
-  } */
-
-  /* Detail */
-
-  /* #detailDiv {
-    flex-direction: column;
-  }
-
-  .priceDescriptionDiv {
-    flex-wrap: nowrap;
-    width: 100%;
-    height: 100%;
-    margin: 6rem 2rem;
-  }
-
-  #buttonDiv {
-    justify-content: space-evenly;
-  } */
-
-  /* Success Page */
-
-  /* #successContainer {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  #successCol {
-    width: 70%;
-    margin-top: 5rem;
-  }
-
-  #successImage {
-    height: auto;
-    margin: 0 auto 10px auto;
-  }
-
-  #logo {
-    height: 5.5rem;
-  }
-
-  #successH1 {
-    font-size: 3.5rem;
-    margin: 2px 0 0 30px;
-  }
-
-  #redirectBox {
-    width: 56%;
-    justify-content: center;
-    margin-top: 6%;
-    padding: 2%;
-    font-size: 2.2rem;
-  } */
-
-  /* No Match */
-
-  /* #noMatchImage {
-    max-width: 75%;
-  }
-
-  #noMatchText {
-    font-size: 4.8vw;
-    margin-bottom: 5rem;
-  }
-
-  #linkToShop {
-    font-size: 2.5rem;
-  } */
 }
 
 /* ------------- New Media Query --------------- */
@@ -2116,6 +1903,14 @@ strong {
 }
 
 @media screen and (orientation: landscape) and (min-device-width: 1366px) and (max-device-width: 1366px) {
+  #rightLoginCol .loginForm {
+    bottom: 19rem;
+  }
+
+  #rightSignUpCol .signUpForm {
+    bottom: 17rem;
+  }
+
   #textBox {
     top: 21rem;
   }
