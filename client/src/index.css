@@ -2283,4 +2283,8 @@ strong {
   #categoryRow {
     height: 58%;
   }
+
+  .priceDescriptionDiv {
+    height: 54vh;
+  }
 }
