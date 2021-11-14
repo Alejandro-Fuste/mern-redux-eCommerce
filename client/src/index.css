@@ -566,6 +566,39 @@ strong {
   margin-right: 10px;
 }
 
+/* NoMatch Page */
+#noMatchContainer {
+  width: 100vw;
+  height: 100vh;
+  padding: 0px;
+}
+
+#noMatchContainer .row {
+  --bs-gutter-x: 0rem;
+}
+
+#noMatchRow {
+  height: 100vh;
+  width: 100vw;
+}
+
+#noMatchCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+#noMatchImgDiv span {
+  display: flex;
+  justify-content: center;
+}
+
+#noMatchImage {
+  max-width: 85%;
+}
+
 /*************** Media Queries ***************/
 
 /* ----------- Galaxy Fold ----------- */
@@ -2219,34 +2252,6 @@ strong {
   }
 
   /* ********************** NoMatch Page ************************ */
-
-  #noMatchContainer {
-    width: 100vw;
-    height: 100vh;
-    padding: 0px;
-  }
-
-  #noMatchContainer .row {
-    --bs-gutter-x: 0rem;
-  }
-
-  #noMatchRow {
-    height: 100vh;
-    width: 100vw;
-  }
-
-  #noMatchCol {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-  }
-
-  #noMatchImgDiv span {
-    display: flex;
-    justify-content: center;
-  }
 
   #noMatchImage {
     max-width: 36%;
