@@ -1294,6 +1294,15 @@ strong {
 /* ----------- iPhone X ----------- */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  /* Login and SignUp Page */
+  #rightLoginCol .loginForm {
+    bottom: 3rem;
+  }
+
+  #rightSignUpCol .signUpForm {
+    bottom: -7rem;
+  }
+
   /* Home Page */
   /* .homeRow {
     width: 100vw;
@@ -1320,7 +1329,6 @@ strong {
     bottom: -1.5rem;
   } */
 
-  /* Login and SignUp Page */
   /* #loginRow,
   #signUpRow {
     flex-direction: column;
@@ -1390,6 +1398,14 @@ strong {
 /* ----------- iPhone 6,7,8 plus ----------- */
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  #rightLoginCol .loginForm {
+    bottom: 1rem;
+  }
+
+  #rightSignUpCol .signUpForm {
+    bottom: -10rem;
+  }
+
   .priceDescriptionDiv {
     height: 87vh;
   }
