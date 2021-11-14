@@ -1324,6 +1324,16 @@ strong {
     font-size: 1.4rem;
   }
 
+  /* Detail */
+  .priceDescriptionDiv {
+    flex-direction: column;
+    height: 50vh;
+  }
+
+  #detailAddButton {
+    margin-bottom: 5px;
+  }
+
   /* Login and SignUp Page */
   /* #loginRow,
   #signUpRow {
@@ -1424,8 +1434,6 @@ strong {
     font-size: 1.8rem;
   } */
 
-  /* Detail */
-
   /* #detailDiv {
     flex-direction: column;
   }
@@ -1521,6 +1529,20 @@ strong {
   /* Order History */
   .detailText {
     font-size: 1.4rem;
+  }
+
+  /* Detail */
+  .priceDescriptionDiv {
+    flex-direction: column;
+    height: 55vh;
+  }
+
+  #buttonDiv {
+    flex-direction: row;
+  }
+
+  #detailAddButton {
+    margin-bottom: 5px;
   }
 
   /* Login and SignUp */
