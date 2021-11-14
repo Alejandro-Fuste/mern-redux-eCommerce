@@ -1650,6 +1650,11 @@ strong {
   }
 
   /* Detail */
+  #detailDiv {
+    height: 100vh;
+    justify-content: space-evenly;
+  }
+
   .priceDescriptionDiv {
     flex-direction: column;
     height: 33vh;
