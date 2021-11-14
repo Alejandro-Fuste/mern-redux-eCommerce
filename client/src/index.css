@@ -590,6 +590,10 @@ strong {
   #detailPrice {
     margin-left: 0px;
   }
+
+  #textBoxDiv {
+    height: 91vh;
+  }
   /* Login & Sign Up Pages */
   /* #loginRow,
   #signUpRow {

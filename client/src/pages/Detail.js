@@ -144,7 +144,7 @@ function Detail() {
                   </p>
                 </div>
 
-                <TextBox>
+                <TextBox id="textBoxDiv">
                   <div id="descriptionDiv">
                     <h4 id="descriptionHeader">Description</h4>
                   </div>
