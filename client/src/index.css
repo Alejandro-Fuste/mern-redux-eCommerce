@@ -220,7 +220,56 @@ form .formButton,
 }
 
 #rightSignUpCol .signUpForm {
-  bottom: -8rem;
+  bottom: -6rem;
+}
+
+#logoHeader,
+#signUpHeader {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+#shopName {
+  padding-left: 0.5rem;
+  font-family: "Nunito";
+  color: #707070;
+}
+
+#shopName:hover {
+  text-decoration: underline;
+}
+
+.loginH2,
+.signUpH2 {
+  margin-bottom: 1.8rem;
+}
+
+.loginForm {
+  animation: loginMotion 1s ease-in;
+}
+
+@keyframes loginMotion {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.signUpForm {
+  animation: signUpMotion 1s;
+}
+
+@keyframes signUpMotion {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Home */
@@ -1279,18 +1328,6 @@ strong {
     bottom: 0rem;
   }
 
-  #rightLoginCol .loginForm {
-    bottom: 1rem;
-  }
-
-  #rightSignUpCol .signUpForm {
-    bottom: -8rem;
-  }
-
-  .loginH2 {
-    margin-bottom: 1.8rem;
-  }
-
   form .formButton {
     margin: 0px 0px 1rem 0px;
   } */
@@ -2042,26 +2079,8 @@ strong {
 
   /* Forms in Login and Signup Pages */
 
-  #logoHeader,
-  #signUpHeader {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    text-decoration: none;
-  }
-
   #signUpHeader {
     margin-bottom: 4rem;
-  }
-
-  #shopName {
-    padding-left: 0.5rem;
-    font-family: "Nunito";
-    color: #707070;
-  }
-
-  #shopName:hover {
-    text-decoration: underline;
   }
 
   .signUpForm,
@@ -2073,33 +2092,6 @@ strong {
     position: absolute;
     bottom: 7.4rem;
     opacity: 1;
-  }
-
-  .loginForm {
-    animation: loginMotion 1s ease-in;
-  }
-
-  @keyframes loginMotion {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-
-  .signUpForm {
-    bottom: 3.5rem;
-    animation: signUpMotion 1s;
-  }
-
-  @keyframes signUpMotion {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
   }
 
   .inputForm,
