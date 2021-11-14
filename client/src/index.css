@@ -155,6 +155,70 @@ form .formButton,
   color: black;
 }
 
+/* Login & Signup */
+
+#loginContainer,
+#signUpContainer {
+  height: 100vh;
+  width: 100vw;
+  padding: 0px;
+}
+
+#loginContainer .row,
+#signUpContainer .row {
+  --bs-gutter-x: 0rem;
+}
+
+#loginRow,
+#signUpRow {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#rightLoginCol,
+#rightSignUpCol {
+  padding: 2rem 3rem 3rem 3rem;
+}
+
+#leftLoginCol,
+#leftSignUpCol {
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #243b55;
+}
+
+.tagLineText {
+  color: white;
+  font-size: 1.8rem;
+  margin: 1rem 0 0 2rem;
+}
+
+#loginImage {
+  width: 100%;
+  height: 24vh;
+  margin-top: 1rem;
+  padding-right: 1.2rem;
+}
+
+.signUpForm,
+.loginForm {
+  width: 75%;
+  bottom: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  position: absolute;
+  opacity: 1;
+}
+
+#rightLoginCol .loginForm {
+  bottom: 1rem;
+}
+
 /* Home */
 
 #homeContainer {
@@ -1929,30 +1993,15 @@ strong {
   }
 
   /*************** Login & Sigup Pages ***************/
-
-  #loginContainer,
-  #signUpContainer {
-    height: 100vh;
-    width: 100vw;
-    padding: 0px;
-  }
-
-  #loginContainer .row,
-  #signUpContainer .row {
-    --bs-gutter-x: 0rem;
-  }
-
   #loginRow,
   #signUpRow {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
     flex-direction: row;
   }
 
   #rightLoginCol,
   #rightSignUpCol {
     width: auto;
+    padding: 0;
   }
 
   #rightLoginCol {
@@ -1966,20 +2015,20 @@ strong {
   #leftLoginCol,
   #leftSignUpCol {
     width: 60vw;
-    display: flex;
-    flex-direction: column;
     height: 100vh;
-    background-color: #243b55;
   }
 
-  .tagLineText {
+  /* .tagLineText {
     color: white;
     font-size: 1.8rem;
+    margin: 2rem 0 0 2rem;
+  } */
+
+  .tagLineText {
     margin: 2rem 0 0 2rem;
   }
 
   #loginImage {
-    width: 100%;
     height: 70vh;
     margin-top: 3.5rem;
     padding-right: 3rem;
