@@ -592,7 +592,16 @@ strong {
   }
 
   #textBoxDiv {
-    height: 91vh;
+    height: 100vh;
+    width: 55vw;
+  }
+
+  #buttonDiv {
+    width: 100%;
+  }
+
+  #detailAddButton {
+    margin-bottom: 5px;
   }
   /* Login & Sign Up Pages */
   /* #loginRow,
