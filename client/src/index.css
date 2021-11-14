@@ -1648,6 +1648,20 @@ strong {
   .detailText {
     font-size: 1.8rem;
   }
+
+  /* Detail */
+  .priceDescriptionDiv {
+    flex-direction: column;
+    height: 33vh;
+  }
+
+  #buttonDiv {
+    flex-direction: row;
+  }
+
+  #detailAddButton {
+    margin-bottom: 5px;
+  }
   /* Login and SignUp */
 
   /* #loginRow,
