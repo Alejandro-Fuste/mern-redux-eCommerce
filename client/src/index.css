@@ -797,6 +797,25 @@ strong {
 /* ----------- Galaxy Fold ----------- */
 
 @media only screen and (min-device-width: 280px) and (max-device-width: 350px) {
+  /* Login & Signup */
+
+  #leftLoginCol,
+  #leftSignUpCol {
+    height: 44vh;
+  }
+
+  #rightLoginCol .loginForm {
+    bottom: -4rem;
+  }
+
+  .loginForm {
+    width: 65%;
+  }
+
+  form .formButton {
+    margin: 0px 0px 1rem 0px;
+  }
+
   /* Order History */
   #orderHistoryRow {
     padding: 3rem 3rem;
@@ -891,9 +910,7 @@ strong {
     margin-bottom: 1.8rem;
   }
 
-  form .formButton {
-    margin: 0px 0px 1rem 0px;
-  } */
+  */
 }
 
 /* ------------- iPhone 5/SE --------------- */
