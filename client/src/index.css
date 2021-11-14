@@ -272,6 +272,10 @@ form .formButton,
   }
 }
 
+form .formButton {
+  margin: 0px 0px 1rem 0px;
+}
+
 /* Home */
 
 #homeContainer {
@@ -808,12 +812,13 @@ strong {
     bottom: -4rem;
   }
 
-  .loginForm {
-    width: 65%;
+  #rightSignUpCol .signUpForm {
+    bottom: -14rem;
   }
 
-  form .formButton {
-    margin: 0px 0px 1rem 0px;
+  .loginForm,
+  .signUpForm {
+    width: 65%;
   }
 
   /* Order History */
@@ -917,6 +922,14 @@ strong {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   /* Login & Sign Up Pages */
+
+  #rightLoginCol .loginForm {
+    bottom: -7rem;
+  }
+
+  #rightSignUpCol .signUpForm {
+    bottom: -17rem;
+  }
   /* #loginRow,
   #signUpRow {
     flex-direction: column;
@@ -958,13 +971,7 @@ strong {
     width: 75%;
   }
 
-  .loginForm {
-    bottom: -8rem;
-  }
-
-  .signUpForm {
-    bottom: -16rem;
-  }
+  
 
   .loginH2 {
     margin-bottom: 1.8rem;
@@ -1007,6 +1014,14 @@ strong {
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
   /* Login & Sign Up Pages */
+
+  #rightLoginCol .loginForm {
+    bottom: -2rem;
+  }
+
+  #rightSignUpCol .signUpForm {
+    bottom: -13rem;
+  }
   /* #loginRow,
   #signUpRow {
     flex-direction: column;
@@ -1048,13 +1063,7 @@ strong {
     width: 75%;
   }
 
-  .loginForm {
-    bottom: -5rem;
-  }
-
-  .signUpForm {
-    bottom: -14rem;
-  }
+  
 
   .loginH2 {
     margin-bottom: 1.8rem;
