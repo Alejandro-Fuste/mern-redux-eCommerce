@@ -566,7 +566,68 @@ strong {
   margin-right: 10px;
 }
 
+/* Success Page */
+
+#successContainer {
+  padding: 0px;
+}
+
+#successContainer .row {
+  --bs-gutter-x: 0rem;
+}
+
+#successRow {
+  justify-content: center;
+}
+
+#successCol {
+  width: 71%;
+  height: 50%;
+  margin-top: 2%;
+  padding: 10px 0px;
+}
+
+#successImage {
+  display: flex;
+  height: 50vh;
+  width: 100vw;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#successTextBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#successH1 {
+  color: #496995;
+  font-family: "Nunito";
+  margin-top: 2%;
+}
+
+#redirectBox {
+  display: flex;
+  align-items: center;
+  width: 96%;
+  justify-content: center;
+  margin-top: 22%;
+  padding: 2%;
+  font-size: 1.8rem;
+  background-color: #496995;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.spinner-border {
+  margin-right: 20px;
+  border: 0.2em solid #ffffff;
+}
+
 /* NoMatch Page */
+
 #noMatchContainer {
   width: 100vw;
   height: 100vh;
@@ -2208,62 +2269,18 @@ strong {
 
   /* ********************** Success Page ************************ */
 
-  #successContainer {
-    padding: 0px;
-  }
-
-  #successContainer .row {
-    --bs-gutter-x: 0rem;
-  }
-
-  #successRow {
-    justify-content: center;
-  }
-
   #successCol {
     width: 50%;
-    height: 50%;
-    margin-top: 2%;
-    padding: 10px 0px;
   }
 
   #successImage {
-    display: flex;
     height: 66vh;
-    width: 100vw;
-    align-content: center;
-    justify-content: center;
-    margin: 0 auto;
-  }
-
-  #successTextBox {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #successH1 {
-    color: #496995;
-    font-family: "Nunito";
-    margin-top: 2%;
   }
 
   #redirectBox {
-    display: flex;
-    align-items: center;
     width: 50%;
-    justify-content: center;
     margin-top: 4%;
     padding: 1%;
-    font-size: 1.8rem;
-    background-color: #496995;
-    border-radius: 10px;
-    color: #ffffff;
-  }
-
-  .spinner-border {
-    margin-right: 20px;
-    border: 0.2em solid #ffffff;
   }
 
   /* ********************** NoMatch Page ************************ */
